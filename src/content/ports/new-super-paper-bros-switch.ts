@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const newSuperPaperBrosSwitch: Port = {
+  schema: "port",
+  id: "new-super-paper-bros-switch",
+  title: "New Super Paper Bros (Switch)",
+  game: "Super Paper Mario",
+  developers: ["Eladerino"],
+  publisher: "Nintendo",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "0.5.0", date: "2026-11-16" },
+  sources: ["https://github.com/Eladerino/spm-nx"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Wii"],
+  summary: "Super Paper Mario is a 2007 platform role-playing game developed by Intelligent Systems and published by Nintendo for the Wii. It mixes side-scrolling platforming with dimension-flipping puzzles.",
+  summaryEs: "Super Paper Mario es un videojuego de plataformas y rol de 2007 desarrollado por Intelligent Systems y publicado por Nintendo para Wii. Mezcla plataformas de desplazamiento lateral con puzles de cambio de dimensión.",
+  notes: "Nintendo Switch homebrew port of the Super Paper Mario recompilation, running as a deko3d app. Bring your own Wii disc.",
+  notesEs: "Port homebrew para Nintendo Switch de la recompilación de Super Paper Mario, ejecutado como app de deko3d. Aporta tu propio disco de Wii.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/super-paper-mario.svg",
+    alt: "Super Paper Mario (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

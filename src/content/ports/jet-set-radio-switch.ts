@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jetSetRadioSwitch: Port = {
+  schema: "port",
+  id: "jet-set-radio-switch",
+  title: "Jet Set Radio (Switch)",
+  game: "Jet Set Radio",
+  developers: ["lemasterxar5"],
+  publisher: "Sega",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.2.0", date: "2026-11-07" },
+  sources: ["https://github.com/lemasterxar5/jet-set-radio-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Dreamcast"],
+  summary: "Jet Set Radio is a 2000 action game developed by Smilebit and published by Sega for the Dreamcast. Players rollerblade through Tokyo-to while tagging graffiti and evading the police.",
+  summaryEs: "Jet Set Radio es un juego de acción de 2000 desarrollado por Smilebit y publicado por Sega para Dreamcast. El jugador patina por Tokio mientras pinta grafitis y escapa de la policía.",
+  notes: "Unofficial Nintendo Switch port of the Android version, with 60 FPS and MOGA controller support. Bring your own game files.",
+  notesEs: "Port no oficial para Nintendo Switch de la versión de Android, con 60 FPS y soporte de mando MOGA. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/jet-set-radio.svg",
+    alt: "Jet Set Radio (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

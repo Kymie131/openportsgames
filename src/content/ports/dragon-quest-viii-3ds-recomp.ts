@@ -3,7 +3,7 @@ import type { Port } from "@/lib/ports/schema";
 export const dragonQuestViii3dsRecomp: Port = {
   "schema": "port",
   "id": "dragon-quest-viii-3ds-recomp",
-  "title": "Dragon Quest VIII 3DS Recomp",
+  "title": "Dragon Quest VIII (PC, 3DS version)",
   "game": "Dragon Quest VIII: Journey of the Cursed King",
   "developers": [
     "kirakazeshin"

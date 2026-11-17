@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tomJerryWarOfTheWhiskersSwitch: Port = {
+  schema: "port",
+  id: "tom-jerry-war-of-the-whiskers-switch",
+  title: "Tom & Jerry: War of the Whiskers (Switch)",
+  game: "Tom & Jerry: War of the Whiskers",
+  developers: ["JohnJames29"],
+  publisher: "NewKidCo",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.94.1", date: "2026-11-02" },
+  sources: ["https://github.com/JohnJames29/WOTW-NX"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Xbox"],
+  summary: "Tom & Jerry: War of the Whiskers is a 2002 fighting game developed by VIS Entertainment and published by NewKidCo. It adapts the cartoon duo into arena battles.",
+  summaryEs: "Tom & Jerry: War of the Whiskers es un juego de lucha de 2002 desarrollado por VIS Entertainment y publicado por NewKidCo. Adapta a la pareja de dibujos animados a batallas de arena.",
+  notes: "Unofficial Nintendo Switch homebrew port with local multiplayer. Bring your own Xbox 2003 game files.",
+  notesEs: "Port homebrew no oficial para Nintendo Switch con multijugador local. Aporta tus propios archivos del juego de Xbox de 2003.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/tom-jerry-war-of-the-whiskers.svg",
+    alt: "Tom & Jerry: War of the Whiskers (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

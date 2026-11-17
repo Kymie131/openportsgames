@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const narutoRiseSwitch: Port = {
+  schema: "port",
+  id: "naruto-rise-switch",
+  title: "Naruto: Rise of a Ninja (Switch)",
+  game: "Naruto: Rise of a Ninja",
+  developers: ["malinkin-s"],
+  publisher: "Ubisoft",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.1.5", date: "2026-11-08" },
+  sources: ["https://github.com/malinkin-s/naruto-rise-of-a-ninja-nx"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Xbox 360"],
+  summary: "Naruto: Rise of a Ninja is a 2007 action-adventure game developed by Ubisoft Montreal and published by Ubisoft. It retells the early Naruto story with exploration and fighting.",
+  summaryEs: "Naruto: Rise of a Ninja es un videojuego de acción y aventura de 2007 desarrollado por Ubisoft Montreal y publicado por Ubisoft. Recrea la primera historia de Naruto con exploración y combates.",
+  notes: "Nintendo Switch homebrew port of the Xbox 360 game via ReXGlue and deko3d, still in development. Bring your own game.",
+  notesEs: "Port homebrew para Nintendo Switch del juego de Xbox 360 mediante ReXGlue y deko3d, aún en desarrollo. Aporta tu propio juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/naruto-rise-of-a-ninja.svg",
+    alt: "Naruto: Rise of a Ninja (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -3,7 +3,7 @@ import type { Port } from "@/lib/ports/schema";
 export const elripaldaGta4Ps5: Port = {
   schema: "port",
   id: "elripalda-gta4-ps5",
-  title: "Grand Theft Auto IV (GTA IV for PS5)",
+  title: "Grand Theft Auto IV (PS5)",
   game: "Grand Theft Auto IV",
   developers: ["elripalda"],
   publisher: "Rockstar Games",
@@ -12,7 +12,7 @@ export const elripaldaGta4Ps5: Port = {
   genre: "open-world",
   openSource: true,
   originalGameLicense: "proprietary",
-  platforms: ["windows"],
+  platforms: ["ps5"],
   status: "beta",
   release: { version: "1.0.1", date: "2026-10-22" },
   sources: ["https://github.com/elripalda/gta4-ps5"],
@@ -23,7 +23,7 @@ export const elripaldaGta4Ps5: Port = {
   originalSystems: ["Xbox 360"],
   downloads: [
     {
-      label: "Windows",
+      label: "PS5",
       url: "https://github.com/elripalda/gta4-ps5/releases/download/v1.5/PPSA94004.zip",
       size: "99.4 MB",
     },
@@ -35,6 +35,6 @@ export const elripaldaGta4Ps5: Port = {
   },
   summary: "Grand Theft Auto IV is a 2008 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the sixth main entry in the Grand Theft Auto series, following 2004's Grand Theft Auto: San Andreas, and the eleventh entry overall. Set in the fictional Liberty City, based on New York City, the single-player story follows Eastern European war veteran Niko Bellic and his attempts to escape his past while under pressure from high-profile criminals.",
   summaryEs: "Grand Theft Auto IV es un videojuego de acción-aventura de mundo abierto de disparos en tercera persona desarrollado por Rockstar North y distribuido por Rockstar Games. Es la sexta entrada principal de la serie Grand Theft Auto, después de Grand Theft Auto: Vice City Stories de 2006, y la undécima entrega en general. Ambientada en la ficticia Liberty City, basada en la ciudad de Nueva York, la historia para un jugador sigue al veterano de guerra de Europa del Este Niko Bellic, y sus intentos de escapar de su pasado mientras se encuentra bajo la presión de criminales de alto perfil.",
-  notes: "Grand Theft Auto IV: static recompilation by elripalda for Windows. Bring your own copy of the game.",
-  notesEs: "Grand Theft Auto IV: recompilación estática de elripalda para Windows. Aporta tu propia copia del juego.",
+  notes: "Grand Theft Auto IV: native PS5 port for jailbroken consoles, with 4K, 120 Hz and VRR. Bring your own copy of the game.",
+  notesEs: "Grand Theft Auto IV: port nativo para PS5 en consolas con jailbreak, con 4K, 120 Hz y VRR. Aporta tu propia copia del juego.",
 };

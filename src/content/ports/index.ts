@@ -2925,6 +2925,11 @@ import { gtaSanAndreasVita } from "./gta-san-andreas-vita";
 import { umarioVita } from "./umario-vita";
 import { ioquake3Wiiu } from "./ioquake3-wiiu";
 import { undertaleWii } from "./undertale-wii";
+import { newSuperPaperBrosSwitch } from "./new-super-paper-bros-switch";
+import { narutoRiseSwitch } from "./naruto-rise-switch";
+import { izdoomSwitch } from "./izdoom-switch";
+import { jetSetRadioSwitch } from "./jet-set-radio-switch";
+import { tomJerryWarOfTheWhiskersSwitch } from "./tom-jerry-war-of-the-whiskers-switch";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5849,4 +5854,9 @@ export const portCases: Port[] = [
   umarioVita,
   ioquake3Wiiu,
   undertaleWii,
+  newSuperPaperBrosSwitch,
+  narutoRiseSwitch,
+  izdoomSwitch,
+  jetSetRadioSwitch,
+  tomJerryWarOfTheWhiskersSwitch,
 ];

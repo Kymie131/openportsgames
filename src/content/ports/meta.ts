@@ -2924,4 +2924,9 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "umario-vita": ["Nintendo Entertainment System"],
   "ioquake3-wiiu": ["Windows"],
   "undertale-wii": ["Windows"],
+  "new-super-paper-bros-switch": ["Wii"],
+  "naruto-rise-switch": ["Xbox 360"],
+  "izdoom-switch": ["MS-DOS"],
+  "jet-set-radio-switch": ["Dreamcast"],
+  "tom-jerry-war-of-the-whiskers-switch": ["Xbox"],
 };

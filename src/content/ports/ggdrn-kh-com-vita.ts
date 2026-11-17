@@ -12,7 +12,7 @@ export const ggdrnKhComVita: Port = {
   genre: "rpg",
   openSource: true,
   originalGameLicense: "proprietary",
-  platforms: ["windows"],
+  platforms: ["psvita"],
   status: "alpha",
   release: { version: null, date: null },
   sources: ["https://github.com/ggdrn/KH_COM_VITA"],
@@ -24,7 +24,7 @@ export const ggdrnKhComVita: Port = {
   originalSystems: ["Game Boy Advance"],
   summary: "Kingdom Hearts: Chain of Memories is a 2004 action role-playing game developed by Square Enix and Jupiter and published by Square Enix in collaboration with Disney Interactive for the Game Boy Advance (GBA). The second game in the Kingdom Hearts series, it is a direct sequel to Kingdom Hearts whose ending is set about a year before the events of Kingdom Hearts II. Chain of Memories follows Sora and his friends as they explore Castle Oblivion while battling Organization XIII, a new group of antagonists.",
   summaryEs: "Kingdom Hearts: Chain of Memories es un videojuego japonés creado exclusivamente para Game Boy Advance por Square Enix. El juego retoma la historia donde acaba Kingdom Hearts para PlayStation 2 y los primeros 50-60 días de Kingdom Hearts 358/2 Days. Su secuela inmediata es Kingdom Hearts II.",
-  notes: "Kingdom Hearts: Chain of Memories: decompilation by ggdrn for Windows. Bring your own copy of the game.",
+  notes: "Kingdom Hearts: Chain of Memories: native PS Vita port built on the community decompilation. Bring your own copy of the game.",
   notesEs: "Kingdom Hearts: Chain of Memories: decompilación de ggdrn para Windows. Aporta tu propia copia del juego.",
   cover: {
     src: "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Kingdom%20Hearts%20-%20Chain%20of%20Memories%20(USA).png",

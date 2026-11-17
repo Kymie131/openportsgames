@@ -12,7 +12,7 @@ export const ggdrnKhDaysVita: Port = {
   genre: "action-adventure",
   openSource: true,
   originalGameLicense: "proprietary",
-  platforms: ["windows"],
+  platforms: ["psvita"],
   status: "beta",
   release: { version: "1.0", date: "2026-10-21" },
   sources: ["https://github.com/ggdrn/KH-DAYS-VITA"],
@@ -28,6 +28,6 @@ export const ggdrnKhDaysVita: Port = {
   },
   summary: "Kingdom Hearts 358/2 Days is a 2009 action role-playing game developed by h.a.n.d. and published by Square Enix in collaboration with Disney Interactive Studios for the Nintendo DS. It is the fifth installment in the Kingdom Hearts series, and takes place near the end of the first game in parallel to Kingdom Hearts: Chain of Memories, leading directly into the events of Kingdom Hearts II. The game was released worldwide in 2009.",
   summaryEs: "Kingdom Hearts 358/2 Days es un juego de acción desarrollado por h.a.n.d. y publicado por Square Enix, en conjunto con Disney Interactive Studios, para la consola Nintendo DS.",
-  notes: "Kingdom Hearts 358/2 Days: decompilation by ggdrn for Windows. Bring your own copy of the game.",
+  notes: "Kingdom Hearts 358/2 Days: native PS Vita port built on the khdays decompilation. Bring your own copy of the game.",
   notesEs: "Kingdom Hearts 358/2 Days: decompilación de ggdrn para Windows. Aporta tu propia copia del juego.",
 };

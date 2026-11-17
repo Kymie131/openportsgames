@@ -12,7 +12,7 @@ export const owenSplatLasDecomp: Port = {
   genre: "action-adventure",
   openSource: true,
   originalGameLicense: "proprietary",
-  platforms: ["windows"],
+  platforms: ["switch"],
   status: "beta",
   release: { version: "0.4", date: "2024-06-18" },
   sources: ["https://github.com/Owen-Splat/las-decomp"],
@@ -28,6 +28,6 @@ export const owenSplatLasDecomp: Port = {
     alt: "Link's Awakening (generated cover)",
     credit: "OpenPortsGames",
   },
-  notes: "Link's Awakening: engine remake by Owen-Splat for Windows. Bring your own copy of the game.",
-  notesEs: "Link's Awakening: recreación de motor de Owen-Splat para Windows. Aporta tu propia copia del juego.",
+  notes: "Decompilation of the 2019 Link's Awakening remake for Nintendo Switch. Requires your own main file.",
+  notesEs: "Decompilación del remake de Link's Awakening de 2019 para Nintendo Switch. Requiere tu propio archivo main.",
 };

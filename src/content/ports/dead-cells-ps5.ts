@@ -3,7 +3,7 @@ import type { Port } from "@/lib/ports/schema";
 export const deadCellsPs5: Port = {
   "schema": "port",
   "id": "dead-cells-ps5",
-  "title": "Dead Cells (PS5 Native)",
+  "title": "Dead Cells (PS5 build on Windows)",
   "game": "Dead Cells",
   "developers": [
     "OverkillLabs3"

@@ -3,7 +3,7 @@ import type { Port } from "@/lib/ports/schema";
 export const zallaxdevEmerald3ds: Port = {
   schema: "port",
   id: "zallaxdev-emerald-3ds",
-  title: "Pokémon Emerald",
+  title: "Pokémon Emerald (3DS)",
   game: "Pokémon Emerald",
   developers: ["ZallaxDev"],
   publisher: "Nintendo",
@@ -12,7 +12,7 @@ export const zallaxdevEmerald3ds: Port = {
   genre: "rpg",
   openSource: true,
   originalGameLicense: "proprietary",
-  platforms: ["windows"],
+  platforms: ["3ds"],
   status: "beta",
   release: { version: "0.4.0", date: "2026-10-16" },
   sources: ["https://github.com/ZallaxDev/emerald-3ds"],
@@ -35,6 +35,6 @@ export const zallaxdevEmerald3ds: Port = {
   },
   summary: "Pokémon Emerald Version is a 2004 role-playing video game developed by Game Freak and published by The Pokémon Company and Nintendo for the Game Boy Advance. It was first released in Japan in 2004, and was later released internationally in 2005. It is the fifth version, after both Pokémon Ruby and Sapphire and Pokémon FireRed and LeafGreen, and is the final game of the third generation of the Pokémon video game series.",
   summaryEs: "Pokémon Edición Rubí y Pokémon Edición Zafiro, conocidos en Japón como Pocket Monsters Ruby & Sapphire , son dos videojuegos del género RPG pertenecientes a la tercera generación de la saga Pokémon, y los primeros en su tipo lanzados para la consola portátil Game Boy Advance de Nintendo. Ambos, marcan el principio de la tercera generación de la serie, y se ambientan en una nueva región denominada Hoenn.",
-  notes: "Pokémon Emerald: source port by ZallaxDev for Windows. Bring your own copy of the game.",
-  notesEs: "Pokémon Emerald: source port de ZallaxDev para Windows. Aporta tu propia copia del juego.",
+  notes: "Pokémon Emerald: source port by ZallaxDev for the Nintendo 3DS. Bring your own copy of the game.",
+  notesEs: "Pokémon Emerald: port de código de ZallaxDev para Nintendo 3DS. Aporta tu propia copia del juego.",
 };

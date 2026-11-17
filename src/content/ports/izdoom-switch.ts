@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const izdoomSwitch: Port = {
+  schema: "port",
+  id: "izdoom-switch",
+  title: "IZDOOM (Switch 2)",
+  game: "DOOM",
+  developers: ["byizmysh"],
+  publisher: "id Software",
+  originalYear: 1993,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "0.18.2", date: "2026-11-04" },
+  sources: ["https://github.com/byizmysh/IZDOOM"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["MS-DOS"],
+  summary: "DOOM is a 1993 first-person shooter developed by id Software. IZDOOM is a homebrew port for Nintendo Switch 2 that runs the game logic and rendering on the console GPU.",
+  summaryEs: "DOOM es un shooter en primera persona de 1993 desarrollado por id Software. IZDOOM es un port homebrew para Nintendo Switch 2 que ejecuta la lógica y el renderizado en la GPU de la consola.",
+  notes: "Homebrew DOOM port for Nintendo Switch 2. Bring your own game data.",
+  notesEs: "Port homebrew de DOOM para Nintendo Switch 2. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/doom.svg",
+    alt: "DOOM (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

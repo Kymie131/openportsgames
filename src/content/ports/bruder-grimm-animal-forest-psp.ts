@@ -12,7 +12,7 @@ export const bruderGrimmAnimalForestPsp: Port = {
   genre: "simulation",
   openSource: true,
   originalGameLicense: "proprietary",
-  platforms: ["windows"],
+  platforms: ["psp"],
   status: "alpha",
   release: { version: null, date: null },
   sources: ["https://github.com/bruder-grimm/animal_forest_psp"],
@@ -29,6 +29,6 @@ export const bruderGrimmAnimalForestPsp: Port = {
     alt: "Animal Forest (generated cover)",
     credit: "OpenPortsGames",
   },
-  notes: "Animal Forest: source port by bruder-grimm for Windows. Bring your own copy of the game.",
-  notesEs: "Animal Forest: source port de bruder-grimm para Windows. Aporta tu propia copia del juego.",
+  notes: "Animal Forest: source port by bruder-grimm for the PlayStation Portable. Bring your own N64 ROM or fan translation.",
+  notesEs: "Animal Forest: port de código de bruder-grimm para PlayStation Portable. Aporta tu propia ROM de N64 o la traducción de fans.",
 };

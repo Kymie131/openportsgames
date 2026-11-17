@@ -12,7 +12,7 @@ export const indionicaraoDxx3ds: Port = {
   genre: "shooter",
   openSource: true,
   originalGameLicense: "proprietary",
-  platforms: ["windows"],
+  platforms: ["3ds"],
   status: "beta",
   release: { version: "2.1.1", date: "2026-09-20" },
   sources: ["https://github.com/iNdioNicarao/dxx-3ds"],
@@ -23,7 +23,7 @@ export const indionicaraoDxx3ds: Port = {
   originalSystems: ["Unknown"],
   summary: "Descent 3 is a first-person shooter video game developed by Outrage Entertainment and published by Interplay Entertainment. It was originally released for Microsoft Windows in North America on June 17, 1999. Descent 3 is the third game in the Descent video game series and a sequel to Descent II. The game takes place in a science fiction setting of the Solar System where the player is cast as Material Defender, a mercenary who must help an organization known as the Red Acropolis Research Team to stop robots infected by an alien virus.",
   summaryEs: "El término inglés descent puede referirse a:",
-  notes: "Descent: source port by iNdioNicarao for Windows. Bring your own copy of the game.",
+  notes: "Descent: source port by iNdioNicarao for the New Nintendo 3DS. Bring your own copy of the game.",
   notesEs: "Descent: source port de iNdioNicarao para Windows. Aporta tu propia copia del juego.",
   cover: {
     src: "https://upload.wikimedia.org/wikipedia/en/5/5f/Descent_cover.png",
