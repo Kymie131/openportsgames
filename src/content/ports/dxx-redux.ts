@@ -2,14 +2,15 @@ import type { Port } from "@/lib/ports/schema";
 
 export const DxxRedux: Port = {
   schema: "port",
+  kind: "tool",
   id: "dxx-redux",
-  title: "Dxx-redux",
-  game: "dxx-redux",
+  title: "DXX-Redux",
+  game: "Descent",
   developers: ["dxx-redux"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "Interplay Productions",
+  originalYear: 1995,
   portType: "source-port",
-  genre: "action-adventure",
+  genre: "shooter",
   openSource: true,
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
@@ -19,11 +20,9 @@ export const DxxRedux: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "dxx-redux is a action-adventure game, released in 2000.",
-  summaryEs: "dxx-redux es un videojuego de acci�n y aventura, lanzado en 2000.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["MS-DOS"],
+  summary: "DXX-Redux is a source port of Descent and Descent II based on DXX-Retro, bringing both 1990s shooters to modern systems.",
+  summaryEs: "DXX-Redux es un port de código de Descent y Descent II basado en DXX-Retro, que lleva ambos shooters de los años 90 a sistemas modernos.",  downloads: [
     {
       label: "Linux",
       url: "https://github.com/dxx-redux/dxx-redux/releases/download/v1.1/d1x-redux-1.1-linux.tar.gz",

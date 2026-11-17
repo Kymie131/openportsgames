@@ -2,12 +2,13 @@ import type { Port } from "@/lib/ports/schema";
 
 export const ChocolateQuake: Port = {
   schema: "port",
+  kind: "tool",
   id: "chocolate-quake",
   title: "Chocolate Quake",
-  game: "Chocolate Quake",
+  game: "Quake",
   developers: ["Henrique194"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "id Software",
+  originalYear: 1996,
   portType: "source-port",
   genre: "shooter",
   openSource: true,
@@ -20,10 +21,8 @@ export const ChocolateQuake: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
-  summary: "Chocolate Quake is a shooter game for MS-DOS, released in 2000.",
-  summaryEs: "Chocolate Quake es un videojuego de disparos para MS-DOS, lanzado en 2000.",
-  summaryGenerated: true,
-  downloads: [
+  summary: "Chocolate Quake is a purist source port of Quake that restores the look and feel of version 1.09 and earlier.",
+  summaryEs: "Chocolate Quake es un port de código purista de Quake que recupera el aspecto y la sensación de la versión 1.09 y anteriores.",  downloads: [
     {
       label: "Windows x64",
       url: "https://github.com/Henrique194/chocolate-quake/releases/download/chocolate-quake-2.1.0/chocolate-quake-2.1.0-windows-x86_64.zip",

@@ -2,14 +2,15 @@ import type { Port } from "@/lib/ports/schema";
 
 export const Barrett: Port = {
   schema: "port",
+  kind: "tool",
   id: "barrett",
-  title: "Barrett",
-  game: "Barrett",
+  title: "Barrett (Rise of the Triad)",
+  game: "Rise of the Triad",
   developers: ["lunarmeadow"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "Apogee Software",
+  originalYear: 1995,
   portType: "source-port",
-  genre: "action-adventure",
+  genre: "shooter",
   openSource: true,
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
@@ -19,11 +20,9 @@ export const Barrett: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Barrett is a action-adventure game, released in 2000.",
-  summaryEs: "Barrett es un videojuego de acci�n y aventura, lanzado en 2000.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["MS-DOS"],
+  summary: "Barrett is a source port of Rise of the Triad for modern systems. The original 1995 shooter was developed by 3D Realms and published by Apogee Software.",
+  summaryEs: "Barrett es un port de código de Rise of the Triad para sistemas modernos. El shooter original de 1995 fue desarrollado por 3D Realms y publicado por Apogee Software.",  downloads: [
     {
       label: "macOS",
       url: "https://github.com/lunarmeadow/barrett/releases/download/v1.3-beta/barrett-macOS.zip",

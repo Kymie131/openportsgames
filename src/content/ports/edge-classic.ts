@@ -2,12 +2,13 @@ import type { Port } from "@/lib/ports/schema";
 
 export const EdgeClassic: Port = {
   schema: "port",
+  kind: "tool",
   id: "edge-classic",
-  title: "EDGE-classic",
-  game: "EDGE-classic",
+  title: "EDGE Classic",
+  game: "Doom",
   developers: ["edge-classic"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "id Software",
+  originalYear: 1993,
   portType: "source-port",
   genre: "shooter",
   openSource: true,
@@ -19,11 +20,9 @@ export const EdgeClassic: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "EDGE-classic is a shooter game, released in 2000.",
-  summaryEs: "EDGE-classic es un videojuego de disparos, lanzado en 2000.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["MS-DOS"],
+  summary: "EDGE Classic is a cross-platform OpenGL source port of Doom with advanced modding features.",
+  summaryEs: "EDGE Classic es un port de código de Doom con OpenGL y multiplataforma, con funciones avanzadas de modding.",  downloads: [
     {
       label: "Linux",
       url: "https://github.com/edge-classic/EDGE-classic/releases/download/1.53/edge-classic-linux.zip",

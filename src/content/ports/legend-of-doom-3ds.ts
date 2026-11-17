@@ -4,7 +4,7 @@ export const legendOfDoom3ds: Port = {
   schema: "port",
   id: "legend-of-doom-3ds",
   title: "Legend of Doom (3DS)",
-  game: "Legend of Doom",
+  game: "Doom",
   developers: ["EstebanPdN"],
   publisher: "id Software",
   originalYear: 1993,
@@ -20,10 +20,8 @@ export const legendOfDoom3ds: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["MS-DOS"],
-  summary: "Legend of Doom is a shooter game published by id Software for MS-DOS, released in 1993.",
-  summaryEs: "Legend of Doom es un videojuego de disparos publicado por id Software para MS-DOS, lanzado en 1993.",
-  summaryGenerated: true,
-  notes:
+  summary: "Legend of Doom is a Doom total conversion inspired by The Legend of Zelda, ported to the New Nintendo 3DS on GZDoom 4.7.1.",
+  summaryEs: "Legend of Doom es una conversión total de Doom inspirada en The Legend of Zelda, portada a New Nintendo 3DS sobre GZDoom 4.7.1.",  notes:
     "Port of the Legend of Doom total conversion (a Doom mod) to New Nintendo 3DS, based on GZDoom 4.7.1.",
   notesEs:
     "Port de la conversión total Legend of Doom (un mod de Doom) a New Nintendo 3DS, basado en GZDoom 4.7.1.",

@@ -6,10 +6,10 @@ export const eucThrillsSnes: Port = {
   title: "EUC Thrills (SNES)",
   game: "EUC Thrills",
   developers: ["VibezZzCoder"],
-  publisher: "Homebrew",
+  publisher: "VibezZzCoder",
   originalYear: 2026,
   portType: "source-port",
-  genre: "simulation",
+  genre: "sports",
   openSource: true,
   originalGameLicense: "proprietary",
   category: "homebrew",
@@ -20,11 +20,9 @@ export const eucThrillsSnes: Port = {
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "EUC Thrills is a simulation game published by Homebrew, released in 2026.",
-  summaryEs: "EUC Thrills es un videojuego de simulaci�n publicado por Homebrew, lanzado en 2026.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Super Nintendo"],
+  summary: "EUC Thrills is a 2026 homebrew game for the Super Nintendo about electric unicycle riding, developed by VibezZzCoder.",
+  summaryEs: "EUC Thrills es un juego casero de 2026 para Super Nintendo sobre montar en monociclo eléctrico, desarrollado por VibezZzCoder.",  downloads: [
     {
       label: "Snes",
       url: "https://github.com/VibezZzCoder/EUC-Thrills-SNES-Edition/releases/download/v1.1/euc-thrills-snes-v1.1.zip",

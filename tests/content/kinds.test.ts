@@ -76,6 +76,10 @@ const TOOL_IDS = [
   "alexbeavs-ps1-recomps-psxrecomp-ports",
   "bananza-native",
   "horizon-nx2",
+  "barrett",
+  "chocolate-quake",
+  "dxx-redux",
+  "edge-classic",
 ];
 const NON_GAME_IDS = [...SYSTEM_IDS, ...TOOL_IDS].sort();
 

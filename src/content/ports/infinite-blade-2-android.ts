@@ -19,11 +19,9 @@ export const infiniteBlade2Android: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Infinite Blade II is a action-adventure game published by Infinite Blade, released in 2019.",
-  summaryEs: "Infinite Blade II es un videojuego de acci�n y aventura publicado por Infinite Blade, lanzado en 2019.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Other"],
+  summary: "Infinite Blade II is a 2019 mobile action role-playing game developed by Infinite Blade. It continues the hack-and-slash series with combo combat and gear progression.",
+  summaryEs: "Infinite Blade II es un videojuego de rol de acción móvil de 2019 desarrollado por Infinite Blade. Continúa la serie de hack and slash con combos y progresión de equipo.",  downloads: [
     {
       label: "Android",
       url: "https://github.com/jelqedagain/ib-2-3-android/releases/download/ib3/ib3-android-1.9.5.apk",

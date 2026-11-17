@@ -6,7 +6,7 @@ export const _2planesSwitch: Port = {
   title: "2Planes (Switch)",
   game: "2Planes",
   developers: ["mactec0"],
-  publisher: "Homebrew",
+  publisher: "mactec0",
   originalYear: 2018,
   portType: "source-port",
   genre: "shooter",
@@ -20,11 +20,9 @@ export const _2planesSwitch: Port = {
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "2Planes is a shooter game published by Homebrew, released in 2018.",
-  summaryEs: "2Planes es un videojuego de disparos publicado por Homebrew, lanzado en 2018.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Nintendo Switch"],
+  summary: "2Planes is a 2018 homebrew two-player plane game for the Nintendo Switch, developed by mactec0.",
+  summaryEs: "2Planes es un juego casero de aviones para dos jugadores de 2018 para Nintendo Switch, desarrollado por mactec0.",  downloads: [
     {
       label: "Switch",
       url: "https://github.com/mactec0/2Planes_SWITCH/releases/download/1.0.1/2PlanesSwitch.nro",
