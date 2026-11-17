@@ -3,13 +3,13 @@ import type { Port } from "@/lib/ports/schema";
 export const kokororecomp: Port = {
   schema: "port",
   id: "kokororecomp",
-  title: "KokoroRecomp",
+  title: "KoroKoro Postnin",
   game: "KoroKoro Postnin",
   developers: ["elprogramadorloco-arch"],
-  publisher: "Nintendo",
-  originalYear: 2000,
+  publisher: "Media Entertainment",
+  originalYear: 2002,
   portType: "recompilation",
-  genre: "action-adventure",
+  genre: "puzzle",
   openSource: true,
   originalGameLicense: "proprietary",
   platforms: ["android"],
@@ -19,11 +19,9 @@ export const kokororecomp: Port = {
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "KoroKoro Postnin is a action-adventure game published by Nintendo, released in 2000.",
-  summaryEs: "KoroKoro Postnin es un videojuego de acci�n y aventura publicado por Nintendo, lanzado en 2000.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["PlayStation"],
+  summary: "KoroKoro Postnin is a 2002 puzzle platform game developed and published by Media Entertainment for the PlayStation. Players rotate the stage to guide Akane, a newspaper delivery girl, to every mailbox before reaching the exit.",
+  summaryEs: "KoroKoro Postnin es un videojuego de puzles y plataformas de 2002 desarrollado y publicado por Media Entertainment para PlayStation. El jugador gira el escenario para guiar a Akane, una repartidora de periódicos, hasta todos los buzones antes de llegar a la salida.",  downloads: [
     {
       label: "Android",
       url: "https://github.com/elprogramadorloco-arch/korokoro-recomp/releases/download/v0.1/KoroKoroRecomp-Android-v0.1.zip",

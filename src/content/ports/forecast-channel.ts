@@ -2,6 +2,7 @@ import type { Port } from "@/lib/ports/schema";
 
 export const forecastChannel: Port = {
   schema: "port",
+  kind: "system",
   id: "forecast-channel",
   title: "Forecast Channel",
   game: "Forecast Channel",
@@ -20,9 +21,8 @@ export const forecastChannel: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Wii"],
-  summary: "Forecast Channel is a simulation game published by Nintendo for Wii, released in 2006.",
-  summaryEs: "Forecast Channel es un videojuego de simulaci�n publicado por Nintendo para Wii, lanzado en 2006.",
-  summaryGenerated: true,
+  summary: "Forecast Channel is a 2006 Wii system channel developed by Nintendo. It downloaded weather forecasts and maps for the console's location and displayed them from the Wii Menu.",
+  summaryEs: "Forecast Channel es un canal de sistema de Wii de 2006 desarrollado por Nintendo. Descargaba previsiones meteorológicas y mapas de la ubicación de la consola y los mostraba desde el menú de Wii.",
   cover: {
     src: "https://openportsgames.com/covers/generated/forecast-channel.svg",
     alt: "Forecast Channel (generated cover)",

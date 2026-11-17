@@ -20,10 +20,8 @@ export const elliSHouse3dsPspGba: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
-  summary: "Elli's House is a action-adventure game published by Glacial Moon Games for Windows, released in 2021.",
-  summaryEs: "Elli's House es un videojuego de acci�n y aventura publicado por Glacial Moon Games para Windows, lanzado en 2021.",
-  summaryGenerated: true,
-  downloads: [
+  summary: "Elli's House is a 2021 indie adventure game developed and published by Glacial Moon Games. It follows Elli through a strange house filled with puzzles and unsettling discoveries.",
+  summaryEs: "Elli's House es un juego de aventura indie de 2021 desarrollado y publicado por Glacial Moon Games. Sigue a Elli por una casa extraña llena de puzles y descubrimientos inquietantes.",  downloads: [
     {
       label: "3ds",
       url: "https://github.com/glacialmoongames/EllisHouseCpp/releases/download/v0.1.0-port-preview/EllisHouse-PSP.zip",

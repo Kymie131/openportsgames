@@ -3,7 +3,7 @@ import { getGamePorts, getPortCount, getPorts, getToolPorts } from "@/lib/ports"
 import { portKind } from "@/lib/ports/schema";
 
 /** Entries that are system software rather than games. */
-const SYSTEM_IDS = ["wii-menu", "xbox-360-kernel"];
+const SYSTEM_IDS = ["wii-menu", "xbox-360-kernel", "forecast-channel"];
 /** Utility / non-game entries classified as tools. */
 const TOOL_IDS = [
   "amethyst-android",

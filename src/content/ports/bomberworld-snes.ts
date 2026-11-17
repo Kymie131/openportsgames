@@ -6,7 +6,7 @@ export const bomberworldSnes: Port = {
   title: "Bomberworld (SNES)",
   game: "Bomberworld",
   developers: ["1r3n33"],
-  publisher: "Homebrew",
+  publisher: "1r3n33",
   originalYear: 2021,
   portType: "source-port",
   genre: "action-adventure",
@@ -20,11 +20,9 @@ export const bomberworldSnes: Port = {
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Bomberworld is a action-adventure game published by Homebrew, released in 2021.",
-  summaryEs: "Bomberworld es un videojuego de acci�n y aventura publicado por Homebrew, lanzado en 2021.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Super Nintendo"],
+  summary: "Bomberworld is a 2021 homebrew action game for the Super Nintendo, developed by 1r3n33. It follows the classic Bomberman formula of placing bombs and clearing maze-like stages.",
+  summaryEs: "Bomberworld es un juego de acción casero de 2021 para Super Nintendo, desarrollado por 1r3n33. Sigue la fórmula clásica de Bomberman de colocar bombas y despejar escenarios laberínticos.",  downloads: [
     {
       label: "Snes",
       url: "https://github.com/1r3n33/bomberworld/releases/download/release-94-2020-05-21/bomberworld-94.zip",

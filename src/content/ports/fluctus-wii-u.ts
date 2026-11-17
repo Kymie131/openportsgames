@@ -6,7 +6,7 @@ export const fluctusWiiU: Port = {
   title: "Fluctus (Wii U)",
   game: "Fluctus",
   developers: ["kianbennett"],
-  publisher: "Homebrew",
+  publisher: "kianbennett",
   originalYear: 2020,
   portType: "source-port",
   genre: "platformer",
@@ -20,11 +20,9 @@ export const fluctusWiiU: Port = {
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Fluctus is a platform game published by Homebrew, released in 2020.",
-  summaryEs: "Fluctus es un videojuego de plataformas publicado por Homebrew, lanzado en 2020.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Wii U"],
+  summary: "Fluctus is a 2020 homebrew platform game for the Wii U, developed by kianbennett. It is built from scratch for the console with short levels and precise jumping.",
+  summaryEs: "Fluctus es un juego de plataformas casero de 2020 para Wii U, desarrollado por kianbennett. Está construido desde cero para la consola con niveles cortos y saltos precisos.",  downloads: [
     {
       label: "Wiiu",
       url: "https://github.com/kianbennett/fluctus-wiiu/releases/download/1.0.0/fluctus-wiiu-1.0.0.zip",
