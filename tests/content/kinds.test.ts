@@ -112,6 +112,7 @@ const TOOL_IDS = [
   "nx2android",
   "droidplay-core",
   "nx2androidx",
+  "ioquake3-wiiu",
 ];
 const NON_GAME_IDS = [...SYSTEM_IDS, ...TOOL_IDS].sort();
 

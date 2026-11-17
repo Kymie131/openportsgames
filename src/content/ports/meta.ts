@@ -2916,4 +2916,12 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "the-sims-vita": ["Windows"],
   "twilight-princess-vita": ["GameCube"],
   "nx2androidx": ["Nintendo Switch"],
+  "skyrim-android": ["Windows"],
+  "half-life-2-switch": ["Windows"],
+  "mario-kart-wii-3ds-ds": ["Wii"],
+  "burnout-legends-vita": ["PlayStation Portable"],
+  "gta-san-andreas-vita": ["PlayStation 2"],
+  "umario-vita": ["Nintendo Entertainment System"],
+  "ioquake3-wiiu": ["Windows"],
+  "undertale-wii": ["Windows"],
 };

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const burnoutLegendsVita: Port = {
+  schema: "port",
+  id: "burnout-legends-vita",
+  title: "Burnout Legends (PS Vita)",
+  game: "Burnout Legends",
+  developers: ["LAB0ULANGE"],
+  publisher: "Electronic Arts",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "0.0.3", date: "2026-11-14" },
+  sources: ["https://github.com/LAB0ULANGE/BurnoutLegends-Vita"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["PlayStation Portable"],
+  summary: "Burnout Legends is a 2005 racing game developed by Criterion Games and published by Electronic Arts for the PSP. It compiles tracks and modes from the first Burnout games.",
+  summaryEs: "Burnout Legends es un juego de carreras de 2005 desarrollado por Criterion Games y publicado por Electronic Arts para PSP. Reúne circuitos y modos de los primeros Burnout.",
+  notes: "Native PS Vita port of the PSP game via static recompilation. Bring your own UMD.",
+  notesEs: "Port nativo para PS Vita del juego de PSP mediante recompilación estática. Aporta tu propio UMD.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/burnout-legends.svg",
+    alt: "Burnout Legends (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

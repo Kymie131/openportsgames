@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const marioKartWii3dsDs: Port = {
+  schema: "port",
+  id: "mario-kart-wii-3ds-ds",
+  title: "Mario Kart WiiDS (3DS)",
+  game: "Mario Kart Wii",
+  developers: ["ethanseagull"],
+  publisher: "Nintendo",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: "1.1.1", date: "2026-11-15" },
+  sources: ["https://github.com/ethanseagull/MarioKartWiiDS"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Wii"],
+  summary: "Mario Kart Wii is a 2008 kart racing game developed and published by Nintendo for the Wii. It features bikes, 12-player races and online play.",
+  summaryEs: "Mario Kart Wii es un juego de carreras de karts de 2008 desarrollado y publicado por Nintendo para Wii. Incluye motos, carreras de 12 jugadores y juego en línea.",
+  notes: "Native Nintendo 3DS port with Old 3DS support, ghosts and graphics settings. Bring your own game files.",
+  notesEs: "Port nativo para Nintendo 3DS con soporte para Old 3DS, fantasmas y ajustes gráficos. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/mario-kart-wii.svg",
+    alt: "Mario Kart Wii (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

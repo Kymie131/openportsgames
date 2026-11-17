@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gtaSanAndreasVita: Port = {
+  schema: "port",
+  id: "gta-san-andreas-vita",
+  title: "GTA: San Andreas (PS Vita)",
+  game: "Grand Theft Auto: San Andreas",
+  developers: ["TinyRetroWarehouse"],
+  publisher: "Rockstar Games",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2021-02-17" },
+  sources: ["https://github.com/TinyRetroWarehouse/gtasa_vita"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["PlayStation 2"],
+  summary: "Grand Theft Auto: San Andreas is a 2004 open-world action game developed by Rockstar North and published by Rockstar Games. CJ returns to San Andreas to save his family and rebuild his gang.",
+  summaryEs: "Grand Theft Auto: San Andreas es un juego de acción de mundo abierto de 2004 desarrollado por Rockstar North y publicado por Rockstar Games. CJ regresa a San Andreas para salvar a su familia y reconstruir su banda.",
+  notes: "PS Vita wrapper and port of the Android version, with custom patches. No game data is included.",
+  notesEs: "Envoltorio y port para PS Vita de la versión de Android, con parches propios. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/grand-theft-auto-san-andreas.svg",
+    alt: "Grand Theft Auto: San Andreas (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -2917,6 +2917,14 @@ import { nfsUnderground2Vita } from "./nfs-underground-2-vita";
 import { theSimsVita } from "./the-sims-vita";
 import { twilightPrincessVita } from "./twilight-princess-vita";
 import { nx2androidx } from "./nx2androidx";
+import { skyrimAndroid } from "./skyrim-android";
+import { halfLife2Switch } from "./half-life-2-switch";
+import { marioKartWii3dsDs } from "./mario-kart-wii-3ds-ds";
+import { burnoutLegendsVita } from "./burnout-legends-vita";
+import { gtaSanAndreasVita } from "./gta-san-andreas-vita";
+import { umarioVita } from "./umario-vita";
+import { ioquake3Wiiu } from "./ioquake3-wiiu";
+import { undertaleWii } from "./undertale-wii";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5833,4 +5841,12 @@ export const portCases: Port[] = [
   theSimsVita,
   twilightPrincessVita,
   nx2androidx,
+  skyrimAndroid,
+  halfLife2Switch,
+  marioKartWii3dsDs,
+  burnoutLegendsVita,
+  gtaSanAndreasVita,
+  umarioVita,
+  ioquake3Wiiu,
+  undertaleWii,
 ];

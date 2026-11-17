@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const umarioVita: Port = {
+  schema: "port",
+  id: "umario-vita",
+  title: "uMario (PS Vita)",
+  game: "uMario",
+  developers: ["WeegeeDEVELOPER"],
+  publisher: "jakowskidev",
+  originalYear: 2015,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.2.7", date: "2021-11-23" },
+  sources: ["https://github.com/WeegeeDEVELOPER/uMario-PSVita-Port"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Nintendo Entertainment System"],
+  summary: "uMario is a fan-made widescreen remake of Super Mario Bros. for the NES, built by jakowskidev with new graphics and controller support.",
+  summaryEs: "uMario es un remake panorámico hecho por fans de Super Mario Bros. de NES, creado por jakowskidev con nuevos gráficos y soporte de mando.",
+  notes: "Port of uMario to the PS Vita. No original game files are included.",
+  notesEs: "Port de uMario a PS Vita. No incluye archivos del juego original.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/umario.svg",
+    alt: "uMario (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

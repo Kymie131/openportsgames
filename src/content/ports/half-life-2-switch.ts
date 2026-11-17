@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const halfLife2Switch: Port = {
+  schema: "port",
+  id: "half-life-2-switch",
+  title: "Half-Life 2 (Switch)",
+  game: "Half-Life 2",
+  developers: ["NaGaa95"],
+  publisher: "Valve",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.5", date: "2026-11-04" },
+  sources: ["https://github.com/NaGaa95/hl2_nx"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Windows"],
+  summary: "Half-Life 2 is a 2004 first-person shooter developed by Valve and published by Valve. Gordon Freeman returns to City 17 to fight the Combine.",
+  summaryEs: "Half-Life 2 es un shooter en primera persona de 2004 desarrollado y publicado por Valve. Gordon Freeman regresa a Ciudad 17 para luchar contra la Combine.",
+  notes: "Nintendo Switch wrapper/port of the Android version of Half-Life 2. Bring your own game files.",
+  notesEs: "Envoltorio y port para Nintendo Switch de la versión de Android de Half-Life 2. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/half-life-2.svg",
+    alt: "Half-Life 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

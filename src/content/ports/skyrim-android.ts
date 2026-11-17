@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const skyrimAndroid: Port = {
+  schema: "port",
+  id: "skyrim-android",
+  title: "Skyrim (Android)",
+  game: "The Elder Scrolls V: Skyrim",
+  developers: ["ttom795"],
+  publisher: "Bethesda Softworks",
+  originalYear: 2011,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "0.30.15", date: "2026-11-06" },
+  sources: ["https://github.com/ttom795/Skyrim_Android"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Windows"],
+  summary: "The Elder Scrolls V: Skyrim is a 2011 open-world role-playing game developed by Bethesda Game Studios and published by Bethesda Softworks. The Dragonborn explores Skyrim and fights dragons.",
+  summaryEs: "The Elder Scrolls V: Skyrim es un videojuego de rol de mundo abierto de 2011 desarrollado por Bethesda Game Studios y publicado por Bethesda Softworks. El Sangre de Dragón explora Skyrim y lucha contra dragones.",
+  notes: "Native Android port of the original 2011 PC release, requiring your own game files. No game data is included.",
+  notesEs: "Port nativo para Android de la versión original de PC de 2011, que requiere tus propios archivos. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-elder-scrolls-v-skyrim.svg",
+    alt: "The Elder Scrolls V: Skyrim (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
