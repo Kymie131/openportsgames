@@ -74,6 +74,8 @@ const TOOL_IDS = [
   "q2tools-220",
   "idtech4a-harmattan-edition",
   "alexbeavs-ps1-recomps-psxrecomp-ports",
+  "bananza-native",
+  "horizon-nx2",
 ];
 const NON_GAME_IDS = [...SYSTEM_IDS, ...TOOL_IDS].sort();
 

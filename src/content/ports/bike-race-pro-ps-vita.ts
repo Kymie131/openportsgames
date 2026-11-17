@@ -20,9 +20,8 @@ export const bikeRaceProPsVita: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Other"],
-  summary: "Bike Race is a racing game published by Top Free Games for Other, released in 2012.",
-  summaryEs: "Bike Race es un videojuego de carreras publicado por Top Free Games para Other, lanzado en 2012.",
-  summaryGenerated: true,
+  summary: "Bike Race is a 2012 side-scrolling racing game developed by Top Free Games. Players race motorbikes over physics-based tracks and compete for fastest times.",
+  summaryEs: "Bike Race es un juego de carreras de desplazamiento lateral de 2012 desarrollado por Top Free Games. Los jugadores compiten con motos en circuitos basados en física y buscan los mejores tiempos.",
   cover: {
     src: "https://openportsgames.com/covers/generated/bike-race.svg",
     alt: "Bike Race (generated cover)",

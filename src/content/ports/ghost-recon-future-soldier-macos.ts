@@ -21,10 +21,8 @@ export const ghostReconFutureSoldierMacos: Port = {
   sourceVerified: true,
   addedAt: "2026-10-24",
   originalSystems: ["Xbox 360"],
-  summary: "Tom Clancy's Ghost Recon Future Soldier is a shooter game published by Ubisoft for Xbox 360, released in 2012.",
-  summaryEs: "Tom Clancy's Ghost Recon Future Soldier es un videojuego de disparos publicado por Ubisoft para Xbox 360, lanzado en 2012.",
-  summaryGenerated: true,
-  downloads: [
+  summary: "Tom Clancy's Ghost Recon: Future Soldier is a 2012 tactical shooter developed by Ubisoft Paris and Red Storm Entertainment and published by Ubisoft. The Ghosts use advanced prototype gear to stop a rogue Russian ultranationalist.",
+  summaryEs: "Tom Clancy's Ghost Recon: Future Soldier es un shooter táctico de 2012 desarrollado por Ubisoft Paris y Red Storm Entertainment y publicado por Ubisoft. Los Ghosts usan equipo prototipo avanzado para detener a un ultranacionalista ruso renegado.",  downloads: [
     {
       label: "macOS",
       url: "https://github.com/alex-stampede/GRFS-Recomp/releases/download/v0.10.0.13/GRFS-Recompiled-macOS-arm64.zip",

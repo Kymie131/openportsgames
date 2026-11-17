@@ -3,7 +3,7 @@ import type { Port } from "@/lib/ports/schema";
 export const googleDinoGameBoyAdvance: Port = {
   schema: "port",
   id: "google-dino-game-boy-advance",
-  title: "Google Dino (Game Boy Advance)",
+  title: "Chrome Dino (Game Boy Advance)",
   game: "Chrome Dino",
   developers: ["fritzem"],
   publisher: "Google",
@@ -21,10 +21,8 @@ export const googleDinoGameBoyAdvance: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Other"],
-  summary: "Chrome Dino is a platform game published by Google for Other, released in 2014.",
-  summaryEs: "Chrome Dino es un videojuego de plataformas publicado por Google para Other, lanzado en 2014.",
-  summaryGenerated: true,
-  downloads: [
+  summary: "The Chrome Dino is an endless runner built into Google Chrome since 2014. Players control a dinosaur that jumps over cacti and ducks under pterodactyls as the speed increases.",
+  summaryEs: "El dinosaurio de Chrome es un juego de carrera infinita incluido en Google Chrome desde 2014. El jugador controla un dinosaurio que salta cactus y esquiva pterodáctilos mientras la velocidad aumenta.",  downloads: [
     {
       label: "Gba",
       url: "https://github.com/fritzem/Google-Dino-GBA/releases/download/1.1/Google-Dino-Advance.1.1.zip",

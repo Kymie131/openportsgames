@@ -2862,6 +2862,8 @@ import { bayo3Recomp } from "./bayo3-recomp";
 import { mzmRecomp } from "./mzm-recomp";
 import { superMarioKartRecomp } from "./super-mario-kart-recomp";
 import { kirbyTripleDeluxeRecomp } from "./kirby-triple-deluxe-recomp";
+import { bananzaNative } from "./bananza-native";
+import { horizonNx2 } from "./horizon-nx2";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5723,4 +5725,6 @@ export const portCases: Port[] = [
   mzmRecomp,
   superMarioKartRecomp,
   kirbyTripleDeluxeRecomp,
+  bananzaNative,
+  horizonNx2,
 ];
