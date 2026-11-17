@@ -21,9 +21,10 @@ export const devilMayCryPs2Recomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-25",
   originalSystems: ["PlayStation 2"],
-  summary: "Devil May Cry is a action-adventure game published by Capcom for PlayStation 2, released in 2001.",
-  summaryEs: "Devil May Cry es un videojuego de acci�n y aventura publicado por Capcom para PlayStation 2, lanzado en 2001.",
-  summaryGenerated: true,
+  summary:
+    "Devil May Cry is a 2001 action-adventure game developed and published by Capcom. It follows Dante, a demon hunter, as he investigates a castle on Mallet Island and battles the demon emperor Mundus.",
+  summaryEs:
+    "Devil May Cry es un videojuego de acción y aventura de 2001 desarrollado y publicado por Capcom. Sigue a Dante, un cazador de demonios, mientras investiga un castillo en la isla de Mallet y se enfrenta al emperador demoníaco Mundus.",
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Devil%20May%20Cry%20(USA).png",
     alt: "Devil May Cry (box art)",

@@ -69,6 +69,11 @@ const TOOL_IDS = [
   "tailscale-nx-switch-sysmodule",
   "sysdvr-uvc-capture-switch-sysmodule",
   "nx-gamehide-switch-sysmodule",
+  "omega-engine",
+  "permafrost-engine",
+  "q2tools-220",
+  "idtech4a-harmattan-edition",
+  "alexbeavs-ps1-recomps-psxrecomp-ports",
 ];
 const NON_GAME_IDS = [...SYSTEM_IDS, ...TOOL_IDS].sort();
 

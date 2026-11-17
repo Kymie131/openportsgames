@@ -4,7 +4,7 @@ export const _3dPinballSpaceCadetPsp: Port = {
   schema: "port",
   id: "3d-pinball-space-cadet-psp",
   title: "3D Pinball: Space Cadet (PSP)",
-  game: "3D Pinball for Windows",
+  game: "3D Pinball for Windows – Space Cadet",
   developers: ["kira97-fdroid"],
   publisher: "Microsoft",
   originalYear: 1995,
@@ -20,12 +20,13 @@ export const _3dPinballSpaceCadetPsp: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Windows"],
-  summary: "3D Pinball for Windows is a puzzle game published by Microsoft for Windows, released in 1995.",
-  summaryEs: "3D Pinball for Windows es un videojuego de puzles publicado por Microsoft para Windows, lanzado en 1995.",
-  summaryGenerated: true,
+  summary:
+    "3D Pinball for Windows – Space Cadet is a 1995 pinball game developed by Cinematronics and bundled with Microsoft Windows. It simulates a space-themed table with missions, ramps and high-score chasing.",
+  summaryEs:
+    "3D Pinball for Windows – Space Cadet es un juego de pinball de 1995 desarrollado por Cinematronics e incluido con Microsoft Windows. Simula una mesa ambientada en el espacio con misiones, rampas y puntuaciones altas.",
   cover: {
     src: "https://openportsgames.com/covers/generated/3d-pinball-for-windows.svg",
-    alt: "3D Pinball for Windows (generated cover)",
+    alt: "3D Pinball for Windows – Space Cadet (generated cover)",
     credit: "OpenPortsGames",
   },
   notes: "3D Pinball for Windows (Microsoft, 1995) running on PlayStation Portable through source port. Latest release: v1.0.2. You need your own copy of the game.",

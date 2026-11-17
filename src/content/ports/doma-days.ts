@@ -6,8 +6,8 @@ export const DomaDays: Port = {
   title: "DOMA Days",
   game: "DOMA Days",
   developers: ["iestyn129"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "Big Blue Bubble",
+  originalYear: 2025,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -19,10 +19,11 @@ export const DomaDays: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "DOMA Days is a action-adventure game, released in 2000.",
-  summaryEs: "DOMA Days es un videojuego de acci�n y aventura, lanzado en 2000.",
-  summaryGenerated: true,
+  originalSystems: ["Windows", "Macintosh"],
+  summary:
+    "DOMA Days is a 2025 visual novel developed and published by Big Blue Bubble. A satire set in the My Singing Monsters universe, it follows an agent of the Department of Monstrous Anomalies through a workday that turns into a time loop.",
+  summaryEs:
+    "DOMA Days es una novela visual de 2025 desarrollada y publicada por Big Blue Bubble. Una sátira ambientada en el universo de My Singing Monsters que sigue a un agente del Departamento de Anomalías Monstruosas en una jornada laboral que se convierte en un bucle temporal.",
   downloads: [
     {
       label: "Windows",

@@ -21,9 +21,10 @@ export const battleblockTheaterSwitch: Port = {
   sourceVerified: true,
   addedAt: "2026-10-25",
   originalSystems: ["Xbox 360"],
-  summary: "BattleBlock Theater is a platform game published by Microsoft Studios for Xbox 360, released in 2013.",
-  summaryEs: "BattleBlock Theater es un videojuego de plataformas publicado por Microsoft Studios para Xbox 360, lanzado en 2013.",
-  summaryGenerated: true,
+  summary:
+    "BattleBlock Theater is a 2013 platform game developed by The Behemoth and published by Microsoft Studios for Xbox 360. Players run and jump through trap-filled stages, alone or in co-op, and can build and share their own levels.",
+  summaryEs:
+    "BattleBlock Theater es un videojuego de plataformas de 2013 desarrollado por The Behemoth y publicado por Microsoft Studios para Xbox 360. Los jugadores recorren niveles llenos de trampas, solos o en cooperativo, y pueden crear y compartir sus propios niveles.",
   downloads: [
     {
       label: "Switch",

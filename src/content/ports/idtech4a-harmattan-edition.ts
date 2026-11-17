@@ -4,10 +4,11 @@ export const Idtech4aHarmattanEdition: Port = {
   schema: "port",
   id: "idtech4a-harmattan-edition",
   title: "IdTech4A++ (Harmattan Edition)",
-  game: "idTech4A++ (Harmattan Edition)",
+  kind: "tool",
+  game: "id Tech 4",
   developers: ["glKarin"],
-  publisher: "Unknown",
-  originalYear: 2006,
+  publisher: "id Software",
+  originalYear: 2004,
   portType: "source-port",
   genre: "shooter",
   openSource: true,
@@ -19,10 +20,11 @@ export const Idtech4aHarmattanEdition: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "idTech4A++ (Harmattan Edition) is a shooter game, released in 2006.",
-  summaryEs: "idTech4A++ (Harmattan Edition) es un videojuego de disparos, lanzado en 2006.",
-  summaryGenerated: true,
+  originalSystems: ["Windows"],
+  summary:
+    "idTech4A++ is an Android and desktop port of the id Tech 4 engine. It runs DOOM 3, Quake 4 and Prey (2006), and adds support for other engines and games such as DOOM 3 BFG, The Dark Mod and Quake III.",
+  summaryEs:
+    "idTech4A++ es un port para Android y escritorio del motor id Tech 4. Ejecuta DOOM 3, Quake 4 y Prey (2006), y añade soporte para otros motores y juegos como DOOM 3 BFG, The Dark Mod y Quake III.",
   downloads: [
     {
       label: "Android",
@@ -42,7 +44,7 @@ export const Idtech4aHarmattanEdition: Port = {
   ],
   cover: {
     src: "https://openportsgames.com/covers/generated/idtech4a-harmattan-edition.svg",
-    alt: "idTech4A++ (Harmattan Edition) (generated cover)",
+    alt: "IdTech4A++ (Harmattan Edition) (generated cover)",
     credit: "OpenPortsGames",
   },
   notes:

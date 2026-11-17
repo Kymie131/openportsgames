@@ -4,10 +4,11 @@ export const Q2tools220: Port = {
   schema: "port",
   id: "q2tools-220",
   title: "Q2tools-220",
-  game: "q2tools-220",
+  kind: "tool",
+  game: "Quake II",
   developers: ["qbism"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "id Software",
+  originalYear: 1997,
   portType: "source-port",
   genre: "shooter",
   openSource: true,
@@ -19,10 +20,11 @@ export const Q2tools220: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "q2tools-220 is a shooter game, released in 2000.",
-  summaryEs: "q2tools-220 es un videojuego de disparos, lanzado en 2000.",
-  summaryGenerated: true,
+  originalSystems: ["Windows"],
+  summary:
+    "q2tools-220 is a fork of the Quake II map compiler tools with support for the BSP v220 map format, automatic phong shading and soft spotlights. It targets maps for Quake II and its source ports.",
+  summaryEs:
+    "q2tools-220 es un fork de las herramientas de compilación de mapas de Quake II con soporte para el formato de mapa BSP v220, sombreado phong automático y focos suaves. Está orientado a mapas de Quake II y sus ports de código.",
   downloads: [
     {
       label: "Windows",
