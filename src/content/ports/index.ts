@@ -2820,6 +2820,18 @@ import { cogbox } from "./cogbox";
 import { gears2Nx } from "./gears2-nx";
 import { gearsOfWar3Recomp } from "./gears-of-war-3-recomp";
 import { gears3RecompAndroid } from "./gears3-recomp-android";
+import { superOdysseyPcRecomp } from "./super-odyssey-pc-recomp";
+import { rwwo8OdysseyRecomp } from "./rwwo8-odyssey-recomp";
+import { projectTandemAndroid } from "./project-tandem-android";
+import { skyrecompAndroid } from "./skyrecomp-android";
+import { mariokartddRecomp } from "./mariokartdd-recomp";
+import { mkddRecompRust } from "./mkdd-recomp-rust";
+import { skywardRecomp } from "./skyward-recomp";
+import { projectRelink } from "./project-relink";
+import { dsKartRecompiled } from "./ds-kart-recompiled";
+import { mk7Recomp } from "./mk7-recomp";
+import { racing8DxRecomp } from "./racing-8-dx-recomp";
+import { mkwRecomp } from "./mkw-recomp";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5639,4 +5651,16 @@ export const portCases: Port[] = [
   gears2Nx,
   gearsOfWar3Recomp,
   gears3RecompAndroid,
+  superOdysseyPcRecomp,
+  rwwo8OdysseyRecomp,
+  projectTandemAndroid,
+  skyrecompAndroid,
+  mariokartddRecomp,
+  mkddRecompRust,
+  skywardRecomp,
+  projectRelink,
+  dsKartRecompiled,
+  mk7Recomp,
+  racing8DxRecomp,
+  mkwRecomp,
 ];
