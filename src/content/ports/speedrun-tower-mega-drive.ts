@@ -6,7 +6,7 @@ export const speedrunTowerMegaDrive: Port = {
   title: "Speedrun Tower (Mega Drive)",
   game: "Speedrun Tower",
   developers: ["huguesjohnson"],
-  publisher: "Homebrew",
+  publisher: "huguesjohnson",
   originalYear: 2022,
   portType: "source-port",
   genre: "platformer",
@@ -20,11 +20,9 @@ export const speedrunTowerMegaDrive: Port = {
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Speedrun Tower is a platform game published by Homebrew, released in 2022.",
-  summaryEs: "Speedrun Tower es un videojuego de plataformas publicado por Homebrew, lanzado en 2022.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Sega Mega Drive / Genesis"],
+  summary: "Speedrun Tower (Mega Drive) is a 2022 homebrew platform game for the Mega Drive / Genesis, developed by huguesjohnson.",
+  summaryEs: "Speedrun Tower (Mega Drive) es un juego de plataformas homebrew de 2022 para Mega Drive / Genesis, desarrollado por huguesjohnson.",  downloads: [
     {
       label: "Genesis",
       url: "https://github.com/huguesjohnson/speedrun-tower/releases/download/SG-1.0/SpeedrunTower.zip",

@@ -2,14 +2,15 @@ import type { Port } from "@/lib/ports/schema";
 
 export const SerioussamclassicVk: Port = {
   schema: "port",
+  kind: "tool",
   id: "serioussamclassic-vk",
   title: "SeriousSamClassic-VK",
-  game: "SeriousSamClassic-VK",
+  game: "Serious Sam Classic",
   developers: ["tx00100xt"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "Croteam",
+  originalYear: 2001,
   portType: "source-port",
-  genre: "action-adventure",
+  genre: "shooter",
   openSource: true,
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
@@ -19,11 +20,9 @@ export const SerioussamclassicVk: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "SeriousSamClassic-VK is a action-adventure game, released in 2000.",
-  summaryEs: "SeriousSamClassic-VK es un videojuego de acci�n y aventura, lanzado en 2000.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Windows"],
+  summary: "SeriousSamClassic-VK is an open-source Vulkan engine for Serious Sam Classic, the 2001 shooter developed by Croteam.",
+  summaryEs: "SeriousSamClassic-VK es un motor Vulkan de código abierto para Serious Sam Classic, el shooter de 2001 desarrollado por Croteam.",  downloads: [
     {
       label: "Windows",
       url: "https://github.com/tx00100xt/SeriousSamClassic-VK/releases/download/1.10.7/SeriousSamClassicVk-1.10.7-directx9-win64-bin.7z",

@@ -2,12 +2,13 @@ import type { Port } from "@/lib/ports/schema";
 
 export const Madnesspatch: Port = {
   schema: "port",
+  kind: "tool",
   id: "madnesspatch",
   title: "MadnessPatch",
-  game: "MadnessPatch",
+  game: "Alice: Madness Returns",
   developers: ["Wemino"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "Electronic Arts",
+  originalYear: 2011,
   portType: "source-port",
   genre: "action-adventure",
   openSource: true,
@@ -19,11 +20,9 @@ export const Madnesspatch: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "MadnessPatch is a action-adventure game, released in 2000.",
-  summaryEs: "MadnessPatch es un videojuego de acci�n y aventura, lanzado en 2000.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Windows"],
+  summary: "MadnessPatch fixes technical issues in the PC version of Alice: Madness Returns, the 2011 action-adventure game published by Electronic Arts.",
+  summaryEs: "MadnessPatch corrige problemas técnicos de la versión de PC de Alice: Madness Returns, el juego de acción y aventura de 2011 publicado por Electronic Arts.",  downloads: [
     {
       label: "Windows",
       url: "https://github.com/Wemino/MadnessPatch/releases/download/4.0.3/MadnessPatch.zip",

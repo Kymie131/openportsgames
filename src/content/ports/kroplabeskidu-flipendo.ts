@@ -2,11 +2,12 @@ import type { Port } from "@/lib/ports/schema";
 
 export const kroplabeskiduFlipendo: Port = {
   schema: "port",
+  kind: "tool",
   id: "kroplabeskidu-flipendo",
   title: "Flipendo",
-  game: "Flipendo",
+  game: "Harry Potter and the Philosopher's Stone",
   developers: ["kroplabeskidu"],
-  publisher: "Unknown",
+  publisher: "Electronic Arts",
   originalYear: 2001,
   portType: "reimplementation",
   genre: "action-adventure",
@@ -19,11 +20,9 @@ export const kroplabeskiduFlipendo: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,  addedAt: "2026-10-23",
-  originalSystems: ["Unknown"],
-  summary: "Flipendo is a action-adventure game, released in 2001.",
-  summaryEs: "Flipendo es un videojuego de acci�n y aventura, lanzado en 2001.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Windows"],
+  summary: "Flipendo is a native engine remake that runs the first two Harry Potter PC games on modern systems, starting with the 2001 Philosopher's Stone.",
+  summaryEs: "Flipendo es una recreación del motor que ejecuta los dos primeros juegos de Harry Potter de PC en sistemas modernos, empezando por la Piedra Filosofal de 2001.",  downloads: [
     {
       label: "Windows",
       url: "https://github.com/kroplabeskidu/flipendo/releases/download/v1.3/flipendo-v1.3-windows.zip",

@@ -3,11 +3,11 @@ import type { Port } from "@/lib/ports/schema";
 export const SamuraiVsZombies: Port = {
   schema: "port",
   id: "samurai-vs-zombies",
-  title: "Samurai Vs Zombies",
-  game: "Samurai Vs Zombies",
+  title: "Samurai vs. Zombies",
+  game: "Samurai vs. Zombies",
   developers: ["Decomp-And-Recomp"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "Glu Mobile",
+  originalYear: 2013,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -19,11 +19,9 @@ export const SamuraiVsZombies: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Samurai Vs Zombies is a action-adventure game, released in 2000.",
-  summaryEs: "Samurai Vs Zombies es un videojuego de acci�n y aventura, lanzado en 2000.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Other"],
+  summary: "Samurai vs. Zombies is a 2013 mobile action game developed and published by Glu Mobile.",
+  summaryEs: "Samurai vs. Zombies es un juego de acción móvil de 2013 desarrollado y publicado por Glu Mobile.",  downloads: [
     {
       label: "Windows",
       url: "https://github.com/Decomp-And-Recomp/Samurai-Vs-Zombies/releases/download/1.2/Samurai.Vs.Zombies.PC.7z",

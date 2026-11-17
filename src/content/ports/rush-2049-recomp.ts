@@ -3,7 +3,7 @@ import type { Port } from "@/lib/ports/schema";
 export const rush2049Recomp: Port = {
   schema: "port",
   id: "rush-2049-recomp",
-  title: "San Francisco Rush 2049 Recompiled",
+  title: "San Francisco Rush 2049",
   game: "San Francisco Rush 2049",
   developers: ["n64hub"],
   publisher: "Midway",
@@ -22,11 +22,9 @@ export const rush2049Recomp: Port = {
   addedAt: "2026-10-24",
   originalSystems: ["Nintendo 64"],
   summary:
-    "San Francisco Rush 2049 is a racing game published by Midway for Nintendo 64, released in 1999.",
+    "San Francisco Rush 2049 is a 1999 futuristic racing game developed and published by Midway for arcades and the Nintendo 64.",
   summaryEs:
-    "San Francisco Rush 2049 es un videojuego de carreras publicado por Midway para Nintendo 64, lanzado en 1999.",
-  summaryGenerated: true,
-  downloads: [
+    "San Francisco Rush 2049 es un juego de carreras futurista de 1999 desarrollado y publicado por Midway para arcades y Nintendo 64.",  downloads: [
     {
       label: "Windows",
       url: "https://github.com/n64hub/rush-2049-recomp/releases/download/v0.1.63/Rush2049Recompiled-v0.1.63-windows-x64.zip",

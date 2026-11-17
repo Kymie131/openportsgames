@@ -2,11 +2,12 @@ import type { Port } from "@/lib/ports/schema";
 
 export const pqmarineUnderworldrevisited: Port = {
   schema: "port",
+  kind: "tool",
   id: "pqmarine-underworldrevisited",
   title: "Underworld Revisited",
-  game: "Underworld Revisited",
+  game: "Ultima Underworld",
   developers: ["PQMarine"],
-  publisher: "Unknown",
+  publisher: "Origin Systems",
   originalYear: 1992,
   portType: "reimplementation",
   genre: "rpg",
@@ -20,11 +21,9 @@ export const pqmarineUnderworldrevisited: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Unknown"],
-  summary: "Underworld Revisited is a role-playing game, released in 1992.",
-  summaryEs: "Underworld Revisited es un videojuego de rol, lanzado en 1992.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["MS-DOS"],
+  summary: "Underworld Revisited is an engine remake of Ultima Underworld, the 1992 first-person dungeon-crawling RPG published by Origin Systems.",
+  summaryEs: "Underworld Revisited es una recreación del motor de Ultima Underworld, el RPG de mazmorras en primera persona de 1992 publicado por Origin Systems.",  downloads: [
     {
       label: "Windows",
       url: "https://github.com/PQMarine/UnderworldRevisited/releases/download/v0.19.2/UnderworldRevisited-0.19.2-win64.zip",

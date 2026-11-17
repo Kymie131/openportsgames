@@ -6,7 +6,7 @@ export const starfallSalvageGameBoyColor: Port = {
   title: "Starfall Salvage (Game Boy Color)",
   game: "Starfall Salvage",
   developers: ["steph4n-gh"],
-  publisher: "Homebrew",
+  publisher: "steph4n-gh",
   originalYear: 2026,
   portType: "source-port",
   genre: "action-adventure",
@@ -20,11 +20,9 @@ export const starfallSalvageGameBoyColor: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Starfall Salvage is a action-adventure game published by Homebrew, released in 2026.",
-  summaryEs: "Starfall Salvage es un videojuego de acci�n y aventura publicado por Homebrew, lanzado en 2026.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Game Boy Color"],
+  summary: "Starfall Salvage (Game Boy Color) is a 2026 homebrew action-adventure game for the Game Boy Color, developed by steph4n-gh.",
+  summaryEs: "Starfall Salvage (Game Boy Color) es un juego de acción y aventura homebrew de 2026 para Game Boy Color, desarrollado por steph4n-gh.",  downloads: [
     {
       label: "Gbc",
       url: "https://github.com/steph4n-gh/starfall-salvage/releases/download/v1.2/starfall-salvage-1.2-player.zip",

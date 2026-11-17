@@ -2,14 +2,15 @@ import type { Port } from "@/lib/ports/schema";
 
 export const Ophd: Port = {
   schema: "port",
+  kind: "tool",
   id: "ophd",
-  title: "OPHD",
-  game: "OPHD",
+  title: "OutpostHD",
+  game: "Outpost",
   developers: ["OutpostUniverse"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "Sierra On-Line",
+  originalYear: 1994,
   portType: "reimplementation",
-  genre: "action-adventure",
+  genre: "strategy",
   openSource: true,
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
@@ -19,11 +20,9 @@ export const Ophd: Port = {
   license: { spdx: "BSD-3-Clause" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "OPHD is a action-adventure game, released in 2000.",
-  summaryEs: "OPHD es un videojuego de acci�n y aventura, lanzado en 2000.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["MS-DOS"],
+  summary: "OutpostHD is an open-source remake of Outpost, the 1994 space city-building game published by Sierra On-Line.",
+  summaryEs: "OutpostHD es un remake de código abierto de Outpost, el juego de construcción de ciudades espaciales de 1994 publicado por Sierra On-Line.",  downloads: [
     {
       label: "Windows",
       url: "https://github.com/OutpostUniverse/OPHD/releases/download/v0.8.10/ophd_v0.8.10_win64.zip",

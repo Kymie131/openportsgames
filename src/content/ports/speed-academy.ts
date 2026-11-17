@@ -2,14 +2,15 @@ import type { Port } from "@/lib/ports/schema";
 
 export const SpeedAcademy: Port = {
   schema: "port",
+  kind: "tool",
   id: "speed-academy",
-  title: "Speed-Academy",
-  game: "Speed-Academy",
+  title: "Speed Academy",
+  game: "Star Wars Jedi Knight: Jedi Academy",
   developers: ["kugelrund"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "LucasArts",
+  originalYear: 2003,
   portType: "source-port",
-  genre: "racing",
+  genre: "shooter",
   openSource: true,
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
@@ -19,11 +20,9 @@ export const SpeedAcademy: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Speed-Academy is a racing game, released in 2000.",
-  summaryEs: "Speed-Academy es un videojuego de carreras, lanzado en 2000.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Windows"],
+  summary: "Speed Academy is a source port of the single-player campaign of Star Wars Jedi Knight: Jedi Academy, the 2003 shooter published by LucasArts.",
+  summaryEs: "Speed Academy es un port de código de la campaña individual de Star Wars Jedi Knight: Jedi Academy, el shooter de 2003 publicado por LucasArts.",  downloads: [
     {
       label: "Windows",
       url: "https://github.com/kugelrund/Speed-Academy/releases/download/v1.10/jasp.exe",

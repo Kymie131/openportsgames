@@ -3,13 +3,13 @@ import type { Port } from "@/lib/ports/schema";
 export const SheepDogNWolfRewooled: Port = {
   schema: "port",
   id: "sheep-dog-n-wolf-rewooled",
-  title: "Sheep Dog n Wolf: Rewooled",
-  game: "Sheep Dog n Wolf: Rewooled",
+  title: "Sheep, Dog 'n' Wolf: Rewooled",
+  game: "Sheep, Dog 'n' Wolf",
   developers: ["SDW-Community"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "Infogrames",
+  originalYear: 2001,
   portType: "decompilation",
-  genre: "action-adventure",
+  genre: "platformer",
   openSource: true,
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
@@ -20,10 +20,8 @@ export const SheepDogNWolfRewooled: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["PlayStation"],
-  summary: "Sheep Dog n Wolf: Rewooled is a action-adventure game for PlayStation, released in 2000.",
-  summaryEs: "Sheep Dog n Wolf: Rewooled es un videojuego de acci�n y aventura para PlayStation, lanzado en 2000.",
-  summaryGenerated: true,
-  downloads: [
+  summary: "Sheep, Dog 'n' Wolf is a 2001 stealth platform game developed by Infogrames Lyon House and published by Infogrames for the PlayStation.",
+  summaryEs: "Sheep, Dog 'n' Wolf es un juego de plataformas y sigilo de 2001 desarrollado por Infogrames Lyon House y publicado por Infogrames para PlayStation.",  downloads: [
     {
       label: "Linux",
       url: "https://github.com/SDW-Community/Sheep-Dog-n-Wolf-Rewooled/releases/download/v1.1.3/Rewooled-Linux-x86_64-1.1.3.zip",

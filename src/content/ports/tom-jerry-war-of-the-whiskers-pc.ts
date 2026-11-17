@@ -3,7 +3,7 @@ import type { Port } from "@/lib/ports/schema";
 export const tomJerryWarOfTheWhiskersPc: Port = {
   schema: "port",
   id: "tom-jerry-war-of-the-whiskers-pc",
-  title: "Tom & Jerry: War of the Whiskers (PC)",
+  title: "Tom & Jerry: War of the Whiskers",
   game: "Tom & Jerry: War of the Whiskers",
   developers: ["shihabal3amri"],
   publisher: "NewKidCo",
@@ -20,10 +20,8 @@ export const tomJerryWarOfTheWhiskersPc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["Xbox"],
-  summary: "Tom & Jerry: War of the Whiskers is a fighting game published by NewKidCo for Xbox, released in 2002.",
-  summaryEs: "Tom & Jerry: War of the Whiskers es un videojuego de lucha publicado por NewKidCo para Xbox, lanzado en 2002.",
-  summaryGenerated: true,
-  downloads: [
+  summary: "Tom & Jerry: War of the Whiskers is a 2002 fighting game developed by VIS Entertainment and published by NewKidCo.",
+  summaryEs: "Tom & Jerry: War of the Whiskers es un juego de lucha de 2002 desarrollado por VIS Entertainment y publicado por NewKidCo.",  downloads: [
     {
       label: "Windows",
       url: "https://github.com/shihabal3amri/tom-jerry-war-of-the-whiskers-pc/releases/download/v2.2.0/tj_setup.exe",

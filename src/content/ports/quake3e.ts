@@ -2,12 +2,13 @@ import type { Port } from "@/lib/ports/schema";
 
 export const Quake3e: Port = {
   schema: "port",
+  kind: "tool",
   id: "quake3e",
   title: "Quake3e",
-  game: "Quake3e",
+  game: "Quake III Arena",
   developers: ["ec-"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "id Software",
+  originalYear: 1999,
   portType: "source-port",
   genre: "shooter",
   openSource: true,
@@ -19,11 +20,9 @@ export const Quake3e: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Quake3e is a shooter game, released in 2000.",
-  summaryEs: "Quake3e es un videojuego de disparos, lanzado en 2000.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Windows"],
+  summary: "Quake3e is an improved engine for Quake III Arena, the 1999 arena shooter developed by id Software.",
+  summaryEs: "Quake3e es un motor mejorado para Quake III Arena, el shooter de arena de 1999 desarrollado por id Software.",  downloads: [
     {
       label: "macOS x64",
       url: "https://github.com/ec-/Quake3e/releases/download/latest/quake3e-macos-x86_64.zip",

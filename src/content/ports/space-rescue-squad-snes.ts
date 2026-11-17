@@ -6,7 +6,7 @@ export const spaceRescueSquadSnes: Port = {
   title: "Space Rescue Squad (SNES)",
   game: "Space Rescue Squad",
   developers: ["undisbeliever"],
-  publisher: "Homebrew",
+  publisher: "undisbeliever",
   originalYear: 2023,
   portType: "source-port",
   genre: "platformer",
@@ -20,11 +20,9 @@ export const spaceRescueSquadSnes: Port = {
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Space Rescue Squad is a platform game published by Homebrew, released in 2023.",
-  summaryEs: "Space Rescue Squad es un videojuego de plataformas publicado por Homebrew, lanzado en 2023.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Super Nintendo"],
+  summary: "Space Rescue Squad (SNES) is a 2023 homebrew platform game for the Super Nintendo, developed by undisbeliever.",
+  summaryEs: "Space Rescue Squad (SNES) es un juego de plataformas homebrew de 2023 para Super Nintendo, desarrollado por undisbeliever.",  downloads: [
     {
       label: "Snes",
       url: "https://github.com/undisbeliever/space-rescue-squad/releases/download/game-jam-v1.1/Space.Rescue.Squad.Demo.v1.1.zip",

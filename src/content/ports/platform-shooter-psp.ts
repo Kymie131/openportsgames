@@ -20,10 +20,9 @@ export const platformShooterPsp: Port = {
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Platform Shooter is a platform game published by jmgamer1199, released in 2026.",
-  summaryEs: "Platform Shooter es un videojuego de plataformas publicado por jmgamer1199, lanzado en 2026.",
-  summaryGenerated: true,
+  originalSystems: ["PlayStation Portable"],
+  summary: "Platform Shooter (PSP) is a 2026 homebrew platform game for the PlayStation Portable, developed by jmgamer1199.",
+  summaryEs: "Platform Shooter (PSP) es un juego de plataformas homebrew de 2026 para PlayStation Portable, desarrollado por jmgamer1199.",
   cover: {
     src: "https://openportsgames.com/covers/generated/platform-shooter.svg",
     alt: "Platform Shooter (generated cover)",

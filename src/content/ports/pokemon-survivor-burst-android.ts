@@ -3,7 +3,7 @@ import type { Port } from "@/lib/ports/schema";
 export const pokemonSurvivorBurstAndroid: Port = {
   schema: "port",
   id: "pokemon-survivor-burst-android",
-  title: "Pokémon Survivor Burst (Android)",
+  title: "Pokémon Survivor Burst",
   game: "Pokémon Survivor Burst",
   developers: ["TryTheSauceBoss"],
   publisher: "TryTheSauceBoss",
@@ -19,11 +19,9 @@ export const pokemonSurvivorBurstAndroid: Port = {
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Pokémon Survivor Burst is a role-playing game published by TryTheSauceBoss, released in 2024.",
-  summaryEs: "Pokémon Survivor Burst es un videojuego de rol publicado por TryTheSauceBoss, lanzado en 2024.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Other"],
+  summary: "Pokémon Survivor Burst (Android) is a 2024 homebrew role-playing game for the Other, developed by TryTheSauceBoss.",
+  summaryEs: "Pokémon Survivor Burst (Android) es un juego de rol homebrew de 2024 para Other, desarrollado por TryTheSauceBoss.",  downloads: [
     {
       label: "Android",
       url: "https://github.com/TryTheSauceBoss/Pokemon-Survivorburst-Android/releases/download/v9.0/Pokemon.Survivor.Burst.-.v9.0.-.Right.Stick.Shoot.apk",

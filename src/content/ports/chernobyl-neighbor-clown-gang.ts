@@ -6,8 +6,8 @@ export const ChernobylNeighborClownGang: Port = {
   title: "Chernobyl Neighbor. Clown Gang",
   game: "Chernobyl Neighbor. Clown Gang",
   developers: ["smolkrieger"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "tinyTeamDev",
+  originalYear: 2019,
   portType: "decompilation",
   genre: "action-adventure",
   openSource: true,
@@ -19,11 +19,9 @@ export const ChernobylNeighborClownGang: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Chernobyl Neighbor. Clown Gang is a action-adventure game, released in 2000.",
-  summaryEs: "Chernobyl Neighbor. Clown Gang es un videojuego de acci�n y aventura, lanzado en 2000.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Other"],
+  summary: "Chernobyl Neighbor. Clown Gang is a 2019 mobile horror adventure game developed and published by tinyTeamDev.",
+  summaryEs: "Chernobyl Neighbor. Clown Gang es un juego de aventura y terror móvil de 2019 desarrollado y publicado por tinyTeamDev.",  downloads: [
     {
       label: "Windows",
       url: "https://github.com/smolkrieger/nuclear-neighbor/releases/download/AlternativeVersion/Chernobyl.Neighbor.Clown.Gang.AssetRipper.rar",

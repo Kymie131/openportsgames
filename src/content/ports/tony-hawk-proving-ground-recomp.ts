@@ -3,7 +3,7 @@ import type { Port } from "@/lib/ports/schema";
 export const tonyHawkProvingGroundRecomp: Port = {
   schema: "port",
   id: "tony-hawk-proving-ground-recomp",
-  title: "Tony Hawk's Proving Ground Recompiled",
+  title: "Tony Hawk's Proving Ground",
   game: "Tony Hawk's Proving Ground",
   developers: ["Newbie1337x"],
   publisher: "Activision",
@@ -21,10 +21,8 @@ export const tonyHawkProvingGroundRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-24",
   originalSystems: ["Xbox 360"],
-  summary: "Tony Hawk's Proving Ground is a sports game published by Activision for Xbox 360, released in 2007.",
-  summaryEs: "Tony Hawk's Proving Ground es un videojuego de deportes publicado por Activision para Xbox 360, lanzado en 2007.",
-  summaryGenerated: true,
-  downloads: [
+  summary: "Tony Hawk's Proving Ground is a 2007 skateboarding game developed by Neversoft and published by Activision.",
+  summaryEs: "Tony Hawk's Proving Ground es un juego de skate de 2007 desarrollado por Neversoft y publicado por Activision.",  downloads: [
     {
       label: "Windows",
       url: "https://github.com/Newbie1337x/ProvingGroundRecomp/releases/download/v1.1.1/ProvingGroundRecomp-1.1.1-windows-x64.zip",

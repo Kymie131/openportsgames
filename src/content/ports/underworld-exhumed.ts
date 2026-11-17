@@ -2,14 +2,15 @@ import type { Port } from "@/lib/ports/schema";
 
 export const UnderworldExhumed: Port = {
   schema: "port",
+  kind: "tool",
   id: "underworld-exhumed",
   title: "Underworld Exhumed",
-  game: "Underworld Exhumed",
+  game: "Ultima Underworld",
   developers: ["abedegno"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "Origin Systems",
+  originalYear: 1992,
   portType: "source-port",
-  genre: "action-adventure",
+  genre: "rpg",
   openSource: true,
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
@@ -19,11 +20,9 @@ export const UnderworldExhumed: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Underworld Exhumed is a action-adventure game, released in 2000.",
-  summaryEs: "Underworld Exhumed es un videojuego de acci�n y aventura, lanzado en 2000.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["MS-DOS"],
+  summary: "Underworld Exhumed is a byte-matching source reconstruction and native port of Ultima Underworld I and II, the 1992 and 1993 RPGs by Origin Systems.",
+  summaryEs: "Underworld Exhumed es una reconstrucción del código fuente y un port nativo de Ultima Underworld I y II, los RPG de 1992 y 1993 de Origin Systems.",  downloads: [
     {
       label: "macOS",
       url: "https://github.com/abedegno/underworld-exhumed/releases/download/uw1-v1.0.2/UW1-v1.0.2-macos.zip",

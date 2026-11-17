@@ -2,14 +2,15 @@ import type { Port } from "@/lib/ports/schema";
 
 export const Thinker: Port = {
   schema: "port",
+  kind: "tool",
   id: "thinker",
   title: "Thinker",
-  game: "thinker",
+  game: "Sid Meier's Alpha Centauri",
   developers: ["induktio"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "Electronic Arts",
+  originalYear: 1999,
   portType: "source-port",
-  genre: "action-adventure",
+  genre: "strategy",
   openSource: true,
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
@@ -19,11 +20,9 @@ export const Thinker: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "thinker is a action-adventure game, released in 2000.",
-  summaryEs: "thinker es un videojuego de acci�n y aventura, lanzado en 2000.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Windows"],
+  summary: "Thinker adds engine improvements and quality-of-life features to Sid Meier's Alpha Centauri, the 1999 strategy game published by Electronic Arts.",
+  summaryEs: "Thinker añade mejoras de motor y funciones de calidad de vida a Sid Meier's Alpha Centauri, el juego de estrategia de 1999 publicado por Electronic Arts.",  downloads: [
     {
       label: "Windows",
       url: "https://github.com/induktio/thinker/releases/download/v5.5/Thinker_v5.5.zip",

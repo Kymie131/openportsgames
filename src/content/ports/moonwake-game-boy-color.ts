@@ -6,7 +6,7 @@ export const moonwakeGameBoyColor: Port = {
   title: "Moonwake (Game Boy Color)",
   game: "Moonwake",
   developers: ["sdiaoune"],
-  publisher: "Homebrew",
+  publisher: "sdiaoune",
   originalYear: 2026,
   portType: "source-port",
   genre: "platformer",
@@ -20,11 +20,9 @@ export const moonwakeGameBoyColor: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Moonwake is a platform game published by Homebrew, released in 2026.",
-  summaryEs: "Moonwake es un videojuego de plataformas publicado por Homebrew, lanzado en 2026.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Game Boy Color"],
+  summary: "Moonwake (Game Boy Color) is a 2026 homebrew platform game for the Game Boy Color, developed by sdiaoune.",
+  summaryEs: "Moonwake (Game Boy Color) es un juego de plataformas homebrew de 2026 para Game Boy Color, desarrollado por sdiaoune.",  downloads: [
     {
       label: "Gbc",
       url: "https://github.com/sdiaoune/moonwake/releases/download/v2.0.0/Moonwake-Play.zip",

@@ -6,7 +6,7 @@ export const spoutAndroid: Port = {
   title: "Spout (Android)",
   game: "Spout",
   developers: ["EXL"],
-  publisher: "Independent",
+  publisher: "EXL",
   originalYear: 2011,
   portType: "source-port",
   genre: "platformer",
@@ -20,11 +20,9 @@ export const spoutAndroid: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-22",
-  originalSystems: ["Windows"],
-  summary: "Spout is a platform game published by Independent for Windows, released in 2011.",
-  summaryEs: "Spout es un videojuego de plataformas publicado por Independent para Windows, lanzado en 2011.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Other"],
+  summary: "Spout (Android) is a 2011 homebrew platform game for the Other, developed by EXL.",
+  summaryEs: "Spout (Android) es un juego de plataformas homebrew de 2011 para Other, desarrollado por EXL.",  downloads: [
     {
       label: "Android",
       url: "https://github.com/EXL/Spout/releases/download/v1.2/Spout_v1.2_05-MAY-2017.apk",

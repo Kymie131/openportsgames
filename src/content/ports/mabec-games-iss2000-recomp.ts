@@ -3,13 +3,13 @@ import type { Port } from "@/lib/ports/schema";
 export const mabecGamesIss2000Recomp: Port = {
   schema: "port",
   id: "mabec-games-iss2000-recomp",
-  title: "Mabecs International Superstar Soccer 2000",
-  game: "Mabecs International Superstar Soccer 2000",
+  title: "ISS 2000 Recomp",
+  game: "International Superstar Soccer 2000",
   developers: ["Mabec-games"],
-  publisher: "Unknown",
+  publisher: "Konami",
   originalYear: 2000,
   portType: "recompilation",
-  genre: "action-adventure",
+  genre: "sports",
   openSource: true,
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux"],
@@ -20,11 +20,9 @@ export const mabecGamesIss2000Recomp: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Unknown"],
-  summary: "Mabecs International Superstar Soccer 2000 is a action-adventure game, released in 2000.",
-  summaryEs: "Mabecs International Superstar Soccer 2000 es un videojuego de acci�n y aventura, lanzado en 2000.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Nintendo 64"],
+  summary: "International Superstar Soccer 2000 is a 2000 football game developed and published by Konami for the Nintendo 64.",
+  summaryEs: "International Superstar Soccer 2000 es un juego de fútbol de 2000 desarrollado y publicado por Konami para Nintendo 64.",  downloads: [
     {
       label: "Windows",
       url: "https://github.com/Mabec-games/iss2000-recomp/releases/download/v1.4/Mabecs_ISS2000_Widescreen-Windows-x64.zip",

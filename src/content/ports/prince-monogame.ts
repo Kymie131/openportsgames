@@ -2,14 +2,15 @@ import type { Port } from "@/lib/ports/schema";
 
 export const PrinceMonogame: Port = {
   schema: "port",
+  kind: "tool",
   id: "prince-monogame",
   title: "Prince-Monogame",
-  game: "Prince-Monogame",
+  game: "Prince of Persia 2",
   developers: ["salvadorc17"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "Brøderbund",
+  originalYear: 1993,
   portType: "source-port",
-  genre: "action-adventure",
+  genre: "platformer",
   openSource: true,
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
@@ -19,11 +20,9 @@ export const PrinceMonogame: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Prince-Monogame is a action-adventure game, released in 2000.",
-  summaryEs: "Prince-Monogame es un videojuego de acci�n y aventura, lanzado en 2000.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["MS-DOS"],
+  summary: "Prince-Monogame is a MonoGame implementation of Prince of Persia 2, the 1993 cinematic platformer published by Brøderbund.",
+  summaryEs: "Prince-Monogame es una implementación en MonoGame de Prince of Persia 2, el plataformas cinemático de 1993 publicado por Brøderbund.",  downloads: [
     {
       label: "Windows",
       url: "https://github.com/salvadorc17/Prince-Monogame/releases/download/1.2/PrinceGame.zip",

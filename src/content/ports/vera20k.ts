@@ -2,14 +2,15 @@ import type { Port } from "@/lib/ports/schema";
 
 export const Vera20k: Port = {
   schema: "port",
+  kind: "tool",
   id: "vera20k",
-  title: "Vera20k",
-  game: "vera20k",
+  title: "vera20k",
+  game: "Command & Conquer: Red Alert 2 - Yuri's Revenge",
   developers: ["YuriPlanet"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "Electronic Arts",
+  originalYear: 2001,
   portType: "source-port",
-  genre: "action-adventure",
+  genre: "strategy",
   openSource: true,
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
@@ -19,11 +20,9 @@ export const Vera20k: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "vera20k is a action-adventure game, released in 2000.",
-  summaryEs: "vera20k es un videojuego de acci�n y aventura, lanzado en 2000.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Windows"],
+  summary: "vera20k is a Rust rebuild of Command & Conquer: Red Alert 2 - Yuri's Revenge, the 2001 strategy expansion published by Electronic Arts.",
+  summaryEs: "vera20k es una reconstrucción en Rust de Command & Conquer: Red Alert 2 - Yuri's Revenge, la expansión de estrategia de 2001 publicada por Electronic Arts.",  downloads: [
     {
       label: "macOS x64",
       url: "https://github.com/YuriPlanet/vera20k/releases/download/v0.2.9/vera20k-0.2.9-macos-x64.dmg",

@@ -6,7 +6,7 @@ export const superKawaiBreakupSim3ds: Port = {
   title: "Super Kawai Breakup Sim (3DS)",
   game: "Super Kawai Breakup Sim",
   developers: ["Dangerbites"],
-  publisher: "Fan game",
+  publisher: "Dangerbites",
   originalYear: 2020,
   portType: "source-port",
   genre: "simulation",
@@ -19,11 +19,9 @@ export const superKawaiBreakupSim3ds: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Other"],
-  summary: "Super Kawai Breakup Sim is a simulation game published by Fan game for Other, released in 2020.",
-  summaryEs: "Super Kawai Breakup Sim es un videojuego de simulaci�n publicado por Fan game para Other, lanzado en 2020.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Nintendo 3DS"],
+  summary: "Super Kawai Breakup Sim (3DS) is a 2020 homebrew simulation game for the Nintendo 3DS, developed by Dangerbites.",
+  summaryEs: "Super Kawai Breakup Sim (3DS) es un juego de simulación homebrew de 2020 para Nintendo 3DS, desarrollado por Dangerbites.",  downloads: [
     {
       label: "3ds",
       url: "https://github.com/Dangerbites/BreakupSimulator3DS/releases/download/Major/BreakupSimulator3DS.zip",

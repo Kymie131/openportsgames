@@ -2,12 +2,13 @@ import type { Port } from "@/lib/ports/schema";
 
 export const TheGreatEscapeInC: Port = {
   schema: "port",
+  kind: "tool",
   id: "the-great-escape-in-c",
   title: "The Great Escape in C",
-  game: "The Great Escape in C",
+  game: "The Great Escape",
   developers: ["dpt"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "Ocean Software",
+  originalYear: 1986,
   portType: "source-port",
   genre: "action-adventure",
   openSource: true,
@@ -20,10 +21,8 @@ export const TheGreatEscapeInC: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["ZX Spectrum"],
-  summary: "The Great Escape in C is a action-adventure game for ZX Spectrum, released in 2000.",
-  summaryEs: "The Great Escape in C es un videojuego de acci�n y aventura para ZX Spectrum, lanzado en 2000.",
-  summaryGenerated: true,
-  downloads: [
+  summary: "The Great Escape in C is a source reconstruction of The Great Escape, the 1986 action-adventure game published by Ocean Software for the ZX Spectrum.",
+  summaryEs: "The Great Escape in C es una reconstrucción del código de The Great Escape, el juego de acción y aventura de 1986 publicado por Ocean Software para ZX Spectrum.",  downloads: [
     {
       label: "Windows",
       url: "https://github.com/dpt/The-Great-Escape-in-C/releases/download/risc-os-0.95/TheGreatEscape-a9d2315.zip",

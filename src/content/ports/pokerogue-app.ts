@@ -2,9 +2,10 @@ import type { Port } from "@/lib/ports/schema";
 
 export const pokerogueApp: Port = {
   schema: "port",
+  kind: "tool",
   id: "pokerogue-app",
   title: "PokeRogue App",
-  game: "PokeRogue",
+  game: "PokéRogue",
   developers: ["Admiral-Billy"],
   publisher: "PokeRogue contributors",
   originalYear: 2023,
@@ -18,11 +19,9 @@ export const pokerogueApp: Port = {
   sources: ["https://github.com/Admiral-Billy/Pokerogue-App"],
   license: { spdx: "MIT" },
   verified: false,
-  originalSystems: ["Windows"],
-  summary: "PokeRogue is a role-playing game published by PokeRogue contributors for Windows, released in 2023.",
-  summaryEs: "PokeRogue es un videojuego de rol publicado por PokeRogue contributors para Windows, lanzado en 2023.",
-  summaryGenerated: true,
-  notes:
+  originalSystems: ["Other"],
+  summary: "PokeRogue App is a desktop wrapper for PokéRogue, the 2023 browser-based creature-collecting roguelike made by its community.",
+  summaryEs: "PokeRogue App es un envoltorio de escritorio para PokéRogue, el roguelike de colección de criaturas de 2023 para navegador hecho por su comunidad.",  notes:
     "Android app that opens the PokeRogue web game in its own window. It is a wrapper around pokerogue.net and does not bundle the game.",
   notesEs:
     "App para Android que abre el juego web PokeRogue en su propia ventana. Es un envoltorio sobre pokerogue.net y no incluye el juego.",

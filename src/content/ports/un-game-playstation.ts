@@ -6,7 +6,7 @@ export const unGamePlaystation: Port = {
   title: "UN Game (PlayStation)",
   game: "UN Game",
   developers: ["Jarwesbub"],
-  publisher: "Homebrew",
+  publisher: "Jarwesbub",
   originalYear: 2026,
   portType: "source-port",
   genre: "platformer",
@@ -20,11 +20,9 @@ export const unGamePlaystation: Port = {
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "UN Game is a platform game published by Homebrew, released in 2026.",
-  summaryEs: "UN Game es un videojuego de plataformas publicado por Homebrew, lanzado en 2026.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["PlayStation"],
+  summary: "UN Game (PlayStation) is a 2026 homebrew platform game for the PlayStation, developed by Jarwesbub.",
+  summaryEs: "UN Game (PlayStation) es un juego de plataformas homebrew de 2026 para PlayStation, desarrollado por Jarwesbub.",  downloads: [
     {
       label: "Ps1",
       url: "https://github.com/Jarwesbub/un-game-psx-demo/releases/download/v1.1.1/UnGame_v1_1_1.zip",

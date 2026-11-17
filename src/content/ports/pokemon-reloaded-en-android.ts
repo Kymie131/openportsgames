@@ -19,11 +19,9 @@ export const pokemonReloadedEnAndroid: Port = {
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Pokemon Reloaded is a role-playing game published by Klisee, released in 2020.",
-  summaryEs: "Pokemon Reloaded es un videojuego de rol publicado por Klisee, lanzado en 2020.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Other"],
+  summary: "Pokémon Reloaded en Android is a 2020 homebrew role-playing game for the Other, developed by Klisee.",
+  summaryEs: "Pokémon Reloaded en Android es un juego de rol homebrew de 2020 para Other, desarrollado por Klisee.",  downloads: [
     {
       label: "Android",
       url: "https://github.com/Klisee/pokemon-reloaded-android/releases/download/v0.4.2/pokemon-reloaded-0.4.2-universal.apk",

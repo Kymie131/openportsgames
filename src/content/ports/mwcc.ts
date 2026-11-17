@@ -2,9 +2,10 @@ import type { Port } from "@/lib/ports/schema";
 
 export const mwcc: Port = {
   schema: "port",
+  kind: "tool",
   id: "mwcc",
   title: "Metrowerks CodeWarrior for GameCube",
-  game: "Metrowerks CodeWarrior for GameCube",
+  game: "Metrowerks CodeWarrior",
   developers: ["rayanht"],
   publisher: "Metrowerks",
   originalYear: 2001,
@@ -20,9 +21,8 @@ export const mwcc: Port = {
   verified: false,
   sourceVerified: true,
   originalSystems: ["GameCube"],
-  summary: "Metrowerks CodeWarrior for GameCube is a simulation game published by Metrowerks for GameCube, released in 2001.",
-  summaryEs: "Metrowerks CodeWarrior for GameCube es un videojuego de simulaci�n publicado por Metrowerks para GameCube, lanzado en 2001.",
-  summaryGenerated: true,
+  summary: "Metrowerks CodeWarrior for GameCube is a decompilation of the compiler toolchain used for GameCube development. It is a compiler, not a game.",
+  summaryEs: "Metrowerks CodeWarrior for GameCube es una decompilación de la cadena de compiladores usada para desarrollar en GameCube. Es un compilador, no un juego.",
   cover: {
     src: "https://openportsgames.com/covers/generated/metrowerks-codewarrior-for-gamecube.svg",
     alt: "Metrowerks CodeWarrior for GameCube (generated cover)",

@@ -2,12 +2,13 @@ import type { Port } from "@/lib/ports/schema";
 
 export const Q2rtxperimental: Port = {
   schema: "port",
+  kind: "tool",
   id: "q2rtxperimental",
   title: "Q2RTXPerimental",
-  game: "Q2RTXPerimental",
+  game: "Quake II",
   developers: ["PolyhedronStudio"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "id Software",
+  originalYear: 1997,
   portType: "source-port",
   genre: "shooter",
   openSource: true,
@@ -19,11 +20,9 @@ export const Q2rtxperimental: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Q2RTXPerimental is a shooter game, released in 2000.",
-  summaryEs: "Q2RTXPerimental es un videojuego de disparos, lanzado en 2000.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Windows"],
+  summary: "Q2RTXPerimental is an experimental fork of NVIDIA's RTX ray-tracing implementation for Quake II, the 1997 shooter by id Software.",
+  summaryEs: "Q2RTXPerimental es un fork experimental de la implementación de ray tracing RTX de NVIDIA para Quake II, el shooter de 1997 de id Software.",  downloads: [
     {
       label: "Windows",
       url: "https://github.com/PolyhedronStudio/Q2RTXPerimental/releases/download/v0.0.5/q2rtxp-v0.0.5.zip",

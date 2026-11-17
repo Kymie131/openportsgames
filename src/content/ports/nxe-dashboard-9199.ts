@@ -2,9 +2,10 @@ import type { Port } from "@/lib/ports/schema";
 
 export const nxeDashboard9199: Port = {
   schema: "port",
+  kind: "system",
   id: "nxe-dashboard-9199",
   title: "NXE Dashboard 9199",
-  game: "NXE Dashboard 9199",
+  game: "New Xbox Experience",
   developers: ["MVEALNG"],
   publisher: "Microsoft",
   originalYear: 2008,
@@ -21,9 +22,8 @@ export const nxeDashboard9199: Port = {
   sourceVerified: true,
   sourceDead: true,
   originalSystems: ["Xbox 360"],
-  summary: "NXE Dashboard 9199 is a simulation game published by Microsoft for Xbox 360, released in 2008.",
-  summaryEs: "NXE Dashboard 9199 es un videojuego de simulaci�n publicado por Microsoft para Xbox 360, lanzado en 2008.",
-  summaryGenerated: true,
+  summary: "NXE Dashboard 9199 is a static recompilation of the Xbox 360 New Xbox Experience dashboard. It is system software, not a game.",
+  summaryEs: "NXE Dashboard 9199 es una recompilación estática del panel New Xbox Experience de Xbox 360. Es software de sistema, no un juego.",
   cover: {
     src: "https://openportsgames.com/covers/generated/nxe-dashboard-9199.svg",
     alt: "NXE Dashboard 9199 (generated cover)",

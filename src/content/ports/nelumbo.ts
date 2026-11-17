@@ -3,7 +3,7 @@ import type { Port } from "@/lib/ports/schema";
 export const nelumbo: Port = {
   schema: "port",
   id: "nelumbo",
-  title: "Nelumbo",
+  title: "Lotus Trilogy",
   game: "Lotus Trilogy",
   developers: ["almost-there-games"],
   publisher: "Gremlin Graphics",
@@ -19,10 +19,9 @@ export const nelumbo: Port = {
   license: { spdx: "NOASSERTION" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Lotus Trilogy is a racing game published by Gremlin Graphics, released in 1990.",
-  summaryEs: "Lotus Trilogy es un videojuego de carreras publicado por Gremlin Graphics, lanzado en 1990.",
-  summaryGenerated: true,
+  originalSystems: ["Amiga"],
+  summary: "Lotus Trilogy is a reimplementation of the Lotus racing games (Esprit Turbo Challenge, Turbo Challenge 2 and Lotus III), originally published by Gremlin Graphics.",
+  summaryEs: "Lotus Trilogy es una reimplementación de los juegos de carreras Lotus (Esprit Turbo Challenge, Turbo Challenge 2 y Lotus III), publicados originalmente por Gremlin Graphics.",
   notes:
     "Reimplementation of the Lotus racing trilogy (Lotus Esprit Turbo Challenge, Turbo Challenge 2 and Lotus III), distributed on itch.io.",
   notesEs:

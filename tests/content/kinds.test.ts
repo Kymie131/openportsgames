@@ -3,7 +3,7 @@ import { getGamePorts, getPortCount, getPorts, getToolPorts } from "@/lib/ports"
 import { portKind } from "@/lib/ports/schema";
 
 /** Entries that are system software rather than games. */
-const SYSTEM_IDS = ["wii-menu", "xbox-360-kernel", "forecast-channel"];
+const SYSTEM_IDS = ["wii-menu", "xbox-360-kernel", "forecast-channel", "nxe-dashboard-9199", "ps2-osdsys"];
 /** Utility / non-game entries classified as tools. */
 const TOOL_IDS = [
   "amethyst-android",
@@ -80,6 +80,35 @@ const TOOL_IDS = [
   "chocolate-quake",
   "dxx-redux",
   "edge-classic",
+  "glkeeper",
+  "lilium-voyager",
+  "madnesspatch",
+  "mc2",
+  "mint-arena",
+  "nearchuckle",
+  "ophd",
+  "playstunts",
+  "pqmarine-underworldrevisited",
+  "prince-monogame",
+  "q2rtxperimental",
+  "quake3e",
+  "quakeforge",
+  "romanovs-vengeance",
+  "serioussamclassic-vk",
+  "speed-academy",
+  "thinker",
+  "tyrquake",
+  "underworld-exhumed",
+  "vera20k",
+  "mwcc",
+  "need-for-speed-1-6",
+  "the-great-escape-in-c",
+  "ds-protect",
+  "jfwhaven",
+  "kroplabeskidu-flipendo",
+  "pokerogue-app",
+  "unity-underground",
+  "vorpalfix",
 ];
 const NON_GAME_IDS = [...SYSTEM_IDS, ...TOOL_IDS].sort();
 

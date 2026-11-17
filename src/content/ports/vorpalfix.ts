@@ -2,11 +2,12 @@ import type { Port } from "@/lib/ports/schema";
 
 export const Vorpalfix: Port = {
   schema: "port",
+  kind: "tool",
   id: "vorpalfix",
   title: "VorpalFix",
-  game: "VorpalFix",
+  game: "Alice: Madness Returns",
   developers: ["Wemino"],
-  publisher: "Unknown",
+  publisher: "Electronic Arts",
   originalYear: 2011,
   portType: "source-port",
   genre: "action-adventure",
@@ -19,11 +20,9 @@ export const Vorpalfix: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "VorpalFix is a action-adventure game, released in 2011.",
-  summaryEs: "VorpalFix es un videojuego de acci�n y aventura, lanzado en 2011.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Windows"],
+  summary: "VorpalFix is a patch that fixes technical issues in the 2011 remaster of American McGee's Alice included with Alice: Madness Returns.",
+  summaryEs: "VorpalFix es un parche que corrige problemas técnicos de la remasterización de 2011 de American McGee's Alice incluida con Alice: Madness Returns.",  downloads: [
     {
       label: "Windows",
       url: "https://github.com/Wemino/VorpalFix/releases/download/4.2.1/VorpalFix.zip",

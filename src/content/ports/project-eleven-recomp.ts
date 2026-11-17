@@ -3,7 +3,7 @@ import type { Port } from "@/lib/ports/schema";
 export const projectElevenRecomp: Port = {
   schema: "port",
   id: "project-eleven-recomp",
-  title: "11eyes CrossOver (PC)",
+  title: "11eyes CrossOver",
   game: "11eyes CrossOver",
   developers: ["ThePlayer14"],
   publisher: "5pb.",
@@ -21,9 +21,8 @@ export const projectElevenRecomp: Port = {
   sourceVerified: true,
   originalSystems: ["Xbox 360"],
   related: ["steins-gate-recomp"],
-  summary: "11eyes CrossOver is a action-adventure game published by 5pb. for Xbox 360, released in 2009.",
-  summaryEs: "11eyes CrossOver es un videojuego de acci�n y aventura publicado por 5pb. para Xbox 360, lanzado en 2009.",
-  summaryGenerated: true,
+  summary: "11eyes CrossOver is a 2009 visual novel developed and published by 5pb. for the Xbox 360, a crossover of the 11eyes story.",
+  summaryEs: "11eyes CrossOver es una novela visual de 2009 desarrollada y publicada por 5pb. para Xbox 360, un cruce de la historia de 11eyes.",
   cover: {
     src: "https://openportsgames.com/covers/generated/11eyes-crossover.svg",
     alt: "11eyes CrossOver (generated cover)",

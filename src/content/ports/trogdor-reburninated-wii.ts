@@ -6,7 +6,7 @@ export const trogdorReburninatedWii: Port = {
   title: "Trogdor Reburninated (Wii)",
   game: "Trogdor",
   developers: ["Mode8fx"],
-  publisher: "Homestar Runner",
+  publisher: "Mode8fx",
   originalYear: 2026,
   portType: "source-port",
   genre: "action-adventure",
@@ -20,11 +20,9 @@ export const trogdorReburninatedWii: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Trogdor is a action-adventure game published by Homestar Runner, released in 2026.",
-  summaryEs: "Trogdor es un videojuego de acci�n y aventura publicado por Homestar Runner, lanzado en 2026.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Wii"],
+  summary: "Trogdor Reburninated (Wii) is a 2026 homebrew action-adventure game for the Wii, developed by Mode8fx.",
+  summaryEs: "Trogdor Reburninated (Wii) es un juego de acción y aventura homebrew de 2026 para Wii, desarrollado por Mode8fx.",  downloads: [
     {
       label: "Android",
       url: "https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.4/Trogdor-Reburninated-v2.4-android.apk",

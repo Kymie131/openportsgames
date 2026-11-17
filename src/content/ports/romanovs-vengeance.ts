@@ -2,14 +2,15 @@ import type { Port } from "@/lib/ports/schema";
 
 export const RomanovsVengeance: Port = {
   schema: "port",
+  kind: "tool",
   id: "romanovs-vengeance",
   title: "Romanov's Vengeance",
-  game: "Romanov's Vengeance",
+  game: "Command & Conquer: Red Alert 2",
   developers: ["MustaphaTR"],
-  publisher: "Unknown",
+  publisher: "Electronic Arts",
   originalYear: 2000,
   portType: "source-port",
-  genre: "action-adventure",
+  genre: "strategy",
   openSource: true,
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
@@ -19,11 +20,9 @@ export const RomanovsVengeance: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Romanov's Vengeance is a action-adventure game, released in 2000.",
-  summaryEs: "Romanov's Vengeance es un videojuego de acci�n y aventura, lanzado en 2000.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Windows"],
+  summary: "Romanov's Vengeance is an OpenRA mod based on Command & Conquer: Red Alert 2, the 2000 real-time strategy game published by Electronic Arts.",
+  summaryEs: "Romanov's Vengeance es un mod de OpenRA basado en Command & Conquer: Red Alert 2, el juego de estrategia en tiempo real de 2000 publicado por Electronic Arts.",  downloads: [
     {
       label: "macOS",
       url: "https://github.com/MustaphaTR/Romanovs-Vengeance/releases/download/playtest-20241215/Romanovs.Vengeance-playtest-20241215.dmg",

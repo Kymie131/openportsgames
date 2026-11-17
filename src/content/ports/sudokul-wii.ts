@@ -6,7 +6,7 @@ export const sudokulWii: Port = {
   title: "SuDokuL (Wii)",
   game: "SuDokuL",
   developers: ["Mode8fx"],
-  publisher: "Homebrew",
+  publisher: "Mode8fx",
   originalYear: 2026,
   portType: "source-port",
   genre: "puzzle",
@@ -20,11 +20,9 @@ export const sudokulWii: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "SuDokuL is a puzzle game published by Homebrew, released in 2026.",
-  summaryEs: "SuDokuL es un videojuego de puzles publicado por Homebrew, lanzado en 2026.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Wii"],
+  summary: "SuDokuL (Wii) is a 2026 homebrew puzzle game for the Wii, developed by Mode8fx.",
+  summaryEs: "SuDokuL (Wii) es un juego de puzles homebrew de 2026 para Wii, desarrollado por Mode8fx.",  downloads: [
     {
       label: "Android",
       url: "https://github.com/Mode8fx/SuDokuL/releases/download/v1.5/SuDokuL-v1.5-android.apk",

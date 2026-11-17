@@ -2,14 +2,15 @@ import type { Port } from "@/lib/ports/schema";
 
 export const Mc2: Port = {
   schema: "port",
+  kind: "tool",
   id: "mc2",
-  title: "Mc2",
-  game: "mc2",
+  title: "MC2",
+  game: "MechCommander 2",
   developers: ["alariq"],
-  publisher: "Unknown",
-  originalYear: 2000,
+  publisher: "Microsoft",
+  originalYear: 2001,
   portType: "reimplementation",
-  genre: "action-adventure",
+  genre: "strategy",
   openSource: true,
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
@@ -19,11 +20,9 @@ export const Mc2: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "mc2 is a action-adventure game, released in 2000.",
-  summaryEs: "mc2 es un videojuego de acci�n y aventura, lanzado en 2000.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Windows"],
+  summary: "MC2 is an open-source engine and OpenGL port of MechCommander 2, the 2001 real-time tactics game published by Microsoft.",
+  summaryEs: "MC2 es un motor de código abierto y un port OpenGL de MechCommander 2, el juego de táctica en tiempo real de 2001 publicado por Microsoft.",  downloads: [
     {
       label: "Windows",
       url: "https://github.com/alariq/mc2/releases/download/v0.1.3/mc2-win64-v0.1.3.zip",

@@ -3,7 +3,7 @@ import type { Port } from "@/lib/ports/schema";
 export const nightfirePc: Port = {
   schema: "port",
   id: "nightfire-pc",
-  title: "007: Nightfire (PC)",
+  title: "007: Nightfire",
   game: "007: Nightfire",
   developers: ["YodaMMM"],
   publisher: "Electronic Arts",
@@ -21,10 +21,8 @@ export const nightfirePc: Port = {
   sourceVerified: true,
   addedAt: "2026-10-25",
   originalSystems: ["PlayStation 2"],
-  summary: "007: Nightfire is a shooter game published by Electronic Arts for PlayStation 2, released in 2002.",
-  summaryEs: "007: Nightfire es un videojuego de disparos publicado por Electronic Arts para PlayStation 2, lanzado en 2002.",
-  summaryGenerated: true,
-  downloads: [
+  summary: "007: Nightfire is a 2002 first-person shooter developed by Eurocom and published by Electronic Arts, featuring James Bond in a original spy story.",
+  summaryEs: "007: Nightfire es un shooter en primera persona de 2002 desarrollado por Eurocom y publicado por Electronic Arts, con James Bond en una historia de espionaje original.",  downloads: [
     {
       label: "Windows",
       url: "https://github.com/YodaMMM/NightfirePort/releases/download/v0.1.37/NightfirePort.exe",

@@ -3,10 +3,10 @@ import type { Port } from "@/lib/ports/schema";
 export const rsdkmoddingRsdkv2Decompilation: Port = {
   schema: "port",
   id: "rsdkmodding-rsdkv2-decompilation",
-  title: "Sonic Nexus (RSDKv2-Decompilation)",
+  title: "Sonic Nexus",
   game: "Sonic Nexus",
   developers: ["RSDKModding"],
-  publisher: "Unknown",
+  publisher: "RSDKModding",
   originalYear: 2008,
   portType: "decompilation",
   genre: "platformer",
@@ -20,11 +20,9 @@ export const rsdkmoddingRsdkv2Decompilation: Port = {
   verified: false,
   sourceVerified: true,
   addedAt: "2026-10-23",
-  originalSystems: ["Unknown"],
-  summary: "Sonic Nexus is a platform game, released in 2008.",
-  summaryEs: "Sonic Nexus es un videojuego de plataformas, lanzado en 2008.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Windows"],
+  summary: "Sonic Nexus is a 2008 fan-made Sonic the Hedgehog platform game built with the RSDK engine.",
+  summaryEs: "Sonic Nexus es un juego de plataformas de Sonic hecho por fans en 2008, construido con el motor RSDK.",  downloads: [
     {
       label: "Windows x64",
       url: "https://github.com/RSDKModding/RSDKv2-Decompilation/releases/download/v1.0.2/win_x64.zip",

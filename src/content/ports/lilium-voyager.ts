@@ -2,14 +2,15 @@ import type { Port } from "@/lib/ports/schema";
 
 export const LiliumVoyager: Port = {
   schema: "port",
+  kind: "tool",
   id: "lilium-voyager",
-  title: "Lilium-voyager",
-  game: "lilium-voyager",
+  title: "Lilium Voyager",
+  game: "Star Trek: Voyager – Elite Force",
   developers: ["clover-moe"],
-  publisher: "Unknown",
+  publisher: "Activision",
   originalYear: 2000,
   portType: "source-port",
-  genre: "action-adventure",
+  genre: "shooter",
   openSource: true,
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
@@ -19,11 +20,9 @@ export const LiliumVoyager: Port = {
   license: { spdx: "GPL-2.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "lilium-voyager is a action-adventure game, released in 2000.",
-  summaryEs: "lilium-voyager es un videojuego de acci�n y aventura, lanzado en 2000.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Windows"],
+  summary: "Lilium Voyager is an engine replacement for Star Trek: Voyager – Elite Force Holomatch, the multiplayer component of the 2000 shooter published by Activision.",
+  summaryEs: "Lilium Voyager es un reemplazo de motor para Star Trek: Voyager – Elite Force Holomatch, el componente multijugador del shooter de 2000 publicado por Activision.",  downloads: [
     {
       label: "macOS",
       url: "https://github.com/clover-moe/lilium-voyager/releases/download/v1.40/liliumvoyager-1.40-macosx.dmg",

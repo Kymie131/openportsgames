@@ -6,7 +6,7 @@ export const pinballNxSwitch: Port = {
   title: "Pinball NX (Switch)",
   game: "Pinball NX",
   developers: ["minkcv"],
-  publisher: "Homebrew",
+  publisher: "minkcv",
   originalYear: 2021,
   portType: "source-port",
   genre: "simulation",
@@ -20,11 +20,9 @@ export const pinballNxSwitch: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Pinball NX is a simulation game published by Homebrew, released in 2021.",
-  summaryEs: "Pinball NX es un videojuego de simulaci�n publicado por Homebrew, lanzado en 2021.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Nintendo Switch"],
+  summary: "Pinball NX (Switch) is a 2021 homebrew simulation game for the Nintendo Switch, developed by minkcv.",
+  summaryEs: "Pinball NX (Switch) es un juego de simulación homebrew de 2021 para Nintendo Switch, desarrollado por minkcv.",  downloads: [
     {
       label: "Switch",
       url: "https://github.com/minkcv/pinballnx/releases/download/1.0/pinballnx.zip",
