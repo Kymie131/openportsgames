@@ -6,7 +6,7 @@ export const coquiSnes: Port = {
   title: "Coqui (SNES)",
   game: "Coqui",
   developers: ["VibezZzCoder"],
-  publisher: "Homebrew",
+  publisher: "VibezZzCoder",
   originalYear: 2026,
   portType: "source-port",
   genre: "platformer",
@@ -20,11 +20,9 @@ export const coquiSnes: Port = {
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Coqui is a platform game published by Homebrew, released in 2026.",
-  summaryEs: "Coqui es un videojuego de plataformas publicado por Homebrew, lanzado en 2026.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Super Nintendo"],
+  summary: "Coqui is a 2026 homebrew platform game for the Super Nintendo, developed by VibezZzCoder with original pixel art and music.",
+  summaryEs: "Coqui es un juego de plataformas casero de 2026 para Super Nintendo, desarrollado por VibezZzCoder con arte de píxeles y música originales.",  downloads: [
     {
       label: "Snes",
       url: "https://github.com/VibezZzCoder/coqui-snes/releases/download/v1.1/coqui-al-anochecer-v1.1.zip",

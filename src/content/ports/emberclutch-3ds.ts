@@ -6,7 +6,7 @@ export const emberclutch3ds: Port = {
   title: "Emberclutch (3DS)",
   game: "Emberclutch",
   developers: ["RedLynx101"],
-  publisher: "Homebrew",
+  publisher: "RedLynx101",
   originalYear: 2026,
   portType: "source-port",
   genre: "rpg",
@@ -20,11 +20,9 @@ export const emberclutch3ds: Port = {
   license: { spdx: "MIT" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Emberclutch is a role-playing game published by Homebrew, released in 2026.",
-  summaryEs: "Emberclutch es un videojuego de rol publicado por Homebrew, lanzado en 2026.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Nintendo 3DS"],
+  summary: "Emberclutch is a 2026 homebrew role-playing game for the Nintendo 3DS, developed by RedLynx101.",
+  summaryEs: "Emberclutch es un juego de rol casero de 2026 para Nintendo 3DS, desarrollado por RedLynx101.",  downloads: [
     {
       label: "3ds",
       url: "https://github.com/RedLynx101/emberclutch/releases/download/v1.0.2/emberclutch-1.0.2.zip",

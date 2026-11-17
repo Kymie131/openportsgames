@@ -6,7 +6,7 @@ export const gamearcadeSwitch: Port = {
   title: "GameArcade (Switch)",
   game: "GameArcade",
   developers: ["Sblerky"],
-  publisher: "Homebrew",
+  publisher: "Sblerky",
   originalYear: 2021,
   portType: "source-port",
   genre: "action-adventure",
@@ -20,11 +20,9 @@ export const gamearcadeSwitch: Port = {
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "GameArcade is a action-adventure game published by Homebrew, released in 2021.",
-  summaryEs: "GameArcade es un videojuego de acci�n y aventura publicado por Homebrew, lanzado en 2021.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Nintendo Switch"],
+  summary: "GameArcade is a 2021 homebrew arcade game collection for the Nintendo Switch, developed by Sblerky.",
+  summaryEs: "GameArcade es una colección de minijuegos arcade casera de 2021 para Nintendo Switch, desarrollada por Sblerky.",  downloads: [
     {
       label: "Switch",
       url: "https://github.com/Sblerky/GameArcade/releases/download/1.0.0/SblerkyArcade.nro",

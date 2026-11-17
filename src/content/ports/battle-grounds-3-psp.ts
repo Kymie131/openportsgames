@@ -6,8 +6,8 @@ export const battleGrounds3Psp: Port = {
   title: "Battle Grounds 3 (PSP)",
   game: "Battle Grounds 3",
   developers: ["xfacter"],
-  publisher: "Homebrew",
-  originalYear: 2020,
+  publisher: "xfacter",
+  originalYear: 2017,
   portType: "source-port",
   genre: "shooter",
   openSource: true,
@@ -20,11 +20,9 @@ export const battleGrounds3Psp: Port = {
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Battle Grounds 3 is a shooter game published by Homebrew, released in 2020.",
-  summaryEs: "Battle Grounds 3 es un videojuego de disparos publicado por Homebrew, lanzado en 2020.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["PlayStation Portable"],
+  summary: "Battle Grounds 3 is a homebrew first-person shooter for the PlayStation Portable, developed by xfacter.",
+  summaryEs: "Battle Grounds 3 es un shooter en primera persona casero para PlayStation Portable, desarrollado por xfacter.",  downloads: [
     {
       label: "Psp",
       url: "https://github.com/xfacter/battlegrounds3/releases/download/v0.5.0/bg3-v0.5.0.zip",

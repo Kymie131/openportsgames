@@ -6,7 +6,7 @@ export const asteroidsTerraSegaSaturn: Port = {
   title: "Asteroids Terra (Sega Saturn)",
   game: "Asteroids Terra",
   developers: ["mxfolken"],
-  publisher: "Homebrew",
+  publisher: "mxfolken",
   originalYear: 2021,
   portType: "source-port",
   genre: "shooter",
@@ -20,11 +20,9 @@ export const asteroidsTerraSegaSaturn: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Asteroids Terra is a shooter game published by Homebrew, released in 2021.",
-  summaryEs: "Asteroids Terra es un videojuego de disparos publicado por Homebrew, lanzado en 2021.",
-  summaryGenerated: true,
-  downloads: [
+  originalSystems: ["Sega Saturn"],
+  summary: "Asteroids Terra is a 2021 homebrew shooter for the Sega Saturn, developed by mxfolken. It is built from scratch for the console.",
+  summaryEs: "Asteroids Terra es un juego de disparos casero de 2021 para Sega Saturn, desarrollado por mxfolken. Está construido desde cero para la consola.",  downloads: [
     {
       label: "Saturn",
       url: "https://github.com/mxfolken/AsteroidsTerra/releases/download/1/asteroid.part01.rar",
