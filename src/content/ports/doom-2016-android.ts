@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const doom2016Android: Port = {
+  schema: "port",
+  id: "doom-2016-android",
+  title: "DOOM (2016) (Android)",
+  game: "DOOM",
+  developers: ["Desm0nt"],
+  publisher: "Bethesda Softworks",
+  originalYear: 2016,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "0.5.7", date: "2026-11-17" },
+  sources: ["https://github.com/Desm0nt/doom-port"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Nintendo Switch"],
+  summary: "DOOM is a 2016 first-person shooter developed by id Software and published by Bethesda Softworks. It reboots the series with fast demon combat on Mars and in Hell.",
+  summaryEs: "DOOM es un shooter en primera persona de 2016 desarrollado por id Software y publicado por Bethesda Softworks. Reinicia la serie con combates rápidos contra demonios en Marte y el Infierno.",
+  notes: "Native ARM64 Android port of the Nintendo Switch release, using Vulkan. Bring your own game files.",
+  notesEs: "Port nativo ARM64 para Android de la versión de Nintendo Switch, con Vulkan. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/doom.svg",
+    alt: "DOOM (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

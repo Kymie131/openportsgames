@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const finalFantasy7Vita: Port = {
+  schema: "port",
+  id: "final-fantasy-7-vita",
+  title: "Final Fantasy VII (PS Vita)",
+  game: "Final Fantasy VII",
+  developers: ["ggdrn"],
+  publisher: "Square",
+  originalYear: 1997,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.3.1", date: "2026-11-16" },
+  sources: ["https://github.com/ggdrn/METEOR-VII-VITA"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["PlayStation"],
+  summary: "Final Fantasy VII is a 1997 role-playing game developed and published by Square. Cloud Strife joins AVALANCHE against the Shinra corporation and the threat of Sephiroth.",
+  summaryEs: "Final Fantasy VII es un videojuego de rol de 1997 desarrollado y publicado por Square. Cloud Strife se une a AVALANCHE contra la corporación Shinra y la amenaza de Sephiroth.",
+  notes: "Port of the Android Legacy version to PS Vita. No game data is included.",
+  notesEs: "Port de la versión Android Legacy a PS Vita. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/final-fantasy-vii.svg",
+    alt: "Final Fantasy VII (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

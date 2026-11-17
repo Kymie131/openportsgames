@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const spiderMan2Switch: Port = {
+  schema: "port",
+  id: "spider-man-2-switch",
+  title: "Spider-Man 2 (Switch)",
+  game: "Spider-Man 2",
+  developers: ["SantiBros"],
+  publisher: "Activision",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "0.4.1", date: "2026-11-13" },
+  sources: ["https://github.com/SantiBros/SpiderMan2-2004-NX"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Xbox"],
+  summary: "Spider-Man 2 is a 2004 action-adventure game based on the film, developed by Treyarch and published by Activision. It lets players swing through New York City.",
+  summaryEs: "Spider-Man 2 es un videojuego de acción y aventura de 2004 basado en la película, desarrollado por Treyarch y publicado por Activision. Permite balancearse por Nueva York.",
+  notes: "Unofficial Nintendo Switch port of the original Xbox version, statically recompiled. Bring your own disc.",
+  notesEs: "Port no oficial para Nintendo Switch de la versión de Xbox original, recompilado estáticamente. Aporta tu propio disco.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/spider-man-2.svg",
+    alt: "Spider-Man 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

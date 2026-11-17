@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const plagueIncVita: Port = {
+  schema: "port",
+  id: "plague-inc-vita",
+  title: "Plague Inc. (PS Vita)",
+  game: "Plague Inc.",
+  developers: ["danroxn"],
+  publisher: "Ndemic Creations",
+  originalYear: 2012,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-10-20" },
+  sources: ["https://github.com/danroxn/plague_vita"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Other"],
+  summary: "Plague Inc. is a 2012 strategy simulation game developed and published by Ndemic Creations. The player evolves a pathogen to infect and wipe out humanity.",
+  summaryEs: "Plague Inc. es un juego de simulación estratégica de 2012 desarrollado y publicado por Ndemic Creations. El jugador evoluciona un patógeno para infectar y acabar con la humanidad.",
+  notes: "Port of the Android version to PS Vita. No game data is included.",
+  notesEs: "Port de la versión de Android a PS Vita. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/plague-inc.svg",
+    alt: "Plague Inc. (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const batmanArkhamCityLockdownVita: Port = {
+  schema: "port",
+  id: "batman-arkham-city-lockdown-vita",
+  title: "Batman: Arkham City Lockdown (PS Vita)",
+  game: "Batman: Arkham City Lockdown",
+  developers: ["KiddRwxSsj"],
+  publisher: "Warner Bros. Interactive Entertainment",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-10-29" },
+  sources: ["https://github.com/KiddRwxSsj/batman-acl-vita"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Other"],
+  summary: "Batman: Arkham City Lockdown is a 2011 mobile action game developed by NetherRealm Studios and published by Warner Bros. It adapts Arkham City's combat to touch-based battles.",
+  summaryEs: "Batman: Arkham City Lockdown es un juego de acción móvil de 2011 desarrollado por NetherRealm Studios y publicado por Warner Bros. Adapta el combate de Arkham City a batallas táctiles.",
+  notes: "PS Vita so-loader port of the Android game. No game data is included.",
+  notesEs: "Port para PS Vita mediante so-loader del juego de Android. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/batman-arkham-city-lockdown.svg",
+    alt: "Batman: Arkham City Lockdown (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

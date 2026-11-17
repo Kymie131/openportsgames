@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const asphalt5Vita: Port = {
+  schema: "port",
+  id: "asphalt-5-vita",
+  title: "Asphalt 5 (PS Vita)",
+  game: "Asphalt 5",
+  developers: ["MetalSyntax"],
+  publisher: "Gameloft",
+  originalYear: 2009,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.2.0", date: "2026-09-28" },
+  sources: ["https://github.com/MetalSyntax/Asphalt-5-Vita"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Other"],
+  summary: "Asphalt 5 is a 2009 racing game developed and published by Gameloft for mobile devices. It features arcade races and stunts across city tracks.",
+  summaryEs: "Asphalt 5 es un juego de carreras de 2009 desarrollado y publicado por Gameloft para dispositivos móviles. Ofrece carreras arcade y acrobacias en circuitos urbanos.",
+  notes: "Native PS Vita wrapper and port of the Android game. No game data is included.",
+  notesEs: "Envoltorio y port nativo para PS Vita del juego de Android. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/asphalt-5.svg",
+    alt: "Asphalt 5 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

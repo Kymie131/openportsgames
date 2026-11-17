@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const diablo3Android: Port = {
+  schema: "port",
+  id: "diablo-3-android",
+  title: "Diablo III (Android)",
+  game: "Diablo III",
+  developers: ["Desm0nt"],
+  publisher: "Blizzard Entertainment",
+  originalYear: 2012,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "0.2.22", date: "2026-11-16" },
+  sources: ["https://github.com/Desm0nt/diablo3-port"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Nintendo Switch"],
+  summary: "Diablo III is a 2012 action role-playing game developed and published by Blizzard Entertainment. Players choose a class and descend into Sanctuary to fight the forces of Hell.",
+  summaryEs: "Diablo III es un videojuego de rol de acción de 2012 desarrollado y publicado por Blizzard Entertainment. El jugador elige una clase y desciende a Santuario para luchar contra las fuerzas del Infierno.",
+  notes: "Native ARM64 Android port of Diablo III for Switch, with HLE and Vulkan. Bring your own game files.",
+  notesEs: "Port nativo ARM64 para Android de Diablo III de Switch, con HLE y Vulkan. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/diablo-iii.svg",
+    alt: "Diablo III (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

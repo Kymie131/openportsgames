@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zenonia3Vita: Port = {
+  schema: "port",
+  id: "zenonia-3-vita",
+  title: "Zenonia 3 (PS Vita)",
+  game: "Zenonia 3",
+  developers: ["MetalSyntax"],
+  publisher: "Gamevil",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.40", date: "2026-11-06" },
+  sources: ["https://github.com/MetalSyntax/zenonia3-psvita-port"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Other"],
+  summary: "Zenonia 3 is a 2011 action role-playing game developed and published by Gamevil for mobile devices. It follows a hero across a fantasy world in real-time combat.",
+  summaryEs: "Zenonia 3 es un videojuego de rol de acción de 2011 desarrollado y publicado por Gamevil para dispositivos móviles. Sigue a un héroe por un mundo de fantasía con combates en tiempo real.",
+  notes: "Android to PS Vita port with remappable controls. No game data is included.",
+  notesEs: "Port de Android a PS Vita con controles reasignables. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/zenonia-3.svg",
+    alt: "Zenonia 3 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const torchlight2Android: Port = {
+  schema: "port",
+  id: "torchlight-2-android",
+  title: "Torchlight II (Android)",
+  game: "Torchlight II",
+  developers: ["Desm0nt"],
+  publisher: "Runic Games",
+  originalYear: 2012,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: "0.1.4", date: "2026-11-16" },
+  sources: ["https://github.com/Desm0nt/torchlight2-port"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Nintendo Switch"],
+  summary: "Torchlight II is a 2012 action role-playing game developed and published by Runic Games. It offers loot-driven dungeon crawling with four classes and online co-op.",
+  summaryEs: "Torchlight II es un videojuego de rol de acción de 2012 desarrollado y publicado por Runic Games. Ofrece exploración de mazmorras con botín, cuatro clases y cooperativo en línea.",
+  notes: "Native Android port of the Switch version, with touch controls and mod support. Bring your own game files.",
+  notesEs: "Port nativo para Android de la versión de Switch, con controles táctiles y soporte de mods. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/torchlight-ii.svg",
+    alt: "Torchlight II (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

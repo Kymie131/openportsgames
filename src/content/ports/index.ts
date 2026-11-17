@@ -2891,6 +2891,20 @@ import { haloCeVita } from "./halo-ce-vita";
 import { geometryDashVita } from "./geometry-dash-vita";
 import { stardewValleyVita } from "./stardew-valley-vita";
 import { harryPotterHpengine } from "./harry-potter-hpengine";
+import { totkAndroid } from "./totk-android";
+import { doom2016Android } from "./doom-2016-android";
+import { diablo3Android } from "./diablo-3-android";
+import { simpsonsArcadeSwitch } from "./simpsons-arcade-switch";
+import { torchlight2Android } from "./torchlight-2-android";
+import { spiderMan2Switch } from "./spider-man-2-switch";
+import { zenonia3Vita } from "./zenonia-3-vita";
+import { raymanJungleRunVita } from "./rayman-jungle-run-vita";
+import { asphalt5Vita } from "./asphalt-5-vita";
+import { asphalt6Vita } from "./asphalt-6-vita";
+import { batmanArkhamCityLockdownVita } from "./batman-arkham-city-lockdown-vita";
+import { plagueIncVita } from "./plague-inc-vita";
+import { castlevaniaSotnVita } from "./castlevania-sotn-vita";
+import { finalFantasy7Vita } from "./final-fantasy-7-vita";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5781,4 +5795,18 @@ export const portCases: Port[] = [
   geometryDashVita,
   stardewValleyVita,
   harryPotterHpengine,
+  totkAndroid,
+  doom2016Android,
+  diablo3Android,
+  simpsonsArcadeSwitch,
+  torchlight2Android,
+  spiderMan2Switch,
+  zenonia3Vita,
+  raymanJungleRunVita,
+  asphalt5Vita,
+  asphalt6Vita,
+  batmanArkhamCityLockdownVita,
+  plagueIncVita,
+  castlevaniaSotnVita,
+  finalFantasy7Vita,
 ];

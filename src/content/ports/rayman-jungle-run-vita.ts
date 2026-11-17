@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const raymanJungleRunVita: Port = {
+  schema: "port",
+  id: "rayman-jungle-run-vita",
+  title: "Rayman Jungle Run (PS Vita)",
+  game: "Rayman Jungle Run",
+  developers: ["MetalSyntax"],
+  publisher: "Ubisoft",
+  originalYear: 2012,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.2.0", date: "2026-11-06" },
+  sources: ["https://github.com/MetalSyntax/Rayman-Jungle-Run-vita"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Other"],
+  summary: "Rayman Jungle Run is a 2012 auto-running platform game developed by Pastagames and published by Ubisoft. It adapts Rayman Origins' visuals to short mobile levels.",
+  summaryEs: "Rayman Jungle Run es un juego de plataformas de carrera automática de 2012 desarrollado por Pastagames y publicado por Ubisoft. Adapta el estilo de Rayman Origins a niveles cortos para móvil.",
+  notes: "Android to PS Vita port. No game data is included.",
+  notesEs: "Port de Android a PS Vita. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/rayman-jungle-run.svg",
+    alt: "Rayman Jungle Run (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

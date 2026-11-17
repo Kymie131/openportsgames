@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const simpsonsArcadeSwitch: Port = {
+  schema: "port",
+  id: "simpsons-arcade-switch",
+  title: "The Simpsons Arcade (Switch/Android)",
+  game: "The Simpsons Arcade Game",
+  developers: ["cheviman"],
+  publisher: "Konami",
+  originalYear: 1991,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch","android"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-11-15" },
+  sources: ["https://github.com/cheviman/simpsons-port"],
+  license: { spdx: "BSD-3-Clause" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Arcade"],
+  summary: "The Simpsons Arcade Game is a 1991 beat 'em up developed and published by Konami. The Simpsons family fights through Springfield to rescue Maggie.",
+  summaryEs: "The Simpsons Arcade Game es un beat 'em up de 1991 desarrollado y publicado por Konami. La familia Simpson recorre Springfield para rescatar a Maggie.",
+  notes: "Native port of the arcade game to Switch, Android, desktop and iOS, built from your own ROM set. No game files are included.",
+  notesEs: "Port nativo del juego arcade a Switch, Android, escritorio e iOS, creado a partir de tu propio conjunto de ROMs. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-simpsons-arcade-game.svg",
+    alt: "The Simpsons Arcade Game (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

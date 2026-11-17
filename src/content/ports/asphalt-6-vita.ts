@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const asphalt6Vita: Port = {
+  schema: "port",
+  id: "asphalt-6-vita",
+  title: "Asphalt 6: Adrenaline (PS Vita)",
+  game: "Asphalt 6: Adrenaline",
+  developers: ["MetalSyntax"],
+  publisher: "Gameloft",
+  originalYear: 2010,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "0.2.1", date: "2026-09-27" },
+  sources: ["https://github.com/MetalSyntax/Asphalt-6-Vita"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Other"],
+  summary: "Asphalt 6: Adrenaline is a 2010 racing game developed and published by Gameloft. It adds more cars, tracks and multiplayer to the mobile arcade racing series.",
+  summaryEs: "Asphalt 6: Adrenaline es un juego de carreras de 2010 desarrollado y publicado por Gameloft. Añade más coches, circuitos y multijugador a la serie arcade móvil.",
+  notes: "Android to PS Vita port. No game data is included.",
+  notesEs: "Port de Android a PS Vita. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/asphalt-6-adrenaline.svg",
+    alt: "Asphalt 6: Adrenaline (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

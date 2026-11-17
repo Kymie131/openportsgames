@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const totkAndroid: Port = {
+  schema: "port",
+  id: "totk-android",
+  title: "Tears of the Kingdom (Android)",
+  game: "The Legend of Zelda: Tears of the Kingdom",
+  developers: ["AurelioB"],
+  publisher: "Nintendo",
+  originalYear: 2023,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-11-05" },
+  sources: ["https://github.com/AurelioB/totk-android"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Nintendo Switch"],
+  summary: "The Legend of Zelda: Tears of the Kingdom is a 2023 action-adventure game developed and published by Nintendo for the Nintendo Switch. Link explores Hyrule's skies and depths to stop Ganondorf.",
+  summaryEs: "The Legend of Zelda: Tears of the Kingdom es un videojuego de acción y aventura de 2023 desarrollado y publicado por Nintendo para Nintendo Switch. Link explora los cielos y las profundidades de Hyrule para detener a Ganondorf.",
+  notes: "Native Android port of Tears of the Kingdom, requiring your own game files. No game data is included.",
+  notesEs: "Port nativo para Android de Tears of the Kingdom, que requiere tus propios archivos. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-tears-of-the-kingdom.svg",
+    alt: "The Legend of Zelda: Tears of the Kingdom (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
