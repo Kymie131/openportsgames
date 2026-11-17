@@ -111,6 +111,7 @@ const TOOL_IDS = [
   "vorpalfix",
   "nx2android",
   "droidplay-core",
+  "nx2androidx",
 ];
 const NON_GAME_IDS = [...SYSTEM_IDS, ...TOOL_IDS].sort();
 

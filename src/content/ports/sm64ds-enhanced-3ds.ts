@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sm64dsEnhanced3ds: Port = {
+  schema: "port",
+  id: "sm64ds-enhanced-3ds",
+  title: "Super Mario 64 DS Enhanced (3DS)",
+  game: "Super Mario 64 DS",
+  developers: ["ethanseagull"],
+  publisher: "Nintendo",
+  originalYear: 2004,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: "1.1.0", date: "2026-10-31" },
+  sources: ["https://github.com/ethanseagull/sm64ds-enhanced"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Nintendo DS"],
+  summary: "Super Mario 64 DS is a 2004 enhanced remake of Super Mario 64 for the Nintendo DS. It adds new characters, minigames and touch-screen features to the N64 classic.",
+  summaryEs: "Super Mario 64 DS es un remake mejorado de 2004 de Super Mario 64 para Nintendo DS. Añade nuevos personajes, minijuegos y funciones táctiles al clásico de N64.",
+  notes: "Native Nintendo 3DS port with enhancements, built from your own cartridge as an installable CIA.",
+  notesEs: "Port nativo para Nintendo 3DS con mejoras, creado desde tu propio cartucho como CIA instalable.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/super-mario-64-ds.svg",
+    alt: "Super Mario 64 DS (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

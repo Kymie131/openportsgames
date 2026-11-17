@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const robotron64Android: Port = {
+  schema: "port",
+  id: "robotron-64-android",
+  title: "Robotron 64 (Android)",
+  game: "Robotron 64",
+  developers: ["MGZeroes"],
+  publisher: "Crave Entertainment",
+  originalYear: 1998,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-11-11" },
+  sources: ["https://github.com/MGZeroes/Robotron64Recompiled"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Nintendo 64"],
+  summary: "Robotron 64 is a 1998 twin-stick shooter developed by Player 1 and published by Crave Entertainment for the Nintendo 64. It updates the arcade classic with 3D arenas.",
+  summaryEs: "Robotron 64 es un shooter de doble palanca de 1998 desarrollado por Player 1 y publicado por Crave Entertainment para Nintendo 64. Actualiza el clásico arcade con arenas 3D.",
+  notes: "Native Android port built with N64: Recompiled, also available for Windows and Linux. Bring your own ROM.",
+  notesEs: "Port nativo para Android creado con N64: Recompiled, también disponible para Windows y Linux. Aporta tu propia ROM.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/robotron-64.svg",
+    alt: "Robotron 64 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

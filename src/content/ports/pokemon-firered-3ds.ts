@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pokemonFirered3ds: Port = {
+  schema: "port",
+  id: "pokemon-firered-3ds",
+  title: "Pokémon FireRed (3DS)",
+  game: "Pokémon FireRed",
+  developers: ["alex61194"],
+  publisher: "Nintendo",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: "0.6.0", date: "2026-11-14" },
+  sources: ["https://github.com/alex61194/twin-embers"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Game Boy Advance"],
+  summary: "Pokémon FireRed is a 2004 remake of the original Pokémon Red for the Game Boy Advance. It follows a trainer through the Kanto region on a quest to become Champion.",
+  summaryEs: "Pokémon FireRed es un remake de 2004 del Pokémon Red original para Game Boy Advance. Sigue a un entrenador por la región de Kanto en su camino a ser Campeón.",
+  notes: "Native Nintendo 3DS port; source only, built with your own ROM. No game files are included.",
+  notesEs: "Port nativo para Nintendo 3DS; solo código, compilado con tu propia ROM. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/pokemon-firered.svg",
+    alt: "Pokémon FireRed (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

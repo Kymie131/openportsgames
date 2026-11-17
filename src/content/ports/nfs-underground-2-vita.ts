@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nfsUnderground2Vita: Port = {
+  schema: "port",
+  id: "nfs-underground-2-vita",
+  title: "Need for Speed: Underground 2 (PS Vita)",
+  game: "Need for Speed: Underground 2",
+  developers: ["danos-x5"],
+  publisher: "Electronic Arts",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "0.8.1", date: "2026-11-16" },
+  sources: ["https://github.com/danos-x5/NFSUG2_VITA"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Windows"],
+  summary: "Need for Speed: Underground 2 is a 2004 racing game developed by EA Black Box and published by Electronic Arts. It is set in the open city of Bayview with extensive car tuning.",
+  summaryEs: "Need for Speed: Underground 2 es un juego de carreras de 2004 desarrollado por EA Black Box y publicado por Electronic Arts. Se ambienta en la ciudad abierta de Bayview con amplia personalización de coches.",
+  notes: "PS Vita fan port that runs your own PC copy of version 1.2. No game files are included.",
+  notesEs: "Port fan para PS Vita que ejecuta tu propia copia de PC de la versión 1.2. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/need-for-speed-underground-2.svg",
+    alt: "Need for Speed: Underground 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

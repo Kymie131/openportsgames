@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const snowboardKids2Android: Port = {
+  schema: "port",
+  id: "snowboard-kids-2-android",
+  title: "Snowboard Kids 2 (Android)",
+  game: "Snowboard Kids 2",
+  developers: ["kardeiro"],
+  publisher: "Atlus",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "0.1.0", date: "2026-08-03" },
+  sources: ["https://github.com/kardeiro/snowboardkids2-recomp-Android"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Nintendo 64"],
+  summary: "Snowboard Kids 2 is a 1999 snowboarding racing game developed by Racdym and published by Atlus for the Nintendo 64. It adds new courses, characters and boards to the series.",
+  summaryEs: "Snowboard Kids 2 es un juego de carreras de snowboard de 1999 desarrollado por Racdym y publicado por Atlus para Nintendo 64. Añade circuitos, personajes y tablas a la serie.",
+  notes: "Android port of the N64: Recompiled project. Bring your own ROM.",
+  notesEs: "Port para Android del proyecto N64: Recompiled. Aporta tu propia ROM.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/snowboard-kids-2.svg",
+    alt: "Snowboard Kids 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

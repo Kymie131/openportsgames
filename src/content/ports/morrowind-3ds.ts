@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const morrowind3ds: Port = {
+  schema: "port",
+  id: "morrowind-3ds",
+  title: "Morrowind (3DS)",
+  game: "The Elder Scrolls III: Morrowind",
+  developers: ["3ds-conspiracy"],
+  publisher: "Bethesda Softworks",
+  originalYear: 2002,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: "0.2.12", date: "2026-11-14" },
+  sources: ["https://github.com/3ds-conspiracy/mw3ds"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Windows"],
+  summary: "The Elder Scrolls III: Morrowind is a 2002 open-world role-playing game developed by Bethesda Game Studios and published by Bethesda Softworks. It is set on the island of Vvardenfell.",
+  summaryEs: "The Elder Scrolls III: Morrowind es un videojuego de rol de mundo abierto de 2002 desarrollado por Bethesda Game Studios y publicado por Bethesda Softworks. Se ambienta en la isla de Vvardenfell.",
+  notes: "From-scratch Morrowind engine for the Nintendo 3DS. Bring your own game files.",
+  notesEs: "Motor de Morrowind escrito desde cero para Nintendo 3DS. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-elder-scrolls-iii-morrowind.svg",
+    alt: "The Elder Scrolls III: Morrowind (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

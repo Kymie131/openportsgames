@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superMarioSunshine3ds: Port = {
+  schema: "port",
+  id: "super-mario-sunshine-3ds",
+  title: "Super Mario Sunshine (3DS)",
+  game: "Super Mario Sunshine",
+  developers: ["ikevik"],
+  publisher: "Nintendo",
+  originalYear: 2002,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: "0.1.2", date: "2026-10-27" },
+  sources: ["https://github.com/ikevik/sms-3ds"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Nintendo GameCube"],
+  summary: "Super Mario Sunshine is a 2002 3D platform game developed and published by Nintendo for the GameCube. Mario cleans up Isle Delfino with the water-powered F.L.U.D.D. device.",
+  summaryEs: "Super Mario Sunshine es un juego de plataformas 3D de 2002 desarrollado y publicado por Nintendo para GameCube. Mario limpia la Isla Delfino con el dispositivo de agua F.L.U.D.D.",
+  notes: "Native New Nintendo 3DS port of the decompiled game. Requires your own GMSE01 disc image.",
+  notesEs: "Port nativo para New Nintendo 3DS del juego decompilado. Requiere tu propia imagen de disco GMSE01.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/super-mario-sunshine.svg",
+    alt: "Super Mario Sunshine (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const twilightPrincessPs5Griches: Port = {
+  schema: "port",
+  id: "twilight-princess-ps5-griches",
+  title: "Twilight Princess (PS5, griches)",
+  game: "The Legend of Zelda: Twilight Princess",
+  developers: ["griches"],
+  publisher: "Nintendo",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps5"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-10-14" },
+  sources: ["https://github.com/griches/PS5_Dusklight"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["GameCube"],
+  summary: "The Legend of Zelda: Twilight Princess is a 2006 action-adventure game developed and published by Nintendo. Link shapeshifts into a wolf while fighting the Twilight Realm.",
+  summaryEs: "The Legend of Zelda: Twilight Princess es un videojuego de acción y aventura de 2006 desarrollado y publicado por Nintendo. Link se transforma en lobo mientras combate al Reino del Crepúsculo.",
+  notes: "PS5 homebrew port of Dusklight on RADV, Aurora and SDL3. Bring your own disc image.",
+  notesEs: "Port homebrew para PS5 de Dusklight sobre RADV, Aurora y SDL3. Aporta tu propia imagen de disco.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-twilight-princess.svg",
+    alt: "The Legend of Zelda: Twilight Princess (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

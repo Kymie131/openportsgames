@@ -2905,6 +2905,18 @@ import { batmanArkhamCityLockdownVita } from "./batman-arkham-city-lockdown-vita
 import { plagueIncVita } from "./plague-inc-vita";
 import { castlevaniaSotnVita } from "./castlevania-sotn-vita";
 import { finalFantasy7Vita } from "./final-fantasy-7-vita";
+import { snowboardKids2Android } from "./snowboard-kids-2-android";
+import { robotron64Android } from "./robotron-64-android";
+import { twilightPrincessPs5Griches } from "./twilight-princess-ps5-griches";
+import { morrowind3ds } from "./morrowind-3ds";
+import { pokemonFirered3ds } from "./pokemon-firered-3ds";
+import { superMarioSunshine3ds } from "./super-mario-sunshine-3ds";
+import { sm64dsEnhanced3ds } from "./sm64ds-enhanced-3ds";
+import { realRacing3Vita } from "./real-racing-3-vita";
+import { nfsUnderground2Vita } from "./nfs-underground-2-vita";
+import { theSimsVita } from "./the-sims-vita";
+import { twilightPrincessVita } from "./twilight-princess-vita";
+import { nx2androidx } from "./nx2androidx";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5809,4 +5821,16 @@ export const portCases: Port[] = [
   plagueIncVita,
   castlevaniaSotnVita,
   finalFantasy7Vita,
+  snowboardKids2Android,
+  robotron64Android,
+  twilightPrincessPs5Griches,
+  morrowind3ds,
+  pokemonFirered3ds,
+  superMarioSunshine3ds,
+  sm64dsEnhanced3ds,
+  realRacing3Vita,
+  nfsUnderground2Vita,
+  theSimsVita,
+  twilightPrincessVita,
+  nx2androidx,
 ];

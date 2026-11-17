@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const realRacing3Vita: Port = {
+  schema: "port",
+  id: "real-racing-3-vita",
+  title: "Real Racing 3 (PS Vita)",
+  game: "Real Racing 3",
+  developers: ["CHUTA7X"],
+  publisher: "Electronic Arts",
+  originalYear: 2013,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "3.6.3", date: "2026-10-21" },
+  sources: ["https://github.com/CHUTA7X/Real-Racing-3-Port-Release"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Other"],
+  summary: "Real Racing 3 is a 2013 racing game developed by Firemonkeys Studios and published by Electronic Arts. It offers licensed cars and tracks with touch and tilt controls.",
+  summaryEs: "Real Racing 3 es un juego de carreras de 2013 desarrollado por Firemonkeys Studios y publicado por Electronic Arts. Ofrece coches y circuitos con licencia y controles táctiles e inclinación.",
+  notes: "PS Vita port based on the 1.4.0 Mali graphics version. No game data is included.",
+  notesEs: "Port para PS Vita basado en la versión gráfica Mali 1.4.0. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/real-racing-3.svg",
+    alt: "Real Racing 3 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

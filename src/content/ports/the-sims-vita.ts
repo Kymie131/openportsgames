@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const theSimsVita: Port = {
+  schema: "port",
+  id: "the-sims-vita",
+  title: "The Sims (PS Vita)",
+  game: "The Sims",
+  developers: ["marcocatena"],
+  publisher: "Electronic Arts",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.1.0", date: "2026-11-14" },
+  sources: ["https://github.com/marcocatena/TheSimsVita-release"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Windows"],
+  summary: "The Sims is a 2000 life simulation game developed by Maxis and published by Electronic Arts. Players build homes and manage the daily lives of simulated people.",
+  summaryEs: "The Sims es un juego de simulación social de 2000 desarrollado por Maxis y publicado por Electronic Arts. El jugador construye casas y gestiona la vida diaria de personas simuladas.",
+  notes: "Native PS Vita engine that plays The Sims and its expansions from your own Legacy Collection files.",
+  notesEs: "Motor nativo para PS Vita que ejecuta The Sims y sus expansiones desde tus propios archivos de Legacy Collection.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-sims.svg",
+    alt: "The Sims (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

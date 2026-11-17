@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const twilightPrincessVita: Port = {
+  schema: "port",
+  id: "twilight-princess-vita",
+  title: "Twilight Princess (PS Vita)",
+  game: "The Legend of Zelda: Twilight Princess",
+  developers: ["NathanKneT"],
+  publisher: "Nintendo",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "0.9.0", date: "2026-11-14" },
+  sources: ["https://github.com/NathanKneT/DuskOnVita"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["GameCube"],
+  summary: "The Legend of Zelda: Twilight Princess is a 2006 action-adventure game developed and published by Nintendo. Link shapeshifts into a wolf while fighting the Twilight Realm.",
+  summaryEs: "The Legend of Zelda: Twilight Princess es un videojuego de acción y aventura de 2006 desarrollado y publicado por Nintendo. Link se transforma en lobo mientras combate al Reino del Crepúsculo.",
+  notes: "Independent PS Vita port built on Dusklight, still a work in progress. Bring your own game files.",
+  notesEs: "Port independiente para PS Vita basado en Dusklight, aún en desarrollo. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-twilight-princess.svg",
+    alt: "The Legend of Zelda: Twilight Princess (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
