@@ -21,9 +21,10 @@ export const enchantedArmsRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-25",
   originalSystems: ["Xbox 360"],
-  summary: "Enchanted Arms is a role-playing game published by Ubisoft for Xbox 360, released in 2006.",
-  summaryEs: "Enchanted Arms es un videojuego de rol publicado por Ubisoft para Xbox 360, lanzado en 2006.",
-  summaryGenerated: true,
+  summary:
+    "Enchanted Arms is a 2006 role-playing game developed by FromSoftware and published by Ubisoft in the West. It follows Atsuma in a world where golems are controlled by enchanted arms, with turn-based battles on a grid.",
+  summaryEs:
+    "Enchanted Arms es un videojuego de rol de 2006 desarrollado por FromSoftware y publicado por Ubisoft en Occidente. Sigue a Atsuma en un mundo donde los gólems se controlan con brazos encantados, con combates por turnos sobre una cuadrícula.",
   cover: {
     src: "https://openportsgames.com/covers/generated/enchanted-arms.svg",
     alt: "Enchanted Arms (generated cover)",

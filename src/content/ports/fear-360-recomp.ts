@@ -21,9 +21,10 @@ export const fear360Recomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-24",
   originalSystems: ["Xbox 360"],
-  summary: "F.E.A.R. is a shooter game published by Vivendi Universal Games for Xbox 360, released in 2006.",
-  summaryEs: "F.E.A.R. es un videojuego de disparos publicado por Vivendi Universal Games para Xbox 360, lanzado en 2006.",
-  summaryGenerated: true,
+  summary:
+    "F.E.A.R. is a 2006 first-person shooter developed by Monolith Productions and published by Vivendi Universal Games. It follows a supernatural special-forces operative hunting a psychic threat while confronting the girl Alma.",
+  summaryEs:
+    "F.E.A.R. es un shooter en primera persona de 2006 desarrollado por Monolith Productions y publicado por Vivendi Universal Games. Sigue a un operativo de fuerzas especiales con poderes paranormales que persigue una amenaza psíquica mientras se enfrenta a la niña Alma.",
   downloads: [
     {
       label: "Windows",

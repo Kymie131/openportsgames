@@ -21,9 +21,10 @@ export const beatlesRockBandPc: Port = {
   sourceVerified: true,
   addedAt: "2026-10-25",
   originalSystems: ["Xbox 360"],
-  summary: "The Beatles: Rock Band is a music game published by MTV Games for Xbox 360, released in 2009.",
-  summaryEs: "The Beatles: Rock Band es un videojuego de m�sica publicado por MTV Games para Xbox 360, lanzado en 2009.",
-  summaryGenerated: true,
+  summary:
+    "The Beatles: Rock Band is a 2009 music game developed by Harmonix and published by MTV Games. It recreates the band's career across studios and eras, with instrument controllers and three-part vocal harmonies.",
+  summaryEs:
+    "The Beatles: Rock Band es un videojuego de música de 2009 desarrollado por Harmonix y publicado por MTV Games. Recorre la carrera de la banda por estudios y épocas, con controladores de instrumentos y armonías vocales a tres voces.",
   downloads: [
     {
       label: "Windows",

@@ -7,7 +7,7 @@ export const callOfJuarezRecomp: Port = {
   game: "Call of Juarez",
   developers: ["rexelflip2-sudo"],
   publisher: "Ubisoft",
-  originalYear: 2007,
+  originalYear: 2006,
   portType: "recompilation",
   genre: "shooter",
   openSource: true,
@@ -21,9 +21,10 @@ export const callOfJuarezRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-25",
   originalSystems: ["Xbox 360"],
-  summary: "Call of Juarez is a shooter game published by Ubisoft for Xbox 360, released in 2007.",
-  summaryEs: "Call of Juarez es un videojuego de disparos publicado por Ubisoft para Xbox 360, lanzado en 2007.",
-  summaryGenerated: true,
+  summary:
+    "Call of Juarez is a 2006 first-person shooter developed by Techland and published by Ubisoft. Set in the American Old West, it alternates between the gunslinger Ray and the fugitive Billy in a hunt for a legendary treasure.",
+  summaryEs:
+    "Call of Juarez es un shooter en primera persona de 2006 desarrollado por Techland y publicado por Ubisoft. Ambientado en el Salvaje Oeste, alterna entre el pistolero Ray y el fugitivo Billy en la búsqueda de un tesoro legendario.",
   downloads: [
     {
       label: "Windows",

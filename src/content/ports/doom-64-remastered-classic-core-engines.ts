@@ -6,7 +6,7 @@ export const doom64RemasteredClassicCoreEngines: Port = {
   title: "Doom 64 Remastered (Classic Core Engines)",
   game: "Doom 64 Remastered",
   developers: ["sandstranger"],
-  publisher: "id Software",
+  publisher: "Bethesda Softworks",
   originalYear: 2020,
   portType: "source-port",
   genre: "shooter",
@@ -19,10 +19,11 @@ export const doom64RemasteredClassicCoreEngines: Port = {
   license: { spdx: "GPL-3.0" },
   verified: false,
   sourceVerified: true,
-  originalSystems: ["Unknown"],
-  summary: "Doom 64 Remastered is a shooter game published by id Software, released in 2020.",
-  summaryEs: "Doom 64 Remastered es un videojuego de disparos publicado por id Software, lanzado en 2020.",
-  summaryGenerated: true,
+  originalSystems: ["Nintendo Switch"],
+  summary:
+    "Doom 64 Remastered is the 2020 re-release of the 1997 Nintendo 64 shooter, developed by Nightdive Studios and published by Bethesda Softworks. It adds widescreen support, higher frame rates and a new chapter while keeping the original campaign.",
+  summaryEs:
+    "Doom 64 Remastered es la reedición de 2020 del shooter de Nintendo 64 de 1997, desarrollada por Nightdive Studios y publicada por Bethesda Softworks. Añade pantalla ancha, mayores tasas de refresco y un nuevo capítulo manteniendo la campaña original.",
   downloads: [
     {
       label: "Android arm64",

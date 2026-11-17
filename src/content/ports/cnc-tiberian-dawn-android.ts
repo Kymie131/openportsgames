@@ -6,7 +6,7 @@ export const cncTiberianDawnAndroid: Port = {
   title: "Command & Conquer: Tiberian Dawn (Android)",
   game: "Command & Conquer: Tiberian Dawn",
   developers: ["dk8827"],
-  publisher: "Electronic Arts",
+  publisher: "Virgin Interactive",
   originalYear: 1995,
   portType: "source-port",
   genre: "strategy",
@@ -21,9 +21,10 @@ export const cncTiberianDawnAndroid: Port = {
   sourceVerified: true,
   addedAt: "2026-10-22",
   originalSystems: ["Windows"],
-  summary: "Command & Conquer: Tiberian Dawn is a strategy game published by Electronic Arts for Windows, released in 1995.",
-  summaryEs: "Command & Conquer: Tiberian Dawn es un videojuego de estrategia publicado por Electronic Arts para Windows, lanzado en 1995.",
-  summaryGenerated: true,
+  summary:
+    "Command & Conquer: Tiberian Dawn is a 1995 real-time strategy game developed by Westwood Studios and published by Virgin Interactive. It pits the Global Defense Initiative against the Brotherhood of Nod in a campaign fought over the alien resource Tiberium.",
+  summaryEs:
+    "Command & Conquer: Tiberian Dawn es un videojuego de estrategia en tiempo real de 1995 desarrollado por Westwood Studios y publicado por Virgin Interactive. Enfrenta a la Iniciativa de Defensa Global contra la Hermandad de Nod en una campaña por el recurso alienígena Tiberium.",
   cover: {
     src: "https://openportsgames.com/covers/generated/command-conquer-tiberian-dawn.svg",
     alt: "Command & Conquer: Tiberian Dawn (generated cover)",

@@ -21,9 +21,10 @@ export const ben10CosmicDestructionRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-24",
   originalSystems: ["Xbox 360"],
-  summary: "Ben 10: Cosmic Destruction is a action-adventure game published by D3 Publisher for Xbox 360, released in 2010.",
-  summaryEs: "Ben 10: Cosmic Destruction es un videojuego de acci�n y aventura publicado por D3 Publisher para Xbox 360, lanzado en 2010.",
-  summaryGenerated: true,
+  summary:
+    "Ben 10: Cosmic Destruction is a 2010 action-adventure game developed by Papaya Studio and published by D3 Publisher. Ben travels the world to collect the pieces of the Potis Altiare and unlock his ultimate alien forms.",
+  summaryEs:
+    "Ben 10: Cosmic Destruction es un videojuego de acción y aventura de 2010 desarrollado por Papaya Studio y publicado por D3 Publisher. Ben recorre el mundo para reunir las piezas del Potis Altiare y desbloquear sus formas alienígenas definitivas.",
   downloads: [
     {
       label: "Windows",

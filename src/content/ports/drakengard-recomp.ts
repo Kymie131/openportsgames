@@ -21,9 +21,10 @@ export const drakengardRecomp: Port = {
   sourceVerified: true,
   addedAt: "2026-10-25",
   originalSystems: ["PlayStation 2"],
-  summary: "Drakengard is a action-adventure game published by Square Enix for PlayStation 2, released in 2003.",
-  summaryEs: "Drakengard es un videojuego de acci�n y aventura publicado por Square Enix para PlayStation 2, lanzado en 2003.",
-  summaryGenerated: true,
+  summary:
+    "Drakengard is a 2003 action role-playing game developed by Cavia and published by Square Enix. It mixes ground and aerial dragon combat with a dark story that branches into multiple endings.",
+  summaryEs:
+    "Drakengard es un videojuego de rol de acción de 2003 desarrollado por Cavia y publicado por Square Enix. Combina combates terrestres y aéreos sobre dragón con una historia oscura que se ramifica en varios finales.",
   cover: {
     src: "https://thumbnails.libretro.com/Sony%20-%20PlayStation%202/Named_Boxarts/Drakengard%20(USA).png",
     alt: "Drakengard (box art)",
