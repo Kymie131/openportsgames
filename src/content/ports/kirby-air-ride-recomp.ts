@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const kirbyAirRideRecomp: Port = {
+  schema: "port",
+  id: "kirby-air-ride-recomp",
+  title: "Kirby Air Ride: Recompiled",
+  game: "Kirby Air Ride",
+  developers: ["sonsegajp"],
+  publisher: "Nintendo",
+  originalYear: 2003,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.3.1", date: "2026-11-03" },
+  sources: ["https://github.com/sonsegajp/Kirby-Air-Ride-Recompiled"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-16",
+  originalSystems: ["GameCube"],
+  summary: "Kirby Air Ride is a 2003 kart racing game developed by HAL Laboratory and published by Nintendo for the GameCube. A spin-off of the Kirby series, the player controls Kirby or his multicolored counterparts as they compete in races. The game supports up to four players, and was the first GameCube title to support LAN play using broadband adapters and up to four GameCube systems.",
+  summaryEs: "Kirby Air Ride, conocido en Japón como Kirby no Air Ride , es un videojuego de carreras desarrollado por HAL Laboratory y publicado por Nintendo para la videoconsola GameCube protagonizado por Kirby, uno de los personajes de HAL. Fue publicado en primer lugar en Japón el 11 de julio de 2003, y fue posteriormente publicado en América del Norte el 13 de octubre de 2003 y en Europa el 20 de febrero de 2004.",
+  notes: "Native Windows recompilation of Kirby Air Ride with widescreen and high refresh rates, plus online City Trial. Ships no game files: you must supply your own USA disc.",
+  notesEs: "Recompilación nativa para Windows de Kirby Air Ride con pantalla ancha y altas tasas de refresco, además de City Trial en línea. No incluye archivos del juego: debes aportar tu propio disco USA.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/kirby-air-ride.svg",
+    alt: "Kirby Air Ride (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

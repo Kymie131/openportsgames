@@ -2832,6 +2832,36 @@ import { dsKartRecompiled } from "./ds-kart-recompiled";
 import { mk7Recomp } from "./mk7-recomp";
 import { racing8DxRecomp } from "./racing-8-dx-recomp";
 import { mkwRecomp } from "./mkw-recomp";
+import { ultratears } from "./ultratears";
+import { weepingOfTheEmpire } from "./weeping-of-the-empire";
+import { recompia } from "./recompia";
+import { brawlRecompiled } from "./brawl-recompiled";
+import { xc3Recomp } from "./xc3-recomp";
+import { spaceAnimalsRecomp } from "./space-animals-recomp";
+import { paperCut } from "./paper-cut";
+import { fefwRecomp } from "./fefw-recomp";
+import { karpur } from "./karpur";
+import { swshRecomp } from "./swsh-recomp";
+import { sprRecomp } from "./spr-recomp";
+import { ootPcRecomp } from "./oot-pc-recomp";
+import { shadowRecomp } from "./shadow-recomp";
+import { warioWorldRecomp } from "./wario-world-recomp";
+import { kirbyAirRideRecomp } from "./kirby-air-ride-recomp";
+import { fzerogxRecomp } from "./fzerogx-recomp";
+import { primeRecomp } from "./prime-recomp";
+import { kirbyEpicYarnRecomp } from "./kirby-epic-yarn-recomp";
+import { nsmbwii3dsRecomp } from "./nsmbwii-3ds-recomp";
+import { xc2CircerioRecomp } from "./xc2-circerio-recomp";
+import { mkwSwitchRecomp } from "./mkw-switch-recomp";
+import { splatpc } from "./splatpc";
+import { marioPartyRecomp } from "./mario-party-recomp";
+import { orreLauncher } from "./orre-launcher";
+import { paperpad } from "./paperpad";
+import { b2hwiiAndroid } from "./b2hwii-android";
+import { bayo3Recomp } from "./bayo3-recomp";
+import { mzmRecomp } from "./mzm-recomp";
+import { superMarioKartRecomp } from "./super-mario-kart-recomp";
+import { kirbyTripleDeluxeRecomp } from "./kirby-triple-deluxe-recomp";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5663,4 +5693,34 @@ export const portCases: Port[] = [
   mk7Recomp,
   racing8DxRecomp,
   mkwRecomp,
+  ultratears,
+  weepingOfTheEmpire,
+  recompia,
+  brawlRecompiled,
+  xc3Recomp,
+  spaceAnimalsRecomp,
+  paperCut,
+  fefwRecomp,
+  karpur,
+  swshRecomp,
+  sprRecomp,
+  ootPcRecomp,
+  shadowRecomp,
+  warioWorldRecomp,
+  kirbyAirRideRecomp,
+  fzerogxRecomp,
+  primeRecomp,
+  kirbyEpicYarnRecomp,
+  nsmbwii3dsRecomp,
+  xc2CircerioRecomp,
+  mkwSwitchRecomp,
+  splatpc,
+  marioPartyRecomp,
+  orreLauncher,
+  paperpad,
+  b2hwiiAndroid,
+  bayo3Recomp,
+  mzmRecomp,
+  superMarioKartRecomp,
+  kirbyTripleDeluxeRecomp,
 ];

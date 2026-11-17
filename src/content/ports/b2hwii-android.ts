@@ -1,0 +1,37 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const b2hwiiAndroid: Port = {
+  schema: "port",
+  id: "b2hwii-android",
+  title: "Sengoku Basara 2 Heroes (Android)",
+  game: "Sengoku Basara 2 Heroes",
+  developers: ["PotatoRecomp"],
+  publisher: "Nintendo",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android", "windows"],
+  status: "beta",
+  release: { version: "1.2.1", date: "2026-11-09" },
+  sources: ["https://github.com/PotatoRecomp/B2HWii-Android"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-16",
+  originalSystems: ["Wii"],
+  summary: "Sengoku Basara 2 Heroes is a 2007 action game developed and published by Capcom for the Wii and PlayStation 2, part of the Sengoku Basara series.",
+  summaryEs: "Sengoku Basara 2 Heroes es un juego de acción de 2007 desarrollado y publicado por Capcom para Wii y PlayStation 2, parte de la serie Sengoku Basara.",
+  notes: "Unofficial Android (arm64) and Windows port of Sengoku Basara 2 Heroes (Wii, NTSC-J) with Vulkan. Ships no game files: you must supply your own copy.",
+  notesEs: "Port no oficial para Android (arm64) y Windows de Sengoku Basara 2 Heroes (Wii, NTSC-J) con Vulkan. No incluye archivos del juego: debes aportar tu propia copia.",
+  aiDisclosure: {
+    source: "https://github.com/PotatoRecomp/B2HWii-Android",
+    quote: "entirely coded by Claude Opus 5.5",
+  },
+  cover: {
+    src: "https://openportsgames.com/covers/generated/sengoku-basara-2-heroes.svg",
+    alt: "Sengoku Basara 2 Heroes (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

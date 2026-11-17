@@ -11,7 +11,7 @@
 1. La ola más reciente es la de **noviembre de 2026**: cuatro proyectos de recompilación (Super Mario Odyssey, Zelda: Skyward Sword HD, Mario Kart: Double Dash!! y Mario Tennis Fever) desaparecieron de GitHub/GitLab entre el 11 y el 13 de noviembre. **Nintendo no emitió una declaración pública** y **no hay un aviso DMCA publicado en el archivo de GitHub que nombre esos cuatro repositorios**; la atribución viene de prensa y del propio autor de PowerMoon.
 2. La ola de ports se separó por horas de otra acción verificable: el **6 de noviembre de 2026** Nintendo sí publicó avisos DMCA en GitHub contra redes de forks de emuladores de Switch y firmware de modchips (Citron, Picofly, listas de compatibilidad de Ryubing), con redes de hasta **144 repositorios**.
 3. El efecto práctico fue el contrario al buscado: en 72 horas aparecieron **reuploads y recomps independientes** de los mismos juegos (Odyssey, Double Dash, Skyward Sword HD), varios con releases públicas y cientos de estrellas.
-4. El catálogo ya cubría la generación anterior (Ship of Harkinian, 2Ship2Harkinian, Ghostship, sm64coopdx, Coz-0/smo-recomp, mk8-recomp). Faltaban **12 fichas** de esta ola; se añaden en esta pasada.
+4. El catálogo ya cubría la generación anterior (Ship of Harkinian, 2Ship2Harkinian, Ghostship, sm64coopdx, Coz-0/smo-recomp, mk8-recomp). En dos pasadas se añadieron **42 fichas**: 12 de la ola de takedowns y 30 de un barrido específico de ports de Nintendo que faltaban.
 5. Ninguno de los proyectos retirados distribuía archivos del juego de forma declarada: todos pedían tu propia copia. La retirada se apoya en el código derivado y en las TPM, no en la distribución de ROMs.
 
 ---
@@ -143,7 +143,7 @@ Esto importa para no repetir bulos: la ola de noviembre **no** tumbó los ports 
 | Twilight Princess HD | `twilight-princess-hd-macos` | Activa |
 | Mario Kart DS / 7 / Wii / 64 | varias fichas | Cobertura amplia |
 
-### 4.2 Faltaba (añadido en esta pasada)
+### 4.2 Primera pasada (12 fichas)
 
 1. `super-odyssey-pc-recomp` — Simon3Sarkis (Windows/Linux).
 2. `rwwo8-odyssey-recomp` — rwwo8 (Windows/Linux/macOS).
@@ -191,7 +191,62 @@ Esto importa para no repetir bulos: la ola de noviembre **no** tumbó los ports 
 
 ---
 
-## 7. Fuentes
+## 7. Segunda pasada: barrido de ports de Nintendo (30 fichas)
+
+**Método:** se cruzaron tres fuentes contra las URLs de repositorio del catálogo (2.800 repos únicos):
+
+1. `portedgames.com/recompiled-games` (399 entradas, 114 de plataformas Nintendo).
+2. 31 búsquedas de GitHub (`Nintendo 64/GameCube/Wii/Wii U/Switch/Switch 2 + recomp/decomp`, y por franquicia).
+3. Los `docs/*-MISSING.md` existentes.
+
+El barrido produjo 122 candidatos no catalogados. Se descartaron herramientas, emuladores, mods, forks sin valor propio, proyectos ya representados por otra ficha y repos sin release ni README verificable. Quedaron **30 fichas**:
+
+| Juego | Proyecto | Repo | Estado |
+| --- | --- | --- | --- |
+| Zelda: Tears of the Kingdom | UltraTears | `kuraeow/ultratears` | beta 0.4.0 |
+| Zelda: Tears of the Kingdom | Weeping of the Empire | `daniel-madrid-07/weeping-of-the-empire` | beta |
+| Zelda: Ocarina of Time (Switch 2) | OOT PC Recomp | `Chiuauaa/oot-pc-recomp` | alpha (WIP) |
+| Paper Mario: TTYD | Paper Cut | `LLCOOLT/paper-cut` | beta 0.5.1 |
+| Paper Mario | PaperPad | `chrissotraidis/paperpad` | beta 0.2.4 |
+| Mario Party | Mario Party: Recompiled | `n64hub/mario-party-recomp` | beta 0.2.14 |
+| Super Mario Kart | Super Mario Kart Recomp | `Zaxaerith/SuperMarioKartRecomp` | alpha 0.1.0 |
+| Kirby Air Ride | Kirby Air Ride: Recompiled | `sonsegajp/Kirby-Air-Ride-Recompiled` | beta 1.3.1 |
+| Kirby's Epic Yarn | Kirby's Epic Yarn Recompiled | `RivierGrullon/kirby-epic-yarn-recomp` | alpha 0.1.0 |
+| Kirby: Triple Deluxe | Kirby: Triple Deluxe Recompiled | `Okxmir/kirby-triple-deluxe-recompiled` | alpha (WIP) |
+| Metroid Prime | Prime Recomp | `ethannicholas/prime-recomp` | alpha (WIP) |
+| Metroid: Zero Mission | MZM Recomp | `HikariLucy/MZM-Recomp` | alpha (WIP) |
+| Pokémon Pokopia | Recompia | `Dittobyte/Recompia` | beta 0.14.1 |
+| Pokémon Scarlet/Violet | KarPur | `Grunttanamo/KarPur` | beta 0.3.8 |
+| Pokémon Sword/Shield | SwSh Recomp | `raulzrrs/swsh-recomp` | beta 0.3.0 |
+| Pokémon Colosseum + XD | Orre Launcher | `chasem-dev/colosseum-launcher` | beta 0.4.0 |
+| Xenoblade Chronicles 3 | XC3 Recomp | `jmars125/xc3-recomp` | beta 0.2.16 |
+| Xenoblade Chronicles 2 | XC2 Recomp (circerio) | `circerio/XC2-Recomp` | alpha (solo docs) |
+| Fire Emblem: Fortune's Weave | fefw-recomp | `metrist38/fefw-recomp` | beta 0.2.2 |
+| Splatoon | SplatPC | `PC-PORTERS/SplatPC-Splatoon-Native-PC-Port` | beta 1.0.4 |
+| Splatoon Raiders | SPR Recomp | `Elie-0066/SPR-Recomp-Project` | alpha 0.1.8 |
+| Mario Kart Wii | MKW Switch | `LockingFR/mkw-switch-recomp` | alpha (WIP) |
+| Super Smash Bros. Brawl | Brawl Recompiled | `josiahg2502-glitch/BrawlRecompiled` | beta 0.5.3 |
+| Star Fox (Switch 2) | SpaceAnimalsRecomp | `SerenityG4K/SpaceAnimalsRecomp` | beta 1.1.0 |
+| Bayonetta 3 | Bayonetta 3 Recomp | `aoxzh/bayo3-recomp` | beta 0.3.9 |
+| F-Zero GX | F-Zero GX Recomp | `ethannicholas/fzerogx-recomp` | alpha (WIP) |
+| New Super Mario Bros. Wii | NSMBWii-3DS-Recomp | `itsinspector/NSMBWii-3DS-Recomp` | alpha (WIP) |
+| Sengoku Basara 2 Heroes | B2HWii Android | `PotatoRecomp/B2HWii-Android` | beta 1.2.1 |
+| Shadow the Hedgehog | ShadowRecomp | `BigSnek9/ShadowRecomp` | beta 1.1 |
+| Wario World | Wario World Recomp | `BigSnek9/wario-world-recomp` | beta 1.0 |
+
+**Notas de verificación:** todas las fichas apuntan al repositorio oficial, declaran que no incluyen archivos del juego y usan `verified: false` (ninguna tiene release validada por el catálogo). Las fechas de release se normalizaron a la fecha de cierre (2026-11-16) cuando el feed Atom marcaba 2026-11-17 por zona horaria. `mario-party-recomp`, `space-animals-recomp`, `wario-world-recomp` y `b2hwii-android` llevan `aiDisclosure` porque su README declara autoría con IA.
+
+**Backlog que no se añadió a propósito:**
+
+- Herramientas y capas de ejecución: `SwitchRECOMP`, `Switch2RECOMP`, `DolRecomp`, `NWiiRecomp`, `CafeRecomp`, `RecompCore`, `atv-recomp`.
+- Mods, parches, trackers y packs: `MK64-Reloaded`, `totk-progress`, `gen1recomp-ds-mod`, `pkgforge` AppImages.
+- Forks duplicados sin valor diferencial: variantes de `fefw-recomp`, `xc2-recomp`, `engage-pc-recomp`, `ssbu-recomp`.
+- Proyectos ya cubiertos por otra ficha del catálogo: `luigis-mansion-recompiled`, `EternalDarknessRecomp`, `SkiesOfArcadiaLegends-Recomp`, `SotE-Recomp`, `wiiparty-recomp`, `B2recomp`, `sonic-riders-recomp`, `wave-race-64-recomp`, `pilotwings-64-recomp`, `NSMB-Wii-Multiplayer-Recompilation`, `DK64Recomp-NX`, `PokemonStadiumRecomp`.
+- Sin evidencia suficiente: repos de 0–3★ sin release, sin README o sin plataformas declaradas.
+
+---
+
+## 8. Fuentes
 
 ### Primarias
 

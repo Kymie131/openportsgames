@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const kirbyEpicYarnRecomp: Port = {
+  schema: "port",
+  id: "kirby-epic-yarn-recomp",
+  title: "Kirby's Epic Yarn Recompiled",
+  game: "Kirby's Epic Yarn",
+  developers: ["RivierGrullon"],
+  publisher: "Nintendo",
+  originalYear: 2010,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["linux", "windows"],
+  status: "alpha",
+  release: { version: "0.1.0", date: "2026-11-16" },
+  sources: ["https://github.com/RivierGrullon/kirby-epic-yarn-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-16",
+  originalSystems: ["Wii"],
+  summary: "Kirby's Epic Yarn is a 2010 platform game developed by Good-Feel and published by Nintendo for the Wii. It is an installment of the Kirby series and was released in October 2010 in Japan and North America and in February 2011 in Australia and Europe. It is the first entry in the Kirby series on a home video game console since 2003's Kirby Air Ride for the GameCube, and its first home console platform game since 2000's Kirby 64: The Crystal Shards for the Nintendo 64.",
+  summaryEs: "Kirby's Epic Yarn, conocido en Japón como Kirby de hilo , conocido como Kirby en el Reino de los Hilos en España es un juego de Kirby de plataformas para la consola Wii de Nintendo, convirtiéndose así en el primer juego de plataformas para consola casera de Kirby desde Kirby 64: The Crystal Shards. Es la décima entrega en plataforma de Kirby, y el posible reemplazo de consola casera para el juego Kirby Wii. Fue presentado en la E3 del 2010. Fue desarrollado principalmente por la compañía Good-Feel aunque HAL Laboratory también se vio involucrado.",
+  notes: "Native recompilation of Kirby's Epic Yarn built with WiiCompiled and Aurora. Linux is the tested target; Windows support is under development. No game files are included.",
+  notesEs: "Recompilación nativa de Kirby's Epic Yarn creada con WiiCompiled y Aurora. Linux es el objetivo probado; el soporte de Windows está en desarrollo. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/kirbys-epic-yarn.svg",
+    alt: "Kirby's Epic Yarn (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superMarioKartRecomp: Port = {
+  schema: "port",
+  id: "super-mario-kart-recomp",
+  title: "Super Mario Kart Recomp",
+  game: "Super Mario Kart",
+  developers: ["Zaxaerith"],
+  publisher: "Nintendo",
+  originalYear: 1992,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "alpha",
+  release: { version: "0.1.0", date: "2026-10-18" },
+  sources: ["https://github.com/Zaxaerith/SuperMarioKartRecomp"],
+  license: { spdx: "PolyForm-Noncommercial-1.0.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-16",
+  originalSystems: ["Super Nintendo"],
+  summary: "Super Mario Kart is a 1992 kart racing game developed and published by Nintendo for the Super Nintendo Entertainment System, the first entry in the Mario Kart series.",
+  summaryEs: "Super Mario Kart es un videojuego de carreras de karts de 1992 desarrollado y publicado por Nintendo para Super Nintendo, la primera entrega de la serie Mario Kart.",
+  notes: "Static recompilation of Super Mario Kart (SNES, USA) built with snesrecomp. Ships no game files: you must supply your own ROM.",
+  notesEs: "Recompilación estática de Super Mario Kart (SNES, USA) creada con snesrecomp. No incluye archivos del juego: debes aportar tu propia ROM.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/super-mario-kart.svg",
+    alt: "Super Mario Kart (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

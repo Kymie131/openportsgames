@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const orreLauncher: Port = {
+  schema: "port",
+  id: "orre-launcher",
+  title: "Orre Launcher (Pokémon Colosseum + XD)",
+  game: "Pokémon Colosseum",
+  developers: ["chasem-dev"],
+  publisher: "Nintendo",
+  originalYear: 2003,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "beta",
+  release: { version: "0.4.0-beta", date: "2026-11-16" },
+  sources: ["https://github.com/chasem-dev/colosseum-launcher"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-16",
+  originalSystems: ["GameCube"],
+  summary: "Pokémon Colosseum is a role-playing video game developed by Genius Sonority and published by The Pokémon Company and Nintendo for the GameCube. A spin-off of the Pokémon series, it was released on November 21, 2003, in Japan, March 22, 2004, in North America and May 14, 2004, in Europe. Unlike previous titles' random encounters with Pokémon, Colosseum allows the player to steal (\"snag\") the Pokémon of other Pokémon Trainers. The game also features single-player and multiplayer battle modes.",
+  summaryEs: "Pokémon Colosseum es un videojuego de la franquicia Pokémon del género de RPG/Aventura para Nintendo GameCube. El juego es una semi-secuela de los juegos Pokémon Stadium de Nintendo 64 y a su vez cuenta con una secuela titulada Pokémon XD: Tempestad Oscura, también para Nintendo GameCube. El juego cuenta con un modo multijugador con la posibilidad de usar los Pokémon de los juegos de Game Boy Advance de la tercera generación, pero sin duda el modo historia es el más importante, recuperando el espíritu de los juegos de Game Boy y aprovechando los gráficos en 3D.",
+  notes: "Launcher and native port for Pokémon Colosseum and XD on Windows and Linux. Ships no game files: you must supply your own disc.",
+  notesEs: "Launcher y port nativo de Pokémon Colosseum y XD para Windows y Linux. No incluye archivos del juego: debes aportar tu propio disco.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/pokemon-colosseum.svg",
+    alt: "Pokémon Colosseum (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

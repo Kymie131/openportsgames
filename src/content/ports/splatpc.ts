@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const splatpc: Port = {
+  schema: "port",
+  id: "splatpc",
+  title: "SplatPC (Splatoon)",
+  game: "Splatoon",
+  developers: ["PC-PORTERS"],
+  publisher: "Nintendo",
+  originalYear: 2015,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "beta",
+  release: { version: "1.0.4", date: "2026-11-15" },
+  sources: ["https://github.com/PC-PORTERS/SplatPC-Splatoon-Native-PC-Port"],
+  license: { spdx: "MPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-16",
+  originalSystems: ["Wii U"],
+  summary: "Splatoon is a 2015 third-person shooter game developed and published by Nintendo for the Wii U. The game centers around player-controlled Inklings—squid-like creatures that can transform between humanoid and cephalopodic forms at will. The game centers on a variety of four-on-four online multiplayer game modes that sees Inklings use a variety of weapons that can produce and shoot ink while in their humanoid forms or tread through and hide in surfaces covered in their own ink while in their cephalopodic forms. It also includes a dedicated single-player story campaign.",
+  summaryEs: "Splatoon es un videojuego de disparos en tercera persona desarrollado por Nintendo EAD y publicado para la consola Wii U. Fue lanzado a nivel mundial el 29 de mayo de 2015 y se trata de la primera entrega de la saga Splatoon.",
+  notes: "Native PC port of Splatoon (Wii U) for Windows and Linux with a Vulkan renderer. Ships no game files: you must supply your own copy.",
+  notesEs: "Port nativo a PC de Splatoon (Wii U) para Windows y Linux con renderizador Vulkan. No incluye archivos del juego: debes aportar tu propia copia.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/splatoon.svg",
+    alt: "Splatoon (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

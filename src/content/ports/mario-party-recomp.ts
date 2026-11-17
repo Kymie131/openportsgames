@@ -1,0 +1,37 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const marioPartyRecomp: Port = {
+  schema: "port",
+  id: "mario-party-recomp",
+  title: "Mario Party: Recompiled",
+  game: "Mario Party",
+  developers: ["n64hub"],
+  publisher: "Nintendo",
+  originalYear: 1998,
+  portType: "recompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux"],
+  status: "beta",
+  release: { version: "0.2.14", date: "2026-11-14" },
+  sources: ["https://github.com/n64hub/mario-party-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-16",
+  originalSystems: ["Nintendo 64"],
+  summary: "Mario Party is a series of party video games owned by Nintendo. It features characters from the Mario franchise in which up to four local players or computer-controlled characters compete in a board game interspersed with minigames. The series is known for its party game elements, including the often unpredictable multiplayer game modes that allow play with up to four, and sometimes eight, human players or CPUs.",
+  summaryEs: "Mario Party es una serie de videojuegos en los que cuatro personajes del universo de Mario, controlados por personas o por la consola, compiten en un juego de tablero, utilizando dados para moverse en casillas y participando en múltiples minijuegos. Desde los comienzos de la serie hasta Mario Party 8 y Mario Party DS, los videojuegos han sido desarrollados por Hudson Soft y publicados por Nintendo, mientras que a partir de Mario Party 9 y hasta la actualidad el desarrollo de la serie está al mando de NDcube. Además se trata de la serie más larga de todos los spin-off de Mario.",
+  notes: "Native recompilation of Mario Party (N64) built with N64Recomp and RT64. Ships no game files: you must supply your own USA ROM.",
+  notesEs: "Recompilación nativa de Mario Party (N64) creada con N64Recomp y RT64. No incluye archivos del juego: debes aportar tu propia ROM USA.",
+  aiDisclosure: {
+    source: "https://github.com/n64hub/mario-party-recomp",
+    quote: "Almost all of the code, documentation and tests in this repo were written by AI agents",
+  },
+  cover: {
+    src: "https://openportsgames.com/covers/generated/mario-party.svg",
+    alt: "Mario Party (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

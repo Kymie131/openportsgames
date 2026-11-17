@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bayo3Recomp: Port = {
+  schema: "port",
+  id: "bayo3-recomp",
+  title: "Bayonetta 3 Recomp",
+  game: "Bayonetta 3",
+  developers: ["aoxzh"],
+  publisher: "Nintendo",
+  originalYear: 2022,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows", "linux", "android"],
+  status: "beta",
+  release: { version: "0.3.9", date: "2026-11-16" },
+  sources: ["https://github.com/aoxzh/bayo3-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-16",
+  originalSystems: ["Nintendo Switch"],
+  summary: "Bayonetta 3 is a 2022 action-adventure game developed by PlatinumGames and published by Nintendo for the Nintendo Switch.",
+  summaryEs: "Bayonetta 3 es un videojuego de acción y aventura de 2022 desarrollado por PlatinumGames y publicado por Nintendo para Nintendo Switch.",
+  notes: "Native recompilation of Bayonetta 3 for Windows, Linux/Steam Deck and Android with Vulkan. Ships no game files: you must supply your own copy.",
+  notesEs: "Recompilación nativa de Bayonetta 3 para Windows, Linux/Steam Deck y Android con Vulkan. No incluye archivos del juego: debes aportar tu propia copia.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/bayonetta-3.svg",
+    alt: "Bayonetta 3 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
