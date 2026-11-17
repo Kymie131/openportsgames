@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const haloCeVita: Port = {
+  schema: "port",
+  id: "halo-ce-vita",
+  title: "Halo: Combat Evolved (PS Vita)",
+  game: "Halo: Combat Evolved",
+  developers: ["BirchWoodGod"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2001,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.1.2", date: "2026-11-03" },
+  sources: ["https://github.com/BirchWoodGod/halo-ce-vita"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Xbox"],
+  summary: "Halo: Combat Evolved is a 2001 first-person shooter developed by Bungie and published by Microsoft Game Studios. Master Chief fights the Covenant on the ringworld Halo.",
+  summaryEs: "Halo: Combat Evolved es un shooter en primera persona de 2001 desarrollado por Bungie y publicado por Microsoft Game Studios. El Jefe Maestro lucha contra el Covenant en el anillo Halo.",
+  notes: "Native PS Vita decompilation port. Bring your own game files.",
+  notesEs: "Port nativo para PS Vita basado en decompilación. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/halo-combat-evolved.svg",
+    alt: "Halo: Combat Evolved (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

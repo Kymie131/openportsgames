@@ -2864,6 +2864,33 @@ import { superMarioKartRecomp } from "./super-mario-kart-recomp";
 import { kirbyTripleDeluxeRecomp } from "./kirby-triple-deluxe-recomp";
 import { bananzaNative } from "./bananza-native";
 import { horizonNx2 } from "./horizon-nx2";
+import { persona5RoyalAndroid } from "./persona-5-royal-android";
+import { gtaVAndroid } from "./gta-v-android";
+import { nierAutomataAndroid } from "./nier-automata-android";
+import { nx2android } from "./nx2android";
+import { droidplayCore } from "./droidplay-core";
+import { mhguAndroid } from "./mhgu-android";
+import { ootPs5 } from "./oot-ps5";
+import { majorasMaskPs5 } from "./majoras-mask-ps5";
+import { morrowindPs5 } from "./morrowind-ps5";
+import { windWakerHdPs5 } from "./wind-waker-hd-ps5";
+import { linksAwakeningPs5 } from "./links-awakening-ps5";
+import { twilightPrincessPs5 } from "./twilight-princess-ps5";
+import { narutoRisePs5 } from "./naruto-rise-ps5";
+import { forzaHorizonPs5 } from "./forza-horizon-ps5";
+import { animalCrossingPs5 } from "./animal-crossing-ps5";
+import { falloutWiiu } from "./fallout-wiiu";
+import { halfLifeWiiu } from "./half-life-wiiu";
+import { stuntRaceFxWiiu } from "./stunt-race-fx-wiiu";
+import { sm64coopdxWiiu } from "./sm64coopdx-wiiu";
+import { blackOps2Switch } from "./black-ops-2-switch";
+import { gta3ds } from "./gta-3ds";
+import { hollowKnightVita } from "./hollow-knight-vita";
+import { nfsMostWantedVita } from "./nfs-most-wanted-vita";
+import { haloCeVita } from "./halo-ce-vita";
+import { geometryDashVita } from "./geometry-dash-vita";
+import { stardewValleyVita } from "./stardew-valley-vita";
+import { harryPotterHpengine } from "./harry-potter-hpengine";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5727,4 +5754,31 @@ export const portCases: Port[] = [
   kirbyTripleDeluxeRecomp,
   bananzaNative,
   horizonNx2,
+  persona5RoyalAndroid,
+  gtaVAndroid,
+  nierAutomataAndroid,
+  nx2android,
+  droidplayCore,
+  mhguAndroid,
+  ootPs5,
+  majorasMaskPs5,
+  morrowindPs5,
+  windWakerHdPs5,
+  linksAwakeningPs5,
+  twilightPrincessPs5,
+  narutoRisePs5,
+  forzaHorizonPs5,
+  animalCrossingPs5,
+  falloutWiiu,
+  halfLifeWiiu,
+  stuntRaceFxWiiu,
+  sm64coopdxWiiu,
+  blackOps2Switch,
+  gta3ds,
+  hollowKnightVita,
+  nfsMostWantedVita,
+  haloCeVita,
+  geometryDashVita,
+  stardewValleyVita,
+  harryPotterHpengine,
 ];

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const linksAwakeningPs5: Port = {
+  schema: "port",
+  id: "links-awakening-ps5",
+  title: "Link's Awakening (PS5)",
+  game: "The Legend of Zelda: Link's Awakening",
+  developers: ["mshivam019"],
+  publisher: "Nintendo",
+  originalYear: 2019,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps5"],
+  status: "beta",
+  release: { version: "0.1.0", date: "2026-10-19" },
+  sources: ["https://github.com/mshivam019/la-ps5"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Nintendo Switch"],
+  summary: "The Legend of Zelda: Link's Awakening is the 2019 Switch remake of the 1993 Game Boy game. Link explores Koholint Island and awakens the Wind Fish.",
+  summaryEs: "The Legend of Zelda: Link's Awakening es el remake de 2019 para Switch del juego de Game Boy de 1993. Link explora la isla Koholint y despierta al Pez del Viento.",
+  notes: "Native PS5 port of the Switch remake, requiring your own game files. No game data is included.",
+  notesEs: "Port nativo para PS5 del remake de Switch, que requiere tus propios archivos. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-link-s-awakening.svg",
+    alt: "The Legend of Zelda: Link's Awakening (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

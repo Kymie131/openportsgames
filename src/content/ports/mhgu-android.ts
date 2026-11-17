@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mhguAndroid: Port = {
+  schema: "port",
+  id: "mhgu-android",
+  title: "MHGU for Android",
+  game: "Monster Hunter Generations Ultimate",
+  developers: ["khorne-hub"],
+  publisher: "Capcom",
+  originalYear: 2018,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-11-17" },
+  sources: ["https://github.com/khorne-hub/gu-native"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Nintendo Switch"],
+  summary: "Monster Hunter Generations Ultimate is a 2018 action role-playing game developed and published by Capcom. Hunters track and fight large monsters across varied maps.",
+  summaryEs: "Monster Hunter Generations Ultimate es un videojuego de rol de acción de 2018 desarrollado y publicado por Capcom. Los cazadores rastrean y combaten grandes monstruos en diversos escenarios.",
+  notes: "Native Android port with touch controls, built from your own copy. No game files are included.",
+  notesEs: "Port nativo para Android con controles táctiles, creado a partir de tu propia copia. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/monster-hunter-generations-ultimate.svg",
+    alt: "Monster Hunter Generations Ultimate (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

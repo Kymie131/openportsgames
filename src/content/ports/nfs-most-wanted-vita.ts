@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nfsMostWantedVita: Port = {
+  schema: "port",
+  id: "nfs-most-wanted-vita",
+  title: "Need for Speed: Most Wanted (PS Vita)",
+  game: "Need for Speed: Most Wanted",
+  developers: ["germanalvarez15"],
+  publisher: "Electronic Arts",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.6.2-beta", date: "2026-11-17" },
+  sources: ["https://github.com/germanalvarez15/nfsmw-vita"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["PlayStation 2"],
+  summary: "Need for Speed: Most Wanted is a 2005 racing game developed by EA Black Box and published by Electronic Arts. It mixes street racing with police pursuits in Rockport.",
+  summaryEs: "Need for Speed: Most Wanted es un juego de carreras de 2005 desarrollado por EA Black Box y publicado por Electronic Arts. Mezcla carreras callejeras con persecuciones policiales en Rockport.",
+  notes: "Native PS Vita port of the PS2 version. Bring your own copy of the game.",
+  notesEs: "Port nativo para PS Vita de la versión de PS2. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/need-for-speed-most-wanted.svg",
+    alt: "Need for Speed: Most Wanted (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

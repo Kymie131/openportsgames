@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const forzaHorizonPs5: Port = {
+  schema: "port",
+  id: "forza-horizon-ps5",
+  title: "Forza Horizon (PS5)",
+  game: "Forza Horizon",
+  developers: ["mshivam019"],
+  publisher: "Microsoft Studios",
+  originalYear: 2012,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps5"],
+  status: "beta",
+  release: { version: "0.1.0", date: "2026-10-19" },
+  sources: ["https://github.com/mshivam019/fh-ps5"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Xbox 360"],
+  summary: "Forza Horizon is a 2012 open-world racing game developed by Playground Games and published by Microsoft Studios. It is set around the Horizon Festival in Colorado.",
+  summaryEs: "Forza Horizon es un juego de carreras de mundo abierto de 2012 desarrollado por Playground Games y publicado por Microsoft Studios. Se ambienta en el Festival Horizon de Colorado.",
+  notes: "Native PS5 port based on Forza Horizon 1: ReImagined and ReXGlue. Bring your own Xbox 360 disc image.",
+  notesEs: "Port nativo para PS5 basado en Forza Horizon 1: ReImagined y ReXGlue. Aporta tu propia imagen de disco de Xbox 360.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/forza-horizon.svg",
+    alt: "Forza Horizon (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

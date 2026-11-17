@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const majorasMaskPs5: Port = {
+  schema: "port",
+  id: "majoras-mask-ps5",
+  title: "Majora's Mask (PS5)",
+  game: "The Legend of Zelda: Majora's Mask",
+  developers: ["mshivam019"],
+  publisher: "Nintendo",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps5"],
+  status: "beta",
+  release: { version: "1.1.0", date: "2026-10-19" },
+  sources: ["https://github.com/mshivam019/tmm64-ps5"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Nintendo 64"],
+  summary: "The Legend of Zelda: Majora's Mask is a 2000 action-adventure game developed and published by Nintendo for the Nintendo 64. Link relives three days in Termina to stop the moon from falling.",
+  summaryEs: "The Legend of Zelda: Majora's Mask es un videojuego de acción y aventura de 2000 desarrollado y publicado por Nintendo para Nintendo 64. Link revive tres días en Termina para impedir que la luna caiga.",
+  notes: "Native PS5 port of 2 Ship 2 Harkinian, with 4K output and HD texture support. Bring your own ROM.",
+  notesEs: "Port nativo para PS5 de 2 Ship 2 Harkinian, con salida 4K y soporte de texturas HD. Aporta tu propia ROM.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-majora-s-mask.svg",
+    alt: "The Legend of Zelda: Majora's Mask (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

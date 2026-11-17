@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const falloutWiiu: Port = {
+  schema: "port",
+  id: "fallout-wiiu",
+  title: "Fallout (Wii U)",
+  game: "Fallout",
+  developers: ["cody4504"],
+  publisher: "Interplay Productions",
+  originalYear: 1997,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["wiiu"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-10-15" },
+  sources: ["https://github.com/cody4504/fallout1-ce-wiiu"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["MS-DOS"],
+  summary: "Fallout is a 1997 post-apocalyptic role-playing game developed by Interplay Productions. A Vault dweller leaves Vault 13 to find a water chip and encounters the wasteland.",
+  summaryEs: "Fallout es un videojuego de rol postapocalíptico de 1997 desarrollado por Interplay Productions. Un habitante del Refugio 13 sale a buscar un chip de agua y descubre el yermo.",
+  notes: "Native Wii U port of Fallout Community Edition. Bring your own game files.",
+  notesEs: "Port nativo para Wii U de Fallout Community Edition. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/fallout.svg",
+    alt: "Fallout (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

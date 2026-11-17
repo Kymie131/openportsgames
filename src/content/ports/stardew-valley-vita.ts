@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const stardewValleyVita: Port = {
+  schema: "port",
+  id: "stardew-valley-vita",
+  title: "Stardew Valley (PS Vita)",
+  game: "Stardew Valley",
+  developers: ["rikujoukoro"],
+  publisher: "ConcernedApe",
+  originalYear: 2016,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.01", date: "2026-10-31" },
+  sources: ["https://github.com/rikujoukoro/stardew-valley-enhanced-vita"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Windows"],
+  summary: "Stardew Valley is a 2016 farming simulation game developed and published by ConcernedApe. The player restores a farm, befriends the townsfolk and explores the valley.",
+  summaryEs: "Stardew Valley es un juego de simulación agrícola de 2016 desarrollado y publicado por ConcernedApe. El jugador restaura una granja, hace amistad con los vecinos y explora el valle.",
+  notes: "Unofficial PS Vita port of Stardew Valley 1.6, built from your own Steam copy. No game files are included.",
+  notesEs: "Port no oficial para PS Vita de Stardew Valley 1.6, creado a partir de tu copia de Steam. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/stardew-valley.svg",
+    alt: "Stardew Valley (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

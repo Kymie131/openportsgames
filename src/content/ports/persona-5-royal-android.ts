@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const persona5RoyalAndroid: Port = {
+  schema: "port",
+  id: "persona-5-royal-android",
+  title: "Persona 5 Royal (Android)",
+  game: "Persona 5 Royal",
+  developers: ["Brandon04Gonzalez"],
+  publisher: "Sega",
+  originalYear: 2019,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "0.5.13", date: "2026-11-16" },
+  sources: ["https://github.com/Brandon04Gonzalez/p5r-android"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Nintendo Switch"],
+  summary: "Persona 5 Royal is a 2019 enhanced version of Atlus's role-playing game. It follows the Phantom Thieves as they change the hearts of corrupt adults while balancing school life in Tokyo.",
+  summaryEs: "Persona 5 Royal es la versión mejorada de 2019 del videojuego de rol de Atlus. Sigue a los Ladrones Fantasma mientras cambian el corazón de adultos corruptos y compaginan su vida escolar en Tokio.",
+  notes: "Native Android port that runs your own Switch dump, with touch controls and controller support. No game data is included.",
+  notesEs: "Port nativo para Android que ejecuta tu propio volcado de Switch, con controles táctiles y compatibilidad con mandos. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/persona-5-royal.svg",
+    alt: "Persona 5 Royal (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

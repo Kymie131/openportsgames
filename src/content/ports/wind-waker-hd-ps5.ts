@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const windWakerHdPs5: Port = {
+  schema: "port",
+  id: "wind-waker-hd-ps5",
+  title: "Wind Waker HD (PS5)",
+  game: "The Legend of Zelda: The Wind Waker HD",
+  developers: ["mshivam019"],
+  publisher: "Nintendo",
+  originalYear: 2013,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps5"],
+  status: "beta",
+  release: { version: "0.1.2", date: "2026-10-19" },
+  sources: ["https://github.com/mshivam019/ww-ps5"],
+  license: { spdx: "MPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Wii U"],
+  summary: "The Legend of Zelda: The Wind Waker HD is the 2013 Wii U remaster of the 2002 GameCube game. Link sails the Great Sea to rescue his sister and defeat Ganondorf.",
+  summaryEs: "The Legend of Zelda: The Wind Waker HD es la remasterización de 2013 para Wii U del juego de GameCube de 2002. Link navega el Gran Mar para rescatar a su hermana y derrotar a Ganondorf.",
+  notes: "Native PS5 port of the Wii U remaster, requiring your own game files. No game data is included.",
+  notesEs: "Port nativo para PS5 de la remasterización de Wii U, que requiere tus propios archivos. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-the-wind-waker-hd.svg",
+    alt: "The Legend of Zelda: The Wind Waker HD (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

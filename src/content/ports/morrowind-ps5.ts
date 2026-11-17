@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const morrowindPs5: Port = {
+  schema: "port",
+  id: "morrowind-ps5",
+  title: "Morrowind (PS5)",
+  game: "The Elder Scrolls III: Morrowind",
+  developers: ["mshivam019"],
+  publisher: "Bethesda Softworks",
+  originalYear: 2002,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps5"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-10-19" },
+  sources: ["https://github.com/mshivam019/morrowind-ps5"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Windows"],
+  summary: "The Elder Scrolls III: Morrowind is a 2002 open-world role-playing game developed by Bethesda Game Studios and published by Bethesda Softworks. It is set on the island of Vvardenfell.",
+  summaryEs: "The Elder Scrolls III: Morrowind es un videojuego de rol de mundo abierto de 2002 desarrollado por Bethesda Game Studios y publicado por Bethesda Softworks. Se ambienta en la isla de Vvardenfell.",
+  notes: "Native PS5 port of OpenMW with DualSense controls. Bring your own game files.",
+  notesEs: "Port nativo para PS5 de OpenMW con controles DualSense. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-elder-scrolls-iii-morrowind.svg",
+    alt: "The Elder Scrolls III: Morrowind (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

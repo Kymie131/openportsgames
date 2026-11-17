@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gtaVAndroid: Port = {
+  schema: "port",
+  id: "gta-v-android",
+  title: "Grand Theft Auto V (Android)",
+  game: "Grand Theft Auto V",
+  developers: ["XHYN-PH"],
+  publisher: "Rockstar Games",
+  originalYear: 2013,
+  portType: "runtime-port",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "0.3", date: "2026-11-05" },
+  sources: ["https://github.com/XHYN-PH/XHYN-V-reborn"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Xbox 360"],
+  summary: "Grand Theft Auto V is a 2013 open-world action game developed by Rockstar North and published by Rockstar Games. It follows three criminals in Los Santos as they plan heists.",
+  summaryEs: "Grand Theft Auto V es un juego de acción de mundo abierto de 2013 desarrollado por Rockstar North y publicado por Rockstar Games. Sigue a tres criminales en Los Santos mientras planean atracos.",
+  notes: "Unofficial native Android port based on the Chinese Android version, maintained by XHYN-PH. Bring your own game files.",
+  notesEs: "Port nativo no oficial para Android basado en la versión china, mantenido por XHYN-PH. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/grand-theft-auto-v.svg",
+    alt: "Grand Theft Auto V (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

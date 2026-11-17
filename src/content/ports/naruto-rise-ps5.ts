@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const narutoRisePs5: Port = {
+  schema: "port",
+  id: "naruto-rise-ps5",
+  title: "Naruto: Rise of a Ninja (PS5)",
+  game: "Naruto: Rise of a Ninja",
+  developers: ["mshivam019"],
+  publisher: "Ubisoft",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps5"],
+  status: "beta",
+  release: { version: "0.1.0", date: "2026-10-19" },
+  sources: ["https://github.com/mshivam019/naruto-ps5"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Xbox 360"],
+  summary: "Naruto: Rise of a Ninja is a 2007 action-adventure game developed by Ubisoft Montreal and published by Ubisoft. It retells the early Naruto story with exploration and fighting.",
+  summaryEs: "Naruto: Rise of a Ninja es un videojuego de acción y aventura de 2007 desarrollado por Ubisoft Montreal y publicado por Ubisoft. Recrea la primera historia de Naruto con exploración y combates.",
+  notes: "Native PS5 port based on the Xbox 360 recompilation and ReXGlue. Bring your own disc image.",
+  notesEs: "Port nativo para PS5 basado en la recompilación de Xbox 360 y ReXGlue. Aporta tu propia imagen de disco.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/naruto-rise-of-a-ninja.svg",
+    alt: "Naruto: Rise of a Ninja (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nierAutomataAndroid: Port = {
+  schema: "port",
+  id: "nier-automata-android",
+  title: "NieR:Automata (Android)",
+  game: "NieR:Automata",
+  developers: ["Brandon04Gonzalez"],
+  publisher: "Square Enix",
+  originalYear: 2017,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "0.2.7", date: "2026-11-16" },
+  sources: ["https://github.com/Brandon04Gonzalez/nier-android"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Nintendo Switch"],
+  summary: "NieR:Automata is a 2017 action role-playing game developed by PlatinumGames and published by Square Enix. Androids 2B, 9S and A2 fight machines in a post-apocalyptic world.",
+  summaryEs: "NieR:Automata es un videojuego de rol de acción de 2017 desarrollado por PlatinumGames y publicado por Square Enix. Los androides 2B, 9S y A2 luchan contra las máquinas en un mundo postapocalíptico.",
+  notes: "Native Android port that runs your own Switch dump. No game code or assets are included.",
+  notesEs: "Port nativo para Android que ejecuta tu propio volcado de Switch. No incluye código ni recursos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/nier-automata.svg",
+    alt: "NieR:Automata (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

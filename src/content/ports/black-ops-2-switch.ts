@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const blackOps2Switch: Port = {
+  schema: "port",
+  id: "black-ops-2-switch",
+  title: "Call of Duty: Black Ops II (Switch)",
+  game: "Call of Duty: Black Ops II",
+  developers: ["HDErick"],
+  publisher: "Activision",
+  originalYear: 2012,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "3.4.0", date: "2026-11-13" },
+  sources: ["https://github.com/HDErick/BO2-Requiem-NX"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Windows"],
+  summary: "Call of Duty: Black Ops II is a 2012 first-person shooter developed by Treyarch and published by Activision. Its campaign spans the Cold War and a 2025 drone war.",
+  summaryEs: "Call of Duty: Black Ops II es un shooter en primera persona de 2012 desarrollado por Treyarch y publicado por Activision. Su campaña abarca la Guerra Fría y una guerra de drones en 2025.",
+  notes: "Nintendo Switch port of the Steam version, with online and mod support. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión de Steam, con multijugador y soporte de mods. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/call-of-duty-black-ops-ii.svg",
+    alt: "Call of Duty: Black Ops II (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

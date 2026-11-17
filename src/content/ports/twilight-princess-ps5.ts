@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const twilightPrincessPs5: Port = {
+  schema: "port",
+  id: "twilight-princess-ps5",
+  title: "Twilight Princess (PS5)",
+  game: "The Legend of Zelda: Twilight Princess",
+  developers: ["mshivam019"],
+  publisher: "Nintendo",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps5"],
+  status: "beta",
+  release: { version: "0.1.0", date: "2026-10-19" },
+  sources: ["https://github.com/mshivam019/dusklight-ps5"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["GameCube"],
+  summary: "The Legend of Zelda: Twilight Princess is a 2006 action-adventure game developed and published by Nintendo. Link shapeshifts into a wolf while fighting the Twilight Realm.",
+  summaryEs: "The Legend of Zelda: Twilight Princess es un videojuego de acción y aventura de 2006 desarrollado y publicado por Nintendo. Link se transforma en lobo mientras combate al Reino del Crepúsculo.",
+  notes: "Native PS5 port based on Dusklight, requiring your own game files. No game data is included.",
+  notesEs: "Port nativo para PS5 basado en Dusklight, que requiere tus propios archivos. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-twilight-princess.svg",
+    alt: "The Legend of Zelda: Twilight Princess (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

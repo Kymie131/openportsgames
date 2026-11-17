@@ -109,6 +109,8 @@ const TOOL_IDS = [
   "pokerogue-app",
   "unity-underground",
   "vorpalfix",
+  "nx2android",
+  "droidplay-core",
 ];
 const NON_GAME_IDS = [...SYSTEM_IDS, ...TOOL_IDS].sort();
 

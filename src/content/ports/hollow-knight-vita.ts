@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const hollowKnightVita: Port = {
+  schema: "port",
+  id: "hollow-knight-vita",
+  title: "Hollow Knight (PS Vita)",
+  game: "Hollow Knight",
+  developers: ["PatnosDD"],
+  publisher: "Team Cherry",
+  originalYear: 2017,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-11-02" },
+  sources: ["https://github.com/PatnosDD/Hollow-Knight-PsVita"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Windows"],
+  summary: "Hollow Knight is a 2017 Metroidvania developed and published by Team Cherry. The Knight explores the ruined kingdom of Hallownest and fights its insect inhabitants.",
+  summaryEs: "Hollow Knight es un metroidvania de 2017 desarrollado y publicado por Team Cherry. El Caballero explora el reino en ruinas de Hallownest y lucha contra sus habitantes insectoides.",
+  notes: "Native PS Vita port of the PC game. Bring your own game files.",
+  notesEs: "Port nativo para PS Vita del juego de PC. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/hollow-knight.svg",
+    alt: "Hollow Knight (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

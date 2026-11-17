@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const halfLifeWiiu: Port = {
+  schema: "port",
+  id: "half-life-wiiu",
+  title: "Half-Life (Wii U)",
+  game: "Half-Life",
+  developers: ["NanoBunTV"],
+  publisher: "Sierra Studios",
+  originalYear: 1998,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["wiiu"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-10-16" },
+  sources: ["https://github.com/NanoBunTV/Wii-U-Half-Life"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Windows"],
+  summary: "Half-Life is a 1998 first-person shooter developed by Valve and published by Sierra Studios. Scientist Gordon Freeman fights through the Black Mesa Research Facility after an experiment goes wrong.",
+  summaryEs: "Half-Life es un shooter en primera persona de 1998 desarrollado por Valve y publicado por Sierra Studios. El científico Gordon Freeman escapa del complejo Black Mesa tras un experimento fallido.",
+  notes: "Native Wii U port for the Aroma homebrew environment. Bring your own game files.",
+  notesEs: "Port nativo para Wii U para el entorno homebrew Aroma. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/half-life.svg",
+    alt: "Half-Life (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

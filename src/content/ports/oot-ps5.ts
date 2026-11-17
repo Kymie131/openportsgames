@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ootPs5: Port = {
+  schema: "port",
+  id: "oot-ps5",
+  title: "Ocarina of Time (PS5)",
+  game: "The Legend of Zelda: Ocarina of Time",
+  developers: ["mshivam019"],
+  publisher: "Nintendo",
+  originalYear: 1998,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps5"],
+  status: "beta",
+  release: { version: "1.2.0", date: "2026-10-19" },
+  sources: ["https://github.com/mshivam019/oot64-ps5"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Nintendo 64"],
+  summary: "The Legend of Zelda: Ocarina of Time is a 1998 action-adventure game developed and published by Nintendo for the Nintendo 64. Link travels through time to stop Ganondorf and save Hyrule.",
+  summaryEs: "The Legend of Zelda: Ocarina of Time es un videojuego de acción y aventura de 1998 desarrollado y publicado por Nintendo para Nintendo 64. Link viaja en el tiempo para detener a Ganondorf y salvar Hyrule.",
+  notes: "Native PS5 port of Ship of Harkinian, with 4K output and HD texture support. Bring your own ROM.",
+  notesEs: "Port nativo para PS5 de Ship of Harkinian, con salida 4K y soporte de texturas HD. Aporta tu propia ROM.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-ocarina-of-time.svg",
+    alt: "The Legend of Zelda: Ocarina of Time (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

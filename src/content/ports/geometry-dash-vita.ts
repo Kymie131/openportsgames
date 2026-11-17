@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const geometryDashVita: Port = {
+  schema: "port",
+  id: "geometry-dash-vita",
+  title: "Geometry Dash (PS Vita)",
+  game: "Geometry Dash",
+  developers: ["hatoving"],
+  publisher: "RobTop Games",
+  originalYear: 2013,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.02", date: "2024-01-25" },
+  sources: ["https://github.com/hatoving/gdash-vita"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Other"],
+  summary: "Geometry Dash is a 2013 rhythm platform game developed and published by RobTop Games. Players jump over spikes and obstacles to electronic music.",
+  summaryEs: "Geometry Dash es un juego de plataformas rítmico de 2013 desarrollado y publicado por RobTop Games. El jugador salta pinchos y obstáculos al ritmo de música electrónica.",
+  notes: "Port of Geometry Dash to the PS Vita. No game assets are included.",
+  notesEs: "Port de Geometry Dash para PS Vita. No incluye recursos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/geometry-dash.svg",
+    alt: "Geometry Dash (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

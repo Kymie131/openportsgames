@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const animalCrossingPs5: Port = {
+  schema: "port",
+  id: "animal-crossing-ps5",
+  title: "Animal Crossing (PS5)",
+  game: "Animal Crossing",
+  developers: ["mshivam019"],
+  publisher: "Nintendo",
+  originalYear: 2001,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps5"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-10-19" },
+  sources: ["https://github.com/mshivam019/ac-ps5"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-17",
+  originalSystems: ["Nintendo GameCube"],
+  summary: "Animal Crossing is a 2001 life simulation game developed and published by Nintendo for the GameCube. The player moves into a village of animals and lives there in real time.",
+  summaryEs: "Animal Crossing es un videojuego de simulación social de 2001 desarrollado y publicado por Nintendo para GameCube. El jugador se muda a un pueblo de animales y vive allí en tiempo real.",
+  notes: "Native PS5 port of the GameCube game, requiring your own game files. No game data is included.",
+  notesEs: "Port nativo para PS5 del juego de GameCube, que requiere tus propios archivos. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/animal-crossing.svg",
+    alt: "Animal Crossing (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
