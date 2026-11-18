@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rayman2Vita: Port = {
+  schema: "port",
+  id: "rayman-2-vita",
+  title: "Rayman 2: The Great Escape (PS Vita)",
+  game: "Rayman 2: The Great Escape",
+  developers: ["enslaved2die"],
+  publisher: "Ubisoft",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "alpha",
+  release: { version: "0.1.0", date: "2026-11-17" },
+  sources: ["https://github.com/enslaved2die/Rayman2Vita"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Dreamcast"],
+  summary: "Rayman 2: The Great Escape is a 1999 3D platform game where Rayman frees the Teensies and collects Lums to defeat Admiral Razorbeard.",
+  summaryEs: "Rayman 2: The Great Escape es un juego de plataformas 3D de 1999 en el que Rayman libera a los Teensies y recoge Lums para vencer al almirante Razorbeard.",
+  notes: "Experimental PS Vita port based on the Dreamcast version. No game data is included.",
+  notesEs: "Port experimental para PS Vita basado en la versión de Dreamcast. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/rayman-2-the-great-escape.svg",
+    alt: "Rayman 2: The Great Escape (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

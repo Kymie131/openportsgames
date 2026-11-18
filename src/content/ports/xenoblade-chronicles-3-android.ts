@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const xenobladeChronicles3Android: Port = {
+  schema: "port",
+  id: "xenoblade-chronicles-3-android",
+  title: "Xenoblade Chronicles 3 (Android)",
+  game: "Xenoblade Chronicles 3",
+  developers: ["IamWilmar"],
+  publisher: "Nintendo",
+  originalYear: 2022,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: "0.1.0", date: "2026-11-18" },
+  sources: ["https://github.com/IamWilmar/xenoblade3-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo Switch"],
+  summary: "Xenoblade Chronicles 3 is a 2022 role-playing game by Monolith Soft about two nations at war and six characters who join forces.",
+  summaryEs: "Xenoblade Chronicles 3 es un videojuego de rol de 2022 de Monolith Soft sobre dos naciones en guerra y seis personajes que unen fuerzas.",
+  notes: "Early native Android port aimed at the Retroid Pocket Flip 2. Bring your own extracted game files.",
+  notesEs: "Port nativo temprano para Android orientado a la Retroid Pocket Flip 2. Aporta tus propios archivos extraídos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/xenoblade-chronicles-3.svg",
+    alt: "Xenoblade Chronicles 3 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

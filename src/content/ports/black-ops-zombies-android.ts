@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const blackOpsZombiesAndroid: Port = {
+  schema: "port",
+  id: "black-ops-zombies-android",
+  title: "Call of Duty: Black Ops Zombies (Android)",
+  game: "Call of Duty: Black Ops Zombies",
+  developers: ["Joolace"],
+  publisher: "Activision",
+  originalYear: 2011,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android","linux"],
+  status: "alpha",
+  release: { version: "0.1.0-alpha", date: "2026-11-17" },
+  sources: ["https://github.com/Joolace/T5-Jool---Black-Ops-Recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Call of Duty: Black Ops Zombies is the 2011 mobile spin-off of the Zombies mode, with wave survival across classic maps.",
+  summaryEs: "Call of Duty: Black Ops Zombies es el spin-off móvil de 2011 del modo Zombis, con supervivencia por oleadas en mapas clásicos.",
+  notes: "Native 64-bit port for Linux and Android with Vulkan, upscalers, LAN co-op, touch and controller support. Game files are not included.",
+  notesEs: "Port nativo de 64 bits para Linux y Android con Vulkan, escaladores, cooperativo en LAN y soporte táctil y de mando. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/call-of-duty-black-ops-zombies.svg",
+    alt: "Call of Duty: Black Ops Zombies (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

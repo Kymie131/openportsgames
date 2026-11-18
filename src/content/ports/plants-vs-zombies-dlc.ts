@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const plantsVsZombiesDlc: Port = {
+  schema: "port",
+  id: "plants-vs-zombies-dlc",
+  title: "Plants vs. Zombies: DLC Edition (multi-platform)",
+  game: "Plants vs. Zombies",
+  developers: ["aks796"],
+  publisher: "PopCap Games",
+  originalYear: 2009,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch","windows","macos","android"],
+  status: "beta",
+  release: { version: "2.4", date: "2026-11-18" },
+  sources: ["https://github.com/aks796/pvzdlc_nx"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Plants vs. Zombies is a 2009 tower defence game by PopCap where players plant defences across a lawn to stop waves of zombies. This edition adds new levels and plants.",
+  summaryEs: "Plants vs. Zombies es un juego de defensa de torres de 2009 de PopCap en el que el jugador planta defensas en un jardín para frenar oleadas de zombis. Esta edición añade niveles y plantas nuevas.",
+  notes: "Unofficial port for Nintendo Switch, macOS, Windows and Android. Bring your own copy of the game.",
+  notesEs: "Port no oficial para Nintendo Switch, macOS, Windows y Android. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/plants-vs-zombies.svg",
+    alt: "Plants vs. Zombies (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

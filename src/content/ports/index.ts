@@ -3054,6 +3054,17 @@ import { daggerfallPsp } from "./daggerfall-psp";
 import { pocketmajoraPsp } from "./pocketmajora-psp";
 import { internationalVolleyball2009Psp } from "./international-volleyball-2009-psp";
 import { geometryDashXbox360 } from "./geometry-dash-xbox360";
+import { plantsVsZombiesDlc } from "./plants-vs-zombies-dlc";
+import { crashTagTeamRacingSwitch } from "./crash-tag-team-racing-switch";
+import { magicalQuestTrilogySwitch } from "./magical-quest-trilogy-switch";
+import { botwTotkAndroid } from "./botw-totk-android";
+import { xenobladeChronicles3Android } from "./xenoblade-chronicles-3-android";
+import { blackOpsZombiesAndroid } from "./black-ops-zombies-android";
+import { shinMegamiTensei3Vita } from "./shin-megami-tensei-3-vita";
+import { rayman2Vita } from "./rayman-2-vita";
+import { vexedAndroid } from "./vexed-android";
+import { lasertankAndroid } from "./lasertank-android";
+import { atomixAndroid } from "./atomix-android";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6107,4 +6118,15 @@ export const portCases: Port[] = [
   pocketmajoraPsp,
   internationalVolleyball2009Psp,
   geometryDashXbox360,
+  plantsVsZombiesDlc,
+  crashTagTeamRacingSwitch,
+  magicalQuestTrilogySwitch,
+  botwTotkAndroid,
+  xenobladeChronicles3Android,
+  blackOpsZombiesAndroid,
+  shinMegamiTensei3Vita,
+  rayman2Vita,
+  vexedAndroid,
+  lasertankAndroid,
+  atomixAndroid,
 ];

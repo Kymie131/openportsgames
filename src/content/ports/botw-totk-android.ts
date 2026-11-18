@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const botwTotkAndroid: Port = {
+  schema: "port",
+  id: "botw-totk-android",
+  title: "Breath of the Wild & Tears of the Kingdom (Android)",
+  game: "The Legend of Zelda: Breath of the Wild",
+  developers: ["P1R4N351"],
+  publisher: "Nintendo",
+  originalYear: 2017,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: "0.1.0-pre.1", date: "2026-11-17" },
+  sources: ["https://github.com/P1R4N351/botw-android"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo Switch"],
+  summary: "Breath of the Wild and Tears of the Kingdom are open-world action-adventure games where Link explores Hyrule, solves shrines and fights Calamity Ganon.",
+  summaryEs: "Breath of the Wild y Tears of the Kingdom son juegos de acción y aventura de mundo abierto en los que Link explora Hyrule, resuelve santuarios y lucha contra Ganon.",
+  notes: "Native Android ports of both games for the AYN Thor, built from a shared branch. Bring your own game dump.",
+  notesEs: "Ports nativos para Android de ambos juegos para la AYN Thor, creados desde una rama común. Aporta tu propio volcado del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-breath-of-the-wild.svg",
+    alt: "The Legend of Zelda: Breath of the Wild (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
