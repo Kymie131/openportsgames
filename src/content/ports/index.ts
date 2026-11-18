@@ -3009,6 +3009,11 @@ import { nhlLegacyPc } from "./nhl-legacy-pc";
 import { littlebigplanet2Pc } from "./littlebigplanet-2-pc";
 import { hotShotsGolfPc } from "./hot-shots-golf-pc";
 import { fatPrincessPc } from "./fat-princess-pc";
+import { spongebobMoviePorts } from "./spongebob-movie-ports";
+import { sims3AmbitionsVita } from "./sims-3-ambitions-vita";
+import { simsMedievalVita } from "./sims-medieval-vita";
+import { pokemonLeafgreenPsp } from "./pokemon-leafgreen-psp";
+import { motoRacerPsp } from "./moto-racer-psp";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6017,4 +6022,9 @@ export const portCases: Port[] = [
   littlebigplanet2Pc,
   hotShotsGolfPc,
   fatPrincessPc,
+  spongebobMoviePorts,
+  sims3AmbitionsVita,
+  simsMedievalVita,
+  pokemonLeafgreenPsp,
+  motoRacerPsp,
 ];

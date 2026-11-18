@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const spongebobMoviePorts: Port = {
+  schema: "port",
+  id: "spongebob-movie-ports",
+  title: "The SpongeBob SquarePants Movie (multi-platform)",
+  game: "The SpongeBob SquarePants Movie",
+  developers: ["aidp2"],
+  publisher: "THQ",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","android","switch","3ds"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-11-14" },
+  sources: ["https://github.com/aidp2/tssm-ports"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation 2"],
+  summary: "The SpongeBob SquarePants Movie is a 2004 platform game based on the film, released across consoles and handhelds. SpongeBob and Patrick travel to Shell City to retrieve King Neptune's crown.",
+  summaryEs: "The SpongeBob SquarePants Movie es un juego de plataformas de 2004 basado en la película, lanzado para consolas y portátiles. Bob Esponja y Patricio viajan a Ciudad Concha para recuperar la corona del Rey Neptuno.",
+  notes: "Native ports of the game for Windows, Android, Nintendo Switch and Nintendo 3DS. Bring your own copy of the game.",
+  notesEs: "Ports nativos del juego para Windows, Android, Nintendo Switch y Nintendo 3DS. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-spongebob-squarepants-movie.svg",
+    alt: "The SpongeBob SquarePants Movie (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

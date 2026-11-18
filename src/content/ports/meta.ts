@@ -3008,4 +3008,9 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "littlebigplanet-2-pc": ["PlayStation 3"],
   "hot-shots-golf-pc": ["PlayStation 3"],
   "fat-princess-pc": ["PlayStation 3"],
+  "spongebob-movie-ports": ["PlayStation 2"],
+  "sims-3-ambitions-vita": ["Mobile"],
+  "sims-medieval-vita": ["Mobile"],
+  "pokemon-leafgreen-psp": ["Game Boy Advance"],
+  "moto-racer-psp": ["MS-DOS"],
 };

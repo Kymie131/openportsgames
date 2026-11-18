@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pokemonLeafgreenPsp: Port = {
+  schema: "port",
+  id: "pokemon-leafgreen-psp",
+  title: "Pokémon LeafGreen (PSP)",
+  game: "Pokémon FireRed and LeafGreen",
+  developers: ["bruninho182"],
+  publisher: "Nintendo",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-11-16" },
+  sources: ["https://github.com/bruninho182/Pokemon-LeafGreen-PSP"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Game Boy Advance"],
+  summary: "Pokémon FireRed and LeafGreen are 2004 remakes of the original Pokémon games for the Game Boy Advance, set in the Kanto region.",
+  summaryEs: "Pokémon Rojo Fuego y Verde Hoja son remakes de 2004 de los juegos originales de Pokémon para Game Boy Advance, ambientados en la región de Kanto.",
+  notes: "Native Pokémon LeafGreen port for the PlayStation Portable, in English. No ROM is included.",
+  notesEs: "Port nativo de Pokémon LeafGreen para PlayStation Portable, en inglés. No incluye la ROM.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/pokemon-firered-and-leafgreen.svg",
+    alt: "Pokémon FireRed and LeafGreen (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

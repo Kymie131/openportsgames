@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const motoRacerPsp: Port = {
+  schema: "port",
+  id: "moto-racer-psp",
+  title: "Moto Racer (PSP)",
+  game: "Moto Racer",
+  developers: ["segovia-no"],
+  publisher: "Electronic Arts",
+  originalYear: 1997,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp","windows","macos","linux"],
+  status: "beta",
+  release: { version: "0.2.0", date: "2026-11-17" },
+  sources: ["https://github.com/segovia-no/MotoRacerRecomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["MS-DOS"],
+  summary: "Moto Racer is a 1997 motorcycle racing game by Delphine Software with arcade and simulation modes across dirt and road tracks.",
+  summaryEs: "Moto Racer es un juego de carreras de motos de 1997 de Delphine Software con modos arcade y simulación en circuitos de tierra y asfalto.",
+  notes: "Native port for Mac, Windows, Linux, Steam Deck and PSP with widescreen up to 4K and high frame rates. Built from your own GOG copy.",
+  notesEs: "Port nativo para Mac, Windows, Linux, Steam Deck y PSP con pantalla ancha hasta 4K y altas tasas de fotogramas. Creado a partir de tu propia copia de GOG.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/moto-racer.svg",
+    alt: "Moto Racer (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
