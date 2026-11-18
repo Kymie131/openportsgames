@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const horizonAndroid: Port = {
+  schema: "port",
+  id: "horizon-android",
+  title: "Horizon: Minecraft Java (Android)",
+  game: "Minecraft",
+  developers: ["Rayan-XOO"],
+  publisher: "Mojang Studios",
+  originalYear: 2011,
+  portType: "reimplementation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "0.4.7", date: "2026-11-14" },
+  sources: ["https://github.com/Rayan-XOO/horizon"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Minecraft is a 2011 sandbox game developed by Mojang Studios. Horizon is an unofficial Android port of Minecraft Java Edition rewritten in Rust with Vulkan rendering.",
+  summaryEs: "Minecraft es un juego de construcción y supervivencia de 2011 desarrollado por Mojang Studios. Horizon es un port no oficial para Android de Minecraft Java Edition reescrito en Rust con renderizado Vulkan.",
+  notes: "Android port of Minecraft Java Edition with touch controls and an in-app file downloader. No game files are bundled.",
+  notesEs: "Port para Android de Minecraft Java Edition con controles táctiles y descarga de archivos integrada. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/minecraft.svg",
+    alt: "Minecraft (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const wow3ds: Port = {
+  schema: "port",
+  id: "wow-3ds",
+  title: "World of Warcraft (3DS)",
+  game: "World of Warcraft",
+  developers: ["ponuno"],
+  publisher: "Blizzard Entertainment",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "alpha",
+  release: { version: "0.9.0", date: "2026-11-16" },
+  sources: ["https://github.com/ponuno/WoW3DS"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "World of Warcraft is a 2004 massively multiplayer online role-playing game developed and published by Blizzard Entertainment. Players explore Azeroth and complete quests with other players.",
+  summaryEs: "World of Warcraft es un videojuego de rol multijugador masivo en línea de 2004 desarrollado y publicado por Blizzard Entertainment. Los jugadores exploran Azeroth y completan misiones con otros jugadores.",
+  notes: "Experimental World of Warcraft client port for the New Nintendo 3DS. Requires your own game data.",
+  notesEs: "Port experimental del cliente de World of Warcraft para New Nintendo 3DS. Requiere tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/world-of-warcraft.svg",
+    alt: "World of Warcraft (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

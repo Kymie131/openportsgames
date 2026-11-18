@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const streetsOfRageRemakeVita: Port = {
+  schema: "port",
+  id: "streets-of-rage-remake-vita",
+  title: "Streets of Rage Remake (PS Vita)",
+  game: "Streets of Rage Remake",
+  developers: ["isage"],
+  publisher: "Sega",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.3.0", date: "2021-11-29" },
+  sources: ["https://github.com/isage/sorr-vita"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Sega Mega Drive / Genesis"],
+  summary: "Streets of Rage Remake is a 2011 fan-made beat 'em up based on Sega's Streets of Rage series, with multiple characters, routes and endings.",
+  summaryEs: "Streets of Rage Remake es un beat 'em up hecho por fans en 2011 basado en la serie Streets of Rage de Sega, con varios personajes, rutas y finales.",
+  notes: "PS Vita port of the BennuGD version of Streets of Rage Remake. No game data is included.",
+  notesEs: "Port para PS Vita de la versión BennuGD de Streets of Rage Remake. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/streets-of-rage-remake.svg",
+    alt: "Streets of Rage Remake (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

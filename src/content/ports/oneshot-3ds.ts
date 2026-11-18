@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const oneshot3ds: Port = {
+  schema: "port",
+  id: "oneshot-3ds",
+  title: "OneShot (3DS)",
+  game: "OneShot",
+  developers: ["cmaster25"],
+  publisher: "Degica",
+  originalYear: 2016,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: "2.2.0", date: "2025-05-23" },
+  sources: ["https://github.com/cmaster25/Oneshot-For-3DS"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "OneShot is a 2016 puzzle adventure game developed by Future Cat and published by Degica. The player guides a child named Niko through a dying world and must solve puzzles using the game's files.",
+  summaryEs: "OneShot es un juego de aventura y puzles de 2016 desarrollado por Future Cat y publicado por Degica. El jugador guía a un niño llamado Niko por un mundo moribundo y resuelve puzles usando los archivos del juego.",
+  notes: "Unofficial port of OneShot to the Nintendo 3DS, distributed as a CIA with a builder. No game files are included.",
+  notesEs: "Port no oficial de OneShot para Nintendo 3DS, distribuido como CIA con un generador. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/oneshot.svg",
+    alt: "OneShot (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

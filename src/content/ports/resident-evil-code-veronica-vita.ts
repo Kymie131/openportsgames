@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const residentEvilCodeVeronicaVita: Port = {
+  schema: "port",
+  id: "resident-evil-code-veronica-vita",
+  title: "Resident Evil: Code Veronica X (PS Vita)",
+  game: "Resident Evil: Code Veronica X",
+  developers: ["Rinnegatamante"],
+  publisher: "Capcom",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.4.5", date: "2026-11-17" },
+  sources: ["https://github.com/Rinnegatamante/recvx_vita"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation 2"],
+  summary: "Resident Evil: Code Veronica X is a 2000 survival horror game developed and published by Capcom. Claire Redfield searches for her brother Chris on Rockfort Island.",
+  summaryEs: "Resident Evil: Code Veronica X es un juego de terror y supervivencia de 2000 desarrollado y publicado por Capcom. Claire Redfield busca a su hermano Chris en la isla Rockfort.",
+  notes: "PS Vita port of the Android version. No game data is included.",
+  notesEs: "Port para PS Vita de la versión de Android. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/resident-evil-code-veronica-x.svg",
+    alt: "Resident Evil: Code Veronica X (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

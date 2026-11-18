@@ -2930,6 +2930,16 @@ import { narutoRiseSwitch } from "./naruto-rise-switch";
 import { izdoomSwitch } from "./izdoom-switch";
 import { jetSetRadioSwitch } from "./jet-set-radio-switch";
 import { tomJerryWarOfTheWhiskersSwitch } from "./tom-jerry-war-of-the-whiskers-switch";
+import { burnout3Ps5 } from "./burnout-3-ps5";
+import { openttd3ds } from "./openttd-3ds";
+import { oneshot3ds } from "./oneshot-3ds";
+import { wow3ds } from "./wow-3ds";
+import { residentEvilCodeVeronicaVita } from "./resident-evil-code-veronica-vita";
+import { tombRaiderClassicVita } from "./tomb-raider-classic-vita";
+import { streetsOfRageRemakeVita } from "./streets-of-rage-remake-vita";
+import { wolfenstein3dVita } from "./wolfenstein-3d-vita";
+import { balatroWii } from "./balatro-wii";
+import { horizonAndroid } from "./horizon-android";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5859,4 +5869,14 @@ export const portCases: Port[] = [
   izdoomSwitch,
   jetSetRadioSwitch,
   tomJerryWarOfTheWhiskersSwitch,
+  burnout3Ps5,
+  openttd3ds,
+  oneshot3ds,
+  wow3ds,
+  residentEvilCodeVeronicaVita,
+  tombRaiderClassicVita,
+  streetsOfRageRemakeVita,
+  wolfenstein3dVita,
+  balatroWii,
+  horizonAndroid,
 ];

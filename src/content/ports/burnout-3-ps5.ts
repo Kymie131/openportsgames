@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const burnout3Ps5: Port = {
+  schema: "port",
+  id: "burnout-3-ps5",
+  title: "Burnout 3: Takedown (PS5)",
+  game: "Burnout 3: Takedown",
+  developers: ["griches"],
+  publisher: "Electronic Arts",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps5"],
+  status: "beta",
+  release: { version: "0.2.2", date: "2026-10-22" },
+  sources: ["https://github.com/griches/PS5_Burnout3"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox"],
+  summary: "Burnout 3: Takedown is a 2004 racing game developed by Criterion Games and published by Electronic Arts. It focuses on aggressive racing and spectacular crashes.",
+  summaryEs: "Burnout 3: Takedown es un juego de carreras de 2004 desarrollado por Criterion Games y publicado por Electronic Arts. Se centra en las carreras agresivas y los choques espectaculares.",
+  notes: "Native PS5 port of Takedawn, the Xbox recompilation. Bring your own USA disc.",
+  notesEs: "Port nativo para PS5 de Takedawn, la recompilación de Xbox. Aporta tu propio disco USA.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/burnout-3-takedown.svg",
+    alt: "Burnout 3: Takedown (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

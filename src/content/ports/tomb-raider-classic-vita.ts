@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tombRaiderClassicVita: Port = {
+  schema: "port",
+  id: "tomb-raider-classic-vita",
+  title: "Tomb Raider I & II (PS Vita)",
+  game: "Tomb Raider",
+  developers: ["Rinnegatamante"],
+  publisher: "Eidos Interactive",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.2.0", date: "2024-02-14" },
+  sources: ["https://github.com/Rinnegatamante/raider-vita"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Other"],
+  summary: "Tomb Raider is a 1996 action-adventure game developed by Core Design and published by Eidos Interactive. Lara Croft explores ancient tombs and solves environmental puzzles.",
+  summaryEs: "Tomb Raider es un videojuego de acción y aventura de 1996 desarrollado por Core Design y publicado por Eidos Interactive. Lara Croft explora tumbas antiguas y resuelve puzles ambientales.",
+  notes: "PS Vita port of the Android versions of Tomb Raider I and II. Bring your own game data.",
+  notesEs: "Port para PS Vita de las versiones de Android de Tomb Raider I y II. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/tomb-raider.svg",
+    alt: "Tomb Raider (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
