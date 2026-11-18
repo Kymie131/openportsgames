@@ -3044,4 +3044,9 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "terraria-vita": ["Windows"],
   "lego-mighty-micros-vita": ["Mobile"],
   "paratopic-vita": ["Windows"],
+  "lego-star-wars-complete-saga-switch": ["Xbox 360"],
+  "dune-2000-3ds": ["Windows"],
+  "007-from-russia-android": ["Xbox"],
+  "dusttale-android": ["Windows"],
+  "backstab-switch": ["Mobile"],
 };

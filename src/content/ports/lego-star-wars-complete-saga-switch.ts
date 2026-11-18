@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const legoStarWarsCompleteSagaSwitch: Port = {
+  schema: "port",
+  id: "lego-star-wars-complete-saga-switch",
+  title: "LEGO Star Wars: The Complete Saga (Switch)",
+  game: "LEGO Star Wars: The Complete Saga",
+  developers: ["lswtcs-nx"],
+  publisher: "LucasArts",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "0.3.0", date: "2026-11-18" },
+  sources: ["https://github.com/lswtcs-nx/lswtcs-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox 360"],
+  summary: "LEGO Star Wars: The Complete Saga combines the first two LEGO Star Wars games, covering all six films with co-op play and destructible Lego environments.",
+  summaryEs: "LEGO Star Wars: The Complete Saga combina los dos primeros juegos de LEGO Star Wars y cubre las seis películas con cooperativo y entornos de Lego destructibles.",
+  notes: "Native Nintendo Switch port of the Xbox 360 version. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch de la versión de Xbox 360. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/lego-star-wars-the-complete-saga.svg",
+    alt: "LEGO Star Wars: The Complete Saga (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

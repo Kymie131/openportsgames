@@ -24,11 +24,13 @@ const slugify = (value) =>
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
 
-const varName = (id) =>
-  id
+const varName = (id) => {
+  const camel = id
     .split("-")
     .map((part, index) => (index === 0 ? part : part[0].toUpperCase() + part.slice(1)))
     .join("");
+  return /^[0-9]/.test(camel) ? `port${camel}` : camel;
+};
 
 const escapeXml = (value) =>
   String(value).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");

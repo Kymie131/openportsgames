@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const port007FromRussiaAndroid: Port = {
+  schema: "port",
+  id: "007-from-russia-android",
+  title: "007: From Russia with Love (Android)",
+  game: "007: From Russia with Love",
+  developers: ["M1LT0N3R2431"],
+  publisher: "Electronic Arts",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-11-18" },
+  sources: ["https://github.com/M1LT0N3R2431/007-Project-Russia"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox"],
+  summary: "007: From Russia with Love is a 2005 third-person shooter based on the film, starring Sean Connery's Bond with gadgets and driving sections.",
+  summaryEs: "007: From Russia with Love es un shooter en tercera persona de 2005 basado en la película, protagonizado por el Bond de Sean Connery con gadgets y secciones de conducción.",
+  notes: "Unofficial Android port of the Xbox version built with XboxXBE-Recomp. Bring your own copy of the game.",
+  notesEs: "Port no oficial para Android de la versión de Xbox creado con XboxXBE-Recomp. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/007-from-russia-with-love.svg",
+    alt: "007: From Russia with Love (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

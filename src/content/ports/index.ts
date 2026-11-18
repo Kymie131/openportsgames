@@ -3045,6 +3045,11 @@ import { aceCombat6Ps5 } from "./ace-combat-6-ps5";
 import { terrariaVita } from "./terraria-vita";
 import { legoMightyMicrosVita } from "./lego-mighty-micros-vita";
 import { paratopicVita } from "./paratopic-vita";
+import { legoStarWarsCompleteSagaSwitch } from "./lego-star-wars-complete-saga-switch";
+import { dune20003ds } from "./dune-2000-3ds";
+import { port007FromRussiaAndroid } from "./007-from-russia-android";
+import { dusttaleAndroid } from "./dusttale-android";
+import { backstabSwitch } from "./backstab-switch";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6089,4 +6094,9 @@ export const portCases: Port[] = [
   terrariaVita,
   legoMightyMicrosVita,
   paratopicVita,
+  legoStarWarsCompleteSagaSwitch,
+  dune20003ds,
+  port007FromRussiaAndroid,
+  dusttaleAndroid,
+  backstabSwitch,
 ];
