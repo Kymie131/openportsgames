@@ -3033,6 +3033,9 @@ import { pillarsOfEternityAndroid } from "./pillars-of-eternity-android";
 import { marioKartDsAndroid } from "./mario-kart-ds-android";
 import { projectIgiAndroid } from "./project-igi-android";
 import { midnightClubLaSwitch } from "./midnight-club-la-switch";
+import { pes6Vita } from "./pes-6-vita";
+import { devilMayCry3Psp } from "./devil-may-cry-3-psp";
+import { ikarugaPsp } from "./ikaruga-psp";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6065,4 +6068,7 @@ export const portCases: Port[] = [
   marioKartDsAndroid,
   projectIgiAndroid,
   midnightClubLaSwitch,
+  pes6Vita,
+  devilMayCry3Psp,
+  ikarugaPsp,
 ];

@@ -3032,4 +3032,7 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "mario-kart-ds-android": ["Nintendo DS"],
   "project-igi-android": ["Windows"],
   "midnight-club-la-switch": ["Xbox 360"],
+  "pes-6-vita": ["PlayStation Portable"],
+  "devil-may-cry-3-psp": ["PlayStation 2"],
+  "ikaruga-psp": ["Dreamcast"],
 };

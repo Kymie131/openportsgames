@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pes6Vita: Port = {
+  schema: "port",
+  id: "pes-6-vita",
+  title: "Pro Evolution Soccer 6 (PS Vita)",
+  game: "Pro Evolution Soccer 6",
+  developers: ["germanalvarez15"],
+  publisher: "Konami",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "alpha",
+  release: { version: "0.0.1", date: "2026-11-18" },
+  sources: ["https://github.com/germanalvarez15/pes6-vita"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation Portable"],
+  summary: "Pro Evolution Soccer 6 is a 2006 football game by Konami, released for consoles and the PSP with licensed teams and the series' pacey gameplay.",
+  summaryEs: "Pro Evolution Soccer 6 es un juego de fútbol de 2006 de Konami, lanzado para consolas y PSP con equipos licenciados y la jugabilidad rápida de la serie.",
+  notes: "PSP to PS Vita port of PES 6, in beta. Bring your own copy of the game.",
+  notesEs: "Port de PES 6 de PSP a PS Vita, en beta. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/pro-evolution-soccer-6.svg",
+    alt: "Pro Evolution Soccer 6 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
