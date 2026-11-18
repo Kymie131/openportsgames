@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const halfLifeDs: Port = {
+  schema: "port",
+  id: "half-life-ds",
+  title: "Half-Life (DS)",
+  game: "Half-Life",
+  developers: ["CrowbarDS"],
+  publisher: "Sierra Studios",
+  originalYear: 1998,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ds"],
+  status: "beta",
+  release: { version: "0.4.2", date: "2026-11-15" },
+  sources: ["https://github.com/CrowbarDS/Half-Life-NDS-Port"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Half-Life is a 1998 first-person shooter developed by Valve. Gordon Freeman escapes the Black Mesa facility after a resonance cascade opens a portal to another dimension.",
+  summaryEs: "Half-Life es un shooter en primera persona de 1998 desarrollado por Valve. Gordon Freeman escapa de Black Mesa tras una cascada de resonancia que abre un portal a otra dimensión.",
+  notes: "Nintendo DS and DSi port of Half-Life. Bring your own game data.",
+  notesEs: "Port de Half-Life para Nintendo DS y DSi. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/half-life.svg",
+    alt: "Half-Life (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

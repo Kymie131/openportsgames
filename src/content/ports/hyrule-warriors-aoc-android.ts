@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const hyruleWarriorsAocAndroid: Port = {
+  schema: "port",
+  id: "hyrule-warriors-aoc-android",
+  title: "Hyrule Warriors: Age of Calamity (Android)",
+  game: "Hyrule Warriors: Age of Calamity",
+  developers: ["P1R4N351"],
+  publisher: "Nintendo",
+  originalYear: 2020,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: "0.1.0-pre.1", date: "2026-11-16" },
+  sources: ["https://github.com/P1R4N351/hwaoc-android"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo Switch"],
+  summary: "Hyrule Warriors: Age of Calamity is a 2020 hack-and-slash game set 100 years before Breath of the Wild, where the champions fight to prevent the Calamity.",
+  summaryEs: "Hyrule Warriors: Age of Calamity es un juego de acción y hack-and-slash de 2020 ambientado 100 años antes de Breath of the Wild, donde los campeones luchan por evitar la Calamidad.",
+  notes: "Native Android port harness for the game, still in pre-release. Bring your own game data.",
+  notesEs: "Arnés de port nativo para Android del juego, aún en preestreno. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/hyrule-warriors-age-of-calamity.svg",
+    alt: "Hyrule Warriors: Age of Calamity (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

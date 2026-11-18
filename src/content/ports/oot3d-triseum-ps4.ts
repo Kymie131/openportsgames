@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const oot3dTriseumPs4: Port = {
+  schema: "port",
+  id: "oot3d-triseum-ps4",
+  title: "The Legend of Zelda: Ocarina of Time 3D (TriAevum, PS4)",
+  game: "The Legend of Zelda: Ocarina of Time 3D",
+  developers: ["dsxmello"],
+  publisher: "Nintendo",
+  originalYear: 2011,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps4"],
+  status: "beta",
+  release: { version: "0.8.0", date: "2026-10-22" },
+  sources: ["https://github.com/dsxmello/TriAevumPS4"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo 3DS"],
+  summary: "The Legend of Zelda: Ocarina of Time 3D is the 2011 remake of the 1998 Nintendo 64 classic, with updated models and touch-screen menus. Link travels through time to stop Ganondorf.",
+  summaryEs: "The Legend of Zelda: Ocarina of Time 3D es el remake de 2011 del clásico de Nintendo 64 de 1998, con modelos actualizados y menús táctiles. Link viaja en el tiempo para detener a Ganondorf.",
+  notes: "Native PS4 port of the TriAevum recompilation: install the pkg and send your ROM over FTP so the console prepares the game. No game files are included.",
+  notesEs: "Port nativo para PS4 de la recompilación TriAevum: instala el pkg y envía tu ROM por FTP para que la consola prepare el juego. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-ocarina-of-time-3d.svg",
+    alt: "The Legend of Zelda: Ocarina of Time 3D (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

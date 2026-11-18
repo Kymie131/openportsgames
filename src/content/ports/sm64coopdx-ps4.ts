@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sm64coopdxPs4: Port = {
+  schema: "port",
+  id: "sm64coopdx-ps4",
+  title: "Super Mario 64 Coop DX (PS4)",
+  game: "Super Mario 64",
+  developers: ["neiove"],
+  publisher: "Nintendo",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps4"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-11-16" },
+  sources: ["https://github.com/neiove/Sm64coopdx-ps4"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo 64"],
+  summary: "Super Mario 64 is a 1996 platform game developed and published by Nintendo for the Nintendo 64. sm64coopdx adds online co-op, Lua mods and custom character packs.",
+  summaryEs: "Super Mario 64 es un juego de plataformas de 1996 desarrollado y publicado por Nintendo para Nintendo 64. sm64coopdx añade cooperativo en línea, mods en Lua y paquetes de personajes.",
+  notes: "Unofficial PS4 homebrew port of sm64coopdx built with OpenOrbis, with Lua mods and DynOS packs. No ROM is included.",
+  notesEs: "Port homebrew no oficial para PS4 de sm64coopdx creado con OpenOrbis, con mods en Lua y paquetes DynOS. No incluye la ROM.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/super-mario-64.svg",
+    alt: "Super Mario 64 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

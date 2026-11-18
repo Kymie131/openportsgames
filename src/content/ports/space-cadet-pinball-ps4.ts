@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const spaceCadetPinballPs4: Port = {
+  schema: "port",
+  id: "space-cadet-pinball-ps4",
+  title: "3D Pinball for Windows: Space Cadet (PS4)",
+  game: "3D Pinball for Windows: Space Cadet",
+  developers: ["iHaiDeeZ"],
+  publisher: "Microsoft",
+  originalYear: 1995,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps4"],
+  status: "stable",
+  release: { version: "1.0", date: "2026-11-14" },
+  sources: ["https://github.com/iHaiDeeZ/SpaceCadetPinball-PS4"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "3D Pinball for Windows: Space Cadet is the 1995 pinball table bundled with Microsoft Windows. Players score points by keeping the ball in play and completing missions.",
+  summaryEs: "3D Pinball para Windows: Space Cadet es la mesa de pinball de 1995 incluida con Microsoft Windows. El jugador suma puntos manteniendo la bola en juego y completando misiones.",
+  notes: "Native PS4 port with DualShock 4 controls, a console pause menu, 1080p/720p output and MIDI music. No game files are included.",
+  notesEs: "Port nativo para PS4 con controles de DualShock 4, menú de pausa en consola, salida 1080p/720p y música MIDI. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/3d-pinball-for-windows-space-cadet.svg",
+    alt: "3D Pinball for Windows: Space Cadet (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -2975,6 +2975,30 @@ import { katawaShoujoPsp } from "./katawa-shoujo-psp";
 import { snootGamePsp } from "./snoot-game-psp";
 import { nyanCatVsDomoAndroid } from "./nyan-cat-vs-domo-android";
 import { prosperocraftPs5 } from "./prosperocraft-ps5";
+import { nfsUnderground2Ps4 } from "./nfs-underground-2-ps4";
+import { sm64coopdxPs4 } from "./sm64coopdx-ps4";
+import { spaceCadetPinballPs4 } from "./space-cadet-pinball-ps4";
+import { oot3dTriseumPs4 } from "./oot3d-triseum-ps4";
+import { windWakerPs4 } from "./wind-waker-ps4";
+import { halfLifePs4 } from "./half-life-ps4";
+import { jak2Switch } from "./jak-2-switch";
+import { simgolf3ds } from "./simgolf-3ds";
+import { marioKart64Ps3 } from "./mario-kart-64-ps3";
+import { eduke32Ps3 } from "./eduke32-ps3";
+import { shipOfGadeguionPs3 } from "./ship-of-gadeguion-ps3";
+import { superSmashBrosPs3 } from "./super-smash-bros-ps3";
+import { returnToCastleWolfensteinPs3 } from "./return-to-castle-wolfenstein-ps3";
+import { haloCePs3 } from "./halo-ce-ps3";
+import { godOfWar3Switch } from "./god-of-war-3-switch";
+import { halfLifeDs } from "./half-life-ds";
+import { megaManX4Dsi } from "./mega-man-x4-dsi";
+import { ootDsi } from "./oot-dsi";
+import { gtaSanAndreas3ds } from "./gta-san-andreas-3ds";
+import { pokemonStadium3ds } from "./pokemon-stadium-3ds";
+import { pokesurvivor3ds } from "./pokesurvivor-3ds";
+import { residentEvil4Android } from "./resident-evil-4-android";
+import { ootSwitch2Android } from "./oot-switch2-android";
+import { hyruleWarriorsAocAndroid } from "./hyrule-warriors-aoc-android";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5949,4 +5973,28 @@ export const portCases: Port[] = [
   snootGamePsp,
   nyanCatVsDomoAndroid,
   prosperocraftPs5,
+  nfsUnderground2Ps4,
+  sm64coopdxPs4,
+  spaceCadetPinballPs4,
+  oot3dTriseumPs4,
+  windWakerPs4,
+  halfLifePs4,
+  jak2Switch,
+  simgolf3ds,
+  marioKart64Ps3,
+  eduke32Ps3,
+  shipOfGadeguionPs3,
+  superSmashBrosPs3,
+  returnToCastleWolfensteinPs3,
+  haloCePs3,
+  godOfWar3Switch,
+  halfLifeDs,
+  megaManX4Dsi,
+  ootDsi,
+  gtaSanAndreas3ds,
+  pokemonStadium3ds,
+  pokesurvivor3ds,
+  residentEvil4Android,
+  ootSwitch2Android,
+  hyruleWarriorsAocAndroid,
 ];

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const returnToCastleWolfensteinPs3: Port = {
+  schema: "port",
+  id: "return-to-castle-wolfenstein-ps3",
+  title: "Return to Castle Wolfenstein (PS3)",
+  game: "Return to Castle Wolfenstein",
+  developers: ["stingziz0u"],
+  publisher: "Activision",
+  originalYear: 2001,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps3"],
+  status: "beta",
+  release: { version: "1.1", date: "2026-11-09" },
+  sources: ["https://github.com/stingziz0u/ioRTCW-PS3"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Return to Castle Wolfenstein is a 2001 first-person shooter by id Software and Gray Matter. B.J. Blazkowicz uncovers an occult Nazi plot during World War II.",
+  summaryEs: "Return to Castle Wolfenstein es un shooter en primera persona de 2001 de id Software y Gray Matter. B.J. Blazkowicz descubre una conspiración ocultista nazi durante la Segunda Guerra Mundial.",
+  notes: "Homebrew port of ioRTCW, the source port of the game, for the PlayStation 3. Bring your own game files.",
+  notesEs: "Port homebrew de ioRTCW, el port de código del juego, para PlayStation 3. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/return-to-castle-wolfenstein.svg",
+    alt: "Return to Castle Wolfenstein (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

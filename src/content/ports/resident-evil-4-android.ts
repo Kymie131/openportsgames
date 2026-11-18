@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const residentEvil4Android: Port = {
+  schema: "port",
+  id: "resident-evil-4-android",
+  title: "Resident Evil 4 (Android, GameCube prototype)",
+  game: "Resident Evil 4",
+  developers: ["manuk-bulan"],
+  publisher: "Capcom",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: "0.0.1", date: "2026-11-17" },
+  sources: ["https://github.com/manuk-bulan/Manuk-CubeEvil4-Android"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo GameCube"],
+  summary: "Resident Evil 4 is a 2005 survival horror game by Capcom. Leon Kennedy fights infected villagers in rural Spain to rescue the president's daughter. This build follows the November 2004 GameCube prototype.",
+  summaryEs: "Resident Evil 4 es un juego de terror y supervivencia de 2005 de Capcom. Leon Kennedy lucha contra aldeanos infectados en la España rural para rescatar a la hija del presidente. Esta versión sigue el prototipo de GameCube de noviembre de 2004.",
+  notes: "Modded build of CubeEvil4 for Android with controller support and OpenGL ES 3, plus experimental Vulkan. Bring your own game data.",
+  notesEs: "Compilación modificada de CubeEvil4 para Android con soporte de mando y OpenGL ES 3, además de Vulkan experimental. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/resident-evil-4.svg",
+    alt: "Resident Evil 4 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

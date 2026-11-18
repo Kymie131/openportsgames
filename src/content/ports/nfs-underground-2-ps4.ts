@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nfsUnderground2Ps4: Port = {
+  schema: "port",
+  id: "nfs-underground-2-ps4",
+  title: "Need for Speed: Underground 2 (PS4)",
+  game: "Need for Speed: Underground 2",
+  developers: ["fatzyk"],
+  publisher: "Electronic Arts",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps4"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-11-18" },
+  sources: ["https://github.com/fatzyk/nfsu2ps4"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox"],
+  summary: "Need for Speed: Underground 2 is a 2004 racing game developed by EA Black Box and published by Electronic Arts. It expands the tuner culture with an open city, SUVs and extensive customization.",
+  summaryEs: "Need for Speed: Underground 2 es un juego de carreras de 2004 desarrollado por EA Black Box y publicado por Electronic Arts. Amplía la cultura del tuning con una ciudad abierta, SUV y personalización extensa.",
+  notes: "Unofficial native PS4 homebrew port of the original Xbox version. Bring your own copy of the game.",
+  notesEs: "Port homebrew nativo no oficial para PS4 de la versión original de Xbox. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/need-for-speed-underground-2.svg",
+    alt: "Need for Speed: Underground 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pokemonStadium3ds: Port = {
+  schema: "port",
+  id: "pokemon-stadium-3ds",
+  title: "Pokémon Stadium (3DS)",
+  game: "Pokémon Stadium",
+  developers: ["ChonkHouseDev"],
+  publisher: "Nintendo",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "alpha",
+  release: { version: "0.1.0", date: "2026-11-18" },
+  sources: ["https://github.com/ChonkHouseDev/pokestadium-3ds"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo 64"],
+  summary: "Pokémon Stadium is a 1999 3D battle game for the Nintendo 64 where players fight turn-based battles with teams imported from the Game Boy games.",
+  summaryEs: "Pokémon Stadium es un juego de combates 3D de 1999 para Nintendo 64 en el que el jugador libra batallas por turnos con equipos importados de los juegos de Game Boy.",
+  notes: "Native Pokémon Stadium port for the whole Nintendo 3DS family, with a touch bottom screen. Bring your own game data.",
+  notesEs: "Port nativo de Pokémon Stadium para toda la familia Nintendo 3DS, con pantalla táctil inferior. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/pokemon-stadium.svg",
+    alt: "Pokémon Stadium (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pokesurvivor3ds: Port = {
+  schema: "port",
+  id: "pokesurvivor-3ds",
+  title: "PokéSurvivor (3DS)",
+  game: "PokéSurvivor",
+  developers: ["juanluismm521"],
+  publisher: "Homebrew",
+  originalYear: 2024,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-11-17" },
+  sources: ["https://github.com/juanluismm521/pokesurvivor3ds"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "PokéSurvivor is a fan-made survivor game that mixes Pokémon with the auto-attacking wave formula of Vampire Survivors. Defeat swarms and evolve your team.",
+  summaryEs: "PokéSurvivor es un juego de supervivencia hecho por fans que mezcla Pokémon con la fórmula de oleadas y ataque automático de Vampire Survivors. Derrota enjambres y evoluciona tu equipo.",
+  notes: "Homebrew port of PokéSurvivor for the Nintendo 3DS. No game files are included.",
+  notesEs: "Port homebrew de PokéSurvivor para Nintendo 3DS. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/pokesurvivor.svg",
+    alt: "PokéSurvivor (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

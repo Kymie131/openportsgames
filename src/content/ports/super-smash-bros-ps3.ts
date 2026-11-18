@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const superSmashBrosPs3: Port = {
+  schema: "port",
+  id: "super-smash-bros-ps3",
+  title: "Super Smash Bros. (PS3)",
+  game: "Super Smash Bros.",
+  developers: ["stingziz0u"],
+  publisher: "Nintendo",
+  originalYear: 1999,
+  portType: "decompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps3"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-11-11" },
+  sources: ["https://github.com/stingziz0u/smashps3"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo 64"],
+  summary: "Super Smash Bros. is a 1999 crossover fighting game developed by HAL Laboratory and published by Nintendo for the Nintendo 64. Nintendo characters battle on themed stages.",
+  summaryEs: "Super Smash Bros. es un juego de lucha crossover de 1999 desarrollado por HAL Laboratory y publicado por Nintendo para Nintendo 64. Personajes de Nintendo se enfrentan en escenarios temáticos.",
+  notes: "Native PlayStation 3 homebrew port of the Super Smash Bros. decompilation. Bring your own game data.",
+  notesEs: "Port homebrew nativo para PlayStation 3 de la descompilación de Super Smash Bros. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/super-smash-bros.svg",
+    alt: "Super Smash Bros. (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

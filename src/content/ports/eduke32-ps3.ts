@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const eduke32Ps3: Port = {
+  schema: "port",
+  id: "eduke32-ps3",
+  title: "EDuke32 & VoidSW (PS3)",
+  game: "Duke Nukem 3D",
+  developers: ["stingziz0u"],
+  publisher: "3D Realms",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps3"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-11-16" },
+  sources: ["https://github.com/stingziz0u/EDuke32-PS3"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["MS-DOS"],
+  summary: "EDuke32 is a source port of Duke Nukem 3D, the 1996 first-person shooter by 3D Realms. VoidSW brings the same engine work to Shadow Warrior.",
+  summaryEs: "EDuke32 es un port de código de Duke Nukem 3D, el shooter en primera persona de 1996 de 3D Realms. VoidSW lleva el mismo trabajo de motor a Shadow Warrior.",
+  notes: "Homebrew port of EDuke32 and VoidSW running natively on the PlayStation 3. Bring your own game files.",
+  notesEs: "Port homebrew de EDuke32 y VoidSW ejecutándose de forma nativa en PlayStation 3. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/duke-nukem-3d.svg",
+    alt: "Duke Nukem 3D (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

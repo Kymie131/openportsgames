@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const shipOfGadeguionPs3: Port = {
+  schema: "port",
+  id: "ship-of-gadeguion-ps3",
+  title: "The Legend of Zelda: Ocarina of Time (Ship of Gadeguion, PS3)",
+  game: "The Legend of Zelda: Ocarina of Time",
+  developers: ["Gadega"],
+  publisher: "Nintendo",
+  originalYear: 1998,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps3"],
+  status: "beta",
+  release: { version: "1.2.0", date: "2026-11-14" },
+  sources: ["https://github.com/Gadega/ship-of-gadeguion"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo 64"],
+  summary: "The Legend of Zelda: Ocarina of Time is a 1998 action-adventure game developed and published by Nintendo for the Nintendo 64. Link travels through Hyrule and through time to stop Ganondorf.",
+  summaryEs: "The Legend of Zelda: Ocarina of Time es un videojuego de acción y aventura de 1998 desarrollado y publicado por Nintendo para Nintendo 64. Link recorre Hyrule y viaja en el tiempo para detener a Ganondorf.",
+  notes: "Native PS3 port of Ship of Harkinian for HEN and CFW consoles. Bring your own game data.",
+  notesEs: "Port nativo para PS3 de Ship of Harkinian para consolas con HEN y CFW. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-ocarina-of-time.svg",
+    alt: "The Legend of Zelda: Ocarina of Time (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

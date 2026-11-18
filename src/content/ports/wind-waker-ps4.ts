@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const windWakerPs4: Port = {
+  schema: "port",
+  id: "wind-waker-ps4",
+  title: "The Legend of Zelda: The Wind Waker (PS4)",
+  game: "The Legend of Zelda: The Wind Waker",
+  developers: ["Jcanotorr06"],
+  publisher: "Nintendo",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps4"],
+  status: "alpha",
+  release: { version: "0.1.0", date: "2026-10-31" },
+  sources: ["https://github.com/Jcanotorr06/pswaker"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo GameCube"],
+  summary: "The Legend of Zelda: The Wind Waker is a 2002 action-adventure game developed and published by Nintendo for the GameCube. Link sails the Great Sea to rescue his sister and defeat Ganondorf.",
+  summaryEs: "The Legend of Zelda: The Wind Waker es un videojuego de acción y aventura de 2002 desarrollado y publicado por Nintendo para GameCube. Link navega el Gran Mar para rescatar a su hermana y vencer a Ganondorf.",
+  notes: "PlayStation 4 homebrew port of The Wind Waker. Bring your own game disc.",
+  notesEs: "Port homebrew para PlayStation 4 de The Wind Waker. Aporta tu propio disco del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-the-wind-waker.svg",
+    alt: "The Legend of Zelda: The Wind Waker (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

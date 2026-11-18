@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const marioKart64Ps3: Port = {
+  schema: "port",
+  id: "mario-kart-64-ps3",
+  title: "Mario Kart 64 (PS3)",
+  game: "Mario Kart 64",
+  developers: ["stingziz0u"],
+  publisher: "Nintendo",
+  originalYear: 1996,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps3"],
+  status: "beta",
+  release: { version: "1.2", date: "2026-11-16" },
+  sources: ["https://github.com/stingziz0u/mk64-ps3"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo 64"],
+  summary: "Mario Kart 64 is a 1996 kart racing game developed and published by Nintendo for the Nintendo 64. Up to four players race and battle across sixteen tracks.",
+  summaryEs: "Mario Kart 64 es un juego de carreras de karts de 1996 desarrollado y publicado por Nintendo para Nintendo 64. Hasta cuatro jugadores compiten y se enfrentan en dieciséis circuitos.",
+  notes: "Native PlayStation 3 homebrew port of the Mario Kart 64 decompilation. Bring your own game data.",
+  notesEs: "Port homebrew nativo para PlayStation 3 de la descompilación de Mario Kart 64. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/mario-kart-64.svg",
+    alt: "Mario Kart 64 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
