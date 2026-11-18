@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const katanaZeroVita: Port = {
+  schema: "port",
+  id: "katana-zero-vita",
+  title: "Katana ZERO (PS Vita)",
+  game: "Katana ZERO",
+  developers: ["xob0t"],
+  publisher: "Devolver Digital",
+  originalYear: 2019,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.1.1", date: "2026-11-16" },
+  sources: ["https://github.com/xob0t/katana-zero-vita"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Katana ZERO is a 2019 neo-noir action platformer where a samurai assassin can rewind time and plan each room like a puzzle.",
+  summaryEs: "Katana ZERO es un juego de acción y plataformas neo-noir de 2019 en el que un samurái asesino rebobina el tiempo y plantea cada sala como un puzle.",
+  notes: "PS Vita port of the Netflix Android build through YoYo Loader. Bring your own game files.",
+  notesEs: "Port para PS Vita de la versión de Android de Netflix mediante YoYo Loader. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/katana-zero.svg",
+    alt: "Katana ZERO (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

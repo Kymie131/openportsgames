@@ -3013,4 +3013,7 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "sims-medieval-vita": ["Mobile"],
   "pokemon-leafgreen-psp": ["Game Boy Advance"],
   "moto-racer-psp": ["MS-DOS"],
+  "pokemon-emerald-voxel-vita": ["Game Boy Advance"],
+  "zenonia-5-vita": ["Mobile"],
+  "katana-zero-vita": ["Mobile"],
 };

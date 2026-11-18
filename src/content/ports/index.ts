@@ -3014,6 +3014,9 @@ import { sims3AmbitionsVita } from "./sims-3-ambitions-vita";
 import { simsMedievalVita } from "./sims-medieval-vita";
 import { pokemonLeafgreenPsp } from "./pokemon-leafgreen-psp";
 import { motoRacerPsp } from "./moto-racer-psp";
+import { pokemonEmeraldVoxelVita } from "./pokemon-emerald-voxel-vita";
+import { zenonia5Vita } from "./zenonia-5-vita";
+import { katanaZeroVita } from "./katana-zero-vita";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6027,4 +6030,7 @@ export const portCases: Port[] = [
   simsMedievalVita,
   pokemonLeafgreenPsp,
   motoRacerPsp,
+  pokemonEmeraldVoxelVita,
+  zenonia5Vita,
+  katanaZeroVita,
 ];

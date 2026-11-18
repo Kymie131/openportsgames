@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pokemonEmeraldVoxelVita: Port = {
+  schema: "port",
+  id: "pokemon-emerald-voxel-vita",
+  title: "Pokémon Emerald Voxel (PS Vita)",
+  game: "Pokémon Emerald",
+  developers: ["Arfatnaik0"],
+  publisher: "Nintendo",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.02", date: "2026-11-18" },
+  sources: ["https://github.com/Arfatnaik0/CLN-Pokemon-emerald-voxel-psvita"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Game Boy Advance"],
+  summary: "Pokémon Emerald Version is a 2004 role-playing game by Game Freak for the Game Boy Advance. This build adds a voxel-style renderer to the pokeemerald decompilation.",
+  summaryEs: "Pokémon Edición Esmeralda es un videojuego de rol de 2004 de Game Freak para Game Boy Advance. Esta versión añade un renderizador de estilo voxel a la descompilación de pokeemerald.",
+  notes: "PS Vita port of the pokeemerald voxel fork. No ROM is included.",
+  notesEs: "Port para PS Vita del fork voxel de pokeemerald. No incluye la ROM.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/pokemon-emerald.svg",
+    alt: "Pokémon Emerald (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

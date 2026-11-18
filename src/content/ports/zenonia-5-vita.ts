@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const zenonia5Vita: Port = {
+  schema: "port",
+  id: "zenonia-5-vita",
+  title: "Zenonia 5: Wheel of Destiny (PS Vita)",
+  game: "Zenonia 5: Wheel of Destiny",
+  developers: ["MetalSyntax"],
+  publisher: "Gamevil",
+  originalYear: 2013,
+  portType: "runtime-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "0.2", date: "2026-11-18" },
+  sources: ["https://github.com/MetalSyntax/Zenonia5-psvita-port"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Zenonia 5: Wheel of Destiny is a 2013 action role-playing game by Gamevil for mobile devices, with real-time combat and class-based progression.",
+  summaryEs: "Zenonia 5: Wheel of Destiny es un juego de rol de acción de 2013 de Gamevil para dispositivos móviles, con combate en tiempo real y progresión por clases.",
+  notes: "Unofficial iOS to PS Vita wrapper port using a Mach-O loader. Bring your own game files.",
+  notesEs: "Port no oficial de iOS a PS Vita mediante un cargador Mach-O. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/zenonia-5-wheel-of-destiny.svg",
+    alt: "Zenonia 5: Wheel of Destiny (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
