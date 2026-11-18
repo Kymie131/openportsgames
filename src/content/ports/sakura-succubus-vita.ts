@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sakuraSuccubusVita: Port = {
+  schema: "port",
+  id: "sakura-succubus-vita",
+  title: "Sakura Succubus (PS Vita)",
+  game: "Sakura Succubus",
+  developers: ["SilverCrow2323"],
+  publisher: "Winged Cloud",
+  originalYear: 2020,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "stable",
+  release: { version: "1.1", date: "2022-04-07" },
+  sources: ["https://github.com/SilverCrow2323/Sakura-Succubus-Vita"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Sakura Succubus is a visual novel about an ordinary office worker who ends up surrounded by glamorous succubi.",
+  summaryEs: "Sakura Succubus es una novela visual sobre un oficinista común que termina rodeado de súcubos glamurosas.",
+  notes: "PS Vita port of the PC visual novel. No game assets are included.",
+  notesEs: "Port para PS Vita de la novela visual de PC. No incluye recursos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/sakura-succubus.svg",
+    alt: "Sakura Succubus (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

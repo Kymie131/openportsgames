@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const destiniaSwitch: Port = {
+  schema: "port",
+  id: "destinia-switch",
+  title: "Destinia (Switch)",
+  game: "Destinia",
+  developers: ["malinkin-s"],
+  publisher: "Gamevil",
+  originalYear: 2011,
+  portType: "reimplementation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-10-25" },
+  sources: ["https://github.com/malinkin-s/destinia-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Destinia is a 2011 mobile action RPG by Gamevil with hack-and-slash combat and loot progression.",
+  summaryEs: "Destinia es un RPG de acción para móviles de 2011 de Gamevil con combate hack-and-slash y progresión por botín.",
+  notes: "Clean-room Nintendo Switch and PC port using an ARM Thumb interpreter with HLE. No game assets are included.",
+  notesEs: "Port de sala limpia para Nintendo Switch y PC usando un intérprete ARM Thumb con HLE. No incluye recursos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/destinia.svg",
+    alt: "Destinia (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

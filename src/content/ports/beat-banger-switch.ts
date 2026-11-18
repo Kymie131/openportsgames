@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const beatBangerSwitch: Port = {
+  schema: "port",
+  id: "beat-banger-switch",
+  title: "Beat Banger (Switch)",
+  game: "Beat Banger",
+  developers: ["Emil283498"],
+  publisher: "Homebrew",
+  originalYear: 2022,
+  portType: "source-port",
+  genre: "music",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-11-09" },
+  sources: ["https://github.com/Emil283498/beat-banger-switch"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Beat Banger is a rhythm game with custom songs and character mods, built on the Godot engine.",
+  summaryEs: "Beat Banger es un juego de ritmo con canciones y mods de personajes, creado sobre el motor Godot.",
+  notes: "Unofficial Nintendo Switch homebrew port (Godot 4.7.2). Tooling and documentation only, no game assets.",
+  notesEs: "Port homebrew no oficial para Nintendo Switch (Godot 4.7.2). Solo herramientas y documentación, sin recursos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/beat-banger.svg",
+    alt: "Beat Banger (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

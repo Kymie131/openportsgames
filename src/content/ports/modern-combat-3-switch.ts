@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const modernCombat3Switch: Port = {
+  schema: "port",
+  id: "modern-combat-3-switch",
+  title: "Modern Combat 3: Fallen Nation (Switch)",
+  game: "Modern Combat 3: Fallen Nation",
+  developers: ["Kaays"],
+  publisher: "Gameloft",
+  originalYear: 2011,
+  portType: "runtime-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-10-28" },
+  sources: ["https://github.com/Kaays/mc3_nx"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Modern Combat 3: Fallen Nation is a 2011 mobile first-person shooter by Gameloft with a campaign and online multiplayer.",
+  summaryEs: "Modern Combat 3: Fallen Nation es un shooter en primera persona para móviles de 2011 de Gameloft con campaña y multijugador en línea.",
+  notes: "Runs the 32-bit Android build natively on the Nintendo Switch through an android32 so-loader port. Bring your own game files.",
+  notesEs: "Ejecuta la versión de Android de 32 bits de forma nativa en Nintendo Switch mediante un cargador so de android32. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/modern-combat-3-fallen-nation.svg",
+    alt: "Modern Combat 3: Fallen Nation (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

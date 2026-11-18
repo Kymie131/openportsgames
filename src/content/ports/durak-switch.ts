@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const durakSwitch: Port = {
+  schema: "port",
+  id: "durak-switch",
+  title: "Durak (Switch)",
+  game: "Durak",
+  developers: ["Oleksa126"],
+  publisher: "Homebrew",
+  originalYear: 2019,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.1.0", date: "2026-10-22" },
+  sources: ["https://github.com/Oleksa126/durak_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Durak is a traditional Russian card game where players attack and defend with trump suits until only one player holds cards.",
+  summaryEs: "Durak es un juego de cartas tradicional ruso en el que los jugadores atacan y defienden con triunfos hasta que solo uno conserva cartas.",
+  notes: "Durak for Nintendo Switch, ported from the Unity 6 ARM64 Android build, with touch, controller cursor and audio support.",
+  notesEs: "Durak para Nintendo Switch, portado desde la versión Android ARM64 de Unity 6, con soporte táctil, cursor de mando y audio.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/durak.svg",
+    alt: "Durak (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

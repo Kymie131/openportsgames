@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const numeriAndroid: Port = {
+  schema: "port",
+  id: "numeri-android",
+  title: "Numeri (Android)",
+  game: "Numeri",
+  developers: ["lucio-ferrao"],
+  publisher: "Homebrew",
+  originalYear: 2009,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "stable",
+  release: { version: "2.0", date: "2026-11-18" },
+  sources: ["https://github.com/lucio-ferrao/numeri"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Numeri is a 2009 iPhone puzzle game about linking numbered tiles to clear the board, rebuilt as a Kotlin Android app.",
+  summaryEs: "Numeri es un juego de puzles de iPhone de 2009 sobre enlazar fichas numeradas para despejar el tablero, reconstruido como app Android en Kotlin.",
+  notes: "Kotlin Android port of the original iPhone game. No game files are required.",
+  notesEs: "Port para Android en Kotlin del juego original de iPhone. No requiere archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/numeri.svg",
+    alt: "Numeri (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

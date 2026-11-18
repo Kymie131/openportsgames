@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ragingThunderVita: Port = {
+  schema: "port",
+  id: "raging-thunder-vita",
+  title: "Raging Thunder (PS Vita)",
+  game: "Raging Thunder",
+  developers: ["MetalSyntax"],
+  publisher: "Polarbit",
+  originalYear: 2008,
+  portType: "runtime-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-11-13" },
+  sources: ["https://github.com/MetalSyntax/Raging-Thunder-vita"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Raging Thunder is a 2008 mobile arcade racing game by Polarbit with fast cars, shortcuts and power-ups.",
+  summaryEs: "Raging Thunder es un juego de carreras arcade para móviles de 2008 de Polarbit con coches rápidos, atajos y potenciadores.",
+  notes: "Android to PS Vita port of Raging Thunder. Bring your own game files.",
+  notesEs: "Port de Raging Thunder de Android a PS Vita. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/raging-thunder.svg",
+    alt: "Raging Thunder (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const dontOpenYourEyesVita: Port = {
+  schema: "port",
+  id: "dont-open-your-eyes-vita",
+  title: "(Don't) Open Your Eyes (PS Vita)",
+  game: "(Don't) Open Your Eyes",
+  developers: ["SilverCrow2323"],
+  publisher: "Homebrew",
+  originalYear: 2021,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "stable",
+  release: { version: "1.11", date: "2022-04-04" },
+  sources: ["https://github.com/SilverCrow2323/Don-t-OpenYourVita"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "(Don't) Open Your Eyes is a short psychological visual novel about a girl who wakes up in a strange house and is warned not to look outside.",
+  summaryEs: "(Don't) Open Your Eyes es una novela visual psicológica corta sobre una chica que despierta en una casa extraña y recibe la advertencia de no mirar afuera.",
+  notes: "PS Vita port of the PC visual novel. No game assets are included.",
+  notesEs: "Port para PS Vita de la novela visual de PC. No incluye recursos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/don-t-open-your-eyes.svg",
+    alt: "(Don't) Open Your Eyes (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

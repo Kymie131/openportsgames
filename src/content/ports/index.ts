@@ -3065,6 +3065,25 @@ import { rayman2Vita } from "./rayman-2-vita";
 import { vexedAndroid } from "./vexed-android";
 import { lasertankAndroid } from "./lasertank-android";
 import { atomixAndroid } from "./atomix-android";
+import { guitarHeroVita } from "./guitar-hero-vita";
+import { stepmaniaVita } from "./stepmania-vita";
+import { ragingThunderVita } from "./raging-thunder-vita";
+import { dontOpenYourEyesVita } from "./dont-open-your-eyes-vita";
+import { sakuraSuccubusVita } from "./sakura-succubus-vita";
+import { legoDinoAttack3ds } from "./lego-dino-attack-3ds";
+import { kingdomNewLands3ds } from "./kingdom-new-lands-3ds";
+import { minecraftStoryMode3ds } from "./minecraft-story-mode-3ds";
+import { pixelDungeon3ds } from "./pixel-dungeon-3ds";
+import { spaceCadetPinball3ds } from "./space-cadet-pinball-3ds";
+import { lume3ds } from "./lume-3ds";
+import { beatBangerSwitch } from "./beat-banger-switch";
+import { marioParty4Switch } from "./mario-party-4-switch";
+import { aliceMadnessReturnsSwitch } from "./alice-madness-returns-switch";
+import { realDriftCarRacingSwitch } from "./real-drift-car-racing-switch";
+import { modernCombat3Switch } from "./modern-combat-3-switch";
+import { destiniaSwitch } from "./destinia-switch";
+import { durakSwitch } from "./durak-switch";
+import { numeriAndroid } from "./numeri-android";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6129,4 +6148,23 @@ export const portCases: Port[] = [
   vexedAndroid,
   lasertankAndroid,
   atomixAndroid,
+  guitarHeroVita,
+  stepmaniaVita,
+  ragingThunderVita,
+  dontOpenYourEyesVita,
+  sakuraSuccubusVita,
+  legoDinoAttack3ds,
+  kingdomNewLands3ds,
+  minecraftStoryMode3ds,
+  pixelDungeon3ds,
+  spaceCadetPinball3ds,
+  lume3ds,
+  beatBangerSwitch,
+  marioParty4Switch,
+  aliceMadnessReturnsSwitch,
+  realDriftCarRacingSwitch,
+  modernCombat3Switch,
+  destiniaSwitch,
+  durakSwitch,
+  numeriAndroid,
 ];

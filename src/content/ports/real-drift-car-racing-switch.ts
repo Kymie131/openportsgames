@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const realDriftCarRacingSwitch: Port = {
+  schema: "port",
+  id: "real-drift-car-racing-switch",
+  title: "Real Drift Car Racing (Switch)",
+  game: "Real Drift Car Racing",
+  developers: ["dpadninja"],
+  publisher: "Real Games",
+  originalYear: 2015,
+  portType: "runtime-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.5.3", date: "2026-11-04" },
+  sources: ["https://github.com/dpadninja/realdrift_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Real Drift Car Racing is a mobile drifting game with tuned cars, smoke effects and score-based drift challenges.",
+  summaryEs: "Real Drift Car Racing es un juego de derrapes para móviles con coches tuneados, efectos de humo y retos de puntuación por derrape.",
+  notes: "Native Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port nativo para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/real-drift-car-racing.svg",
+    alt: "Real Drift Car Racing (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const lume3ds: Port = {
+  schema: "port",
+  id: "lume-3ds",
+  title: "Lume (3DS)",
+  game: "Lume",
+  developers: ["Reqrefusion"],
+  publisher: "State of Play Games",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-10-24" },
+  sources: ["https://github.com/Reqrefusion/lume-3ds"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Lume is a 2011 puzzle game made of paper and cardboard, where players guide a grandfather and granddaughter through a model house.",
+  summaryEs: "Lume es un juego de puzles de 2011 hecho de papel y cartón, en el que el jugador guía a un abuelo y su nieta por una casa de maqueta.",
+  notes: "Nintendo 3DS port with added stereoscopic 3D effects. No game files are included.",
+  notesEs: "Port para Nintendo 3DS con efectos 3D estereoscópicos añadidos. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/lume.svg",
+    alt: "Lume (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

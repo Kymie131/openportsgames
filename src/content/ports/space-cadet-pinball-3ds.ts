@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const spaceCadetPinball3ds: Port = {
+  schema: "port",
+  id: "space-cadet-pinball-3ds",
+  title: "3D Pinball for Windows: Space Cadet (3DS)",
+  game: "3D Pinball for Windows: Space Cadet",
+  developers: ["imphuochuynh"],
+  publisher: "Microsoft",
+  originalYear: 1995,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "stable",
+  release: { version: "1.0", date: "2026-11-05" },
+  sources: ["https://github.com/imphuochuynh/SpaceCadetPinball-3DS"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "3D Pinball for Windows: Space Cadet is the 1995 pinball table bundled with Windows, with missions, ranks and high scores.",
+  summaryEs: "3D Pinball para Windows: Space Cadet es la mesa de pinball de 1995 incluida con Windows, con misiones, rangos y récords.",
+  notes: "Rebuilt for the 3DS's two screens: table on top with a camera that follows the ball, score panel and high scores below.",
+  notesEs: "Recreado para las dos pantallas de la 3DS: mesa arriba con cámara que sigue la bola, panel de puntos y récords abajo.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/3d-pinball-for-windows-space-cadet.svg",
+    alt: "3D Pinball for Windows: Space Cadet (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

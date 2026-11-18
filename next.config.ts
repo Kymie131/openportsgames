@@ -20,6 +20,10 @@ const nextConfig: NextConfig = {
     // machines (11 workers on a 16 GB box gets OOM-killed).
     cpus: 4,
     memoryBasedWorkersCount: true,
+    // The export writes tens of thousands of files; keeping a persistent
+    // Turbopack cache on disk doubles the footprint and often exhausts the
+    // space budget on developer machines.
+    turbopackFileSystemCacheForBuild: false,
   },
   ...(basePath && basePath.startsWith("/") ? { basePath } : {}),
 };

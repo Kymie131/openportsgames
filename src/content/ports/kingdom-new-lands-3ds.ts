@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const kingdomNewLands3ds: Port = {
+  schema: "port",
+  id: "kingdom-new-lands-3ds",
+  title: "Kingdom: New Lands (3DS)",
+  game: "Kingdom: New Lands",
+  developers: ["isaiahboland-dotcom"],
+  publisher: "Raw Fury",
+  originalYear: 2016,
+  portType: "source-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: "1.4.0", date: "2026-11-17" },
+  sources: ["https://github.com/isaiahboland-dotcom/3ds-kingdom-newlands-port"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Kingdom: New Lands is a 2016 side-scrolling strategy game where a monarch builds and defends a kingdom against nightly attacks.",
+  summaryEs: "Kingdom: New Lands es un juego de estrategia de desplazamiento lateral de 2016 en el que un monarca construye y defiende un reino de ataques nocturnos.",
+  notes: "Nintendo 3DS port rewritten in Rust. No game files are included.",
+  notesEs: "Port para Nintendo 3DS reescrito en Rust. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/kingdom-new-lands.svg",
+    alt: "Kingdom: New Lands (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

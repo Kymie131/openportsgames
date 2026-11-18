@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const guitarHeroVita: Port = {
+  schema: "port",
+  id: "guitar-hero-vita",
+  title: "Guitar Hero (PS Vita)",
+  game: "Guitar Hero",
+  developers: ["irxd"],
+  publisher: "Activision",
+  originalYear: 2005,
+  portType: "runtime-port",
+  genre: "music",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "alpha",
+  release: { version: "0.1.1", date: "2026-11-16" },
+  sources: ["https://github.com/irxd/guitar-hero-vita"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation 2"],
+  summary: "Guitar Hero is the 2005 rhythm game that popularised plastic-guitar controllers, with covers of rock tracks played by matching notes on screen.",
+  summaryEs: "Guitar Hero es el juego de ritmo de 2005 que popularizó los mandos de guitarra de plástico, con versiones de temas de rock tocadas siguiendo las notas en pantalla.",
+  notes: "Guitar Hero port for the PS Vita, in alpha. Bring your own game files.",
+  notesEs: "Port de Guitar Hero para PS Vita, en alfa. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/guitar-hero.svg",
+    alt: "Guitar Hero (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const legoDinoAttack3ds: Port = {
+  schema: "port",
+  id: "lego-dino-attack-3ds",
+  title: "Lego Dino Attack (3DS)",
+  game: "Lego Dino Attack",
+  developers: ["isaiahboland-dotcom"],
+  publisher: "The Lego Group",
+  originalYear: 2005,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "alpha",
+  release: { version: "0.1.0", date: "2026-11-18" },
+  sources: ["https://github.com/isaiahboland-dotcom/FlashGame-Lego-Dino-Attack-3dsport"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Web"],
+  summary: "Lego Dino Attack is a browser Flash game where the player defends a Lego city from waves of dinosaurs.",
+  summaryEs: "Lego Dino Attack es un juego Flash de navegador en el que el jugador defiende una ciudad de Lego de oleadas de dinosaurios.",
+  notes: "Nintendo 3DS port of the Flash game, developed with generative AI assistance. No game files are included.",
+  notesEs: "Port para Nintendo 3DS del juego Flash, desarrollado con asistencia de IA generativa. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/lego-dino-attack.svg",
+    alt: "Lego Dino Attack (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

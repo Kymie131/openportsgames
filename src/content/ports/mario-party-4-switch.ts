@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const marioParty4Switch: Port = {
+  schema: "port",
+  id: "mario-party-4-switch",
+  title: "Mario Party 4 (Switch)",
+  game: "Mario Party 4",
+  developers: ["Yirr777"],
+  publisher: "Nintendo",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.2.0-preview", date: "2026-11-07" },
+  sources: ["https://github.com/Yirr777/PartyBoard-NX"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo GameCube"],
+  summary: "Mario Party 4 is a 2002 board game with minigames for the GameCube, where four players race for stars across themed boards.",
+  summaryEs: "Mario Party 4 es un juego de tablero de 2002 con minijuegos para GameCube, en el que cuatro jugadores compiten por estrellas en tableros temáticos.",
+  notes: "Native Nintendo Switch homebrew port of Party Board with Vulkan (NVK), 60 fps, sound, movies and 4 players. Bring your own disc.",
+  notesEs: "Port homebrew nativo para Nintendo Switch de Party Board con Vulkan (NVK), 60 fps, sonido, vídeos y 4 jugadores. Aporta tu propio disco.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/mario-party-4.svg",
+    alt: "Mario Party 4 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
