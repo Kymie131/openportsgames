@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const donkeyKong64Ps5: Port = {
+  schema: "port",
+  id: "donkey-kong-64-ps5",
+  title: "Donkey Kong 64 (PS5, Rekongpiled)",
+  game: "Donkey Kong 64",
+  developers: ["Samclay8"],
+  publisher: "Nintendo",
+  originalYear: 1999,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps5"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-11-08" },
+  sources: ["https://github.com/Samclay8/DK64-Rekongpiled-PS5"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo 64"],
+  summary: "Donkey Kong 64 is a 1999 3D platform game by Rare for the Nintendo 64, with five playable Kongs and large collectible worlds.",
+  summaryEs: "Donkey Kong 64 es un juego de plataformas 3D de 1999 de Rare para Nintendo 64, con cinco Kongs jugables y grandes mundos de coleccionables.",
+  notes: "DK64: Rekongpiled ported to the PS5 as native homebrew. Bring your own copy of the game.",
+  notesEs: "DK64: Rekongpiled portado a PS5 como homebrew nativo. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/donkey-kong-64.svg",
+    alt: "Donkey Kong 64 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

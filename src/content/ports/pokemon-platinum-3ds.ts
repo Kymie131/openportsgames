@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pokemonPlatinum3ds: Port = {
+  schema: "port",
+  id: "pokemon-platinum-3ds",
+  title: "Pokémon Platinum (3DS, Sinjoh)",
+  game: "Pokémon Platinum",
+  developers: ["estyseesghosts"],
+  publisher: "The Pokémon Company",
+  originalYear: 2008,
+  portType: "decompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "alpha",
+  release: { version: "0.0.1", date: "2026-11-17" },
+  sources: ["https://github.com/estyseesghosts/sinjoh"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo DS"],
+  summary: "Pokémon Platinum is a 2008 enhanced version of Diamond and Pearl for the Nintendo DS, set in Sinnoh with the Distortion World.",
+  summaryEs: "Pokémon Platino es una versión mejorada de 2008 de Diamante y Perla para Nintendo DS, ambientada en Sinnoh con el Mundo Distorsión.",
+  notes: "Native source port of Pokémon Platinum for the original Nintendo 3DS. No ROM is included.",
+  notesEs: "Port de código nativo de Pokémon Platino para la Nintendo 3DS original. No incluye la ROM.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/pokemon-platinum.svg",
+    alt: "Pokémon Platinum (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

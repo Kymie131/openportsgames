@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const metroidPrimePs5: Port = {
+  schema: "port",
+  id: "metroid-prime-ps5",
+  title: "Metroid Prime (PS5, PhazonPrime)",
+  game: "Metroid Prime",
+  developers: ["BaZZtian"],
+  publisher: "Nintendo",
+  originalYear: 2002,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps5"],
+  status: "beta",
+  release: { version: "0.1.40", date: "2026-11-12" },
+  sources: ["https://github.com/BaZZtian/PhazonPrime"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo GameCube"],
+  summary: "Metroid Prime is a 2002 first-person action-adventure by Retro Studios where Samus explores the planet Tallon IV.",
+  summaryEs: "Metroid Prime es un juego de acción y aventura en primera persona de 2002 de Retro Studios en el que Samus explora el planeta Tallon IV.",
+  notes: "Native PS5 port using the Metaforce-classic runtime. Requires your own supported game ISO.",
+  notesEs: "Port nativo para PS5 usando el runtime Metaforce-classic. Requiere tu propia ISO compatible del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/metroid-prime.svg",
+    alt: "Metroid Prime (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

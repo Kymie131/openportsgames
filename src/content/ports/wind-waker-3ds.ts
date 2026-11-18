@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const windWaker3ds: Port = {
+  schema: "port",
+  id: "wind-waker-3ds",
+  title: "The Legend of Zelda: The Wind Waker (3DS, CitroWaker)",
+  game: "The Legend of Zelda: The Wind Waker",
+  developers: ["AureoLightz"],
+  publisher: "Nintendo",
+  originalYear: 2002,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "alpha",
+  release: { version: "0.5", date: "2026-11-18" },
+  sources: ["https://github.com/AureoLightz/CitroWaker"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo GameCube"],
+  summary: "The Legend of Zelda: The Wind Waker is a 2002 action-adventure game by Nintendo for the GameCube, starring a cel-shaded Link sailing the Great Sea.",
+  summaryEs: "The Legend of Zelda: The Wind Waker es un videojuego de acción y aventura de 2002 de Nintendo para GameCube, protagonizado por un Link cel-shading que navega el Gran Mar.",
+  notes: "Experimental native New Nintendo 3DS port built on SwitchWaker and Aurora, with a GX-to-PICA renderer. Bring your own game data.",
+  notesEs: "Port nativo experimental para New Nintendo 3DS basado en SwitchWaker y Aurora, con renderizador GX a PICA. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-the-wind-waker.svg",
+    alt: "The Legend of Zelda: The Wind Waker (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

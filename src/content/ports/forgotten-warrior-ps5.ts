@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const forgottenWarriorPs5: Port = {
+  schema: "port",
+  id: "forgotten-warrior-ps5",
+  title: "Forgotten Warrior Remastered (PS5)",
+  game: "Forgotten Warrior",
+  developers: ["youss17x"],
+  publisher: "Homebrew",
+  originalYear: 2005,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps5"],
+  status: "beta",
+  release: { version: "1.3.0", date: "2026-11-06" },
+  sources: ["https://github.com/youss17x/Forgotten-Warrior-PS5"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Other"],
+  summary: "Forgotten Warrior is a mobile action game later remastered by the community, with melee combat across short levels.",
+  summaryEs: "Forgotten Warrior es un juego de acción móvil remasterizado después por la comunidad, con combate cuerpo a cuerpo en niveles cortos.",
+  notes: "Native PS5 port with DualSense controls, 1080p output and native game-folder installation.",
+  notesEs: "Port nativo para PS5 con controles de DualSense, salida 1080p e instalación nativa desde carpeta.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/forgotten-warrior.svg",
+    alt: "Forgotten Warrior (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

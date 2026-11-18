@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pillarsOfEternityAndroid: Port = {
+  schema: "port",
+  id: "pillars-of-eternity-android",
+  title: "Pillars of Eternity: Complete Edition (Android)",
+  game: "Pillars of Eternity",
+  developers: ["Desm0nt"],
+  publisher: "Paradox Interactive",
+  originalYear: 2015,
+  portType: "runtime-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "0.1.4", date: "2026-11-18" },
+  sources: ["https://github.com/Desm0nt/pillars-of-eternity-port"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Pillars of Eternity is a 2015 isometric role-playing game by Obsidian Entertainment set in the world of Eora, with real-time-with-pause combat.",
+  summaryEs: "Pillars of Eternity es un videojuego de rol isométrico de 2015 de Obsidian Entertainment ambientado en el mundo de Eora, con combate en tiempo real con pausa.",
+  notes: "Runs the Nintendo Switch Complete Edition natively on Android inside the stock Unity player, with touch and gamepad controls. Bring your own game files.",
+  notesEs: "Ejecuta la Complete Edition de Nintendo Switch de forma nativa en Android dentro del reproductor Unity estándar, con controles táctiles y de mando. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/pillars-of-eternity.svg",
+    alt: "Pillars of Eternity (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

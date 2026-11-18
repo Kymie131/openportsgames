@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const midnightClubLaSwitch: Port = {
+  schema: "port",
+  id: "midnight-club-la-switch",
+  title: "Midnight Club: Los Angeles (Switch)",
+  game: "Midnight Club: Los Angeles",
+  developers: ["Wivi2013"],
+  publisher: "Rockstar Games",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.3.0-c177", date: "2026-11-14" },
+  sources: ["https://github.com/Wivi2013/mcla-nx"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox 360"],
+  summary: "Midnight Club: Los Angeles is a 2008 open-world racing game by Rockstar San Diego set in a recreated Los Angeles with illegal street races.",
+  summaryEs: "Midnight Club: Los Angeles es un juego de carreras de mundo abierto de 2008 de Rockstar San Diego ambientado en una recreación de Los Ángeles con carreras callejeras ilegales.",
+  notes: "Native Nintendo Switch port of the game. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch del juego. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/midnight-club-los-angeles.svg",
+    alt: "Midnight Club: Los Angeles (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

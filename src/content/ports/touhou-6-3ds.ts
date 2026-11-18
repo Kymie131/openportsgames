@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const touhou63ds: Port = {
+  schema: "port",
+  id: "touhou-6-3ds",
+  title: "Touhou 6: The Embodiment of Scarlet Devil (3DS)",
+  game: "Touhou 6: The Embodiment of Scarlet Devil",
+  developers: ["Faveing2"],
+  publisher: "Team Shanghai Alice",
+  originalYear: 2002,
+  portType: "decompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-11-14" },
+  sources: ["https://github.com/Faveing2/th06-3ds-native"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Touhou 6: The Embodiment of Scarlet Devil is a 2002 vertically scrolling bullet hell shooter by Team Shanghai Alice, the first Windows entry in the series.",
+  summaryEs: "Touhou 6: The Embodiment of Scarlet Devil es un shooter bullet hell de desplazamiento vertical de 2002 de Team Shanghai Alice, la primera entrega para Windows de la serie.",
+  notes: "Native Nintendo 3DS port of the GensokyouClub decompilation using Citro3d. Bring your own game files.",
+  notesEs: "Port nativo para Nintendo 3DS de la descompilación de GensokyouClub usando Citro3d. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/touhou-6-the-embodiment-of-scarlet-devil.svg",
+    alt: "Touhou 6: The Embodiment of Scarlet Devil (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

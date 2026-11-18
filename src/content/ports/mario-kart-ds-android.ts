@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const marioKartDsAndroid: Port = {
+  schema: "port",
+  id: "mario-kart-ds-android",
+  title: "Mario Kart DS (Android)",
+  game: "Mario Kart DS",
+  developers: ["RonyxDumb"],
+  publisher: "Nintendo",
+  originalYear: 2005,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-11-18" },
+  sources: ["https://github.com/RonyxDumb/mkds-android"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo DS"],
+  summary: "Mario Kart DS is a 2005 kart racing game by Nintendo for the Nintendo DS, with 32 tracks and the debut of online play in the series.",
+  summaryEs: "Mario Kart DS es un juego de carreras de karts de 2005 de Nintendo para Nintendo DS, con 32 circuitos y el debut del juego en línea en la serie.",
+  notes: "Native Android port of Mario Kart DS. Bring your own ROM.",
+  notesEs: "Port nativo para Android de Mario Kart DS. Aporta tu propia ROM.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/mario-kart-ds.svg",
+    alt: "Mario Kart DS (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

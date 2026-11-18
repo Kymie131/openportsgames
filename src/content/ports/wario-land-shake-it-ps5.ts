@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const warioLandShakeItPs5: Port = {
+  schema: "port",
+  id: "wario-land-shake-it-ps5",
+  title: "Wario Land: Shake It! (PS5)",
+  game: "Wario Land: Shake It!",
+  developers: ["KongaTime"],
+  publisher: "Nintendo",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps5"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-11-08" },
+  sources: ["https://github.com/KongaTime/Wario-Land-Shake-It-PS5"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Wii"],
+  summary: "Wario Land: Shake It! is a 2008 platform game by Good-Feel and Nintendo for the Wii, with hand-drawn art and motion-controlled shaking.",
+  summaryEs: "Wario Land: Shake It! es un juego de plataformas de 2008 de Good-Feel y Nintendo para Wii, con arte dibujado a mano y sacudidas con movimiento.",
+  notes: "Native PS5 port based on WarioRecomp. Bring your own copy of the game.",
+  notesEs: "Port nativo para PS5 basado en WarioRecomp. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/wario-land-shake-it.svg",
+    alt: "Wario Land: Shake It! (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

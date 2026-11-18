@@ -3017,6 +3017,22 @@ import { motoRacerPsp } from "./moto-racer-psp";
 import { pokemonEmeraldVoxelVita } from "./pokemon-emerald-voxel-vita";
 import { zenonia5Vita } from "./zenonia-5-vita";
 import { katanaZeroVita } from "./katana-zero-vita";
+import { clanbomberPs5 } from "./clanbomber-ps5";
+import { metroidPrimePs5 } from "./metroid-prime-ps5";
+import { initialDArcadeStage4Ps5 } from "./initial-d-arcade-stage-4-ps5";
+import { katawaShoujoPs5 } from "./katawa-shoujo-ps5";
+import { bounceTalesPs5 } from "./bounce-tales-ps5";
+import { forgottenWarriorPs5 } from "./forgotten-warrior-ps5";
+import { warioLandShakeItPs5 } from "./wario-land-shake-it-ps5";
+import { donkeyKong64Ps5 } from "./donkey-kong-64-ps5";
+import { windWaker3ds } from "./wind-waker-3ds";
+import { pokemonPlatinum3ds } from "./pokemon-platinum-3ds";
+import { touhou63ds } from "./touhou-6-3ds";
+import { twilightPrincess3ds } from "./twilight-princess-3ds";
+import { pillarsOfEternityAndroid } from "./pillars-of-eternity-android";
+import { marioKartDsAndroid } from "./mario-kart-ds-android";
+import { projectIgiAndroid } from "./project-igi-android";
+import { midnightClubLaSwitch } from "./midnight-club-la-switch";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6033,4 +6049,20 @@ export const portCases: Port[] = [
   pokemonEmeraldVoxelVita,
   zenonia5Vita,
   katanaZeroVita,
+  clanbomberPs5,
+  metroidPrimePs5,
+  initialDArcadeStage4Ps5,
+  katawaShoujoPs5,
+  bounceTalesPs5,
+  forgottenWarriorPs5,
+  warioLandShakeItPs5,
+  donkeyKong64Ps5,
+  windWaker3ds,
+  pokemonPlatinum3ds,
+  touhou63ds,
+  twilightPrincess3ds,
+  pillarsOfEternityAndroid,
+  marioKartDsAndroid,
+  projectIgiAndroid,
+  midnightClubLaSwitch,
 ];

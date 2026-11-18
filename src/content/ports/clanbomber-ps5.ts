@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const clanbomberPs5: Port = {
+  schema: "port",
+  id: "clanbomber-ps5",
+  title: "ClanBomber (PS5)",
+  game: "ClanBomber",
+  developers: ["GUMMIBRI"],
+  publisher: "ClanBomber team",
+  originalYear: 1997,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps5"],
+  status: "alpha",
+  release: { version: "0.1.0", date: "2026-11-08" },
+  sources: ["https://github.com/GUMMIBRI/ClanBomber-PS5"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["MS-DOS"],
+  summary: "ClanBomber is a free software Bomberman-style arena game where players place bombs to trap their opponents.",
+  summaryEs: "ClanBomber es un juego de arena estilo Bomberman de código libre en el que los jugadores colocan bombas para atrapar a sus rivales.",
+  notes: "Native PS5 homebrew port of ClanBomber. No game files are required.",
+  notesEs: "Port homebrew nativo de ClanBomber para PS5. No requiere archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/clanbomber.svg",
+    alt: "ClanBomber (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
