@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const scpContainmentBreachWiiu: Port = {
+  schema: "port",
+  id: "scp-containment-breach-wiiu",
+  title: "SCP – Containment Breach (Wii U)",
+  game: "SCP – Containment Breach",
+  developers: ["NanoBunTV"],
+  publisher: "Undertow Games",
+  originalYear: 2012,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["wiiu"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-10-16" },
+  sources: ["https://github.com/NanoBunTV/Wii-U-SCPCB"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "SCP – Containment Breach is a 2012 survival horror game where the player escapes a facility during a containment failure while avoiding SCP entities.",
+  summaryEs: "SCP – Containment Breach es un juego de terror y supervivencia de 2012 en el que el jugador escapa de una instalación durante un fallo de contención evitando a las entidades SCP.",
+  notes: "Native Wii U port of version 1.3.11 for the Aroma homebrew environment. No game files are included.",
+  notesEs: "Port nativo para Wii U de la versión 1.3.11 para el entorno homebrew Aroma. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/scp-containment-breach.svg",
+    alt: "SCP – Containment Breach (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

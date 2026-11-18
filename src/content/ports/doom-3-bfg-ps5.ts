@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const doom3BfgPs5: Port = {
+  schema: "port",
+  id: "doom-3-bfg-ps5",
+  title: "Doom 3: BFG Edition (PS5)",
+  game: "Doom 3: BFG Edition",
+  developers: ["griches"],
+  publisher: "id Software",
+  originalYear: 2012,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps5"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-10-14" },
+  sources: ["https://github.com/griches/PS5_Doom3"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Doom 3: BFG Edition bundles Doom 3, Resurrection of Evil and both classic Doom expansions, with a flashlight and improved rendering.",
+  summaryEs: "Doom 3: BFG Edition reúne Doom 3, Resurrection of Evil y las dos expansiones clásicas de Doom, con linterna y renderizado mejorado.",
+  notes: "Native PS5 homebrew port of RBDoom3BFG on Vulkan (RADV) at 4K. Requires your own BFG Edition data.",
+  notesEs: "Port homebrew nativo para PS5 de RBDoom3BFG sobre Vulkan (RADV) a 4K. Requiere tus propios datos de BFG Edition.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/doom-3-bfg-edition.svg",
+    alt: "Doom 3: BFG Edition (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

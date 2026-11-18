@@ -3083,4 +3083,11 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "destinia-switch": ["Mobile"],
   "durak-switch": ["Mobile"],
   "numeri-android": ["Mobile"],
+  "half-life-2-ps5": ["Windows"],
+  "doom-3-bfg-ps5": ["Windows"],
+  "minecraft-horizon-wiiu": ["Windows"],
+  "scp-containment-breach-wiiu": ["Windows"],
+  "little-big-adventure-2-wiiu": ["MS-DOS"],
+  "sonic-r-psp": ["Windows"],
+  "ao-oni-ps4": ["Windows"],
 };

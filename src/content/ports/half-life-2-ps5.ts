@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const halfLife2Ps5: Port = {
+  schema: "port",
+  id: "half-life-2-ps5",
+  title: "Half-Life 2 (PS5, Source engine)",
+  game: "Half-Life 2",
+  developers: ["gmorb"],
+  publisher: "Valve",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps5"],
+  status: "alpha",
+  release: { version: "0.1.4", date: "2026-11-03" },
+  sources: ["https://github.com/gmorb/source-port-ps5"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Half-Life 2 is a 2004 first-person shooter by Valve where Gordon Freeman fights the Combine in City 17 with physics-driven puzzles and vehicles.",
+  summaryEs: "Half-Life 2 es un shooter en primera persona de 2004 de Valve en el que Gordon Freeman lucha contra la Combine en Ciudad 17 con puzles físicos y vehículos.",
+  notes: "Native PS5 port of the Source engine that runs the game from your own files. No game data is included.",
+  notesEs: "Port nativo para PS5 del motor Source que ejecuta el juego desde tus propios archivos. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/half-life-2.svg",
+    alt: "Half-Life 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

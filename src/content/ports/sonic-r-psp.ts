@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sonicRPsp: Port = {
+  schema: "port",
+  id: "sonic-r-psp",
+  title: "Sonic R (PSP)",
+  game: "Sonic R",
+  developers: ["ghurone"],
+  publisher: "Sega",
+  originalYear: 1997,
+  portType: "decompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-11-18" },
+  sources: ["https://github.com/ghurone/Sonic-R-PSP"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Sonic R is a 1997 racing game by Traveller's Tales and Sonic Team where characters race on foot through five courses collecting Chaos Emeralds.",
+  summaryEs: "Sonic R es un juego de carreras de 1997 de Traveller's Tales y Sonic Team en el que los personajes corren a pie por cinco circuitos recogiendo Esmeraldas del Caos.",
+  notes: "PSP port of the Sonic R decompilation running at 60 fps. Bring your own copy of the game.",
+  notesEs: "Port para PSP de la descompilación de Sonic R a 60 fps. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/sonic-r.svg",
+    alt: "Sonic R (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const littleBigAdventure2Wiiu: Port = {
+  schema: "port",
+  id: "little-big-adventure-2-wiiu",
+  title: "Little Big Adventure 2 (Wii U)",
+  game: "Little Big Adventure 2",
+  developers: ["vs-sr-dev"],
+  publisher: "Electronic Arts",
+  originalYear: 1997,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["wiiu"],
+  status: "beta",
+  release: { version: "0.11.0", date: "2026-06-05" },
+  sources: ["https://github.com/vs-sr-dev/wiiu-lba2"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["MS-DOS"],
+  summary: "Little Big Adventure 2 (Twinsen's Odyssey) is a 1997 action-adventure by Adeline Software with Twinsen exploring planets to stop an alien invasion.",
+  summaryEs: "Little Big Adventure 2 (Twinsen's Odyssey) es un juego de acción y aventura de 1997 de Adeline Software en el que Twinsen explora planetas para frenar una invasión alienígena.",
+  notes: "Wii U port of the original 1997 source from the 2.21/LBALab community release, completed start to finish on real hardware.",
+  notesEs: "Port para Wii U del código original de 1997 de la versión comunitaria 2.21/LBALab, completado de principio a fin en hardware real.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/little-big-adventure-2.svg",
+    alt: "Little Big Adventure 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

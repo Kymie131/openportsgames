@@ -3084,6 +3084,13 @@ import { modernCombat3Switch } from "./modern-combat-3-switch";
 import { destiniaSwitch } from "./destinia-switch";
 import { durakSwitch } from "./durak-switch";
 import { numeriAndroid } from "./numeri-android";
+import { halfLife2Ps5 } from "./half-life-2-ps5";
+import { doom3BfgPs5 } from "./doom-3-bfg-ps5";
+import { minecraftHorizonWiiu } from "./minecraft-horizon-wiiu";
+import { scpContainmentBreachWiiu } from "./scp-containment-breach-wiiu";
+import { littleBigAdventure2Wiiu } from "./little-big-adventure-2-wiiu";
+import { sonicRPsp } from "./sonic-r-psp";
+import { aoOniPs4 } from "./ao-oni-ps4";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6167,4 +6174,11 @@ export const portCases: Port[] = [
   destiniaSwitch,
   durakSwitch,
   numeriAndroid,
+  halfLife2Ps5,
+  doom3BfgPs5,
+  minecraftHorizonWiiu,
+  scpContainmentBreachWiiu,
+  littleBigAdventure2Wiiu,
+  sonicRPsp,
+  aoOniPs4,
 ];

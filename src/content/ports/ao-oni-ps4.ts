@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const aoOniPs4: Port = {
+  schema: "port",
+  id: "ao-oni-ps4",
+  title: "Ao Oni (PS4)",
+  game: "Ao Oni",
+  developers: ["Outbreak2012"],
+  publisher: "Homebrew",
+  originalYear: 2008,
+  portType: "reimplementation",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps4"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-11-14" },
+  sources: ["https://github.com/Outbreak2012/Ao-Oni-ps4-port"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Ao Oni is a 2008 Japanese horror puzzle game where the player solves riddles in a mansion while a blue creature hunts them.",
+  summaryEs: "Ao Oni es un juego de terror y puzles japonés de 2008 en el que el jugador resuelve acertijos en una mansión mientras una criatura azul lo persigue.",
+  notes: "Native 1:1 PS4 and PS4 Pro port for GoldHEN in C++17 with a custom RGSS1 engine, 60 FPS up to 4K and DualShock 4 haptics.",
+  notesEs: "Port nativo 1:1 para PS4 y PS4 Pro con GoldHEN en C++17 con motor RGSS1 propio, 60 FPS hasta 4K y hápticos de DualShock 4.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/ao-oni.svg",
+    alt: "Ao Oni (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
