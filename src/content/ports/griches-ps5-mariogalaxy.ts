@@ -3,7 +3,7 @@ import type { Port } from "@/lib/ports/schema";
 export const grichesPs5Mariogalaxy: Port = {
   schema: "port",
   id: "griches-ps5-mariogalaxy",
-  title: "Super Mario Galaxy (PS5_MarioGalaxy)",
+  title: "Super Mario Galaxy (PS5)",
   game: "Super Mario Galaxy",
   developers: ["griches"],
   publisher: "Nintendo",
@@ -12,7 +12,7 @@ export const grichesPs5Mariogalaxy: Port = {
   genre: "platformer",
   openSource: true,
   originalGameLicense: "proprietary",
-  platforms: ["windows"],
+  platforms: ["ps5"],
   status: "beta",
   release: { version: "1.1.0", date: "2026-10-21" },
   sources: ["https://github.com/griches/PS5_MarioGalaxy"],
@@ -23,7 +23,7 @@ export const grichesPs5Mariogalaxy: Port = {
   originalSystems: ["Wii"],
   downloads: [
     {
-      label: "Windows",
+      label: "PS5 (Windows builder)",
       url: "https://github.com/griches/PS5_MarioGalaxy/releases/download/v1.1.0/SuperMarioGalaxy-PS5-Builder-1.1.0-windows.zip",
       size: "174.0 MB",
     },
@@ -35,6 +35,6 @@ export const grichesPs5Mariogalaxy: Port = {
   },
   summary: "Super Mario Galaxy is a 2007 platform game developed and published by Nintendo for the Wii. It is the third 3D platformer game in the Super Mario series. As Mario, the player embarks on an extraterrestrial mission to rescue Princess Peach and save the universe from his arch-nemesis Bowser, after which the player can play the game as Luigi for a more challenging experience. The levels consist of galaxies filled with minor planets, asteroids, and worlds, with different variations of gravity, the central element of gameplay.",
   summaryEs: "Super Mario Galaxy es un videojuego de plataformas de 2007 desarrollado y publicado por Nintendo para la Nintendo Wii. Es el tercer juego de plataformas en 3D de la serie Super Mario. Como Mario, el jugador se embarca en una búsqueda para rescatar a la Princesa Peach, salvar el universo de Bowser y recolectar ciento veinte estrellas de poder, después de lo cual el jugador puede volver a repetir la misma aventura de Mario, pero como Luigi. Los niveles consisten en galaxias llenas de planetas y mundos menores, con diferentes variaciones de gravedad, el elemento central del juego.",
-  notes: "Super Mario Galaxy: static recompilation by griches for Windows. Bring your own copy of the game.",
-  notesEs: "Super Mario Galaxy: recompilación estática de griches para Windows. Aporta tu propia copia del juego.",
+  notes: "Super Mario Galaxy: native PS5 homebrew port (PPSA99315) at 4K and 60 fps. Bring your own copy of the game.",
+  notesEs: "Super Mario Galaxy: port homebrew nativo para PS5 (PPSA99315) a 4K y 60 fps. Aporta tu propia copia del juego.",
 };
