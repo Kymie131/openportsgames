@@ -2999,6 +2999,16 @@ import { pokesurvivor3ds } from "./pokesurvivor-3ds";
 import { residentEvil4Android } from "./resident-evil-4-android";
 import { ootSwitch2Android } from "./oot-switch2-android";
 import { hyruleWarriorsAocAndroid } from "./hyrule-warriors-aoc-android";
+import { geometryDashWiiu } from "./geometry-dash-wiiu";
+import { hardrpgVita } from "./hardrpg-vita";
+import { finalFantasy9Android } from "./final-fantasy-9-android";
+import { cyberiaAndroid } from "./cyberia-android";
+import { marathonAndroidRecomp } from "./marathon-android-recomp";
+import { granTurismo5Pc } from "./gran-turismo-5-pc";
+import { nhlLegacyPc } from "./nhl-legacy-pc";
+import { littlebigplanet2Pc } from "./littlebigplanet-2-pc";
+import { hotShotsGolfPc } from "./hot-shots-golf-pc";
+import { fatPrincessPc } from "./fat-princess-pc";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5997,4 +6007,14 @@ export const portCases: Port[] = [
   residentEvil4Android,
   ootSwitch2Android,
   hyruleWarriorsAocAndroid,
+  geometryDashWiiu,
+  hardrpgVita,
+  finalFantasy9Android,
+  cyberiaAndroid,
+  marathonAndroidRecomp,
+  granTurismo5Pc,
+  nhlLegacyPc,
+  littlebigplanet2Pc,
+  hotShotsGolfPc,
+  fatPrincessPc,
 ];

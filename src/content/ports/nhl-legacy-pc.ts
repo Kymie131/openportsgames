@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nhlLegacyPc: Port = {
+  schema: "port",
+  id: "nhl-legacy-pc",
+  title: "NHL Legacy Edition (PC)",
+  game: "NHL Legacy Edition",
+  developers: ["csrpfivem"],
+  publisher: "EA Sports",
+  originalYear: 2015,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.3", date: "2026-11-17" },
+  sources: ["https://github.com/csrpfivem/PS3NHLLegacyRecomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation 3"],
+  summary: "NHL Legacy Edition is a 2015 ice hockey game by EA Sports, bundling modern and classic NHL modes.",
+  summaryEs: "NHL Legacy Edition es un juego de hockey sobre hielo de 2015 de EA Sports, que reúne modos de la NHL moderna y clásicos.",
+  notes: "Native PC port via PS3 static recompilation. Bring your own game.",
+  notesEs: "Port nativo para PC por recompilación estática de PS3. Aporta tu propio juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/nhl-legacy-edition.svg",
+    alt: "NHL Legacy Edition (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const granTurismo5Pc: Port = {
+  schema: "port",
+  id: "gran-turismo-5-pc",
+  title: "Gran Turismo 5 (PC)",
+  game: "Gran Turismo 5",
+  developers: ["MormonFTP-hub"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2010,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.108", date: "2026-11-18" },
+  sources: ["https://github.com/MormonFTP-hub/gt5-recomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation 3"],
+  summary: "Gran Turismo 5 is a 2010 racing simulator by Polyphony Digital with over 1,000 cars, rally events and the Top Gear test track.",
+  summaryEs: "Gran Turismo 5 es un simulador de carreras de 2010 de Polyphony Digital con más de 1.000 coches, pruebas de rally y el circuito de Top Gear.",
+  notes: "Unofficial PC port built on ps3recomp, with analog triggers, a Vulkan menu and an installer. Needs your own GT5 disc and EBOOT v1.00.",
+  notesEs: "Port no oficial para PC creado con ps3recomp, con gatillos analógicos, menú Vulkan e instalador. Necesita tu propio disco de GT5 y EBOOT v1.00.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/gran-turismo-5.svg",
+    alt: "Gran Turismo 5 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

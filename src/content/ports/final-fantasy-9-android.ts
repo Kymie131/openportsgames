@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const finalFantasy9Android: Port = {
+  schema: "port",
+  id: "final-fantasy-9-android",
+  title: "Final Fantasy IX (Android)",
+  game: "Final Fantasy IX",
+  developers: ["bhuiyah"],
+  publisher: "Square Enix",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "0.1.26", date: "2026-11-18" },
+  sources: ["https://github.com/bhuiyah/ff9-recomp-android"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation"],
+  summary: "Final Fantasy IX is a 2000 role-playing game by Square, following Zidane and his friends as they uncover a war between kingdoms. This port is based on the Steam version with Memoria and Moguri Mod.",
+  summaryEs: "Final Fantasy IX es un videojuego de rol de 2000 de Square, que sigue a Zidane y sus amigos mientras descubren una guerra entre reinos. Este port se basa en la versión de Steam con Memoria y Moguri Mod.",
+  notes: "Native Android port of the Steam release with Memoria and the Moguri Mod. No game files are included.",
+  notesEs: "Port nativo para Android de la versión de Steam con Memoria y el Moguri Mod. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/final-fantasy-ix.svg",
+    alt: "Final Fantasy IX (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

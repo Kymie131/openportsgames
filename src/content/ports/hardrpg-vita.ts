@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const hardrpgVita: Port = {
+  schema: "port",
+  id: "hardrpg-vita",
+  title: "HardRPG (mkxp-z, PS Vita)",
+  game: "RPG Maker XP (mkxp-z)",
+  developers: ["Asukate"],
+  publisher: "RPG Maker community",
+  originalYear: 2004,
+  portType: "runtime-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "0.6.0", date: "2026-11-17" },
+  sources: ["https://github.com/Asukate/mkxp-z-vita"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "HardRPG is a native mkxp-z port for the PS Vita that runs RPG Maker XP, VX, VX Ace, 2000 and 2003 games, with a built-in EasyRPG Player.",
+  summaryEs: "HardRPG es un port nativo de mkxp-z para PS Vita que ejecuta juegos de RPG Maker XP, VX, VX Ace, 2000 y 2003, con EasyRPG Player integrado.",
+  notes: "Runs RPG Maker games on the PS Vita with a game library, touch controls, key remapping and fast forward. Bring your own games.",
+  notesEs: "Ejecuta juegos de RPG Maker en PS Vita con biblioteca, controles táctiles, reasignación de teclas y avance rápido. Aporta tus propios juegos.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/rpg-maker-xp-mkxp-z.svg",
+    alt: "RPG Maker XP (mkxp-z) (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

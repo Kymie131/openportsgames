@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const marathonAndroidRecomp: Port = {
+  schema: "port",
+  id: "marathon-android-recomp",
+  title: "Marathon (Android, MarathonRecomp)",
+  game: "Marathon",
+  developers: ["SansNope"],
+  publisher: "Bungie",
+  originalYear: 1994,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: "0.2.8", date: "2026-11-18" },
+  sources: ["https://github.com/SansNope/MarathonRecomp-Android"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Macintosh"],
+  summary: "Marathon is a 1994 first-person shooter by Bungie, set aboard the colony ship Marathon during an alien invasion.",
+  summaryEs: "Marathon es un shooter en primera persona de 1994 de Bungie, ambientado en la nave colonial Marathon durante una invasión alienígena.",
+  notes: "Unofficial Android port of MarathonRecomp. Artifacts, freezes and audio issues are possible. Bring your own game data.",
+  notesEs: "Port no oficial para Android de MarathonRecomp. Puede haber artefactos, cuelgues y problemas de audio. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/marathon.svg",
+    alt: "Marathon (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
