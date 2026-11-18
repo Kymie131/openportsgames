@@ -36,6 +36,18 @@ function digest(file) {
   return createHash("sha256").update(readFileSync(file)).digest("hex");
 }
 
+/** Deletes a file, tolerating a concurrent prune that already removed it. */
+function removeFile(file) {
+  if (!existsSync(file)) return false;
+  try {
+    unlinkSync(file);
+    return true;
+  } catch (error) {
+    if (error?.code === "ENOENT") return false;
+    throw error;
+  }
+}
+
 if (!existsSync(OUT_DIR)) {
   console.log(`[prune-export] ${OUT_DIR}/ not found; skipping.`);
   process.exit(0);
@@ -64,8 +76,7 @@ for (const file of walk(OUT_DIR)) {
   const base = basename(file);
 
   if (base.endsWith(".txt") && isPortDetailFile(file)) {
-    unlinkSync(file);
-    removedRsc++;
+    if (removeFile(file)) removedRsc++;
     continue;
   }
 
@@ -74,8 +85,7 @@ for (const file of walk(OUT_DIR)) {
     if (existsSync(index) && statSync(index).isFile()) {
       try {
         if (digest(file) === digest(index)) {
-          unlinkSync(file);
-          removedFull++;
+          if (removeFile(file)) removedFull++;
           continue;
         }
       } catch {
@@ -90,8 +100,7 @@ for (const file of walk(OUT_DIR)) {
     // A generated image route lives in its own directory next to index.html.
     const page = join(dirname(file), "index.html");
     if (existsSync(page) && statSync(page).isFile()) {
-      unlinkSync(file);
-      removedOg++;
+      if (removeFile(file)) removedOg++;
     } else {
       keptOg++;
     }
