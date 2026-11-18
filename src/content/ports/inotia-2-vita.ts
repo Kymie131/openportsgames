@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const inotia2Vita: Port = {
+  schema: "port",
+  id: "inotia-2-vita",
+  title: "Inotia 2: A Wanderer of Luone (PS Vita)",
+  game: "Inotia 2: A Wanderer of Luone",
+  developers: ["MetalSyntax"],
+  publisher: "Com2uS",
+  originalYear: 2010,
+  portType: "runtime-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.2", date: "2026-11-18" },
+  sources: ["https://github.com/MetalSyntax/Inotia2-vita"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Other"],
+  summary: "Inotia 2: A Wanderer of Luone is a 2010 action role-playing game developed by Com2uS for mobile devices, with real-time combat and a long story campaign.",
+  summaryEs: "Inotia 2: A Wanderer of Luone es un videojuego de rol de acción de 2010 desarrollado por Com2uS para dispositivos móviles, con combate en tiempo real y una larga campaña.",
+  notes: "iOS to PS Vita port. Bring your own game files.",
+  notesEs: "Port de iOS a PS Vita. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/inotia-2-a-wanderer-of-luone.svg",
+    alt: "Inotia 2: A Wanderer of Luone (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pokemonEmeraldVita: Port = {
+  schema: "port",
+  id: "pokemon-emerald-vita",
+  title: "Pokémon Emerald (PS Vita)",
+  game: "Pokémon Emerald",
+  developers: ["HctrRB"],
+  publisher: "Nintendo",
+  originalYear: 2004,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "0.5.4", date: "2026-11-17" },
+  sources: ["https://github.com/HctrRB/pokeemerald-vita-3ds"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Game Boy Advance"],
+  summary: "Pokémon Emerald Version is a 2004 role-playing game developed by Game Freak and published by Nintendo for the Game Boy Advance. It builds on Hoenn with the Battle Frontier.",
+  summaryEs: "Pokémon Edición Esmeralda es un videojuego de rol de 2004 desarrollado por Game Freak y publicado por Nintendo para Game Boy Advance. Amplía Hoenn con el Frente de Batalla.",
+  notes: "Native PS Vita port of pokeemerald, built on the emerald-3ds feature set. No ROM is included.",
+  notesEs: "Port nativo para PS Vita de pokeemerald, basado en las funciones de emerald-3ds. No incluye la ROM.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/pokemon-emerald.svg",
+    alt: "Pokémon Emerald (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

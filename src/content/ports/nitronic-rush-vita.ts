@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nitronicRushVita: Port = {
+  schema: "port",
+  id: "nitronic-rush-vita",
+  title: "Nitronic Rush (PS Vita)",
+  game: "Nitronic Rush",
+  developers: ["arielxflores"],
+  publisher: "DigiPen",
+  originalYear: 2011,
+  portType: "source-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-10-28" },
+  sources: ["https://github.com/arielxflores/NitronicRush-Vita"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Nitronic Rush is a 2011 free futuristic racing game created by students at DigiPen. Players drive a neon car through an obstacle-filled city with jumps, boosts and air tricks.",
+  summaryEs: "Nitronic Rush es un juego de carreras futurista gratuito de 2011 creado por estudiantes de DigiPen. El jugador conduce un coche de neón por una ciudad llena de obstáculos con saltos, turbos y acrobacias aéreas.",
+  notes: "PS Vita port of the free DigiPen racing game. No original game files are needed.",
+  notesEs: "Port para PS Vita del juego de carreras gratuito de DigiPen. No necesita archivos del juego original.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/nitronic-rush.svg",
+    alt: "Nitronic Rush (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

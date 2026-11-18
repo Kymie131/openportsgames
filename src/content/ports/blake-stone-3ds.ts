@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const blakeStone3ds: Port = {
+  schema: "port",
+  id: "blake-stone-3ds",
+  title: "Blake Stone: Aliens of Gold (3DS)",
+  game: "Blake Stone: Aliens of Gold",
+  developers: ["xXNukem"],
+  publisher: "Apogee Software",
+  originalYear: 1993,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-11-02" },
+  sources: ["https://github.com/xXNukem/bstone-3ds"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["MS-DOS"],
+  summary: "Blake Stone: Aliens of Gold is a 1993 first-person shooter built on the Wolfenstein 3D engine. Agent Blake Stone fights through a corporate space station infested by aliens.",
+  summaryEs: "Blake Stone: Aliens of Gold es un shooter en primera persona de 1993 construido sobre el motor de Wolfenstein 3D. El agente Blake Stone lucha en una estación espacial infestada de alienígenas.",
+  notes: "Native Blake Stone source port for the New Nintendo 3DS. Bring your own game data.",
+  notesEs: "Port de código nativo de Blake Stone para New Nintendo 3DS. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/blake-stone-aliens-of-gold.svg",
+    alt: "Blake Stone: Aliens of Gold (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

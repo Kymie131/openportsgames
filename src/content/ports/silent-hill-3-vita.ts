@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const silentHill3Vita: Port = {
+  schema: "port",
+  id: "silent-hill-3-vita",
+  title: "Silent Hill 3 (PS Vita)",
+  game: "Silent Hill 3",
+  developers: ["matfsouza"],
+  publisher: "Konami",
+  originalYear: 2003,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.1", date: "2026-11-18" },
+  sources: ["https://github.com/matfsouza/sh3vita"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Silent Hill 3 is a 2003 survival horror game developed and published by Konami. Heather Mason is drawn into the haunted town of Silent Hill while a cult hunts her.",
+  summaryEs: "Silent Hill 3 es un juego de terror y supervivencia de 2003 desarrollado y publicado por Konami. Heather Mason se ve arrastrada al pueblo embrujado de Silent Hill mientras una secta la persigue.",
+  notes: "Unofficial PS Vita port by static recompilation of the PC version. Bring your own copy of the game.",
+  notesEs: "Port no oficial para PS Vita por recompilación estática de la versión de PC. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/silent-hill-3.svg",
+    alt: "Silent Hill 3 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

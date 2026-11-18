@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const am2rWii: Port = {
+  schema: "port",
+  id: "am2r-wii",
+  title: "Another Metroid 2 Remake (Wii)",
+  game: "Another Metroid 2 Remake",
+  developers: ["cmyksoda"],
+  publisher: "Nintendo",
+  originalYear: 2016,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["wii"],
+  status: "beta",
+  release: { version: "1.3.1", date: "2026-11-17" },
+  sources: ["https://github.com/cmyksoda/AM2R-GX"],
+  license: { spdx: "AGPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Another Metroid 2 Remake is a 2016 fan remake of Metroid II: Return of Samus. Samus explores SR388 to exterminate the Metroids in a modernized 2D adventure.",
+  summaryEs: "Another Metroid 2 Remake es un remake hecho por fans en 2016 de Metroid II: Return of Samus. Samus explora SR388 para exterminar a los Metroides en una aventura 2D modernizada.",
+  notes: "Runs AM2R 1.5.5 on the Wii through Butterscotch, an open-source GameMaker runner. Bring your own game data.",
+  notesEs: "Ejecuta AM2R 1.5.5 en Wii mediante Butterscotch, un runner de GameMaker de código abierto. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/another-metroid-2-remake.svg",
+    alt: "Another Metroid 2 Remake (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

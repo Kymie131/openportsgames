@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const godOfWarCollectionSwitch: Port = {
+  schema: "port",
+  id: "god-of-war-collection-switch",
+  title: "God of War & God of War II (Switch)",
+  game: "God of War",
+  developers: ["gerisson1996"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.3", date: "2026-11-18" },
+  sources: ["https://github.com/gerisson1996/gow-collection-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation 2"],
+  summary: "God of War and God of War II are 2005 and 2007 action-adventure games created by Santa Monica Studio. Kratos carves through Greek mythology on his quest for revenge.",
+  summaryEs: "God of War y God of War II son juegos de acción y aventura de 2005 y 2007 creados por Santa Monica Studio. Kratos atraviesa la mitología griega en su búsqueda de venganza.",
+  notes: "Nintendo Switch homebrew recompilation of the PS Vita versions, built with libnx and Vulkan (NVK) on vitaRT. No game files are included.",
+  notesEs: "Recompilación homebrew para Nintendo Switch de las versiones de PS Vita, creada con libnx y Vulkan (NVK) sobre vitaRT. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/god-of-war.svg",
+    alt: "God of War (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

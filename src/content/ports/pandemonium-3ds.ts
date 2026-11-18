@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pandemonium3ds: Port = {
+  schema: "port",
+  id: "pandemonium-3ds",
+  title: "Pandemonium! (3DS)",
+  game: "Pandemonium!",
+  developers: ["littleHatter"],
+  publisher: "Crystal Dynamics",
+  originalYear: 1996,
+  portType: "runtime-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "alpha",
+  release: { version: "1.0", date: "2026-11-18" },
+  sources: ["https://github.com/littleHatter/Pandemonium-New-3DS-Port"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation"],
+  summary: "Pandemonium! is a 1996 platform game by Crystal Dynamics. Two teenagers cast a spell that unleashes chaos on their world and must run through surreal 2.5D levels to fix it.",
+  summaryEs: "Pandemonium! es un juego de plataformas de 1996 de Crystal Dynamics. Dos adolescentes lanzan un hechizo que desata el caos en su mundo y deben recorrer niveles 2.5D surreales para arreglarlo.",
+  notes: "Fork of the Marmalade engine port, adapted to the New Nintendo 3DS. Bring your own game files.",
+  notesEs: "Fork del port del motor Marmalade, adaptado a New Nintendo 3DS. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/pandemonium.svg",
+    alt: "Pandemonium! (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

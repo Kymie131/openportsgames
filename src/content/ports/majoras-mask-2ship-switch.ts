@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const majorasMask2shipSwitch: Port = {
+  schema: "port",
+  id: "majoras-mask-2ship-switch",
+  title: "Majora's Mask (2 Ship 2 Harkinian, Switch)",
+  game: "The Legend of Zelda: Majora's Mask",
+  developers: ["Desperadas-G"],
+  publisher: "Nintendo",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-10-27" },
+  sources: ["https://github.com/Desperadas-G/2ship2harkinian-Switch-PAL"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo 64"],
+  summary: "The Legend of Zelda: Majora's Mask is a 2000 action-adventure game developed and published by Nintendo for the Nintendo 64. Link has three days to stop the moon from destroying Termina.",
+  summaryEs: "The Legend of Zelda: Majora's Mask es un videojuego de acción y aventura de 2000 desarrollado y publicado por Nintendo para Nintendo 64. Link tiene tres días para evitar que la luna destruya Termina.",
+  notes: "Unofficial Nintendo Switch port of 2 Ship 2 Harkinian with PAL 1.1 support in English, French, German and Spanish. No ROM is included.",
+  notesEs: "Port no oficial para Nintendo Switch de 2 Ship 2 Harkinian con soporte PAL 1.1 en inglés, francés, alemán y español. No incluye la ROM.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-majora-s-mask.svg",
+    alt: "The Legend of Zelda: Majora's Mask (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

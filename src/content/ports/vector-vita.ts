@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const vectorVita: Port = {
+  schema: "port",
+  id: "vector-vita",
+  title: "Vector (PS Vita)",
+  game: "Vector",
+  developers: ["PKpro4"],
+  publisher: "Nekki",
+  originalYear: 2013,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-11-04" },
+  sources: ["https://github.com/PKpro4/VectorVita"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Vector is a 2013 parkour action game developed and published by Nekki. Players free-run through a dystopian city while escaping guards and chaining acrobatic moves.",
+  summaryEs: "Vector es un juego de acción y parkour de 2013 desarrollado y publicado por Nekki. El jugador recorre una ciudad distópica escapando de los guardias y encadenando movimientos acrobáticos.",
+  notes: "Native PS Vita loader that runs the game's own Marmalade binary from your APK. No game files are included.",
+  notesEs: "Cargador nativo para PS Vita que ejecuta el binario Marmalade del juego desde tu APK. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/vector.svg",
+    alt: "Vector (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

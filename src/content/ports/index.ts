@@ -2940,6 +2940,41 @@ import { streetsOfRageRemakeVita } from "./streets-of-rage-remake-vita";
 import { wolfenstein3dVita } from "./wolfenstein-3d-vita";
 import { balatroWii } from "./balatro-wii";
 import { horizonAndroid } from "./horizon-android";
+import { nitronicRushVita } from "./nitronic-rush-vita";
+import { vectorVita } from "./vector-vita";
+import { superHexagonVita } from "./super-hexagon-vita";
+import { vpnxSwitch } from "./vpnx-switch";
+import { cddaSwitch } from "./cdda-switch";
+import { angryBirdsTrilogySwitch } from "./angry-birds-trilogy-switch";
+import { digimonWorld3Switch } from "./digimon-world-3-switch";
+import { paperMario64Switch } from "./paper-mario-64-switch";
+import { madagascarSwitch } from "./madagascar-switch";
+import { touhou75Switch } from "./touhou-75-switch";
+import { aliceLookingGlassSwitch } from "./alice-looking-glass-switch";
+import { majorasMask2shipSwitch } from "./majoras-mask-2ship-switch";
+import { touhou12Switch } from "./touhou-12-switch";
+import { stardewValley3ds } from "./stardew-valley-3ds";
+import { pokemonHgss3ds } from "./pokemon-hgss-3ds";
+import { goldeneye3ds } from "./goldeneye-3ds";
+import { pandemonium3ds } from "./pandemonium-3ds";
+import { projectGothamRacing3ds } from "./project-gotham-racing-3ds";
+import { blakeStone3ds } from "./blake-stone-3ds";
+import { silentHill3Vita } from "./silent-hill-3-vita";
+import { inotia2Vita } from "./inotia-2-vita";
+import { pizzaTowerVita } from "./pizza-tower-vita";
+import { pokemonEmeraldVita } from "./pokemon-emerald-vita";
+import { godOfWarCollectionSwitch } from "./god-of-war-collection-switch";
+import { slingshotAnimals } from "./slingshot-animals";
+import { gtaViceCityStoriesSwitch } from "./gta-vice-city-stories-switch";
+import { darkwatchAndroid } from "./darkwatch-android";
+import { mindmazeAndroid } from "./mindmaze-android";
+import { am2rWii } from "./am2r-wii";
+import { newSuperMarioBrosWiiSwitch } from "./new-super-mario-bros-wii-switch";
+import { ben10ProtectorSwitch } from "./ben-10-protector-switch";
+import { katawaShoujoPsp } from "./katawa-shoujo-psp";
+import { snootGamePsp } from "./snoot-game-psp";
+import { nyanCatVsDomoAndroid } from "./nyan-cat-vs-domo-android";
+import { prosperocraftPs5 } from "./prosperocraft-ps5";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -5879,4 +5914,39 @@ export const portCases: Port[] = [
   wolfenstein3dVita,
   balatroWii,
   horizonAndroid,
+  nitronicRushVita,
+  vectorVita,
+  superHexagonVita,
+  vpnxSwitch,
+  cddaSwitch,
+  angryBirdsTrilogySwitch,
+  digimonWorld3Switch,
+  paperMario64Switch,
+  madagascarSwitch,
+  touhou75Switch,
+  aliceLookingGlassSwitch,
+  majorasMask2shipSwitch,
+  touhou12Switch,
+  stardewValley3ds,
+  pokemonHgss3ds,
+  goldeneye3ds,
+  pandemonium3ds,
+  projectGothamRacing3ds,
+  blakeStone3ds,
+  silentHill3Vita,
+  inotia2Vita,
+  pizzaTowerVita,
+  pokemonEmeraldVita,
+  godOfWarCollectionSwitch,
+  slingshotAnimals,
+  gtaViceCityStoriesSwitch,
+  darkwatchAndroid,
+  mindmazeAndroid,
+  am2rWii,
+  newSuperMarioBrosWiiSwitch,
+  ben10ProtectorSwitch,
+  katawaShoujoPsp,
+  snootGamePsp,
+  nyanCatVsDomoAndroid,
+  prosperocraftPs5,
 ];

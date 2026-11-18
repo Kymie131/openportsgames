@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pizzaTowerVita: Port = {
+  schema: "port",
+  id: "pizza-tower-vita",
+  title: "Pizza Tower (SAGE 2019 demo, PS Vita)",
+  game: "Pizza Tower",
+  developers: ["WolffsRoom"],
+  publisher: "Tour De Pizza",
+  originalYear: 2023,
+  portType: "source-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "alpha",
+  release: { version: "0.62", date: "2026-11-18" },
+  sources: ["https://github.com/WolffsRoom/PizzaTowerSage2019Vita"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Pizza Tower is a fast-paced 2D platform game about Peppino, a chef who must climb a tower to save his pizzeria. This build is based on the 2019 SAGE demo.",
+  summaryEs: "Pizza Tower es un juego de plataformas 2D de ritmo rápido sobre Peppino, un cocinero que debe subir una torre para salvar su pizzería. Esta versión se basa en la demo SAGE de 2019.",
+  notes: "Port of the SAGE 2019 demo to the PS Vita. No game files are included.",
+  notesEs: "Port de la demo SAGE de 2019 para PS Vita. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/pizza-tower.svg",
+    alt: "Pizza Tower (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

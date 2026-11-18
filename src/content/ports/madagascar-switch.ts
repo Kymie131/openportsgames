@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const madagascarSwitch: Port = {
+  schema: "port",
+  id: "madagascar-switch",
+  title: "Madagascar (Switch)",
+  game: "Madagascar",
+  developers: ["gerisson1996"],
+  publisher: "Activision",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.1.8", date: "2026-11-12" },
+  sources: ["https://github.com/gerisson1996/MADAGASCAR-NX-PORT"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox"],
+  summary: "Madagascar is a 2005 platform game based on the animated film, released for consoles including the Xbox. Players control the zoo animals as they escape to the wild.",
+  summaryEs: "Madagascar es un juego de plataformas de 2005 basado en la película animada, lanzado para consolas como Xbox. El jugador controla a los animales del zoo en su huida a la naturaleza.",
+  notes: "Nintendo Switch static recompilation of the Xbox game through XboxSwitchPortKit with Vulkan. No game files are included.",
+  notesEs: "Recompilación estática para Nintendo Switch del juego de Xbox mediante XboxSwitchPortKit con Vulkan. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/madagascar.svg",
+    alt: "Madagascar (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const cddaSwitch: Port = {
+  schema: "port",
+  id: "cdda-switch",
+  title: "Cataclysm: Dark Days Ahead (Switch)",
+  game: "Cataclysm: Dark Days Ahead",
+  developers: ["H-Wenfeng"],
+  publisher: "CDDA contributors",
+  originalYear: 2013,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "0.1.1", date: "2026-10-22" },
+  sources: ["https://github.com/H-Wenfeng/CDDAforSwitch"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Cataclysm: Dark Days Ahead is an open-source turn-based survival roguelike set after the end of the world. Players craft, scavenge and fight through a procedurally generated wasteland.",
+  summaryEs: "Cataclysm: Dark Days Ahead es un roguelike de supervivencia por turnos de código abierto ambientado tras el fin del mundo. El jugador fabrica, rebusca y lucha en un yermo generado proceduralmente.",
+  notes: "Unofficial native Nintendo Switch homebrew port of CDDA. No game files are required.",
+  notesEs: "Port homebrew no oficial para Nintendo Switch de CDDA. No requiere archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/cataclysm-dark-days-ahead.svg",
+    alt: "Cataclysm: Dark Days Ahead (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

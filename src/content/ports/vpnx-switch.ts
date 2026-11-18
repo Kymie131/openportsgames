@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const vpnxSwitch: Port = {
+  schema: "port",
+  id: "vpnx-switch",
+  title: "Virtual Pinball (Switch)",
+  game: "Visual Pinball X",
+  developers: ["RumaTeam"],
+  publisher: "Visual Pinball community",
+  originalYear: 2010,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "0.1.0", date: "2026-10-28" },
+  sources: ["https://github.com/RumaTeam/vpnx"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Visual Pinball X is an open-source pinball simulation engine with a large library of community tables. VPNX brings the engine to Nintendo Switch as homebrew.",
+  summaryEs: "Visual Pinball X es un motor de simulación de pinball de código abierto con una gran biblioteca de mesas de la comunidad. VPNX lleva el motor a Nintendo Switch como homebrew.",
+  notes: "Homebrew Virtual Pinball port for Nintendo Switch. Bring your own tables.",
+  notesEs: "Port homebrew de Virtual Pinball para Nintendo Switch. Aporta tus propias mesas.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/visual-pinball-x.svg",
+    alt: "Visual Pinball X (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

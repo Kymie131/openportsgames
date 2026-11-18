@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const digimonWorld3Switch: Port = {
+  schema: "port",
+  id: "digimon-world-3-switch",
+  title: "Digimon World 3 (Switch)",
+  game: "Digimon World 3",
+  developers: ["Larbaco"],
+  publisher: "Bandai",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "0.9.0", date: "2026-11-12" },
+  sources: ["https://github.com/Larbaco/dw3-switch"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation"],
+  summary: "Digimon World 3 is a 2002 role-playing game developed by Bandai for the PlayStation. Players explore the MMO-like DigiWorld and collect Digimon cards and partners.",
+  summaryEs: "Digimon World 3 es un videojuego de rol de 2002 desarrollado por Bandai para PlayStation. El jugador explora el DigiWorld tipo MMO y colecciona cartas y compañeros Digimon.",
+  notes: "Nintendo Switch homebrew port built on the dw3 decompilation. Bring your own game disc.",
+  notesEs: "Port homebrew para Nintendo Switch basado en la descompilación de dw3. Aporta tu propio disco del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/digimon-world-3.svg",
+    alt: "Digimon World 3 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

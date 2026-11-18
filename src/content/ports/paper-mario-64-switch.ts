@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const paperMario64Switch: Port = {
+  schema: "port",
+  id: "paper-mario-64-switch",
+  title: "Paper Mario 64 (Switch)",
+  game: "Paper Mario",
+  developers: ["Angle-Brackets"],
+  publisher: "Nintendo",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.3-rc1", date: "2026-10-20" },
+  sources: ["https://github.com/Angle-Brackets/PaperBoat-Switch-Port"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo 64"],
+  summary: "Paper Mario is a 2000 role-playing game developed by Intelligent Systems and published by Nintendo for the Nintendo 64. Mario explores a paper-crafted world with turn-based battles and partners.",
+  summaryEs: "Paper Mario es un videojuego de rol de 2000 desarrollado por Intelligent Systems y publicado por Nintendo para Nintendo 64. Mario explora un mundo de papel con combates por turnos y compañeros.",
+  notes: "Native Nintendo Switch port of PaperBoat, running at 60 FPS and building from your own ROM on the console.",
+  notesEs: "Port nativo para Nintendo Switch de PaperBoat, a 60 FPS y compilando desde tu propia ROM en la consola.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/paper-mario.svg",
+    alt: "Paper Mario (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

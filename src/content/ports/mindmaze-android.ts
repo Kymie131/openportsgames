@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mindmazeAndroid: Port = {
+  schema: "port",
+  id: "mindmaze-android",
+  title: "MindMaze (Android)",
+  game: "MindMaze",
+  developers: ["rainthefrog"],
+  publisher: "Microsoft",
+  originalYear: 1991,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android","windows"],
+  status: "stable",
+  release: { version: "1.0.0", date: "2026-11-18" },
+  sources: ["https://github.com/rainthefrog/mindmaze-port"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "MindMaze is a trivia and puzzle game bundled with Microsoft Encarta, where players explore a castle and answer questions to unlock rooms.",
+  summaryEs: "MindMaze es un juego de trivia y puzles incluido en Microsoft Encarta, en el que el jugador explora un castillo y responde preguntas para abrir salas.",
+  notes: "Open-source port of the Encarta castle game for Windows and Android. Bring your own Encarta disc.",
+  notesEs: "Port de código abierto del juego del castillo de Encarta para Windows y Android. Aporta tu propio disco de Encarta.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/mindmaze.svg",
+    alt: "MindMaze (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

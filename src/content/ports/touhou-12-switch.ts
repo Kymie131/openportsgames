@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const touhou12Switch: Port = {
+  schema: "port",
+  id: "touhou-12-switch",
+  title: "Touhou 12: Undefined Fantastic Object (Switch)",
+  game: "Touhou 12: Undefined Fantastic Object",
+  developers: ["saekaze"],
+  publisher: "Team Shanghai Alice",
+  originalYear: 2009,
+  portType: "reimplementation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-10-25" },
+  sources: ["https://github.com/saekaze/th12-switch"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Touhou 12: Undefined Fantastic Object is a 2009 vertically scrolling bullet hell shooter developed by Team Shanghai Alice. Players collect UFO tokens while dodging dense bullet patterns.",
+  summaryEs: "Touhou 12: Undefined Fantastic Object es un shooter bullet hell de desplazamiento vertical de 2009 desarrollado por Team Shanghai Alice. El jugador recoge fichas de OVNI mientras esquiva densos patrones de balas.",
+  notes: "Native Nintendo Switch homebrew port built on a C++ reimplementation. No game files are included.",
+  notesEs: "Port homebrew nativo para Nintendo Switch basado en una reimplementación en C++. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/touhou-12-undefined-fantastic-object.svg",
+    alt: "Touhou 12: Undefined Fantastic Object (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

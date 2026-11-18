@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const projectGothamRacing3ds: Port = {
+  schema: "port",
+  id: "project-gotham-racing-3ds",
+  title: "Project Gotham Racing (3DS)",
+  game: "Project Gotham Racing",
+  developers: ["littleHatter"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2001,
+  portType: "runtime-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "alpha",
+  release: { version: "1.0", date: "2026-11-18" },
+  sources: ["https://github.com/littleHatter/Project-Gotham-Racing-New-3DS-Port"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox"],
+  summary: "Project Gotham Racing is a 2001 racing game developed by Bizarre Creations and published by Microsoft. Players earn Kudos for stylish driving through real city circuits.",
+  summaryEs: "Project Gotham Racing es un juego de carreras de 2001 desarrollado por Bizarre Creations y publicado por Microsoft. El jugador gana Kudos con una conducción elegante por circuitos de ciudades reales.",
+  notes: "New Nintendo 3DS port of the Symbian version through the Marmalade engine. Bring your own game files.",
+  notesEs: "Port para New Nintendo 3DS de la versión Symbian mediante el motor Marmalade. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/project-gotham-racing.svg",
+    alt: "Project Gotham Racing (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

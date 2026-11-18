@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const angryBirdsTrilogySwitch: Port = {
+  schema: "port",
+  id: "angry-birds-trilogy-switch",
+  title: "Angry Birds Trilogy (Switch)",
+  game: "Angry Birds Trilogy",
+  developers: ["slicey64"],
+  publisher: "Rovio Entertainment",
+  originalYear: 2012,
+  portType: "recompilation",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-11-16" },
+  sources: ["https://github.com/slicey64/rehatched-nx"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox 360"],
+  summary: "Angry Birds Trilogy bundles the original Angry Birds, Seasons and Rio into one release with HD visuals and extra levels. Players slingshot birds to knock down pig fortresses.",
+  summaryEs: "Angry Birds Trilogy reúne el Angry Birds original, Seasons y Rio en un solo lanzamiento con gráficos HD y niveles extra. El jugador lanza pájaros con tirachinas para derribar fortalezas de cerdos.",
+  notes: "Nintendo Switch port of the PC static recompilation of the trilogy. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la recompilación estática de PC de la trilogía. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/angry-birds-trilogy.svg",
+    alt: "Angry Birds Trilogy (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

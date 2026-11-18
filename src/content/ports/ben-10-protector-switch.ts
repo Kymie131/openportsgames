@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ben10ProtectorSwitch: Port = {
+  schema: "port",
+  id: "ben-10-protector-switch",
+  title: "Ben 10: Protector of Earth (Switch)",
+  game: "Ben 10: Protector of Earth",
+  developers: ["LaLemniscata"],
+  publisher: "D3 Publisher",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.1.4", date: "2026-11-06" },
+  sources: ["https://github.com/LaLemniscata/ben10-nx"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation Portable"],
+  summary: "Ben 10: Protector of Earth is a 2007 action-adventure game based on the animated series, released for consoles and handhelds. Ben uses alien transformations to stop a DNA-eating threat.",
+  summaryEs: "Ben 10: Protector of Earth es un juego de acción y aventura de 2007 basado en la serie animada, lanzado para consolas y portátiles. Ben usa transformaciones alienígenas para detener una amenaza que devora ADN.",
+  notes: "Native Nintendo Switch port of the PSP version, with a one-click Windows installer. No game files are included.",
+  notesEs: "Port nativo para Nintendo Switch de la versión de PSP, con un instalador de Windows de un clic. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/ben-10-protector-of-earth.svg",
+    alt: "Ben 10: Protector of Earth (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

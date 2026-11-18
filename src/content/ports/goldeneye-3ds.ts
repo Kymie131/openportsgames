@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const goldeneye3ds: Port = {
+  schema: "port",
+  id: "goldeneye-3ds",
+  title: "GoldenEye 007 (3DS)",
+  game: "GoldenEye 007",
+  developers: ["Raihwy3"],
+  publisher: "Nintendo",
+  originalYear: 1997,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: "0.9.7", date: "2026-11-18" },
+  sources: ["https://github.com/Raihwy3/eyes-of-gold"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo 64"],
+  summary: "GoldenEye 007 is a 1997 first-person shooter developed by Rare and published by Nintendo for the Nintendo 64. James Bond infiltrates facilities and completes objective-based missions.",
+  summaryEs: "GoldenEye 007 es un shooter en primera persona de 1997 desarrollado por Rare y publicado por Nintendo para Nintendo 64. James Bond se infiltra en instalaciones y cumple misiones por objetivos.",
+  notes: "New Nintendo 3DS port based on the GoldenEye PC port, with a launcher and gameplay tweaks. Bring your own ROM.",
+  notesEs: "Port para New Nintendo 3DS basado en el port de PC de GoldenEye, con lanzador y ajustes de jugabilidad. Aporta tu propia ROM.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/goldeneye-007.svg",
+    alt: "GoldenEye 007 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const slingshotAnimals: Port = {
+  schema: "port",
+  id: "slingshot-animals",
+  title: "Slingshot Animals (Angry Birds recompilation)",
+  game: "Angry Birds",
+  developers: ["Berny23"],
+  publisher: "Rovio Entertainment",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux","macos","android","switch"],
+  status: "stable",
+  release: { version: "1.1.0", date: "2026-11-18" },
+  sources: ["https://github.com/Berny23/slingshot-animals-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Angry Birds is a 2009 physics puzzle game by Rovio where players launch birds from a slingshot to destroy pig fortifications. This recompilation covers Classic, Seasons, Rio, Space, Star Wars and Stella.",
+  summaryEs: "Angry Birds es un juego de puzles físicos de 2009 de Rovio en el que el jugador lanza pájaros con un tirachinas para destruir fortalezas de cerdos. Esta recompilación incluye Classic, Seasons, Rio, Space, Star Wars y Stella.",
+  notes: "Unofficial static recompilation of Rovio's Android games for Windows, Linux, macOS, 64-bit Android and Nintendo Switch. Bring your own APKs.",
+  notesEs: "Recompilación estática no oficial de los juegos de Android de Rovio para Windows, Linux, macOS, Android de 64 bits y Nintendo Switch. Aporta tus propios APK.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/angry-birds.svg",
+    alt: "Angry Birds (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

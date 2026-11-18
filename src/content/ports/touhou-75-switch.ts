@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const touhou75Switch: Port = {
+  schema: "port",
+  id: "touhou-75-switch",
+  title: "Touhou 7.5: Immaterial and Missing Power (Switch)",
+  game: "Touhou 7.5: Immaterial and Missing Power",
+  developers: ["saekaze"],
+  publisher: "Team Shanghai Alice",
+  originalYear: 2004,
+  portType: "reimplementation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.11", date: "2026-10-17" },
+  sources: ["https://github.com/saekaze/th075-switch"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Touhou 7.5: Immaterial and Missing Power is a 2004 fighting game in the Touhou Project series, developed by Twilight Frontier and Team Shanghai Alice. It mixes bullet patterns with versus combat.",
+  summaryEs: "Touhou 7.5: Immaterial and Missing Power es un juego de lucha de 2004 de la serie Touhou Project, desarrollado por Twilight Frontier y Team Shanghai Alice. Mezcla patrones de balas con combate versus.",
+  notes: "Native Nintendo Switch homebrew port built on a C++ reimplementation. No game files are included.",
+  notesEs: "Port homebrew nativo para Nintendo Switch basado en una reimplementación en C++. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/touhou-7-5-immaterial-and-missing-power.svg",
+    alt: "Touhou 7.5: Immaterial and Missing Power (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

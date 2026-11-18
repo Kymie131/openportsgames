@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const aliceLookingGlassSwitch: Port = {
+  schema: "port",
+  id: "alice-looking-glass-switch",
+  title: "American McGee's Alice (Looking Glass, Switch)",
+  game: "American McGee's Alice",
+  developers: ["adumah"],
+  publisher: "Electronic Arts",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.33.0", date: "2026-11-12" },
+  sources: ["https://github.com/adumah/lookingglass-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "American McGee's Alice is a 2000 dark action-adventure game based on Lewis Carroll's novels, with Alice returning to a twisted Wonderland.",
+  summaryEs: "American McGee's Alice es un juego de acción y aventura oscuro de 2000 basado en las novelas de Lewis Carroll, con Alice regresando a un País de las Maravillas retorcido.",
+  notes: "Looking Glass Re-Remaster port for Nintendo Switch as a homebrew NRO. Bring your own game files.",
+  notesEs: "Port de Looking Glass Re-Remaster para Nintendo Switch como NRO homebrew. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/american-mcgee-s-alice.svg",
+    alt: "American McGee's Alice (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

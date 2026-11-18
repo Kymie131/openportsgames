@@ -3,7 +3,7 @@ import type { Port } from "@/lib/ports/schema";
 export const grichesPs5Windwakerhd: Port = {
   schema: "port",
   id: "griches-ps5-windwakerhd",
-  title: "The Legend of Zelda: The Wind Waker HD (Wind Waker HD for PlayStation 5)",
+  title: "The Legend of Zelda: The Wind Waker HD (PS5)",
   game: "The Legend of Zelda: The Wind Waker HD",
   developers: ["griches"],
   publisher: "Nintendo",
@@ -12,7 +12,7 @@ export const grichesPs5Windwakerhd: Port = {
   genre: "action-adventure",
   openSource: true,
   originalGameLicense: "proprietary",
-  platforms: ["windows"],
+  platforms: ["ps5"],
   status: "beta",
   release: { version: "1.1.0", date: "2026-10-13" },
   sources: ["https://github.com/griches/PS5_WindWakerHD"],
@@ -23,7 +23,7 @@ export const grichesPs5Windwakerhd: Port = {
   originalSystems: ["Wii U"],
   downloads: [
     {
-      label: "Windows",
+      label: "PS5",
       url: "https://github.com/griches/PS5_WindWakerHD/releases/download/v1.1.0/wwhd-ps5-kit-1.1.0.zip",
       size: "33.2 MB",
     },
@@ -35,6 +35,6 @@ export const grichesPs5Windwakerhd: Port = {
   },
   summary: "The Legend of Zelda: The Wind Waker is a 2002 action-adventure game developed and published by Nintendo for the GameCube. An installment in The Legend of Zelda series, it was released in Japan on December 13, 2002, in North America on March 23, 2003, and in Europe on May 2, 2003.",
   summaryEs: "The Legend of Zelda: The Wind Waker HD es un videojuego de acción y aventura publicado por Nintendo en 2013.",
-  notes: "The Legend of Zelda: The Wind Waker HD: static recompilation by griches for Windows. Bring your own copy of the game.",
-  notesEs: "The Legend of Zelda: The Wind Waker HD: recompilación estática de griches para Windows. Aporta tu propia copia del juego.",
+  notes: "The Legend of Zelda: The Wind Waker HD: native PS5 homebrew port by griches. Bring your own copy of the game.",
+  notesEs: "The Legend of Zelda: The Wind Waker HD: port homebrew nativo para PS5 de griches. Aporta tu propia copia del juego.",
 };

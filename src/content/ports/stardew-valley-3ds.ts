@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const stardewValley3ds: Port = {
+  schema: "port",
+  id: "stardew-valley-3ds",
+  title: "Stardew Valley (3DS)",
+  game: "Stardew Valley",
+  developers: ["gonzalo-araoz"],
+  publisher: "ConcernedApe",
+  originalYear: 2016,
+  portType: "source-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: "0.1.135", date: "2026-11-18" },
+  sources: ["https://github.com/gonzalo-araoz/SV3DS-releases"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Stardew Valley is a 2016 farming simulation game developed by ConcernedApe. Players inherit a farm, grow crops, raise animals and build relationships in Pelican Town.",
+  summaryEs: "Stardew Valley es un juego de simulación de granja de 2016 desarrollado por ConcernedApe. El jugador hereda una granja, cultiva, cría animales y construye relaciones en Pelican Town.",
+  notes: "Unofficial Stardew Valley port for the Nintendo 3DS. No game files are included.",
+  notesEs: "Port no oficial de Stardew Valley para Nintendo 3DS. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/stardew-valley.svg",
+    alt: "Stardew Valley (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
