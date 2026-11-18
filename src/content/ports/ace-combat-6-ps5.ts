@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const aceCombat6Ps5: Port = {
+  schema: "port",
+  id: "ace-combat-6-ps5",
+  title: "Ace Combat 6: Fires of Liberation (PS5)",
+  game: "Ace Combat 6: Fires of Liberation",
+  developers: ["milh0usec"],
+  publisher: "Namco Bandai Games",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps5"],
+  status: "alpha",
+  release: { version: "0.1.0-beta.1", date: "2026-11-15" },
+  sources: ["https://github.com/milh0usec/ac6-ps5recomp"],
+  license: { spdx: "BSD-3-Clause" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox 360"],
+  summary: "Ace Combat 6: Fires of Liberation is a 2007 combat flight simulator by Project Aces, with large-scale battles over the fictional nation of Emmeria.",
+  summaryEs: "Ace Combat 6: Fires of Liberation es un simulador de vuelo de combate de 2007 de Project Aces, con batallas a gran escala sobre la nación ficticia de Emmeria.",
+  notes: "Source-only PS5 homebrew port built on AC6Recomp. Requires a legally obtained US retail disc.",
+  notesEs: "Port homebrew para PS5 distribuido solo como código, basado en AC6Recomp. Requiere un disco físico estadounidense obtenido legalmente.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/ace-combat-6-fires-of-liberation.svg",
+    alt: "Ace Combat 6: Fires of Liberation (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

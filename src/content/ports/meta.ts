@@ -3035,4 +3035,13 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "pes-6-vita": ["PlayStation Portable"],
   "devil-may-cry-3-psp": ["PlayStation 2"],
   "ikaruga-psp": ["Dreamcast"],
+  "nfs-most-wanted-2012-3ds": ["Windows"],
+  "star-wars-episode-1-3ds": ["Windows"],
+  "project-diva-3ds": ["PlayStation Portable"],
+  "bejeweled-deluxe-switch": ["Windows"],
+  "amateur-surgeon-4-switch": ["Mobile"],
+  "ace-combat-6-ps5": ["Xbox 360"],
+  "terraria-vita": ["Windows"],
+  "lego-mighty-micros-vita": ["Mobile"],
+  "paratopic-vita": ["Windows"],
 };

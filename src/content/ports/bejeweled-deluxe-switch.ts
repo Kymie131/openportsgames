@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bejeweledDeluxeSwitch: Port = {
+  schema: "port",
+  id: "bejeweled-deluxe-switch",
+  title: "Bejeweled Deluxe (Switch)",
+  game: "Bejeweled Deluxe",
+  developers: ["Puyodead1"],
+  publisher: "PopCap Games",
+  originalYear: 2000,
+  portType: "source-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "stable",
+  release: { version: "1.0.0", date: "2026-11-18" },
+  sources: ["https://github.com/Puyodead1/bejeweled-deluxe-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Bejeweled Deluxe is the 2000 PopCap match-three puzzle game where players swap gems to line up three or more of a kind.",
+  summaryEs: "Bejeweled Deluxe es el juego de puzles de combinar tres de PopCap de 2000, en el que el jugador intercambia gemas para alinear tres o más iguales.",
+  notes: "Nintendo Switch homebrew port of Bejeweled Deluxe. No game files are required.",
+  notesEs: "Port homebrew para Nintendo Switch de Bejeweled Deluxe. No requiere archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/bejeweled-deluxe.svg",
+    alt: "Bejeweled Deluxe (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

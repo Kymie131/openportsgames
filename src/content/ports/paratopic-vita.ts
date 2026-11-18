@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const paratopicVita: Port = {
+  schema: "port",
+  id: "paratopic-vita",
+  title: "Paratopic (PS Vita)",
+  game: "Paratopic",
+  developers: ["PupueStudios"],
+  publisher: "Arbitrary Metric",
+  originalYear: 2018,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-11-14" },
+  sources: ["https://github.com/PupueStudios/Paratopic-Vita"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Paratopic is a 2018 short horror game built from PS1-style visuals and a non-linear story about a smuggler, an assassin and a birdwatcher.",
+  summaryEs: "Paratopic es un corto juego de terror de 2018 con estética de PS1 y una historia no lineal sobre un contrabandista, una asesina y un observador de aves.",
+  notes: "PS Vita port of Paratopic. Bring your own copy of the game.",
+  notesEs: "Port de Paratopic para PS Vita. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/paratopic.svg",
+    alt: "Paratopic (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

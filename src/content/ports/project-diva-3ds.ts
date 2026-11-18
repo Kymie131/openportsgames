@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const projectDiva3ds: Port = {
+  schema: "port",
+  id: "project-diva-3ds",
+  title: "Hatsune Miku: Project DIVA (3DS)",
+  game: "Hatsune Miku: Project DIVA",
+  developers: ["j-v"],
+  publisher: "Sega",
+  originalYear: 2009,
+  portType: "source-port",
+  genre: "music",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "alpha",
+  release: { version: "0.1.0", date: "2026-11-17" },
+  sources: ["https://github.com/j-v/Project-3DS"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation Portable"],
+  summary: "Hatsune Miku: Project DIVA is a 2009 rhythm game by Sega where players match button prompts to Vocaloid songs.",
+  summaryEs: "Hatsune Miku: Project DIVA es un juego de ritmo de 2009 de Sega en el que el jugador sigue indicaciones de botones al ritmo de canciones Vocaloid.",
+  notes: "Nintendo 3DS port based on the Project DS source. Bring your own game data.",
+  notesEs: "Port para Nintendo 3DS basado en el código de Project DS. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/hatsune-miku-project-diva.svg",
+    alt: "Hatsune Miku: Project DIVA (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

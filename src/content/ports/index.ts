@@ -3036,6 +3036,15 @@ import { midnightClubLaSwitch } from "./midnight-club-la-switch";
 import { pes6Vita } from "./pes-6-vita";
 import { devilMayCry3Psp } from "./devil-may-cry-3-psp";
 import { ikarugaPsp } from "./ikaruga-psp";
+import { nfsMostWanted20123ds } from "./nfs-most-wanted-2012-3ds";
+import { starWarsEpisode13ds } from "./star-wars-episode-1-3ds";
+import { projectDiva3ds } from "./project-diva-3ds";
+import { bejeweledDeluxeSwitch } from "./bejeweled-deluxe-switch";
+import { amateurSurgeon4Switch } from "./amateur-surgeon-4-switch";
+import { aceCombat6Ps5 } from "./ace-combat-6-ps5";
+import { terrariaVita } from "./terraria-vita";
+import { legoMightyMicrosVita } from "./lego-mighty-micros-vita";
+import { paratopicVita } from "./paratopic-vita";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6071,4 +6080,13 @@ export const portCases: Port[] = [
   pes6Vita,
   devilMayCry3Psp,
   ikarugaPsp,
+  nfsMostWanted20123ds,
+  starWarsEpisode13ds,
+  projectDiva3ds,
+  bejeweledDeluxeSwitch,
+  amateurSurgeon4Switch,
+  aceCombat6Ps5,
+  terrariaVita,
+  legoMightyMicrosVita,
+  paratopicVita,
 ];
