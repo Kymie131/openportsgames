@@ -3050,6 +3050,10 @@ import { dune20003ds } from "./dune-2000-3ds";
 import { port007FromRussiaAndroid } from "./007-from-russia-android";
 import { dusttaleAndroid } from "./dusttale-android";
 import { backstabSwitch } from "./backstab-switch";
+import { daggerfallPsp } from "./daggerfall-psp";
+import { pocketmajoraPsp } from "./pocketmajora-psp";
+import { internationalVolleyball2009Psp } from "./international-volleyball-2009-psp";
+import { geometryDashXbox360 } from "./geometry-dash-xbox360";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6099,4 +6103,8 @@ export const portCases: Port[] = [
   port007FromRussiaAndroid,
   dusttaleAndroid,
   backstabSwitch,
+  daggerfallPsp,
+  pocketmajoraPsp,
+  internationalVolleyball2009Psp,
+  geometryDashXbox360,
 ];

@@ -3049,4 +3049,8 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "007-from-russia-android": ["Xbox"],
   "dusttale-android": ["Windows"],
   "backstab-switch": ["Mobile"],
+  "daggerfall-psp": ["MS-DOS"],
+  "pocketmajora-psp": ["Nintendo 64"],
+  "international-volleyball-2009-psp": ["Mobile"],
+  "geometry-dash-xbox360": ["Mobile"],
 };

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const daggerfallPsp: Port = {
+  schema: "port",
+  id: "daggerfall-psp",
+  title: "The Elder Scrolls II: Daggerfall (PSP)",
+  game: "The Elder Scrolls II: Daggerfall",
+  developers: ["Gixel225"],
+  publisher: "Bethesda Softworks",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psp"],
+  status: "alpha",
+  release: { version: "0.2", date: "2026-11-15" },
+  sources: ["https://github.com/Gixel225/Daggerfall-for-PSP"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["MS-DOS"],
+  summary: "The Elder Scrolls II: Daggerfall is a 1996 open-world role-playing game by Bethesda with a huge procedurally generated world and deep character systems.",
+  summaryEs: "The Elder Scrolls II: Daggerfall es un videojuego de rol de mundo abierto de 1996 de Bethesda con un enorme mundo generado proceduralmente y sistemas de personaje profundos.",
+  notes: "AI-assisted port of Daggerfall for the PlayStation Portable. Bring your own game data.",
+  notesEs: "Port de Daggerfall para PlayStation Portable asistido por IA. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-elder-scrolls-ii-daggerfall.svg",
+    alt: "The Elder Scrolls II: Daggerfall (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

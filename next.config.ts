@@ -15,6 +15,11 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   experimental: {
     globalNotFound: true,
+    // The catalog prerenders thousands of pages; a handful of workers keeps the
+    // export inside the memory budget of typical CI builders and developer
+    // machines (11 workers on a 16 GB box gets OOM-killed).
+    cpus: 4,
+    memoryBasedWorkersCount: true,
   },
   ...(basePath && basePath.startsWith("/") ? { basePath } : {}),
 };
