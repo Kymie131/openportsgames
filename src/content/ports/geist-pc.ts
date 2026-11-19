@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const geistPc: Port = {
+  schema: "port",
+  id: "geist-pc",
+  title: "Geist (PC)",
+  game: "Geist",
+  developers: ["LegendarySavageGamer"],
+  publisher: "Nintendo",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.1.0", date: "2026-11-18" },
+  sources: ["https://github.com/LegendarySavageGamer/Geist-Recomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo GameCube"],
+  summary: "Geist is a 2005 first-person action-adventure where a man separated from his body possesses objects and enemies to escape a lab.",
+  summaryEs: "Geist es un juego de acción y aventura en primera persona de 2005 en el que un hombre separado de su cuerpo posee objetos y enemigos para escapar de un laboratorio.",
+  notes: "Native Windows port via static recompilation, built from your own disc, with up to 8x resolution, texture packs and keyboard/mouse support.",
+  notesEs: "Port nativo para Windows por recompilación estática, creado desde tu propio disco, con hasta 8x de resolución, paquetes de texturas y ratón/teclado.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/geist.svg",
+    alt: "Geist (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

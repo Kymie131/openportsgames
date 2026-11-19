@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nfsUndercoverPc: Port = {
+  schema: "port",
+  id: "nfs-undercover-pc",
+  title: "Need for Speed: Undercover (PC)",
+  game: "Need for Speed: Undercover",
+  developers: ["AliEnes2"],
+  publisher: "Electronic Arts",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: "0.2.0", date: "2026-11-18" },
+  sources: ["https://github.com/AliEnes2/nfsuc-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox 360"],
+  summary: "Need for Speed: Undercover is a 2008 racing game with an undercover cop story, highway battles and a large open city.",
+  summaryEs: "Need for Speed: Undercover es un juego de carreras de 2008 con una historia de infiltración policial, batallas en autopista y una gran ciudad abierta.",
+  notes: "Native Windows port of the Xbox 360 version via ReXGlue static recompilation. No game data is included.",
+  notesEs: "Port nativo para Windows de la versión de Xbox 360 mediante recompilación estática con ReXGlue. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/need-for-speed-undercover.svg",
+    alt: "Need for Speed: Undercover (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

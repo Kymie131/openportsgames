@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const metroidPrime2Vr: Port = {
+  schema: "port",
+  id: "metroid-prime-2-vr",
+  title: "Metroid Prime 2: Echoes VR (PC)",
+  game: "Metroid Prime 2: Echoes",
+  developers: ["iChris4"],
+  publisher: "Nintendo",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0.0-beta.2", date: "2026-11-09" },
+  sources: ["https://github.com/iChris4/MetroidPrime2PortVR"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo GameCube"],
+  summary: "Metroid Prime 2: Echoes is a 2004 first-person action-adventure where Samus explores the light and dark versions of Aether.",
+  summaryEs: "Metroid Prime 2: Echoes es un juego de acción y aventura en primera persona de 2004 en el que Samus explora las versiones de luz y oscuridad de Aether.",
+  notes: "Native VR port for PC and Quest built from the PrimeDecomp decompilation. No game assets; bring your own disc image.",
+  notesEs: "Port VR nativo para PC y Quest creado desde la descompilación PrimeDecomp. Sin recursos del juego; aporta tu propia imagen del disco.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/metroid-prime-2-echoes.svg",
+    alt: "Metroid Prime 2: Echoes (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

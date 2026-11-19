@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pn03Pc: Port = {
+  schema: "port",
+  id: "pn03-pc",
+  title: "P.N.03 (PC)",
+  game: "P.N.03",
+  developers: ["wwesun2000"],
+  publisher: "Capcom",
+  originalYear: 2003,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "2.3.0", date: "2026-11-15" },
+  sources: ["https://github.com/wwesun2000/PN03-WinPort"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo GameCube"],
+  summary: "P.N.03 is a 2003 third-person shooter by Capcom for the GameCube, starring Vanessa Z. Schneider in a dance-like shooting style.",
+  summaryEs: "P.N.03 es un shooter en tercera persona de 2003 de Capcom para GameCube, protagonizado por Vanessa Z. Schneider con un estilo de disparo similar a un baile.",
+  notes: "Native Windows x64 static recompilation port with Vulkan 1.3 and D3D11, 16:9 widescreen, HD overlay and Xbox controller support. No ISO or BIOS.",
+  notesEs: "Port nativo para Windows x64 por recompilación estática con Vulkan 1.3 y D3D11, pantalla 16:9, superposición HD y soporte de mando Xbox. Sin ISO ni BIOS.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/p-n-03.svg",
+    alt: "P.N.03 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

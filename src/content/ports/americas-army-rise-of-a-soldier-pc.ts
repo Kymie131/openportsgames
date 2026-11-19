@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const americasArmyRiseOfASoldierPc: Port = {
+  schema: "port",
+  id: "americas-army-rise-of-a-soldier-pc",
+  title: "America's Army: Rise of a Soldier (PC)",
+  game: "America's Army: Rise of a Soldier",
+  developers: ["PepperBelly01"],
+  publisher: "Ubisoft",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-11-18" },
+  sources: ["https://github.com/PepperBelly01/AARoaS-XBERecomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox"],
+  summary: "America's Army: Rise of a Soldier is a 2005 tactical shooter based on the US Army recruitment game, with a career mode and authentic tactics.",
+  summaryEs: "America's Army: Rise of a Soldier es un shooter táctico de 2005 basado en el juego de reclutamiento del Ejército de EE. UU., con modo carrera y tácticas realistas.",
+  notes: "Unofficial native PC port made with Xbox XBE Recomp. No game assets are included.",
+  notesEs: "Port nativo no oficial para PC creado con Xbox XBE Recomp. No incluye recursos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/america-s-army-rise-of-a-soldier.svg",
+    alt: "America's Army: Rise of a Soldier (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

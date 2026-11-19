@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const conkerLiveReloadedPc: Port = {
+  schema: "port",
+  id: "conker-live-reloaded-pc",
+  title: "Conker: Live & Reloaded (PC)",
+  game: "Conker: Live & Reloaded",
+  developers: ["giacomozama"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "4.0.0", date: "2026-11-16" },
+  sources: ["https://github.com/giacomozama/live-and-recompiled"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox"],
+  summary: "Conker: Live & Reloaded is the 2005 Xbox remake of Conker's Bad Fur Day, with a remastered campaign and online multiplayer modes.",
+  summaryEs: "Conker: Live & Reloaded es el remake para Xbox de 2005 de Conker's Bad Fur Day, con campaña remasterizada y modos multijugador en línea.",
+  notes: "Unofficial native PC port of the original Xbox game. No game assets are included.",
+  notesEs: "Port nativo no oficial para PC del juego original de Xbox. No incluye recursos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/conker-live-reloaded.svg",
+    alt: "Conker: Live & Reloaded (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

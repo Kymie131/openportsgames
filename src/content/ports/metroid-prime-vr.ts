@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const metroidPrimeVr: Port = {
+  schema: "port",
+  id: "metroid-prime-vr",
+  title: "Metroid Prime VR (PC)",
+  game: "Metroid Prime",
+  developers: ["iChris4"],
+  publisher: "Nintendo",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "2.0.0-beta.8", date: "2026-11-07" },
+  sources: ["https://github.com/iChris4/MetroidPrimePortVR"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo GameCube"],
+  summary: "Metroid Prime is a 2002 first-person action-adventure by Retro Studios where Samus explores Tallon IV.",
+  summaryEs: "Metroid Prime es un juego de acción y aventura en primera persona de 2002 de Retro Studios en el que Samus explora Tallon IV.",
+  notes: "Native VR port for Windows and Meta Quest built from the PrimeDecomp decompilation. No emulator and no game assets; bring your own disc image.",
+  notesEs: "Port VR nativo para Windows y Meta Quest creado desde la descompilación PrimeDecomp. Sin emulador ni recursos del juego; aporta tu propia imagen del disco.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/metroid-prime.svg",
+    alt: "Metroid Prime (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const twistedMetalBlackPc: Port = {
+  schema: "port",
+  id: "twisted-metal-black-pc",
+  title: "Twisted Metal: Black (PC)",
+  game: "Twisted Metal: Black",
+  developers: ["TheBozos"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2001,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.6.0", date: "2026-11-11" },
+  sources: ["https://github.com/TheBozos/TMB_Recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation 2"],
+  summary: "Twisted Metal: Black is a 2001 vehicular combat game where drivers with dark backstories fight in a tournament run by Calypso.",
+  summaryEs: "Twisted Metal: Black es un juego de combate entre vehículos de 2001 en el que pilotos con historias oscuras compiten en un torneo organizado por Calypso.",
+  notes: "Native PC port through static recompilation with PS2Recomp. No game data is included.",
+  notesEs: "Port nativo para PC por recompilación estática con PS2Recomp. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/twisted-metal-black.svg",
+    alt: "Twisted Metal: Black (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

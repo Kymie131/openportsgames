@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const freekstyleLinux: Port = {
+  schema: "port",
+  id: "freekstyle-linux",
+  title: "Freekstyle (Linux)",
+  game: "Freekstyle",
+  developers: ["Broly1"],
+  publisher: "Electronic Arts",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["linux"],
+  status: "beta",
+  release: { version: "0.9", date: "2026-10-31" },
+  sources: ["https://github.com/Broly1/freekstyle-native-port"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation 2"],
+  summary: "Freekstyle is a 2002 motocross game built on the SSX engine, with tricks, boost and FMX-style courses.",
+  summaryEs: "Freekstyle es un juego de motocross de 2002 construido sobre el motor de SSX, con trucos, turbo y circuitos estilo FMX.",
+  notes: "Unofficial native Linux port written in Rust with Vulkan. No game data is included; bring your own disc.",
+  notesEs: "Port nativo no oficial para Linux escrito en Rust con Vulkan. No incluye datos del juego; aporta tu propio disco.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/freekstyle.svg",
+    alt: "Freekstyle (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

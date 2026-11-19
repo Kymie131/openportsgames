@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const skylandersGiantsPc: Port = {
+  schema: "port",
+  id: "skylanders-giants-pc",
+  title: "Skylanders: Giants (PC)",
+  game: "Skylanders: Giants",
+  developers: ["tsapZ"],
+  publisher: "Activision",
+  originalYear: 2012,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.6.0-beta.5", date: "2026-11-18" },
+  sources: ["https://github.com/tsapZ/GiantsRecomp"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox 360"],
+  summary: "Skylanders: Giants is a 2012 toys-to-life action-adventure where figures are placed on a Portal of Power to swap characters in game.",
+  summaryEs: "Skylanders: Giants es un juego de acción y aventura toys-to-life de 2012 en el que las figuras se colocan en un Portal of Power para cambiar de personaje.",
+  notes: "Unofficial native Windows port recompiled with ReXGlue. Works with a real Portal of Power and figures, or without them.",
+  notesEs: "Port nativo no oficial para Windows recompilado con ReXGlue. Funciona con un Portal of Power y figuras reales, o sin ellos.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/skylanders-giants.svg",
+    alt: "Skylanders: Giants (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const rocketPowerBeachBanditsPc: Port = {
+  schema: "port",
+  id: "rocket-power-beach-bandits-pc",
+  title: "Rocket Power: Beach Bandits (PC)",
+  game: "Rocket Power: Beach Bandits",
+  developers: ["Spaced1127"],
+  publisher: "THQ",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: "0.2.2", date: "2026-11-17" },
+  sources: ["https://github.com/Spaced1127/RPBB-Static-Recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo GameCube"],
+  summary: "Rocket Power: Beach Bandits is a 2002 platform game based on the animated series, with hoverboards, skateboards and beach-themed levels.",
+  summaryEs: "Rocket Power: Beach Bandits es un juego de plataformas de 2002 basado en la serie animada, con hoverboards, monopatines y niveles de playa.",
+  notes: "Native Windows port running at 60 FPS, RecompLauncher-ready. No game data is included.",
+  notesEs: "Port nativo para Windows a 60 FPS, compatible con RecompLauncher. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/rocket-power-beach-bandits.svg",
+    alt: "Rocket Power: Beach Bandits (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

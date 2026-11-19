@@ -3107,6 +3107,19 @@ import { wanganMidnight3dxAndroid } from "./wangan-midnight-3dx-android";
 import { postal2Android } from "./postal-2-android";
 import { angbandAndroid } from "./angband-android";
 import { nightmareBeforeChristmasPs5 } from "./nightmare-before-christmas-ps5";
+import { valkyrieProfile2Pc } from "./valkyrie-profile-2-pc";
+import { twistedMetalBlackPc } from "./twisted-metal-black-pc";
+import { freekstyleLinux } from "./freekstyle-linux";
+import { conkerLiveReloadedPc } from "./conker-live-reloaded-pc";
+import { nfsUndercoverPc } from "./nfs-undercover-pc";
+import { skylandersGiantsPc } from "./skylanders-giants-pc";
+import { geistPc } from "./geist-pc";
+import { pn03Pc } from "./pn03-pc";
+import { metroidPrimeVr } from "./metroid-prime-vr";
+import { metroidPrime2Vr } from "./metroid-prime-2-vr";
+import { digimonRumbleArena2Pc } from "./digimon-rumble-arena-2-pc";
+import { rocketPowerBeachBanditsPc } from "./rocket-power-beach-bandits-pc";
+import { americasArmyRiseOfASoldierPc } from "./americas-army-rise-of-a-soldier-pc";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6213,4 +6226,17 @@ export const portCases: Port[] = [
   postal2Android,
   angbandAndroid,
   nightmareBeforeChristmasPs5,
+  valkyrieProfile2Pc,
+  twistedMetalBlackPc,
+  freekstyleLinux,
+  conkerLiveReloadedPc,
+  nfsUndercoverPc,
+  skylandersGiantsPc,
+  geistPc,
+  pn03Pc,
+  metroidPrimeVr,
+  metroidPrime2Vr,
+  digimonRumbleArena2Pc,
+  rocketPowerBeachBanditsPc,
+  americasArmyRiseOfASoldierPc,
 ];

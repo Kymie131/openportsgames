@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const digimonRumbleArena2Pc: Port = {
+  schema: "port",
+  id: "digimon-rumble-arena-2-pc",
+  title: "Digimon Rumble Arena 2 (PC)",
+  game: "Digimon Rumble Arena 2",
+  developers: ["gabrielmedeiros1337"],
+  publisher: "Bandai",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows","linux"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-11-18" },
+  sources: ["https://github.com/gabrielmedeiros1337/digimonra2-recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo GameCube"],
+  summary: "Digimon Rumble Arena 2 is a 2004 crossover fighting game where Digimon digivolve mid-match and battle in arena stages.",
+  summaryEs: "Digimon Rumble Arena 2 es un juego de lucha crossover de 2004 en el que los Digimon digievolucionan durante el combate en escenarios de arena.",
+  notes: "Native PC port for Windows and Linux by static recompilation to C, with OpenGL 3.3 and SDL2. No game data is included.",
+  notesEs: "Port nativo para PC en Windows y Linux por recompilación estática a C, con OpenGL 3.3 y SDL2. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/digimon-rumble-arena-2.svg",
+    alt: "Digimon Rumble Arena 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
