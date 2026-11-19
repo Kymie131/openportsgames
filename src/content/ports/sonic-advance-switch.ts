@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sonicAdvanceSwitch: Port = {
+  schema: "port",
+  id: "sonic-advance-switch",
+  title: "Sonic Advance (Switch)",
+  game: "Sonic Advance",
+  developers: ["Niecks90"],
+  publisher: "Sega",
+  originalYear: 2001,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.1.0", date: "2026-11-18" },
+  sources: ["https://github.com/Niecks90/sonicadvance-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Game Boy Advance"],
+  summary: "Sonic Advance is a 2001 side-scrolling platform game by Dimps and Sonic Team for the Game Boy Advance, with four playable characters and Chao-raising.",
+  summaryEs: "Sonic Advance es un juego de plataformas de desplazamiento lateral de 2001 de Dimps y Sonic Team para Game Boy Advance, con cuatro personajes jugables y crianza de Chaos.",
+  notes: "Native static recompilation port for the Nintendo Switch. Bring your own copy of the game.",
+  notesEs: "Port nativo por recompilación estática para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/sonic-advance.svg",
+    alt: "Sonic Advance (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

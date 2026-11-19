@@ -3091,6 +3091,12 @@ import { scpContainmentBreachWiiu } from "./scp-containment-breach-wiiu";
 import { littleBigAdventure2Wiiu } from "./little-big-adventure-2-wiiu";
 import { sonicRPsp } from "./sonic-r-psp";
 import { aoOniPs4 } from "./ao-oni-ps4";
+import { sonicAdvanceSwitch } from "./sonic-advance-switch";
+import { bloodOmen2Switch } from "./blood-omen-2-switch";
+import { thps4XboxAndroid } from "./thps4-xbox-android";
+import { am2armAndroid } from "./am2arm-android";
+import { nfsCarbonVita } from "./nfs-carbon-vita";
+import { ootSwitch2Pc } from "./oot-switch2-pc";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6181,4 +6187,10 @@ export const portCases: Port[] = [
   littleBigAdventure2Wiiu,
   sonicRPsp,
   aoOniPs4,
+  sonicAdvanceSwitch,
+  bloodOmen2Switch,
+  thps4XboxAndroid,
+  am2armAndroid,
+  nfsCarbonVita,
+  ootSwitch2Pc,
 ];

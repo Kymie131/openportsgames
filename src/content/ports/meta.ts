@@ -3090,4 +3090,10 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "little-big-adventure-2-wiiu": ["MS-DOS"],
   "sonic-r-psp": ["Windows"],
   "ao-oni-ps4": ["Windows"],
+  "sonic-advance-switch": ["Game Boy Advance"],
+  "blood-omen-2-switch": ["Windows"],
+  "thps4-xbox-android": ["Xbox"],
+  "am2arm-android": ["Windows"],
+  "nfs-carbon-vita": ["Windows"],
+  "oot-switch2-pc": ["Nintendo Switch 2"],
 };

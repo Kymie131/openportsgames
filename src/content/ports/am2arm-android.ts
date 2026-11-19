@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const am2armAndroid: Port = {
+  schema: "port",
+  id: "am2arm-android",
+  title: "Another Metroid 2 Remake (Android, AM2ARM)",
+  game: "Another Metroid 2 Remake",
+  developers: ["PatchDev-AM2ARM"],
+  publisher: "Nintendo",
+  originalYear: 2016,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android","linux"],
+  status: "beta",
+  release: { version: "1.6.2", date: "2026-11-18" },
+  sources: ["https://github.com/PatchDev-AM2ARM/AM2ARM"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Another Metroid 2 Remake is a 2016 fan remake of Metroid II with modern 2D action, new areas and a full map system.",
+  summaryEs: "Another Metroid 2 Remake es un remake hecho por fans de Metroid II de 2016 con acción 2D moderna, áreas nuevas y un sistema de mapa completo.",
+  notes: "ARM64 port of AM2R for Android and Linux devices. Bring your own game data.",
+  notesEs: "Port ARM64 de AM2R para dispositivos Android y Linux. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/another-metroid-2-remake.svg",
+    alt: "Another Metroid 2 Remake (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ootSwitch2Pc: Port = {
+  schema: "port",
+  id: "oot-switch2-pc",
+  title: "The Legend of Zelda: Ocarina of Time (Switch 2, PC)",
+  game: "The Legend of Zelda: Ocarina of Time",
+  developers: ["NovaOOT"],
+  publisher: "Nintendo",
+  originalYear: 2026,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: "0.11.0", date: "2026-11-18" },
+  sources: ["https://github.com/NovaOOT/OOT-PC"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo Switch 2"],
+  summary: "The Legend of Zelda: Ocarina of Time is Nintendo's 1998 action-adventure classic. This port is based on the Switch 2 recompilation and adds a live debug menu.",
+  summaryEs: "The Legend of Zelda: Ocarina of Time es el clásico de acción y aventura de Nintendo de 1998. Este port se basa en la recompilación de Switch 2 y añade un menú de depuración en vivo.",
+  notes: "Native Windows port with Vulkan, save states, warps, collision and trigger viewers and a speedrun timer. Bring your own game data.",
+  notesEs: "Port nativo para Windows con Vulkan, guardado de estados, teletransportes, visores de colisión y disparadores y cronómetro de speedrun. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-ocarina-of-time.svg",
+    alt: "The Legend of Zelda: Ocarina of Time (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nfsCarbonVita: Port = {
+  schema: "port",
+  id: "nfs-carbon-vita",
+  title: "Need for Speed: Carbon (PS Vita)",
+  game: "Need for Speed: Carbon",
+  developers: ["Swisha33"],
+  publisher: "Electronic Arts",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["psvita"],
+  status: "alpha",
+  release: { version: "0.1.0", date: "2026-11-18" },
+  sources: ["https://github.com/Swisha33/NFSCVita"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Need for Speed: Carbon is a 2006 street racing game with canyon duels, crew members and territory control across Palmont City.",
+  summaryEs: "Need for Speed: Carbon es un juego de carreras callejeras de 2006 con duelos en cañón, miembros de equipo y control de territorio en Palmont City.",
+  notes: "Static recompilation of your own NFSC.exe for the PS Vita with an sceGxm renderer. First playtest build; bring your own copy of the game.",
+  notesEs: "Recompilación estática de tu propio NFSC.exe para PS Vita con renderizador sceGxm. Primera versión de prueba; aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/need-for-speed-carbon.svg",
+    alt: "Need for Speed: Carbon (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
