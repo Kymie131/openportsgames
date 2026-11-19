@@ -3097,6 +3097,10 @@ import { thps4XboxAndroid } from "./thps4-xbox-android";
 import { am2armAndroid } from "./am2arm-android";
 import { nfsCarbonVita } from "./nfs-carbon-vita";
 import { ootSwitch2Pc } from "./oot-switch2-pc";
+import { haloCeWiiu } from "./halo-ce-wiiu";
+import { carnivores3dsWiiu } from "./carnivores-3ds-wiiu";
+import { simpsonsHitAndRunPsp } from "./simpsons-hit-and-run-psp";
+import { slippiWii } from "./slippi-wii";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6193,4 +6197,8 @@ export const portCases: Port[] = [
   am2armAndroid,
   nfsCarbonVita,
   ootSwitch2Pc,
+  haloCeWiiu,
+  carnivores3dsWiiu,
+  simpsonsHitAndRunPsp,
+  slippiWii,
 ];

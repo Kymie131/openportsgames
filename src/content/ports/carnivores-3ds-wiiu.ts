@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const carnivores3dsWiiu: Port = {
+  schema: "port",
+  id: "carnivores-3ds-wiiu",
+  title: "Carnivores 2 (Wii U / 3DS)",
+  game: "Carnivores 2",
+  developers: ["isaiahboland-dotcom"],
+  publisher: "Action Forms",
+  originalYear: 1998,
+  portType: "reimplementation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["wiiu","3ds"],
+  status: "beta",
+  release: { version: "0.7.1", date: "2026-11-18" },
+  sources: ["https://github.com/isaiahboland-dotcom/Carnivores-Rust-Rewrite-and-ConsolePorts"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Carnivores 2 is a 1998 dinosaur hunting game where the player tracks and shoots prehistoric creatures across island environments.",
+  summaryEs: "Carnivores 2 es un juego de caza de dinosaurios de 1998 en el que el jugador rastrea y dispara a criaturas prehistóricas en islas.",
+  notes: "Rust rewrite of Carnivores 2 that also supports Ice Age and community mods, ported to Wii U and 3DS. No game files are included.",
+  notesEs: "Reescritura en Rust de Carnivores 2 que también soporta Ice Age y mods de la comunidad, portada a Wii U y 3DS. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/carnivores-2.svg",
+    alt: "Carnivores 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

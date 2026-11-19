@@ -3096,4 +3096,8 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "am2arm-android": ["Windows"],
   "nfs-carbon-vita": ["Windows"],
   "oot-switch2-pc": ["Nintendo Switch 2"],
+  "halo-ce-wiiu": ["Xbox"],
+  "carnivores-3ds-wiiu": ["Windows"],
+  "simpsons-hit-and-run-psp": ["PlayStation 2"],
+  "slippi-wii": ["Nintendo GameCube"],
 };

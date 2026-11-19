@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const slippiWii: Port = {
+  schema: "port",
+  id: "slippi-wii",
+  title: "Slippi Online (Wii)",
+  game: "Super Smash Bros. Melee",
+  developers: ["2gifts"],
+  publisher: "Nintendo",
+  originalYear: 2001,
+  portType: "source-port",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["wii"],
+  status: "stable",
+  release: { version: "1.8.0", date: "2026-11-18" },
+  sources: ["https://github.com/2gifts/SlippWii"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo GameCube"],
+  summary: "Super Smash Bros. Melee is a 2001 fighting game by HAL Laboratory. Slippi adds rollback netcode and online matchmaking to the original game.",
+  summaryEs: "Super Smash Bros. Melee es un juego de lucha de 2001 de HAL Laboratory. Slippi añade netcode rollback y emparejamiento en línea al juego original.",
+  notes: "Unofficial Slippi Online for the Wii, letting a real Wii play Direct and Unranked matches against Slippi Dolphin. Bring your own game disc.",
+  notesEs: "Slippi Online no oficial para Wii, que permite jugar partidas Direct y Unranked desde una Wii real contra Slippi Dolphin. Aporta tu propio disco del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/super-smash-bros-melee.svg",
+    alt: "Super Smash Bros. Melee (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
