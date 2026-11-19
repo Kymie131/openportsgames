@@ -22,14 +22,14 @@ import { dictionaries } from "@/lib/i18n/dictionaries";
 import { asLocale } from "@/lib/i18n/locales";
 
 const FEATURED_SLUGS = [
-  "hookshot",
-  "ocarina-retuned",
-  "ship-of-harkinian",
+  "uncharted-nathan-drake-collection-pc",
+  "bloodborne-pc-windows",
+  "chupathingyce-chupathingyce",
   "open-lara",
-  "minish-cap",
   "dk64-recompiled",
   "metroid-prime-hunters-recompiled",
-  "triaevum",
+  "half-life-2-ps5",
+  "halo-3-recomp",
 ];
 
 const NON_CONSOLE_SYSTEMS = new Set([

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const assaultcube3ds: Port = {
+  schema: "port",
+  id: "assaultcube-3ds",
+  title: "AssaultCube (3DS)",
+  game: "AssaultCube",
+  developers: ["rzkowskii"],
+  publisher: "AssaultCube team",
+  originalYear: 2006,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-11-14" },
+  sources: ["https://github.com/rzkowskii/AC3DS"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "AssaultCube is a free multiplayer first-person shooter built on the Cube engine, with fast arena combat and team modes.",
+  summaryEs: "AssaultCube es un shooter multijugador gratuito en primera persona construido sobre el motor Cube, con combate de arena rápido y modos por equipos.",
+  notes: "AssaultCube Lockdown Edition ported natively to New Nintendo 2DS and 3DS. No game files are required.",
+  notesEs: "AssaultCube Lockdown Edition portado de forma nativa a New Nintendo 2DS y 3DS. No requiere archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/assaultcube.svg",
+    alt: "AssaultCube (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

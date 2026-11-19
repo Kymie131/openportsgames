@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const chocolateDoomDs: Port = {
+  schema: "port",
+  id: "chocolate-doom-ds",
+  title: "Doom (DS, Chocolate Doom)",
+  game: "Doom",
+  developers: ["gufranco"],
+  publisher: "id Software",
+  originalYear: 1993,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ds"],
+  status: "beta",
+  release: { version: "3.1.1", date: "2025-08-16" },
+  sources: ["https://github.com/gufranco/chocolate-doom-ds"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["MS-DOS"],
+  summary: "Doom is the 1993 first-person shooter by id Software, ported here through Chocolate Doom, which preserves the original engine behaviour.",
+  summaryEs: "Doom es el shooter en primera persona de 1993 de id Software, portado aquí mediante Chocolate Doom, que conserva el comportamiento original del motor.",
+  notes: "Chocolate Doom port for the Nintendo DS with a Dockerized build and GDB debugging through melonDS. Bring your own WADs.",
+  notesEs: "Port de Chocolate Doom para Nintendo DS con compilación en Docker y depuración GDB mediante melonDS. Aporta tus propios WAD.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/doom.svg",
+    alt: "Doom (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -3157,4 +3157,10 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "soul-sacrifice-delta-pc": ["PlayStation Vita"],
   "littlebigplanet-vita-pc": ["PlayStation Vita"],
   "ratchet-gladiator-pc": ["PlayStation 2"],
+  "crispy-doom-ps3": ["MS-DOS"],
+  "tyrquake-ps3": ["MS-DOS"],
+  "gta-san-andreas-ds": ["PlayStation 2"],
+  "chocolate-doom-ds": ["MS-DOS"],
+  "mutiny-3ds": ["Web"],
+  "assaultcube-3ds": ["Windows"],
 };

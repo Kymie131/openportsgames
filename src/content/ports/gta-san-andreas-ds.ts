@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gtaSanAndreasDs: Port = {
+  schema: "port",
+  id: "gta-san-andreas-ds",
+  title: "Grand Theft Auto: San Andreas (DS)",
+  game: "Grand Theft Auto: San Andreas",
+  developers: ["sammwyy"],
+  publisher: "Rockstar Games",
+  originalYear: 2004,
+  portType: "reimplementation",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ds"],
+  status: "alpha",
+  release: { version: "0.1.0", date: "2026-11-16" },
+  sources: ["https://github.com/sammwyy/gtasands"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation 2"],
+  summary: "Grand Theft Auto: San Andreas is the 2004 open-world game set across three cities in the state of San Andreas, rebuilt here as a Nintendo DS demake.",
+  summaryEs: "Grand Theft Auto: San Andreas es el juego de mundo abierto de 2004 ambientado en tres ciudades del estado de San Andreas, recreado aquí como demake para Nintendo DS.",
+  notes: "Native Nintendo DS reimplementation, distributed as code-only SD builds. Bring your own copy of the game.",
+  notesEs: "Reimplementación nativa para Nintendo DS, distribuida como compilaciones SD solo de código. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/grand-theft-auto-san-andreas.svg",
+    alt: "Grand Theft Auto: San Andreas (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

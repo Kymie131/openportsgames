@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tyrquakePs3: Port = {
+  schema: "port",
+  id: "tyrquake-ps3",
+  title: "Quake (PS3, TyrQuake)",
+  game: "Quake",
+  developers: ["stingziz0u"],
+  publisher: "id Software",
+  originalYear: 1996,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps3"],
+  status: "beta",
+  release: { version: "1.6.1", date: "2026-10-28" },
+  sources: ["https://github.com/stingziz0u/tyrquakecell"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["MS-DOS"],
+  summary: "Quake is the 1996 first-person shooter by id Software that defined 3D action games with real-time lighting and online deathmatch.",
+  summaryEs: "Quake es el shooter en primera persona de 1996 de id Software que definió la acción 3D con iluminación en tiempo real y deathmatch en línea.",
+  notes: "TyrQuake homebrew port running natively on the PlayStation 3. Bring your own game data.",
+  notesEs: "Port homebrew de TyrQuake que se ejecuta de forma nativa en PlayStation 3. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/quake.svg",
+    alt: "Quake (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

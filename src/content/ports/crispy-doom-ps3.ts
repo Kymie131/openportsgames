@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const crispyDoomPs3: Port = {
+  schema: "port",
+  id: "crispy-doom-ps3",
+  title: "Crispy Doom / Heretic / Hexen / Strife (PS3)",
+  game: "Doom",
+  developers: ["stingziz0u"],
+  publisher: "id Software",
+  originalYear: 1993,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps3"],
+  status: "beta",
+  release: { version: "1.5", date: "2026-11-19" },
+  sources: ["https://github.com/stingziz0u/crispycell"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["MS-DOS"],
+  summary: "Crispy Doom is a limit-removing source port of Doom that also builds Heretic, Hexen and Strife, keeping the original look with widescreen support.",
+  summaryEs: "Crispy Doom es un port de código de Doom que elimina límites y también compila Heretic, Hexen y Strife, manteniendo el aspecto original con pantalla ancha.",
+  notes: "Homebrew port running natively on the PlayStation 3. Bring your own game data.",
+  notesEs: "Port homebrew que se ejecuta de forma nativa en PlayStation 3. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/doom.svg",
+    alt: "Doom (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

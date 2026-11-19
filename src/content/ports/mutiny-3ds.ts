@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const mutiny3ds: Port = {
+  schema: "port",
+  id: "mutiny-3ds",
+  title: "Mutiny (3DS)",
+  game: "Mutiny",
+  developers: ["EstebanPdN"],
+  publisher: "Nitrome",
+  originalYear: 2011,
+  portType: "reimplementation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["3ds"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-11-07" },
+  sources: ["https://github.com/EstebanPdN/mutiny-3ds"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Web"],
+  summary: "Mutiny is a Nitrome strategy game where the player commands a ship's crew to retake vessels with turn-based cannon fire.",
+  summaryEs: "Mutiny es un juego de estrategia de Nitrome en el que el jugador dirige a la tripulación de un barco para recuperar naves con disparos de cañón por turnos.",
+  notes: "Native Nintendo 3DS port with a two-screen touch interface. No game files are included.",
+  notesEs: "Port nativo para Nintendo 3DS con interfaz táctil de dos pantallas. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/mutiny.svg",
+    alt: "Mutiny (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -3158,6 +3158,12 @@ import { angryBirds2Switch } from "./angry-birds-2-switch";
 import { soulSacrificeDeltaPc } from "./soul-sacrifice-delta-pc";
 import { littlebigplanetVitaPc } from "./littlebigplanet-vita-pc";
 import { ratchetGladiatorPc } from "./ratchet-gladiator-pc";
+import { crispyDoomPs3 } from "./crispy-doom-ps3";
+import { tyrquakePs3 } from "./tyrquake-ps3";
+import { gtaSanAndreasDs } from "./gta-san-andreas-ds";
+import { chocolateDoomDs } from "./chocolate-doom-ds";
+import { mutiny3ds } from "./mutiny-3ds";
+import { assaultcube3ds } from "./assaultcube-3ds";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6315,4 +6321,10 @@ export const portCases: Port[] = [
   soulSacrificeDeltaPc,
   littlebigplanetVitaPc,
   ratchetGladiatorPc,
+  crispyDoomPs3,
+  tyrquakePs3,
+  gtaSanAndreasDs,
+  chocolateDoomDs,
+  mutiny3ds,
+  assaultcube3ds,
 ];
