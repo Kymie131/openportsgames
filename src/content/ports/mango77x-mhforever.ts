@@ -14,7 +14,7 @@ export const mango77xMhforever: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: "0.4.1", date: "2026-10-23" },
+  release: { version: "0.12.0", date: "2026-11-18" },
   sources: ["https://github.com/Mango77x/MHForever"],
   license: { spdx: "GPL-3.0" },
   verified: false,

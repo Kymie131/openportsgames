@@ -10,7 +10,7 @@ export const worldDriverChampionshipRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: "0.1.0", date: "2026-10-24" },
+  release: { version: "0.2.0", date: "2026-10-29" },
   sources: ["https://github.com/alondero/worlddriverchampionship-recomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,

@@ -15,7 +15,7 @@ export const pqmarineUnderworldrevisited: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: "0.8.4", date: "2026-10-21" },
+  release: { version: "0.21.0", date: "2026-11-16" },
   sources: ["https://github.com/PQMarine/UnderworldRevisited"],
   license: { spdx: "MIT" },
   verified: false,

@@ -15,7 +15,7 @@ export const foldCraftLauncher: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: "1.3.4.5", date: "2026-11-07" },
+  release: { version: "1.3.4.7", date: "2026-11-17" },
   sources: ["https://github.com/FCL-Team/FoldCraftLauncher"],
   license: { spdx: "GPL-3.0" },
   verified: false,

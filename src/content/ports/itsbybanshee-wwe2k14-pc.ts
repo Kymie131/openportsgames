@@ -14,7 +14,7 @@ export const itsbybansheeWwe2k14Pc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: "1.1.0", date: "2026-10-18" },
+  release: { version: "1.2.2", date: "2026-11-05" },
   sources: ["https://github.com/itsbybanshee/wwe2k14-pc"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,

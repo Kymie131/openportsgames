@@ -14,7 +14,7 @@ export const buffyChaosBleedsAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android", "windows"],
   status: "beta",
-  release: { version: "1.0.2", date: "2026-10-02" },
+  release: { version: "1.0.3", date: "2026-11-16" },
   sources: ["https://github.com/KaikoClanworth1/buffy-chaos-bleeds-pc"],
   license: { spdx: "NOASSERTION", note: "no license file in the repository" },
   verified: false,

@@ -14,7 +14,7 @@ export const devilDiceRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: "0.1.0", date: "2026-09-14" },
+  release: { version: "0.1.3", date: "2026-11-15" },
   sources: ["https://github.com/alexbeavs-ps1-ports/devil-dice-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,

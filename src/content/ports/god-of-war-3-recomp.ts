@@ -14,7 +14,7 @@ export const godOfWar3Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: "3.1.0", date: "2026-11-07" },
+  release: { version: "3.2.1", date: "2026-11-16" },
   sources: ["https://github.com/FelipePrado0/gow3_pc"],
   license: { spdx: "GPL-2.0" },
   verified: false,

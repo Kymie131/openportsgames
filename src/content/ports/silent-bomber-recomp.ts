@@ -14,7 +14,7 @@ export const silentBomberRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: "0.1.1", date: "2026-09-30" },
+  release: { version: "0.1.4", date: "2026-11-15" },
   sources: ["https://github.com/alexbeavs-ps1-ports/silent-bomber-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,

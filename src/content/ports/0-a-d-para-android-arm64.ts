@@ -14,7 +14,7 @@ export const _0ADParaAndroidArm64: Port = {
   originalGameLicense: "open",
   platforms: ["android"],
   status: "beta",
-  release: { version: "0.28.0-android-2", date: "2026-11-05" },
+  release: { version: "0.28.0-android-3", date: "2026-11-14" },
   sources: ["https://github.com/Revers-BR/0ad-android-releases"],
   license: { spdx: "NOASSERTION", note: "license not declared in the repository" },
   verified: false,

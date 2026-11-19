@@ -14,7 +14,7 @@ export const comoria08DefjamRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: "1.0.0-msvc", date: "2026-10-09" },
+  release: { version: "1.2.0", date: "2026-11-01" },
   sources: ["https://github.com/comoria08/defjam_recomp"],
   license: { spdx: "NOASSERTION" },
   verified: false,

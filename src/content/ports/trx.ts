@@ -13,7 +13,7 @@ export const trxPort: Port = {
   portType: "source-port",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
-  release: { version: "1.11.1", date: "2026-09-22" },
+  release: { version: "1.12", date: "2026-11-02" },
   sources: ["https://github.com/LostArtefacts/TRX"],
   website: "https://lostartefacts.dev/",
   license: { spdx: "GPL-3.0" },

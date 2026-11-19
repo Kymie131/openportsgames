@@ -14,7 +14,7 @@ export const virtuaFighter2Recomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "macos", "linux"],
   status: "beta",
-  release: { version: "0.1.22", date: "2026-11-10" },
+  release: { version: "0.1.23", date: "2026-11-16" },
   sources: ["https://github.com/mr-finster/vf2-recomp"],
   license: { spdx: "MIT" },
   verified: false,
