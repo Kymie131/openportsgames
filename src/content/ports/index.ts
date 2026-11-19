@@ -3155,6 +3155,9 @@ import { sonicAllStarsRacingSwitch } from "./sonic-all-stars-racing-switch";
 import { spiderManTotalMayhemSwitch } from "./spider-man-total-mayhem-switch";
 import { angryBirdsClassicSwitch } from "./angry-birds-classic-switch";
 import { angryBirds2Switch } from "./angry-birds-2-switch";
+import { soulSacrificeDeltaPc } from "./soul-sacrifice-delta-pc";
+import { littlebigplanetVitaPc } from "./littlebigplanet-vita-pc";
+import { ratchetGladiatorPc } from "./ratchet-gladiator-pc";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6309,4 +6312,7 @@ export const portCases: Port[] = [
   spiderManTotalMayhemSwitch,
   angryBirdsClassicSwitch,
   angryBirds2Switch,
+  soulSacrificeDeltaPc,
+  littlebigplanetVitaPc,
+  ratchetGladiatorPc,
 ];

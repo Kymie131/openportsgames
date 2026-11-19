@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const soulSacrificeDeltaPc: Port = {
+  schema: "port",
+  id: "soul-sacrifice-delta-pc",
+  title: "Soul Sacrifice Delta (PC)",
+  game: "Soul Sacrifice Delta",
+  developers: ["vita-recomps"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2013,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: "0.3.1", date: "2026-11-19" },
+  sources: ["https://github.com/vita-recomps/ss-delta"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation Vita"],
+  summary: "Soul Sacrifice Delta is a 2013 action role-playing game for the PS Vita where sorcerers sacrifice body parts and memories to cast powerful spells.",
+  summaryEs: "Soul Sacrifice Delta es un videojuego de rol de acción de 2013 para PS Vita en el que los hechiceros sacrifican partes del cuerpo y recuerdos para lanzar hechizos poderosos.",
+  notes: "Native PC port of the PS Vita game (PCSA00152 / PCSF00532, v1.30). No game data is included.",
+  notesEs: "Port nativo para PC del juego de PS Vita (PCSA00152 / PCSF00532, v1.30). No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/soul-sacrifice-delta.svg",
+    alt: "Soul Sacrifice Delta (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

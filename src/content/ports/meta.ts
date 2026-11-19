@@ -3154,4 +3154,7 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "spider-man-total-mayhem-switch": ["Mobile"],
   "angry-birds-classic-switch": ["Mobile"],
   "angry-birds-2-switch": ["Mobile"],
+  "soul-sacrifice-delta-pc": ["PlayStation Vita"],
+  "littlebigplanet-vita-pc": ["PlayStation Vita"],
+  "ratchet-gladiator-pc": ["PlayStation 2"],
 };
