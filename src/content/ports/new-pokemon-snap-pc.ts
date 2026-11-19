@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const newPokemonSnapPc: Port = {
+  schema: "port",
+  id: "new-pokemon-snap-pc",
+  title: "New Pokémon Snap (PC)",
+  game: "New Pokémon Snap",
+  developers: ["finalpantasy"],
+  publisher: "Nintendo",
+  originalYear: 2021,
+  portType: "recompilation",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "1.3.0", date: "2026-11-18" },
+  sources: ["https://github.com/finalpantasy/new-pokemon-snap-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo Switch"],
+  summary: "New Pokémon Snap is a 2021 photography game where players ride through Pokémon habitats and score photos of wild behaviour.",
+  summaryEs: "New Pokémon Snap es un juego de fotografía de 2021 en el que el jugador recorre hábitats Pokémon y puntúa fotos de comportamientos salvajes.",
+  notes: "Native Windows static recompilation with 4K, 144 fps, DLSS/FSR, HD texture upscaling and mods. Code only; no game files are included.",
+  notesEs: "Recompilación estática nativa para Windows con 4K, 144 fps, DLSS/FSR, escalado HD de texturas y mods. Solo código; no incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/new-pokemon-snap.svg",
+    alt: "New Pokémon Snap (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

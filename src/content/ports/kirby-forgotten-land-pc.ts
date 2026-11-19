@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const kirbyForgottenLandPc: Port = {
+  schema: "port",
+  id: "kirby-forgotten-land-pc",
+  title: "Kirby and the Forgotten Land (PC)",
+  game: "Kirby and the Forgotten Land",
+  developers: ["scarxity"],
+  publisher: "Nintendo",
+  originalYear: 2022,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.3.2", date: "2026-11-18" },
+  sources: ["https://github.com/scarxity/kirby-forgotten-land-recompiled"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo Switch"],
+  summary: "Kirby and the Forgotten Land is a 2022 3D platform game where Kirby explores a ruined world and absorbs enemies with the Mouthful Mode.",
+  summaryEs: "Kirby and the Forgotten Land es un juego de plataformas 3D de 2022 en el que Kirby explora un mundo en ruinas y absorbe enemigos con el modo boca.",
+  notes: "Static recompilation for Windows, not an emulator. No game files are included; you need your own copy.",
+  notesEs: "Recompilación estática para Windows, no es un emulador. No incluye archivos del juego; necesitas tu propia copia.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/kirby-and-the-forgotten-land.svg",
+    alt: "Kirby and the Forgotten Land (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

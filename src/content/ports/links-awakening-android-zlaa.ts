@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const linksAwakeningAndroidZlaa: Port = {
+  schema: "port",
+  id: "links-awakening-android-zlaa",
+  title: "The Legend of Zelda: Link's Awakening (Android, ZLAA)",
+  game: "The Legend of Zelda: Link's Awakening",
+  developers: ["timbo722"],
+  publisher: "Nintendo",
+  originalYear: 2019,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: "0.1.2", date: "2026-11-17" },
+  sources: ["https://github.com/timbo722/ZLAA"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo Switch"],
+  summary: "The Legend of Zelda: Link's Awakening is the 2019 Switch remake of the Game Boy classic, with a diorama art style and new Chamber Dungeon mode.",
+  summaryEs: "The Legend of Zelda: Link's Awakening es el remake de 2019 para Switch del clásico de Game Boy, con estilo de diorama y el nuevo modo Chamber Dungeon.",
+  notes: "Recompiled to run natively on Android. Bring your own game files.",
+  notesEs: "Recompilado para ejecutarse de forma nativa en Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-link-s-awakening.svg",
+    alt: "The Legend of Zelda: Link's Awakening (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

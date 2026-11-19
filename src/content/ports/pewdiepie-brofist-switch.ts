@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pewdiepieBrofistSwitch: Port = {
+  schema: "port",
+  id: "pewdiepie-brofist-switch",
+  title: "PewDiePie: Legend of the Brofist (Switch)",
+  game: "PewDiePie: Legend of the Brofist",
+  developers: ["xflipperkast"],
+  publisher: "Outerminds",
+  originalYear: 2015,
+  portType: "runtime-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-11-18" },
+  sources: ["https://github.com/xflipperkast/PewDiePie_NX"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "PewDiePie: Legend of the Brofist is a 2015 platformer starring the YouTuber and his friends, with boss fights and unlockable characters.",
+  summaryEs: "PewDiePie: Legend of the Brofist es un juego de plataformas de 2015 protagonizado por el youtuber y sus amigos, con jefes y personajes desbloqueables.",
+  notes: "Android to Nintendo Switch port of the mobile game. Bring your own game files.",
+  notesEs: "Port de Android a Nintendo Switch del juego móvil. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/pewdiepie-legend-of-the-brofist.svg",
+    alt: "PewDiePie: Legend of the Brofist (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

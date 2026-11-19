@@ -3120,6 +3120,16 @@ import { metroidPrime2Vr } from "./metroid-prime-2-vr";
 import { digimonRumbleArena2Pc } from "./digimon-rumble-arena-2-pc";
 import { rocketPowerBeachBanditsPc } from "./rocket-power-beach-bandits-pc";
 import { americasArmyRiseOfASoldierPc } from "./americas-army-rise-of-a-soldier-pc";
+import { vectorSwitch } from "./vector-switch";
+import { magic2015Switch } from "./magic-2015-switch";
+import { pewdiepieBrofistSwitch } from "./pewdiepie-brofist-switch";
+import { legoBatmanSwitch } from "./lego-batman-switch";
+import { granTurismo4Arm } from "./gran-turismo-4-arm";
+import { linksAwakeningAndroidZlaa } from "./links-awakening-android-zlaa";
+import { iAmSetsunaAndroid } from "./i-am-setsuna-android";
+import { kirbyForgottenLandPc } from "./kirby-forgotten-land-pc";
+import { xenoblade2Pc } from "./xenoblade-2-pc";
+import { newPokemonSnapPc } from "./new-pokemon-snap-pc";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6239,4 +6249,14 @@ export const portCases: Port[] = [
   digimonRumbleArena2Pc,
   rocketPowerBeachBanditsPc,
   americasArmyRiseOfASoldierPc,
+  vectorSwitch,
+  magic2015Switch,
+  pewdiepieBrofistSwitch,
+  legoBatmanSwitch,
+  granTurismo4Arm,
+  linksAwakeningAndroidZlaa,
+  iAmSetsunaAndroid,
+  kirbyForgottenLandPc,
+  xenoblade2Pc,
+  newPokemonSnapPc,
 ];

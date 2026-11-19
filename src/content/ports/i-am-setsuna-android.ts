@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const iAmSetsunaAndroid: Port = {
+  schema: "port",
+  id: "i-am-setsuna-android",
+  title: "I Am Setsuna (Android)",
+  game: "I Am Setsuna",
+  developers: ["CowKillers"],
+  publisher: "Square Enix",
+  originalYear: 2016,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: "0.1", date: "2026-11-18" },
+  sources: ["https://github.com/CowKillers/i-am-setsuna-nx2android"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo Switch"],
+  summary: "I Am Setsuna is a 2016 role-playing game inspired by classic JRPGs, following a sacrifice ritual on a snowbound island.",
+  summaryEs: "I Am Setsuna es un videojuego de rol de 2016 inspirado en los JRPG clásicos, que sigue un ritual de sacrificio en una isla nevada.",
+  notes: "Experimental Android port through nx2android, distributed as a launcher. No game files or keys are included.",
+  notesEs: "Port experimental para Android mediante nx2android, distribuido como lanzador. No incluye archivos ni claves del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/i-am-setsuna.svg",
+    alt: "I Am Setsuna (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

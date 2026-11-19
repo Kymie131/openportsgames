@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const xenoblade2Pc: Port = {
+  schema: "port",
+  id: "xenoblade-2-pc",
+  title: "Xenoblade Chronicles 2 (PC)",
+  game: "Xenoblade Chronicles 2",
+  developers: ["weile10000"],
+  publisher: "Nintendo",
+  originalYear: 2017,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: "0.1.2", date: "2026-11-18" },
+  sources: ["https://github.com/weile10000/xc2-ns2-recomp"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo Switch"],
+  summary: "Xenoblade Chronicles 2 is a 2017 role-playing game where Rex and the Blade Pyra search for Elysium across titanic nations.",
+  summaryEs: "Xenoblade Chronicles 2 es un videojuego de rol de 2017 en el que Rex y la Blade Pyra buscan el Elíseo entre naciones titánicas.",
+  notes: "Static recompilation of the Nintendo Switch 2 Edition to Windows with Vulkan, including 4K cutscenes. No game data is included.",
+  notesEs: "Recompilación estática de la Nintendo Switch 2 Edition a Windows con Vulkan, incluidas escenas en 4K. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/xenoblade-chronicles-2.svg",
+    alt: "Xenoblade Chronicles 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

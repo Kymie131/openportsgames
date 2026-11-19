@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const magic2015Switch: Port = {
+  schema: "port",
+  id: "magic-2015-switch",
+  title: "Magic 2015 (Switch)",
+  game: "Magic 2015",
+  developers: ["IgnacioLeivaP"],
+  publisher: "Wizards of the Coast",
+  originalYear: 2014,
+  portType: "recompilation",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-11-17" },
+  sources: ["https://github.com/IgnacioLeivaP/m15-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox 360"],
+  summary: "Magic 2015 is the 2014 digital card game based on Magic: The Gathering, with deck building and a single-player campaign.",
+  summaryEs: "Magic 2015 es el juego de cartas digital de 2014 basado en Magic: The Gathering, con construcción de barajas y campaña para un jugador.",
+  notes: "Xbox 360 to Nintendo Switch source port using ReXGlue. Bring your own copy of the game.",
+  notesEs: "Port de código de Xbox 360 a Nintendo Switch usando ReXGlue. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/magic-2015.svg",
+    alt: "Magic 2015 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

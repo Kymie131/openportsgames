@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const vectorSwitch: Port = {
+  schema: "port",
+  id: "vector-switch",
+  title: "Vector Classic (Switch)",
+  game: "Vector",
+  developers: ["harrysof"],
+  publisher: "Nekki",
+  originalYear: 2013,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "0.4.4", date: "2026-11-17" },
+  sources: ["https://github.com/harrysof/VectorNX"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Vector is a 2013 parkour action game by Nekki where the player free-runs through a dystopian city while escaping guards.",
+  summaryEs: "Vector es un juego de acción y parkour de 2013 de Nekki en el que el jugador recorre una ciudad distópica escapando de los guardias.",
+  notes: "Experimental port of Vector Classic to the Nintendo Switch. Bring your own game files.",
+  notesEs: "Port experimental de Vector Classic para Nintendo Switch. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/vector.svg",
+    alt: "Vector (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

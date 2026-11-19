@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const legoBatmanSwitch: Port = {
+  schema: "port",
+  id: "lego-batman-switch",
+  title: "LEGO Batman: The Videogame (Switch)",
+  game: "LEGO Batman: The Videogame",
+  developers: ["surblazer"],
+  publisher: "Warner Bros. Interactive Entertainment",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.1.2", date: "2026-11-18" },
+  sources: ["https://github.com/surblazer/legobatman-recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox 360"],
+  summary: "LEGO Batman: The Videogame is a 2008 action-adventure where Batman and Robin fight Lego versions of Gotham's villains across story chapters.",
+  summaryEs: "LEGO Batman: The Videogame es un juego de acción y aventura de 2008 en el que Batman y Robin luchan contra versiones Lego de los villanos de Gotham en varios capítulos.",
+  notes: "Static recompilation (ReXGlue, deko3d) running on the Nintendo Switch. No game data is included.",
+  notesEs: "Recompilación estática (ReXGlue, deko3d) ejecutándose en Nintendo Switch. No incluye datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/lego-batman-the-videogame.svg",
+    alt: "LEGO Batman: The Videogame (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
