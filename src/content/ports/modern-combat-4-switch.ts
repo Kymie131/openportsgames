@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const modernCombat4Switch: Port = {
+  schema: "port",
+  id: "modern-combat-4-switch",
+  title: "Modern Combat 4: Zero Hour (Switch)",
+  game: "Modern Combat 4: Zero Hour",
+  developers: ["Kaays"],
+  publisher: "Gameloft",
+  originalYear: 2012,
+  portType: "runtime-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-10-27" },
+  sources: ["https://github.com/Kaays/mc4_nx"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Modern Combat 4: Zero Hour is a 2012 mobile first-person shooter with a campaign against a terrorist group and online multiplayer.",
+  summaryEs: "Modern Combat 4: Zero Hour es un shooter en primera persona para móviles de 2012 con campaña contra un grupo terrorista y multijugador en línea.",
+  notes: "Runs the 32-bit Android version natively on the Nintendo Switch through an android32 port. Bring your own game files.",
+  notesEs: "Ejecuta la versión Android de 32 bits de forma nativa en Nintendo Switch mediante un port android32. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/modern-combat-4-zero-hour.svg",
+    alt: "Modern Combat 4: Zero Hour (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

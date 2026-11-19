@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const labyrinth2Switch: Port = {
+  schema: "port",
+  id: "labyrinth-2-switch",
+  title: "Labyrinth 2 (Switch)",
+  game: "Labyrinth 2",
+  developers: ["aks796"],
+  publisher: "Illusion Labs",
+  originalYear: 2009,
+  portType: "runtime-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-10-01" },
+  sources: ["https://github.com/aks796/labyrinth2_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Labyrinth 2 is a physics puzzle game where the player tilts a steel ball through mazes full of traps and moving parts.",
+  summaryEs: "Labyrinth 2 es un juego de puzles físicos en el que el jugador inclina una bola de acero por laberintos llenos de trampas y piezas móviles.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/labyrinth-2.svg",
+    alt: "Labyrinth 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

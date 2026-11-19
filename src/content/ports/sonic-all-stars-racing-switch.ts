@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sonicAllStarsRacingSwitch: Port = {
+  schema: "port",
+  id: "sonic-all-stars-racing-switch",
+  title: "Sonic & Sega All-Stars Racing (Switch)",
+  game: "Sonic & Sega All-Stars Racing",
+  developers: ["aks796"],
+  publisher: "Sega",
+  originalYear: 2010,
+  portType: "runtime-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.3", date: "2026-10-01" },
+  sources: ["https://github.com/aks796/sonic_allstars_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Sonic & Sega All-Stars Racing is a 2010 kart racer with Sega characters, drift boosts and all-star moves.",
+  summaryEs: "Sonic & Sega All-Stars Racing es un juego de karts de 2010 con personajes de Sega, derrapes con turbo y movimientos especiales.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/sonic-sega-all-stars-racing.svg",
+    alt: "Sonic & Sega All-Stars Racing (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

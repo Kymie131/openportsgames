@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const spiderManTotalMayhemSwitch: Port = {
+  schema: "port",
+  id: "spider-man-total-mayhem-switch",
+  title: "Spider-Man: Total Mayhem (Switch)",
+  game: "Spider-Man: Total Mayhem",
+  developers: ["boraeskicioglu"],
+  publisher: "Gameloft",
+  originalYear: 2010,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-10-04" },
+  sources: ["https://github.com/boraeskicioglu/spiderman_total_mayhem_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Spider-Man: Total Mayhem is a 2010 mobile brawler with a comic-style story and free-flowing combat against classic villains.",
+  summaryEs: "Spider-Man: Total Mayhem es un juego de lucha para móviles de 2010 con historia estilo cómic y combate fluido contra villanos clásicos.",
+  notes: "Wrapper and port of the Android HD version for the Nintendo Switch. Bring your own game files.",
+  notesEs: "Contenedor y port de la versión Android HD para Nintendo Switch. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/spider-man-total-mayhem.svg",
+    alt: "Spider-Man: Total Mayhem (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

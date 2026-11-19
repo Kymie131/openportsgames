@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const angryBirds2Switch: Port = {
+  schema: "port",
+  id: "angry-birds-2-switch",
+  title: "Angry Birds 2 (Switch)",
+  game: "Angry Birds 2",
+  developers: ["NaGaa95"],
+  publisher: "Rovio Entertainment",
+  originalYear: 2015,
+  portType: "runtime-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.3", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/angrybirds2_nx"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Angry Birds 2 is the 2015 sequel with choose-your-bird mechanics, multi-stage levels and boss fights.",
+  summaryEs: "Angry Birds 2 es la secuela de 2015 con elección de pájaro, niveles de varias fases y combates contra jefes.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/angry-birds-2.svg",
+    alt: "Angry Birds 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

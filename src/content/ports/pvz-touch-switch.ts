@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pvzTouchSwitch: Port = {
+  schema: "port",
+  id: "pvz-touch-switch",
+  title: "Plants vs. Zombies (Switch, Touch)",
+  game: "Plants vs. Zombies",
+  developers: ["aks796"],
+  publisher: "PopCap Games",
+  originalYear: 2009,
+  portType: "runtime-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-10-01" },
+  sources: ["https://github.com/aks796/pvz_touch_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Plants vs. Zombies is the 2009 tower defence game where plants defend a house from waves of zombies across day, night and pool levels.",
+  summaryEs: "Plants vs. Zombies es el juego de defensa de torres de 2009 en el que las plantas defienden una casa de oleadas de zombis en niveles de día, noche y piscina.",
+  notes: "Nintendo Switch port of the Android touch version. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión táctil de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/plants-vs-zombies.svg",
+    alt: "Plants vs. Zombies (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

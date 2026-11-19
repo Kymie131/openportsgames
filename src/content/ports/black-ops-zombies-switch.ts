@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const blackOpsZombiesSwitch: Port = {
+  schema: "port",
+  id: "black-ops-zombies-switch",
+  title: "Call of Duty: Black Ops Zombies (Switch)",
+  game: "Call of Duty: Black Ops Zombies",
+  developers: ["r4lix"],
+  publisher: "Activision",
+  originalYear: 2011,
+  portType: "runtime-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-09-28" },
+  sources: ["https://github.com/r4lix/codboz-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Call of Duty: Black Ops Zombies is the mobile spin-off of the Zombies mode, with wave survival and classic maps.",
+  summaryEs: "Call of Duty: Black Ops Zombies es el spin-off móvil del modo Zombis, con supervivencia por oleadas y mapas clásicos.",
+  notes: "Android version running on the Nintendo Switch. Bring your own game files.",
+  notesEs: "Versión de Android ejecutándose en Nintendo Switch. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/call-of-duty-black-ops-zombies.svg",
+    alt: "Call of Duty: Black Ops Zombies (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

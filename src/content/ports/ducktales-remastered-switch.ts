@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ducktalesRemasteredSwitch: Port = {
+  schema: "port",
+  id: "ducktales-remastered-switch",
+  title: "DuckTales: Remastered (Switch)",
+  game: "DuckTales: Remastered",
+  developers: ["Thorhax"],
+  publisher: "Capcom",
+  originalYear: 2013,
+  portType: "runtime-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.3.0", date: "2026-10-27" },
+  sources: ["https://github.com/Thorhax/Ducktales-NX"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "DuckTales: Remastered is a 2013 remake of the NES classic, with hand-drawn art, voice acting and Scrooge McDuck pogo-jumping through the moon and the Himalayas.",
+  summaryEs: "DuckTales: Remastered es un remake de 2013 del clásico de NES, con arte dibujado a mano, voces y Scrooge McDuck saltando con el pogo por la luna y el Himalaya.",
+  notes: "Unofficial wrapper for the 32-bit Android version on the android32 runtime. No game files are included.",
+  notesEs: "Contenedor no oficial de la versión Android de 32 bits en el runtime android32. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/ducktales-remastered.svg",
+    alt: "DuckTales: Remastered (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

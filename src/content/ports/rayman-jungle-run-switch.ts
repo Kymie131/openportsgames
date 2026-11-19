@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const raymanJungleRunSwitch: Port = {
+  schema: "port",
+  id: "rayman-jungle-run-switch",
+  title: "Rayman Jungle Run (Switch)",
+  game: "Rayman Jungle Run",
+  developers: ["iqbalriz"],
+  publisher: "Ubisoft",
+  originalYear: 2012,
+  portType: "runtime-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.1.1", date: "2026-10-07" },
+  sources: ["https://github.com/iqbalriz/rayman_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Rayman Jungle Run is a 2012 auto-running platformer with hand-drawn art, built on the Rayman Origins engine.",
+  summaryEs: "Rayman Jungle Run es un juego de plataformas de carrera automática de 2012 con arte dibujado a mano, basado en el motor de Rayman Origins.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/rayman-jungle-run.svg",
+    alt: "Rayman Jungle Run (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

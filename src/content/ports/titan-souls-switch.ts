@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const titanSoulsSwitch: Port = {
+  schema: "port",
+  id: "titan-souls-switch",
+  title: "Titan Souls (Switch)",
+  game: "Titan Souls",
+  developers: ["siiiimooooon"],
+  publisher: "Devolver Digital",
+  originalYear: 2015,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-11-19" },
+  sources: ["https://github.com/siiiimooooon/TitanSouls-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Titan Souls is a 2015 boss-rush game where a single arrow can kill a titan, and one hit kills the player.",
+  summaryEs: "Titan Souls es un juego de 2015 de jefes en el que una sola flecha puede matar a un titán y un solo golpe mata al jugador.",
+  notes: "Unofficial Nintendo Switch port of the Android version. Bring your own copy of the game.",
+  notesEs: "Port no oficial para Nintendo Switch de la versión de Android. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/titan-souls.svg",
+    alt: "Titan Souls (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

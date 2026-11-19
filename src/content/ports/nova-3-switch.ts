@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nova3Switch: Port = {
+  schema: "port",
+  id: "nova-3-switch",
+  title: "N.O.V.A. 3 (Switch)",
+  game: "N.O.V.A. 3",
+  developers: ["markaurel13"],
+  publisher: "Gameloft",
+  originalYear: 2012,
+  portType: "runtime-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-10-11" },
+  sources: ["https://github.com/markaurel13/nova3-nx"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "N.O.V.A. 3 is a 2012 mobile first-person shooter following Kal Wardin across a war-torn future Earth and space stations.",
+  summaryEs: "N.O.V.A. 3 es un shooter en primera persona para móviles de 2012 que sigue a Kal Wardin por una Tierra futura en guerra y estaciones espaciales.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/n-o-v-a-3.svg",
+    alt: "N.O.V.A. 3 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

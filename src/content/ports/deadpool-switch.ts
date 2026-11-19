@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const deadpoolSwitch: Port = {
+  schema: "port",
+  id: "deadpool-switch",
+  title: "Deadpool (Switch)",
+  game: "Deadpool",
+  developers: ["BanhMi93P"],
+  publisher: "Activision",
+  originalYear: 2013,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-11-19" },
+  sources: ["https://github.com/BanhMi93P/deadpool-nx"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox 360"],
+  summary: "Deadpool is a 2013 action game written by the character's comic authors, full of fourth-wall jokes, gunplay and melee combos.",
+  summaryEs: "Deadpool es un juego de acción de 2013 escrito por los autores del cómic del personaje, lleno de chistes que rompen la cuarta pared, disparos y combos cuerpo a cuerpo.",
+  notes: "Native Nintendo Switch port of the Xbox 360 version. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch de la versión de Xbox 360. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/deadpool.svg",
+    alt: "Deadpool (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const raymanFiestaRunSwitch: Port = {
+  schema: "port",
+  id: "rayman-fiesta-run-switch",
+  title: "Rayman Fiesta Run (Switch)",
+  game: "Rayman Fiesta Run",
+  developers: ["iqbalriz"],
+  publisher: "Ubisoft",
+  originalYear: 2013,
+  portType: "runtime-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.1.0", date: "2026-10-07" },
+  sources: ["https://github.com/iqbalriz/fiestarun_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Rayman Fiesta Run is the 2013 sequel to Jungle Run, with party-themed levels and new power-ups.",
+  summaryEs: "Rayman Fiesta Run es la secuela de 2013 de Jungle Run, con niveles de fiesta y nuevos potenciadores.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/rayman-fiesta-run.svg",
+    alt: "Rayman Fiesta Run (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

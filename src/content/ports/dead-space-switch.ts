@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const deadSpaceSwitch: Port = {
+  schema: "port",
+  id: "dead-space-switch",
+  title: "Dead Space (Switch, mobile version)",
+  game: "Dead Space",
+  developers: ["hazevauks"],
+  publisher: "Electronic Arts",
+  originalYear: 2011,
+  portType: "runtime-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "0.1.5", date: "2026-10-06" },
+  sources: ["https://github.com/hazevauks/deadspace_nx"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Dead Space is the sci-fi survival horror series set aboard the mining ship Ishimura, adapted here from the 2011 mobile game.",
+  summaryEs: "Dead Space es la serie de terror y ciencia ficción ambientada en la nave minera Ishimura, adaptada aquí desde el juego móvil de 2011.",
+  notes: "Port of the 2011 mobile Dead Space for the Nintendo Switch. Bring your own game files.",
+  notesEs: "Port del Dead Space móvil de 2011 para Nintendo Switch. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/dead-space.svg",
+    alt: "Dead Space (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

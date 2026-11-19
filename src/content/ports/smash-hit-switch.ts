@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const smashHitSwitch: Port = {
+  schema: "port",
+  id: "smash-hit-switch",
+  title: "Smash Hit (Switch)",
+  game: "Smash Hit",
+  developers: ["hazevauks"],
+  publisher: "Mediocre",
+  originalYear: 2013,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "0.1.3", date: "2026-10-20" },
+  sources: ["https://github.com/hazevauks/smashhit_nx"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Smash Hit is a 2013 first-person arcade game where the player throws metal balls at glass obstacles in a surreal corridor.",
+  summaryEs: "Smash Hit es un juego arcade en primera persona de 2013 en el que el jugador lanza bolas de metal contra obstáculos de cristal en un pasillo surrealista.",
+  notes: "Port of the 32-bit Android game on the android32 runtime. No game files are included.",
+  notesEs: "Port del juego Android de 32 bits en el runtime android32. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/smash-hit.svg",
+    alt: "Smash Hit (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

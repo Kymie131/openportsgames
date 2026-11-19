@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const codStrikeTeamSwitch: Port = {
+  schema: "port",
+  id: "cod-strike-team-switch",
+  title: "Call of Duty: Strike Team (Switch)",
+  game: "Call of Duty: Strike Team",
+  developers: ["Zumoly"],
+  publisher: "Activision",
+  originalYear: 2013,
+  portType: "runtime-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.1.0", date: "2026-11-07" },
+  sources: ["https://github.com/Zumoly/cod-strike-team-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Call of Duty: Strike Team is a 2013 mobile shooter that switches between first-person combat and a top-down squad view.",
+  summaryEs: "Call of Duty: Strike Team es un shooter móvil de 2013 que alterna entre combate en primera persona y una vista de escuadrón cenital.",
+  notes: "Switch wrapper for the 32-bit Android version (Unity 4.3, Mono). No game files are included.",
+  notesEs: "Contenedor para Switch de la versión Android de 32 bits (Unity 4.3, Mono). No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/call-of-duty-strike-team.svg",
+    alt: "Call of Duty: Strike Team (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

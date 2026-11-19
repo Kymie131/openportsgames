@@ -3135,6 +3135,26 @@ import { zeldaOraclesSwitch } from "./zelda-oracles-switch";
 import { haloCeSwitch } from "./halo-ce-switch";
 import { blackOpsSwitch } from "./black-ops-switch";
 import { fearSwitch } from "./fear-switch";
+import { deadpoolSwitch } from "./deadpool-switch";
+import { titanSoulsSwitch } from "./titan-souls-switch";
+import { ssxSwitch } from "./ssx-switch";
+import { blackOpsZombiesSwitch } from "./black-ops-zombies-switch";
+import { codStrikeTeamSwitch } from "./cod-strike-team-switch";
+import { deadSpaceSwitch } from "./dead-space-switch";
+import { ducktalesRemasteredSwitch } from "./ducktales-remastered-switch";
+import { flappyBirdsFamilySwitch } from "./flappy-birds-family-switch";
+import { labyrinth2Switch } from "./labyrinth-2-switch";
+import { modernCombat4Switch } from "./modern-combat-4-switch";
+import { nova3Switch } from "./nova-3-switch";
+import { pvzTouchSwitch } from "./pvz-touch-switch";
+import { raymanJungleRunSwitch } from "./rayman-jungle-run-switch";
+import { raymanFiestaRunSwitch } from "./rayman-fiesta-run-switch";
+import { smashHitSwitch } from "./smash-hit-switch";
+import { spaceHulkSwitch } from "./space-hulk-switch";
+import { sonicAllStarsRacingSwitch } from "./sonic-all-stars-racing-switch";
+import { spiderManTotalMayhemSwitch } from "./spider-man-total-mayhem-switch";
+import { angryBirdsClassicSwitch } from "./angry-birds-classic-switch";
+import { angryBirds2Switch } from "./angry-birds-2-switch";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6269,4 +6289,24 @@ export const portCases: Port[] = [
   haloCeSwitch,
   blackOpsSwitch,
   fearSwitch,
+  deadpoolSwitch,
+  titanSoulsSwitch,
+  ssxSwitch,
+  blackOpsZombiesSwitch,
+  codStrikeTeamSwitch,
+  deadSpaceSwitch,
+  ducktalesRemasteredSwitch,
+  flappyBirdsFamilySwitch,
+  labyrinth2Switch,
+  modernCombat4Switch,
+  nova3Switch,
+  pvzTouchSwitch,
+  raymanJungleRunSwitch,
+  raymanFiestaRunSwitch,
+  smashHitSwitch,
+  spaceHulkSwitch,
+  sonicAllStarsRacingSwitch,
+  spiderManTotalMayhemSwitch,
+  angryBirdsClassicSwitch,
+  angryBirds2Switch,
 ];

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const angryBirdsClassicSwitch: Port = {
+  schema: "port",
+  id: "angry-birds-classic-switch",
+  title: "Angry Birds Classic (Switch)",
+  game: "Angry Birds",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "Rovio Entertainment",
+  originalYear: 2012,
+  portType: "runtime-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-09-24" },
+  sources: ["https://github.com/ChanseyIsTheBest/angrybirdsclassic_nx"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Angry Birds Classic is the rebuilt original game, with the full set of episodes and slingshot physics puzzles.",
+  summaryEs: "Angry Birds Classic es el juego original reconstruido, con todos los episodios y los puzles de física del tirachinas.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/angry-birds.svg",
+    alt: "Angry Birds (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

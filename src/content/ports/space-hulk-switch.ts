@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const spaceHulkSwitch: Port = {
+  schema: "port",
+  id: "space-hulk-switch",
+  title: "Space Hulk (Switch)",
+  game: "Space Hulk",
+  developers: ["liartes"],
+  publisher: "Full Control",
+  originalYear: 2013,
+  portType: "runtime-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.1.5", date: "2026-11-06" },
+  sources: ["https://github.com/liartes/spacehulk-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Space Hulk is a turn-based strategy game based on the board game, with Space Marine terminators clearing Genestealers from a derelict ship.",
+  summaryEs: "Space Hulk es un juego de estrategia por turnos basado en el juego de mesa, con terminators de los Space Marines limpiando genestealers de una nave abandonada.",
+  notes: "Unofficial fan-made Nintendo Switch port of the Android version. Bring your own game files.",
+  notesEs: "Port no oficial hecho por fans para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/space-hulk.svg",
+    alt: "Space Hulk (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
