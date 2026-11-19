@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const medabotsRokushoSwitch: Port = {
+  schema: "port",
+  id: "medabots-rokusho-switch",
+  title: "Medabots: Rokusho Version (Switch)",
+  game: "Medabots: Rokusho Version",
+  developers: ["Niecks90"],
+  publisher: "Natsume",
+  originalYear: 2001,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "0.2.0", date: "2026-11-18" },
+  sources: ["https://github.com/Niecks90/medabots-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Game Boy Advance"],
+  summary: "Medabots: Rokusho Version is a 2001 role-playing game where players build robots from parts and battle other Medafighters.",
+  summaryEs: "Medabots: Rokusho Version es un videojuego de rol de 2001 en el que el jugador construye robots con piezas y lucha contra otros Medafighters.",
+  notes: "Native static recompilation port for the Nintendo Switch, with both Rokusho and Metabee editions. Bring your own copy of the game.",
+  notesEs: "Port nativo por recompilación estática para Nintendo Switch, con las ediciones Rokusho y Metabee. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/medabots-rokusho-version.svg",
+    alt: "Medabots: Rokusho Version (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

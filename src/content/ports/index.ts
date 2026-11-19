@@ -3101,6 +3101,12 @@ import { haloCeWiiu } from "./halo-ce-wiiu";
 import { carnivores3dsWiiu } from "./carnivores-3ds-wiiu";
 import { simpsonsHitAndRunPsp } from "./simpsons-hit-and-run-psp";
 import { slippiWii } from "./slippi-wii";
+import { minecraftHorizonPorts } from "./minecraft-horizon-ports";
+import { medabotsRokushoSwitch } from "./medabots-rokusho-switch";
+import { wanganMidnight3dxAndroid } from "./wangan-midnight-3dx-android";
+import { postal2Android } from "./postal-2-android";
+import { angbandAndroid } from "./angband-android";
+import { nightmareBeforeChristmasPs5 } from "./nightmare-before-christmas-ps5";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6201,4 +6207,10 @@ export const portCases: Port[] = [
   carnivores3dsWiiu,
   simpsonsHitAndRunPsp,
   slippiWii,
+  minecraftHorizonPorts,
+  medabotsRokushoSwitch,
+  wanganMidnight3dxAndroid,
+  postal2Android,
+  angbandAndroid,
+  nightmareBeforeChristmasPs5,
 ];

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const angbandAndroid: Port = {
+  schema: "port",
+  id: "angband-android",
+  title: "Angband (Android / iOS)",
+  game: "Angband",
+  developers: ["eugene-lesnov"],
+  publisher: "Angband contributors",
+  originalYear: 1990,
+  portType: "source-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android","ios"],
+  status: "beta",
+  release: { version: "0.4.2", date: "2026-11-18" },
+  sources: ["https://github.com/eugene-lesnov/pocketband"],
+  license: { spdx: "GPL-2.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["MS-DOS"],
+  summary: "Angband is a free roguelike dungeon crawler inspired by Tolkien's legendarium, with deep item and monster systems.",
+  summaryEs: "Angband es un roguelike de mazmorras gratuito inspirado en el legendarium de Tolkien, con sistemas profundos de objetos y monstruos.",
+  notes: "Browser-based port of Angband 4.2.6 for iOS and Android, with a touch interface, ASCII and tile graphics and offline support.",
+  notesEs: "Port en navegador de Angband 4.2.6 para iOS y Android, con interfaz táctil, gráficos ASCII y de tiles y soporte sin conexión.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/angband.svg",
+    alt: "Angband (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

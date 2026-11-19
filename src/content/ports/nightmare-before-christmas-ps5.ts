@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nightmareBeforeChristmasPs5: Port = {
+  schema: "port",
+  id: "nightmare-before-christmas-ps5",
+  title: "The Nightmare Before Christmas (PS5)",
+  game: "The Nightmare Before Christmas",
+  developers: ["KongaTime"],
+  publisher: "Buena Vista Games",
+  originalYear: 2005,
+  portType: "source-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["ps5"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-11-18" },
+  sources: ["https://github.com/KongaTime/The-Nightmare-Before-Christmas-PS5-Port"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation 2"],
+  summary: "The Nightmare Before Christmas is a 2005 action-adventure based on the film, following Jack Skellington through Halloween Town.",
+  summaryEs: "The Nightmare Before Christmas es un juego de acción y aventura de 2005 basado en la película, que sigue a Jack Skellington por Halloween Town.",
+  notes: "Native PS5 homebrew port released as source. Bring your own copy of the game.",
+  notesEs: "Port homebrew nativo para PS5 publicado como código. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-nightmare-before-christmas.svg",
+    alt: "The Nightmare Before Christmas (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

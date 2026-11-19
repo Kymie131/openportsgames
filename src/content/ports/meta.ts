@@ -3100,4 +3100,10 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "carnivores-3ds-wiiu": ["Windows"],
   "simpsons-hit-and-run-psp": ["PlayStation 2"],
   "slippi-wii": ["Nintendo GameCube"],
+  "minecraft-horizon-ports": ["Windows"],
+  "medabots-rokusho-switch": ["Game Boy Advance"],
+  "wangan-midnight-3dx-android": ["Arcade"],
+  "postal-2-android": ["Windows"],
+  "angband-android": ["MS-DOS"],
+  "nightmare-before-christmas-ps5": ["PlayStation 2"],
 };
