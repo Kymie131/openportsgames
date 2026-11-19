@@ -14,7 +14,7 @@ export const blackOpsZombiesAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android","linux"],
   status: "alpha",
-  release: { version: "0.1.0-alpha", date: "2026-11-17" },
+  release: { version: "0.2", date: "2026-11-18" },
   sources: ["https://github.com/Joolace/T5-Jool---Black-Ops-Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,

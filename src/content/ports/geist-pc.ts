@@ -14,7 +14,7 @@ export const geistPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: "1.1.0", date: "2026-11-18" },
+  release: { version: "1.10", date: "2026-11-18" },
   sources: ["https://github.com/LegendarySavageGamer/Geist-Recomp"],
   license: { spdx: "MIT" },
   verified: false,

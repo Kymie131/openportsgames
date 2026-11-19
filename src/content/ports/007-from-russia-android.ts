@@ -14,7 +14,7 @@ export const port007FromRussiaAndroid: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "beta",
-  release: { version: "1.0", date: "2026-11-18" },
+  release: { version: "1.1", date: "2026-11-18" },
   sources: ["https://github.com/M1LT0N3R2431/007-Project-Russia"],
   license: { spdx: "MIT" },
   verified: false,
