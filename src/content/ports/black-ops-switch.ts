@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const blackOpsSwitch: Port = {
+  schema: "port",
+  id: "black-ops-switch",
+  title: "Call of Duty: Black Ops (Switch)",
+  game: "Call of Duty: Black Ops",
+  developers: ["HDErick"],
+  publisher: "Activision",
+  originalYear: 2010,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-11-17" },
+  sources: ["https://github.com/HDErick/OpenBLOPS-NX"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Call of Duty: Black Ops is a 2010 first-person shooter with a Cold War campaign, Zombies mode and multiplayer.",
+  summaryEs: "Call of Duty: Black Ops es un shooter en primera persona de 2010 con campaña de la Guerra Fría, modo Zombis y multijugador.",
+  notes: "OpenBLOPS Nintendo Switch port. Bring your own copy of the game.",
+  notesEs: "Port de OpenBLOPS para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/call-of-duty-black-ops.svg",
+    alt: "Call of Duty: Black Ops (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

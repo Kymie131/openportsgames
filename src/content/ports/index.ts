@@ -3130,6 +3130,11 @@ import { iAmSetsunaAndroid } from "./i-am-setsuna-android";
 import { kirbyForgottenLandPc } from "./kirby-forgotten-land-pc";
 import { xenoblade2Pc } from "./xenoblade-2-pc";
 import { newPokemonSnapPc } from "./new-pokemon-snap-pc";
+import { maxPayneSwitch } from "./max-payne-switch";
+import { zeldaOraclesSwitch } from "./zelda-oracles-switch";
+import { haloCeSwitch } from "./halo-ce-switch";
+import { blackOpsSwitch } from "./black-ops-switch";
+import { fearSwitch } from "./fear-switch";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6259,4 +6264,9 @@ export const portCases: Port[] = [
   kirbyForgottenLandPc,
   xenoblade2Pc,
   newPokemonSnapPc,
+  maxPayneSwitch,
+  zeldaOraclesSwitch,
+  haloCeSwitch,
+  blackOpsSwitch,
+  fearSwitch,
 ];

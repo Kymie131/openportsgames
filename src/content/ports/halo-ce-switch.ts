@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const haloCeSwitch: Port = {
+  schema: "port",
+  id: "halo-ce-switch",
+  title: "Halo: Combat Evolved (Switch, Warthog)",
+  game: "Halo: Combat Evolved",
+  developers: ["thelinkin3000"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2001,
+  portType: "source-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "0.9.1", date: "2026-11-15" },
+  sources: ["https://github.com/ChupathingyCE/warthog-switch"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox"],
+  summary: "Halo: Combat Evolved is a 2001 first-person shooter by Bungie where Master Chief fights the Covenant on the ringworld Halo.",
+  summaryEs: "Halo: Combat Evolved es un shooter en primera persona de 2001 de Bungie en el que el Jefe Maestro lucha contra el Covenant en el mundo anillo Halo.",
+  notes: "Chupathingy (Halo CE decompilation) on the Nintendo Switch. Bring your own copy of the game.",
+  notesEs: "Chupathingy (descompilación de Halo CE) en Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/halo-combat-evolved.svg",
+    alt: "Halo: Combat Evolved (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const maxPayneSwitch: Port = {
+  schema: "port",
+  id: "max-payne-switch",
+  title: "Max Payne (Switch)",
+  game: "Max Payne",
+  developers: ["NaGaa95"],
+  publisher: "Rockstar Games",
+  originalYear: 2001,
+  portType: "runtime-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/max_nx_v2.1.131"],
+  license: { spdx: "MIT" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Max Payne is a 2001 third-person shooter with bullet time, a noir story and comic-book cutscenes.",
+  summaryEs: "Max Payne es un shooter en tercera persona de 2001 con bullet time, una historia noir y escenas de cómic.",
+  notes: "Nintendo Switch port of the Android version, built on the max_vita work. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión de Android, basado en el trabajo de max_vita. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/max-payne.svg",
+    alt: "Max Payne (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

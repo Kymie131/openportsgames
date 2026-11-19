@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const fearSwitch: Port = {
+  schema: "port",
+  id: "fear-switch",
+  title: "F.E.A.R. (Switch)",
+  game: "F.E.A.R.",
+  developers: ["infriker"],
+  publisher: "Sierra Entertainment",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "0.2.1", date: "2026-11-06" },
+  sources: ["https://github.com/infriker/fear-nx"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox 360"],
+  summary: "F.E.A.R. is a 2005 horror first-person shooter where a special forces team confronts a psychic girl and cloned soldiers.",
+  summaryEs: "F.E.A.R. es un shooter en primera persona de terror de 2005 en el que un equipo de fuerzas especiales se enfrenta a una niña psíquica y a soldados clonados.",
+  notes: "Runs the Xbox 360 version natively on the Nintendo Switch with ReXGlue and Vulkan. Bring your own game.",
+  notesEs: "Ejecuta la versión de Xbox 360 de forma nativa en Nintendo Switch con ReXGlue y Vulkan. Aporta tu propio juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/f-e-a-r.svg",
+    alt: "F.E.A.R. (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

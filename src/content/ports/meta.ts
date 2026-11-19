@@ -3129,4 +3129,9 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "kirby-forgotten-land-pc": ["Nintendo Switch"],
   "xenoblade-2-pc": ["Nintendo Switch"],
   "new-pokemon-snap-pc": ["Nintendo Switch"],
+  "max-payne-switch": ["Windows"],
+  "zelda-oracles-switch": ["Game Boy Color"],
+  "halo-ce-switch": ["Xbox"],
+  "black-ops-switch": ["Windows"],
+  "fear-switch": ["Xbox 360"],
 };
