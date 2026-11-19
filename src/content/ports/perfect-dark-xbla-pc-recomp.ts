@@ -14,7 +14,7 @@ export const perfectDarkXblaPcRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: "0.9.1", date: "2026-11-06" },
+  release: { version: "0.9.2", date: "2026-11-18" },
   sources: ["https://github.com/CaiusCodes/Perfect-Dark-XBLA-PC-Recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,

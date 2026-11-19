@@ -14,7 +14,7 @@ export const overkilllabs3DriveclubRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: "0.3.0", date: "2026-10-23" },
+  release: { version: "0.4.2", date: "2026-11-09" },
   sources: ["https://github.com/OverkillLabs3/driveclub-recomp"],
   license: { spdx: "GPL-2.0" },
   verified: false,

@@ -14,7 +14,7 @@ export const parasiteEveRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: "0.4.0", date: "2026-09-15" },
+  release: { version: "0.4.2", date: "2026-11-15" },
   sources: ["https://github.com/alexbeavs-ps1-ports/parasite-eve-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,
