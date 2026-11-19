@@ -14,7 +14,7 @@ export const xenobladeChronicles3Android: Port = {
   originalGameLicense: "proprietary",
   platforms: ["android"],
   status: "alpha",
-  release: { version: "0.1.0", date: "2026-11-18" },
+  release: { version: "0.4.0", date: "2026-11-19" },
   sources: ["https://github.com/IamWilmar/xenoblade3-recomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,

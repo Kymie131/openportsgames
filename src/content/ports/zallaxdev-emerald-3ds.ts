@@ -14,7 +14,7 @@ export const zallaxdevEmerald3ds: Port = {
   originalGameLicense: "proprietary",
   platforms: ["3ds"],
   status: "beta",
-  release: { version: "0.4.0", date: "2026-10-16" },
+  release: { version: "0.5.0", date: "2026-10-30" },
   sources: ["https://github.com/ZallaxDev/emerald-3ds"],
   license: { spdx: "NOASSERTION" },
   verified: false,

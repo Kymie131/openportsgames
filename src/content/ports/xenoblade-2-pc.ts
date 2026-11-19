@@ -14,7 +14,7 @@ export const xenoblade2Pc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "alpha",
-  release: { version: "0.1.2", date: "2026-11-18" },
+  release: { version: "0.1.3", date: "2026-11-19" },
   sources: ["https://github.com/weile10000/xc2-ns2-recomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,

@@ -14,7 +14,7 @@ export const yeoldpressAlttpDx: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: "1.6", date: "2026-10-10" },
+  release: { version: "1.8", date: "2026-10-29" },
   sources: ["https://github.com/YeOldPress/alttp-dx"],
   license: { spdx: "NOASSERTION" },
   verified: false,

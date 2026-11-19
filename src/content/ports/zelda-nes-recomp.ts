@@ -14,7 +14,7 @@ export const zeldaNesRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "stable",
-  release: { version: "1.12.1", date: "2026-11-10" },
+  release: { version: "1.12.2", date: "2026-11-15" },
   sources: ["https://github.com/mstan/LegendOfZeldaNESRecomp"],
   license: { spdx: "PolyForm-Noncommercial-1.0.0", note: "PolyForm Noncommercial 1.0.0" },
   verified: false,
