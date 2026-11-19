@@ -14,7 +14,7 @@ export const bc160201983UnchartedTheNathanDrakeCollectionPcPort: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: "0.5.0", date: "2026-10-21" },
+  release: { version: "0.8.6", date: "2026-11-14" },
   sources: ["https://github.com/bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,

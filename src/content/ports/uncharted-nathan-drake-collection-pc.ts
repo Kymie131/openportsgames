@@ -14,7 +14,7 @@ export const unchartedNathanDrakeCollectionPc: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: "0.3.9", date: "2026-10-24" },
+  release: { version: "0.3.15", date: "2026-11-15" },
   sources: ["https://github.com/Supermedo/uncharted_pc"],
   discord: "https://discord.gg/yTMG8c4Bqm",
   license: { spdx: "GPL-2.0" },
