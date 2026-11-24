@@ -115,7 +115,7 @@ export const systems: Record<SystemSlug, SystemDefinition> = {
   "switch-2": {
     slug: "switch-2",
     name: { en: "Nintendo Switch 2", es: "Nintendo Switch 2" },
-    logoFile: "switch-2.svg",
+    logoFile: "switch-2.png",
     color: "#E60012",
     colorOnDark: "#FF5A5F",
   },
