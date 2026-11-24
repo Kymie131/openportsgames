@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const kingdomHeartsUxSwitch: Port = {
+  schema: "port",
+  id: "kingdom-hearts-ux-switch",
+  title: "Kingdom Hearts Union χ Dark Road (Switch)",
+  game: "Kingdom Hearts Union χ",
+  developers: ["NaGaa95"],
+  publisher: "Square Enix",
+  originalYear: 2017,
+  portType: "runtime-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/KHUx_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Kingdom Hearts Union χ is the mobile entry that tells the Keyblade War story and later added the Dark Road campaign.",
+  summaryEs: "Kingdom Hearts Union χ es la entrega móvil que narra la historia de la Guerra de los Keyblades y luego añadió la campaña Dark Road.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/kingdom-hearts-union.svg",
+    alt: "Kingdom Hearts Union χ (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

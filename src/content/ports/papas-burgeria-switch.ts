@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const papasBurgeriaSwitch: Port = {
+  schema: "port",
+  id: "papas-burgeria-switch",
+  title: "Papa's Burgeria To Go! (Switch)",
+  game: "Papa's Burgeria",
+  developers: ["xflipperkast"],
+  publisher: "Flipline Studios",
+  originalYear: 2012,
+  portType: "runtime-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-10-19" },
+  sources: ["https://github.com/xflipperkast/papasburgeria_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Papa's Burgeria is the time-management cooking game where orders stack up and tips depend on speed and accuracy.",
+  summaryEs: "Papa's Burgeria es el juego de cocina con gestión de tiempo en el que los pedidos se acumulan y las propinas dependen de la velocidad y precisión.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/papa-s-burgeria.svg",
+    alt: "Papa's Burgeria (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

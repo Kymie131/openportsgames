@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const granny3Switch: Port = {
+  schema: "port",
+  id: "granny-3-switch",
+  title: "Granny 3 (Switch)",
+  game: "Granny 3",
+  developers: ["xflipperkast"],
+  publisher: "DVloper",
+  originalYear: 2021,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-11-16" },
+  sources: ["https://github.com/xflipperkast/granny3_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Granny 3 is the 2021 entry with a larger estate, traps and two pursuers to evade over five days.",
+  summaryEs: "Granny 3 es la entrega de 2021 con una finca más grande, trampas y dos perseguidores a los que evitar durante cinco días.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/granny-3.svg",
+    alt: "Granny 3 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

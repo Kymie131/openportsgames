@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const granny2Switch: Port = {
+  schema: "port",
+  id: "granny-2-switch",
+  title: "Granny: Chapter Two (Switch)",
+  game: "Granny: Chapter Two",
+  developers: ["xflipperkast"],
+  publisher: "DVloper",
+  originalYear: 2019,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-11-12" },
+  sources: ["https://github.com/xflipperkast/granny2_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Granny: Chapter Two is the 2019 sequel with a bigger house, a grandfather enemy and new hiding spots.",
+  summaryEs: "Granny: Chapter Two es la secuela de 2019 con una casa más grande, un abuelo enemigo y nuevos escondites.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/granny-chapter-two.svg",
+    alt: "Granny: Chapter Two (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

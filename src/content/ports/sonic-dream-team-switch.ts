@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sonicDreamTeamSwitch: Port = {
+  schema: "port",
+  id: "sonic-dream-team-switch",
+  title: "Sonic Dream Team (Switch)",
+  game: "Sonic Dream Team",
+  developers: ["Thorhax"],
+  publisher: "Sega",
+  originalYear: 2023,
+  portType: "runtime-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.10.3", date: "2026-11-20" },
+  sources: ["https://github.com/Thorhax/SonicDreamTeam-NX"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Sonic Dream Team is the 2023 Apple Arcade 3D platformer where Sonic and friends explore dream worlds to stop Dr. Eggman.",
+  summaryEs: "Sonic Dream Team es el plataformas 3D de 2023 de Apple Arcade en el que Sonic y sus amigos exploran mundos de sueños para detener al Dr. Eggman.",
+  notes: "Nintendo Switch port of the mobile game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego móvil. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/sonic-dream-team.svg",
+    alt: "Sonic Dream Team (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

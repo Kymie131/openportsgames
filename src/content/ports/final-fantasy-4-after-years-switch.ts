@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const finalFantasy4AfterYearsSwitch: Port = {
+  schema: "port",
+  id: "final-fantasy-4-after-years-switch",
+  title: "Final Fantasy IV: The After Years (Switch)",
+  game: "Final Fantasy IV: The After Years",
+  developers: ["NaGaa95"],
+  publisher: "Square Enix",
+  originalYear: 2008,
+  portType: "runtime-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/ff4tay_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Final Fantasy IV: The After Years is the 2008 episodic sequel following Ceodore and the next generation of heroes.",
+  summaryEs: "Final Fantasy IV: The After Years es la secuela episódica de 2008 que sigue a Ceodore y a la nueva generación de héroes.",
+  notes: "Nintendo Switch port of the Android version. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/final-fantasy-iv-the-after-years.svg",
+    alt: "Final Fantasy IV: The After Years (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

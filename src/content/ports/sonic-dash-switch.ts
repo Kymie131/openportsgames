@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sonicDashSwitch: Port = {
+  schema: "port",
+  id: "sonic-dash-switch",
+  title: "Sonic Dash (Switch)",
+  game: "Sonic Dash",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "Sega",
+  originalYear: 2013,
+  portType: "runtime-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-09-22" },
+  sources: ["https://github.com/ChanseyIsTheBest/sonicdash_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Sonic Dash is the 2013 endless runner where Sonic sprints, dashes and dodges through 3D tracks.",
+  summaryEs: "Sonic Dash es el runner infinito de 2013 en el que Sonic corre, hace dash y esquiva por circuitos 3D.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/sonic-dash.svg",
+    alt: "Sonic Dash (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

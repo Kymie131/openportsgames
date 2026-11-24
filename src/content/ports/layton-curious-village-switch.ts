@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const laytonCuriousVillageSwitch: Port = {
+  schema: "port",
+  id: "layton-curious-village-switch",
+  title: "Professor Layton and the Curious Village HD (Switch)",
+  game: "Professor Layton and the Curious Village",
+  developers: ["NaGaa95"],
+  publisher: "Level-5",
+  originalYear: 2008,
+  portType: "runtime-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.5", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/layton_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo DS"],
+  summary: "Professor Layton and the Curious Village is the 2008 puzzle adventure that starts the series, with over 130 riddles in St Mystere.",
+  summaryEs: "Professor Layton and the Curious Village es la aventura de puzles de 2008 que inicia la serie, con más de 130 acertijos en St Mystere.",
+  notes: "Nintendo Switch port of the HD mobile version. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión móvil HD. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/professor-layton-and-the-curious-village.svg",
+    alt: "Professor Layton and the Curious Village (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const nbaJamSwitch: Port = {
+  schema: "port",
+  id: "nba-jam-switch",
+  title: "NBA Jam (Switch)",
+  game: "NBA Jam",
+  developers: ["delsonazevedo"],
+  publisher: "Electronic Arts",
+  originalYear: 2010,
+  portType: "runtime-port",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-07-15" },
+  sources: ["https://github.com/delsonazevedo/nbajam_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "NBA Jam is the two-on-two arcade basketball game with absurd dunks and on-fire streaks, here from its mobile version.",
+  summaryEs: "NBA Jam es el baloncesto arcade de dos contra dos con mates absurdos y rachas en llamas, aquí desde su versión móvil.",
+  notes: "Nintendo Switch port of the Android version. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/nba-jam.svg",
+    alt: "NBA Jam (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

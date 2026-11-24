@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const osmosSwitch: Port = {
+  schema: "port",
+  id: "osmos-switch",
+  title: "Osmos (Switch)",
+  game: "Osmos",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "Hemisphere Games",
+  originalYear: 2009,
+  portType: "runtime-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-09-01" },
+  sources: ["https://github.com/ChanseyIsTheBest/osmos_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Osmos is the 2009 ambient puzzle game about absorbing smaller motes and propelling yourself in zero friction.",
+  summaryEs: "Osmos es el juego de puzles ambientales de 2009 sobre absorber motas más pequeñas e impulsarte sin fricción.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/osmos.svg",
+    alt: "Osmos (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

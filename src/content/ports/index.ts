@@ -3214,6 +3214,38 @@ import { hitmanGoSwitch } from "./hitman-go-switch";
 import { jetpackJoyrideSwitch } from "./jetpack-joyride-switch";
 import { hillClimbRacingSwitch } from "./hill-climb-racing-switch";
 import { jackieChanStuntmasterSwitch } from "./jackie-chan-stuntmaster-switch";
+import { fruitNinjaSwitch } from "./fruit-ninja-switch";
+import { granny2Switch } from "./granny-2-switch";
+import { granny3Switch } from "./granny-3-switch";
+import { happyWheelsSwitch } from "./happy-wheels-switch";
+import { heartStarSwitch } from "./heart-star-switch";
+import { infinityBladeSwitch } from "./infinity-blade-switch";
+import { kingdomHeartsUxSwitch } from "./kingdom-hearts-ux-switch";
+import { laraCroftGoSwitch } from "./lara-croft-go-switch";
+import { laytonBrothersSwitch } from "./layton-brothers-switch";
+import { legoBatman3Switch } from "./lego-batman-3-switch";
+import { legoNinjagoRoninSwitch } from "./lego-ninjago-ronin-switch";
+import { legoStarWarsForceAwakensSwitch } from "./lego-star-wars-force-awakens-switch";
+import { nbaJamSwitch } from "./nba-jam-switch";
+import { osmosSwitch } from "./osmos-switch";
+import { papasBurgeriaSwitch } from "./papas-burgeria-switch";
+import { papasPizzeriaSwitch } from "./papas-pizzeria-switch";
+import { papersPleaseSwitch } from "./papers-please-switch";
+import { phigrosSwitch } from "./phigros-switch";
+import { poinpySwitch } from "./poinpy-switch";
+import { pouSwitch } from "./pou-switch";
+import { laytonCuriousVillageSwitch } from "./layton-curious-village-switch";
+import { laytonPandorasBoxSwitch } from "./layton-pandoras-box-switch";
+import { laytonLostFutureSwitch } from "./layton-lost-future-switch";
+import { slitherIoSwitch } from "./slither-io-switch";
+import { sonicDashSwitch } from "./sonic-dash-switch";
+import { sonicDash2Switch } from "./sonic-dash-2-switch";
+import { sonicDreamTeamSwitch } from "./sonic-dream-team-switch";
+import { sonicJumpSwitch } from "./sonic-jump-switch";
+import { finalFantasyDimensionsSwitch } from "./final-fantasy-dimensions-switch";
+import { finalFantasy4AfterYearsSwitch } from "./final-fantasy-4-after-years-switch";
+import { galaxyOnFireSwitch } from "./galaxy-on-fire-switch";
+import { revoltSwitch } from "./revolt-switch";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6427,4 +6459,36 @@ export const portCases: Port[] = [
   jetpackJoyrideSwitch,
   hillClimbRacingSwitch,
   jackieChanStuntmasterSwitch,
+  fruitNinjaSwitch,
+  granny2Switch,
+  granny3Switch,
+  happyWheelsSwitch,
+  heartStarSwitch,
+  infinityBladeSwitch,
+  kingdomHeartsUxSwitch,
+  laraCroftGoSwitch,
+  laytonBrothersSwitch,
+  legoBatman3Switch,
+  legoNinjagoRoninSwitch,
+  legoStarWarsForceAwakensSwitch,
+  nbaJamSwitch,
+  osmosSwitch,
+  papasBurgeriaSwitch,
+  papasPizzeriaSwitch,
+  papersPleaseSwitch,
+  phigrosSwitch,
+  poinpySwitch,
+  pouSwitch,
+  laytonCuriousVillageSwitch,
+  laytonPandorasBoxSwitch,
+  laytonLostFutureSwitch,
+  slitherIoSwitch,
+  sonicDashSwitch,
+  sonicDash2Switch,
+  sonicDreamTeamSwitch,
+  sonicJumpSwitch,
+  finalFantasyDimensionsSwitch,
+  finalFantasy4AfterYearsSwitch,
+  galaxyOnFireSwitch,
+  revoltSwitch,
 ];

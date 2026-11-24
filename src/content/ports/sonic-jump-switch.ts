@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sonicJumpSwitch: Port = {
+  schema: "port",
+  id: "sonic-jump-switch",
+  title: "Sonic Jump (Switch)",
+  game: "Sonic Jump",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "Sega",
+  originalYear: 2012,
+  portType: "runtime-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-08-18" },
+  sources: ["https://github.com/ChanseyIsTheBest/sonicjump_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Sonic Jump is the 2012 vertical platformer where Sonic bounces upward between platforms and badniks.",
+  summaryEs: "Sonic Jump es el plataformas vertical de 2012 en el que Sonic rebota hacia arriba entre plataformas y badniks.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/sonic-jump.svg",
+    alt: "Sonic Jump (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const poinpySwitch: Port = {
+  schema: "port",
+  id: "poinpy-switch",
+  title: "Poinpy (Switch)",
+  game: "Poinpy",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "Netflix",
+  originalYear: 2022,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-08-06" },
+  sources: ["https://github.com/ChanseyIsTheBest/poinpy_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Poinpy is the 2022 vertical climbing game where a green creature bounces upward collecting fruit for a hungry beast.",
+  summaryEs: "Poinpy es el juego de escalada vertical de 2022 en el que una criatura verde rebota hacia arriba recogiendo fruta para una bestia hambrienta.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/poinpy.svg",
+    alt: "Poinpy (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const legoNinjagoRoninSwitch: Port = {
+  schema: "port",
+  id: "lego-ninjago-ronin-switch",
+  title: "LEGO Ninjago: Shadow of Ronin (Switch)",
+  game: "LEGO Ninjago: Shadow of Ronin",
+  developers: ["NaGaa95"],
+  publisher: "Warner Bros. Interactive Entertainment",
+  originalYear: 2015,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/lnsor_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "LEGO Ninjago: Shadow of Ronin is a 2015 action-adventure where the ninja recover their lost memories.",
+  summaryEs: "LEGO Ninjago: Shadow of Ronin es un juego de acción y aventura de 2015 en el que los ninja recuperan sus recuerdos perdidos.",
+  notes: "Nintendo Switch port of the Android version. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/lego-ninjago-shadow-of-ronin.svg",
+    alt: "LEGO Ninjago: Shadow of Ronin (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

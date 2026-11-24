@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const finalFantasyDimensionsSwitch: Port = {
+  schema: "port",
+  id: "final-fantasy-dimensions-switch",
+  title: "Final Fantasy Dimensions (Switch)",
+  game: "Final Fantasy Dimensions",
+  developers: ["NaGaa95"],
+  publisher: "Square Enix",
+  originalYear: 2010,
+  portType: "runtime-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/ffd_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Final Fantasy Dimensions is the 2010 mobile RPG that returns to 16-bit style with a job system and two parties.",
+  summaryEs: "Final Fantasy Dimensions es el RPG móvil de 2010 que vuelve al estilo de 16 bits con sistema de trabajos y dos grupos.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/final-fantasy-dimensions.svg",
+    alt: "Final Fantasy Dimensions (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

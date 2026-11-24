@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const phigrosSwitch: Port = {
+  schema: "port",
+  id: "phigros-switch",
+  title: "Phigros (Switch)",
+  game: "Phigros",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "Pigeon Games",
+  originalYear: 2019,
+  portType: "runtime-port",
+  genre: "music",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.3", date: "2026-08-20" },
+  sources: ["https://github.com/ChanseyIsTheBest/phigros_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Phigros is a 2019 rhythm game with moving judgement lines and no fixed lanes, plus a large free song list.",
+  summaryEs: "Phigros es un juego de ritmo de 2019 con líneas de juicio móviles y sin carriles fijos, además de una gran lista de canciones gratuitas.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/phigros.svg",
+    alt: "Phigros (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

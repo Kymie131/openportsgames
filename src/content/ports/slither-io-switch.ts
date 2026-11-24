@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const slitherIoSwitch: Port = {
+  schema: "port",
+  id: "slither-io-switch",
+  title: "Slither.io (Switch)",
+  game: "Slither.io",
+  developers: ["xflipperkast"],
+  publisher: "Lowtech Studios",
+  originalYear: 2016,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-08-30" },
+  sources: ["https://github.com/xflipperkast/slither_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Slither.io is the 2016 multiplayer snake game where growth and cutting off other players decide the leaderboard.",
+  summaryEs: "Slither.io es el juego multijugador de serpientes de 2016 en el que crecer y cortar a otros jugadores decide la clasificación.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/slither-io.svg",
+    alt: "Slither.io (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

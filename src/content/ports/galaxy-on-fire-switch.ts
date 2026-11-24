@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const galaxyOnFireSwitch: Port = {
+  schema: "port",
+  id: "galaxy-on-fire-switch",
+  title: "Galaxy on Fire (Switch)",
+  game: "Galaxy on Fire",
+  developers: ["artslay"],
+  publisher: "Fishlabs",
+  originalYear: 2009,
+  portType: "runtime-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.4", date: "2026-10-03" },
+  sources: ["https://github.com/artslay/galaxian_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Galaxy on Fire is the 2009 space combat and trading game with a story campaign across star systems.",
+  summaryEs: "Galaxy on Fire es el juego de combate y comercio espacial de 2009 con una campaña por varios sistemas estelares.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/galaxy-on-fire.svg",
+    alt: "Galaxy on Fire (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

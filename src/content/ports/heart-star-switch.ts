@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const heartStarSwitch: Port = {
+  schema: "port",
+  id: "heart-star-switch",
+  title: "Heart Star (Switch)",
+  game: "Heart Star",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "Adventure Islands",
+  originalYear: 2019,
+  portType: "runtime-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-09-19" },
+  sources: ["https://github.com/ChanseyIsTheBest/heartstar_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Heart Star is a 2019 puzzle platformer where two characters in parallel worlds must swap places to reach the goal.",
+  summaryEs: "Heart Star es un juego de plataformas y puzles de 2019 en el que dos personajes en mundos paralelos deben intercambiar posiciones para llegar a la meta.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/heart-star.svg",
+    alt: "Heart Star (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

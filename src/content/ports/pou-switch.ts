@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const pouSwitch: Port = {
+  schema: "port",
+  id: "pou-switch",
+  title: "Pou (Switch)",
+  game: "Pou",
+  developers: ["xflipperkast"],
+  publisher: "Zakeh",
+  originalYear: 2012,
+  portType: "runtime-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-08-24" },
+  sources: ["https://github.com/xflipperkast/pou_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Pou is the 2012 virtual pet game where players feed, clean and level up a blob-like creature.",
+  summaryEs: "Pou es el juego de mascota virtual de 2012 en el que el jugador alimenta, limpia y sube de nivel a una criatura con forma de blob.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/pou.svg",
+    alt: "Pou (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

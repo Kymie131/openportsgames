@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const fruitNinjaSwitch: Port = {
+  schema: "port",
+  id: "fruit-ninja-switch",
+  title: "Fruit Ninja Classic (Switch)",
+  game: "Fruit Ninja",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "Halfbrick Studios",
+  originalYear: 2010,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-08-18" },
+  sources: ["https://github.com/ChanseyIsTheBest/fruitninjaclassic_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Fruit Ninja is the 2010 slicing game where swipes cut fruit and avoid bombs across arcade and classic modes.",
+  summaryEs: "Fruit Ninja es el juego de cortar de 2010 en el que los gestos cortan fruta y evitan bombas en modos arcade y clásico.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/fruit-ninja.svg",
+    alt: "Fruit Ninja (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

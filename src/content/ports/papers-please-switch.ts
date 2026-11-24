@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const papersPleaseSwitch: Port = {
+  schema: "port",
+  id: "papers-please-switch",
+  title: "Papers, Please (Switch, mobile)",
+  game: "Papers, Please",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "3909",
+  originalYear: 2013,
+  portType: "runtime-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-07-28" },
+  sources: ["https://github.com/ChanseyIsTheBest/papersplease_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Papers, Please is the 2013 dystopian document-checking game where a border inspector balances rules, bribes and family.",
+  summaryEs: "Papers, Please es el juego distópico de 2013 de revisar documentos en el que un inspector de frontera equilibra normas, sobornos y familia.",
+  notes: "Nintendo Switch port of the Android version. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/papers-please.svg",
+    alt: "Papers, Please (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

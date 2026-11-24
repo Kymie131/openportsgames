@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const laytonLostFutureSwitch: Port = {
+  schema: "port",
+  id: "layton-lost-future-switch",
+  title: "Professor Layton and the Lost Future HD (Switch)",
+  game: "Professor Layton and the Lost Future",
+  developers: ["NaGaa95"],
+  publisher: "Level-5",
+  originalYear: 2010,
+  portType: "runtime-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.4", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/layton3_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo DS"],
+  summary: "The Lost Future sends Layton to a future London to prevent a catastrophe, closing the original trilogy.",
+  summaryEs: "The Lost Future lleva a Layton a un Londres futuro para evitar una catástrofe, cerrando la trilogía original.",
+  notes: "Nintendo Switch port of the HD mobile version. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión móvil HD. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/professor-layton-and-the-lost-future.svg",
+    alt: "Professor Layton and the Lost Future (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

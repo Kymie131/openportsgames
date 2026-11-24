@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const laraCroftGoSwitch: Port = {
+  schema: "port",
+  id: "lara-croft-go-switch",
+  title: "Lara Croft GO (Switch)",
+  game: "Lara Croft GO",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "Square Enix Montreal",
+  originalYear: 2015,
+  portType: "runtime-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-09-22" },
+  sources: ["https://github.com/ChanseyIsTheBest/laracroftgo_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Lara Croft GO is the 2015 turn-based puzzle game with tomb dioramas, traps and snakes.",
+  summaryEs: "Lara Croft GO es el juego de puzles por turnos de 2015 con dioramas de tumbas, trampas y serpientes.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/lara-croft-go.svg",
+    alt: "Lara Croft GO (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sonicDash2Switch: Port = {
+  schema: "port",
+  id: "sonic-dash-2-switch",
+  title: "Sonic Dash 2: Sonic Boom (Switch)",
+  game: "Sonic Dash 2: Sonic Boom",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "Sega",
+  originalYear: 2015,
+  portType: "runtime-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-09-21" },
+  sources: ["https://github.com/ChanseyIsTheBest/sonicboomdash_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Sonic Dash 2: Sonic Boom is the 2015 sequel with team-based runners and Boom-style characters.",
+  summaryEs: "Sonic Dash 2: Sonic Boom es la secuela de 2015 con corredores en equipo y personajes de estilo Boom.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/sonic-dash-2-sonic-boom.svg",
+    alt: "Sonic Dash 2: Sonic Boom (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

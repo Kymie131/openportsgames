@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const legoStarWarsForceAwakensSwitch: Port = {
+  schema: "port",
+  id: "lego-star-wars-force-awakens-switch",
+  title: "LEGO Star Wars: The Force Awakens (Switch)",
+  game: "LEGO Star Wars: The Force Awakens",
+  developers: ["NaGaa95"],
+  publisher: "Warner Bros. Interactive Entertainment",
+  originalYear: 2016,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/lswtfa_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "LEGO Star Wars: The Force Awakens adapts the film with new blaster mechanics and bridge missions between episodes.",
+  summaryEs: "LEGO Star Wars: The Force Awakens adapta la película con nuevas mecánicas de disparo y misiones puente entre episodios.",
+  notes: "Nintendo Switch port of the Android version. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/lego-star-wars-the-force-awakens.svg",
+    alt: "LEGO Star Wars: The Force Awakens (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

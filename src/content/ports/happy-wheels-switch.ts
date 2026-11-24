@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const happyWheelsSwitch: Port = {
+  schema: "port",
+  id: "happy-wheels-switch",
+  title: "Happy Wheels (Switch)",
+  game: "Happy Wheels",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "Jim Bonacci",
+  originalYear: 2010,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-08-11" },
+  sources: ["https://github.com/ChanseyIsTheBest/happywheels_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Happy Wheels is the 2010 physics ragdoll game where riders survive user-made obstacle courses.",
+  summaryEs: "Happy Wheels es el juego de física y ragdolls de 2010 en el que los pilotos sobreviven a circuitos de obstáculos creados por usuarios.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/happy-wheels.svg",
+    alt: "Happy Wheels (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

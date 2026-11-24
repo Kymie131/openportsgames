@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const revoltSwitch: Port = {
+  schema: "port",
+  id: "revolt-switch",
+  title: "Re-Volt (Switch, RVGL)",
+  game: "Re-Volt",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "Acclaim Entertainment",
+  originalYear: 1999,
+  portType: "reimplementation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-09-20" },
+  sources: ["https://github.com/ChanseyIsTheBest/revolt_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Re-Volt is the 1999 RC-car racing game with toy cars, household-track courses and weapons.",
+  summaryEs: "Re-Volt es el juego de carreras de coches de radiocontrol de 1999 con coches de juguete, circuitos caseros y armas.",
+  notes: "RVGL (the open-source Re-Volt engine) ported to the Nintendo Switch. Bring your own game data.",
+  notesEs: "RVGL (el motor de código abierto de Re-Volt) portado a Nintendo Switch. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/re-volt.svg",
+    alt: "Re-Volt (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

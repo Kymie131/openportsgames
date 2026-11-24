@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const infinityBladeSwitch: Port = {
+  schema: "port",
+  id: "infinity-blade-switch",
+  title: "Infinity Blade (Switch)",
+  game: "Infinity Blade",
+  developers: ["aks796"],
+  publisher: "Epic Games",
+  originalYear: 2010,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-08-31" },
+  sources: ["https://github.com/aks796/infinityblade_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Infinity Blade is the 2010 swipe-combat RPG that showed off high-end mobile graphics, with a loop of duels and upgrades.",
+  summaryEs: "Infinity Blade es el RPG de combate por gestos de 2010 que mostró gráficos móviles de alto nivel, con un bucle de duelos y mejoras.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/infinity-blade.svg",
+    alt: "Infinity Blade (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

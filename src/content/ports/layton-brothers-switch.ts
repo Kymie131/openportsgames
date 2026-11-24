@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const laytonBrothersSwitch: Port = {
+  schema: "port",
+  id: "layton-brothers-switch",
+  title: "Layton Brothers: Mystery Room (Switch)",
+  game: "Layton Brothers: Mystery Room",
+  developers: ["NaGaa95"],
+  publisher: "Level-5",
+  originalYear: 2012,
+  portType: "runtime-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.3", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/laytonbmr_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Layton Brothers: Mystery Room is a 2012 detective adventure with crime-scene investigation and deductions from Alfendi Layton.",
+  summaryEs: "Layton Brothers: Mystery Room es una aventura detectivesca de 2012 con investigación de escenarios y deducciones de Alfendi Layton.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/layton-brothers-mystery-room.svg",
+    alt: "Layton Brothers: Mystery Room (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

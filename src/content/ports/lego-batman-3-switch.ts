@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const legoBatman3Switch: Port = {
+  schema: "port",
+  id: "lego-batman-3-switch",
+  title: "LEGO Batman 3: Beyond Gotham (Switch)",
+  game: "LEGO Batman 3: Beyond Gotham",
+  developers: ["NaGaa95"],
+  publisher: "Warner Bros. Interactive Entertainment",
+  originalYear: 2014,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/lbbg_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "LEGO Batman 3: Beyond Gotham takes the DC roster into space with Lantern Corps worlds and hundreds of characters.",
+  summaryEs: "LEGO Batman 3: Beyond Gotham lleva el plantel de DC al espacio con mundos de los Corps y cientos de personajes.",
+  notes: "Nintendo Switch port of the Android version. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/lego-batman-3-beyond-gotham.svg",
+    alt: "LEGO Batman 3: Beyond Gotham (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

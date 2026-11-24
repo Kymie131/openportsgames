@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const laytonPandorasBoxSwitch: Port = {
+  schema: "port",
+  id: "layton-pandoras-box-switch",
+  title: "Professor Layton and Pandora's Box HD (Switch)",
+  game: "Professor Layton and Pandora's Box",
+  developers: ["NaGaa95"],
+  publisher: "Level-5",
+  originalYear: 2009,
+  portType: "runtime-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.3", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/layton2_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo DS"],
+  summary: "Pandora's Box is the second Layton game, a train journey mystery with the Elysian Box and a town of puzzles.",
+  summaryEs: "Pandora's Box es el segundo juego de Layton, un misterio en un viaje en tren con la Caja Elisia y un pueblo de puzles.",
+  notes: "Nintendo Switch port of the HD mobile version. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión móvil HD. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/professor-layton-and-pandora-s-box.svg",
+    alt: "Professor Layton and Pandora's Box (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
