@@ -114,7 +114,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     })
     .filter((entry): entry is ConsoleSummary => entry !== null)
     .sort((a, b) => b.count - a.count)
-    .slice(0, 18);
+    .slice(0, 23);
 
   return (
     <>

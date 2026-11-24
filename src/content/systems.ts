@@ -99,12 +99,14 @@ export const systems: Record<SystemSlug, SystemDefinition> = {
   "wii-u": {
     slug: "wii-u",
     name: { en: "Wii U", es: "Wii U" },
+    logo: "wiiu",
     color: "#009AC7",
     colorOnDark: "#4FD3F0",
   },
   "switch": {
     slug: "switch",
     name: { en: "Nintendo Switch", es: "Nintendo Switch" },
+    logo: "switch",
     color: "#E60012",
     colorOnDark: "#FF5A5F",
   },
@@ -185,12 +187,14 @@ export const systems: Record<SystemSlug, SystemDefinition> = {
   psp: {
     slug: "psp",
     name: { en: "PlayStation Portable", es: "PlayStation Portable" },
+    logo: "psp",
     color: "#003791",
     colorOnDark: "#6E9BFF",
   },
   psvita: {
     slug: "psvita",
     name: { en: "PlayStation Vita", es: "PlayStation Vita" },
+    logo: "psvita",
     color: "#003791",
     colorOnDark: "#6E9BFF",
   },
