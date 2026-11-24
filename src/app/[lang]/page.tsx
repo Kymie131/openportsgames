@@ -32,6 +32,36 @@ const FEATURED_SLUGS = [
   "halo-3-recomp",
 ];
 
+/** Home shelf order, matching the console list the site wants to surface first. */
+const CONSOLE_ORDER = [
+  "switch-2",
+  "switch",
+  "nds",
+  "3ds",
+  "wii",
+  "wii-u",
+  "gba",
+  "game-boy",
+  "gamecube",
+  "snes",
+  "nes",
+  "n64",
+  "virtual-boy",
+  "psp",
+  "psvita",
+  "playstation",
+  "playstation-2",
+  "playstation-3",
+  "playstation-4",
+  "playstation-5",
+  "xbox",
+  "xbox-360",
+  "dreamcast",
+  "sega-md",
+  "sega-saturn",
+  "arcade",
+];
+
 const NON_CONSOLE_SYSTEMS = new Set([
   "windows",
   "ms-dos",
@@ -113,8 +143,15 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       };
     })
     .filter((entry): entry is ConsoleSummary => entry !== null)
-    .sort((a, b) => b.count - a.count)
-    .slice(0, 27);
+    .sort((a, b) => {
+      const orderA = CONSOLE_ORDER.indexOf(a.slug);
+      const orderB = CONSOLE_ORDER.indexOf(b.slug);
+      if (orderA !== -1 || orderB !== -1) {
+        return (orderA === -1 ? Number.MAX_SAFE_INTEGER : orderA) - (orderB === -1 ? Number.MAX_SAFE_INTEGER : orderB);
+      }
+      return b.count - a.count;
+    })
+    .slice(0, 24);
 
   return (
     <>
