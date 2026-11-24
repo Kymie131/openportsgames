@@ -3279,4 +3279,6 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "beautiful-katamari-switch": ["Xbox 360"],
   "manhunt-switch": ["PlayStation 2"],
   "ice-age-2-switch": ["PlayStation 2"],
+  "gta-iv-eflc-android": ["Xbox 360"],
+  "gta-v-vulkan-android": ["Windows"],
 };

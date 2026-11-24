@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gtaVVulkanAndroid: Port = {
+  schema: "port",
+  id: "gta-v-vulkan-android",
+  title: "Grand Theft Auto V (Android, Vulkan)",
+  game: "Grand Theft Auto V",
+  developers: ["AlgoArtist06"],
+  publisher: "Rockstar Games",
+  originalYear: 2013,
+  portType: "recompilation",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "alpha",
+  release: { version: "1.0.0", date: "2026-10-19" },
+  sources: ["https://github.com/AlgoArtist06/Vulkan-GTA-V"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Windows"],
+  summary: "Grand Theft Auto V is the 2013 open-world game set in Los Santos with three playable protagonists and GTA Online.",
+  summaryEs: "Grand Theft Auto V es el juego de mundo abierto de 2013 ambientado en Los Santos con tres protagonistas jugables y GTA Online.",
+  notes: "Unofficial native Android port using Vulkan. Bring your own game files.",
+  notesEs: "Port nativo no oficial para Android usando Vulkan. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/grand-theft-auto-v.svg",
+    alt: "Grand Theft Auto V (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

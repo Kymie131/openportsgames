@@ -3280,6 +3280,8 @@ import { banjoNutsAndBoltsSwitch } from "./banjo-nuts-and-bolts-switch";
 import { beautifulKatamariSwitch } from "./beautiful-katamari-switch";
 import { manhuntSwitch } from "./manhunt-switch";
 import { iceAge2Switch } from "./ice-age-2-switch";
+import { gtaIvEflcAndroid } from "./gta-iv-eflc-android";
+import { gtaVVulkanAndroid } from "./gta-v-vulkan-android";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6559,4 +6561,6 @@ export const portCases: Port[] = [
   beautifulKatamariSwitch,
   manhuntSwitch,
   iceAge2Switch,
+  gtaIvEflcAndroid,
+  gtaVVulkanAndroid,
 ];

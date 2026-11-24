@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gtaIvEflcAndroid: Port = {
+  schema: "port",
+  id: "gta-iv-eflc-android",
+  title: "GTA IV & Episodes from Liberty City (Android)",
+  game: "Grand Theft Auto IV",
+  developers: ["Jauidev"],
+  publisher: "Rockstar Games",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["android"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-10-30" },
+  sources: ["https://github.com/Jauidev/LibertyDroid"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox 360"],
+  summary: "Grand Theft Auto IV and its Episodes from Liberty City expansions follow Niko Bellic and the city's biker and nightlife stories in Liberty City.",
+  summaryEs: "Grand Theft Auto IV y sus expansiones Episodes from Liberty City siguen a Niko Bellic y las historias de moteros y vida nocturna en Liberty City.",
+  notes: "Native Android port of the Xbox 360 version with a launcher. Code only: you need your own copy of the game.",
+  notesEs: "Port nativo para Android de la versión de Xbox 360 con lanzador. Solo código: necesitas tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/grand-theft-auto-iv.svg",
+    alt: "Grand Theft Auto IV (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
