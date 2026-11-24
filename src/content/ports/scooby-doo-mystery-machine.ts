@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const scoobyDooMysteryMachine: Port = {
+  schema: "port",
+  id: "scooby-doo-mystery-machine",
+  title: "Scooby-Doo! Night of 100 Frights (Project Mystery Machine)",
+  game: "Scooby-Doo! Night of 100 Frights",
+  developers: ["Etopia122"],
+  publisher: "THQ",
+  originalYear: 2002,
+  portType: "decompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.3.0", date: "2026-11-23" },
+  sources: ["https://github.com/Etopia122/ProjectMysteryMachine"],
+  license: { spdx: "CC0-1.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation 2"],
+  summary: "Scooby-Doo! Night of 100 Frights is a 2002 platform game where Scooby explores Mystic Manor and rescues the gang.",
+  summaryEs: "Scooby-Doo! Night of 100 Frights es un juego de plataformas de 2002 en el que Scooby explora la Mansión Mística y rescata a la pandilla.",
+  notes: "Native PC port from the decompilation. Requires a dump of the game; no game files are distributed.",
+  notesEs: "Port nativo para PC a partir de la descompilación. Requiere un volcado del juego; no se distribuyen archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/scooby-doo-night-of-100-frights.svg",
+    alt: "Scooby-Doo! Night of 100 Frights (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -3246,6 +3246,7 @@ import { finalFantasyDimensionsSwitch } from "./final-fantasy-dimensions-switch"
 import { finalFantasy4AfterYearsSwitch } from "./final-fantasy-4-after-years-switch";
 import { galaxyOnFireSwitch } from "./galaxy-on-fire-switch";
 import { revoltSwitch } from "./revolt-switch";
+import { scoobyDooMysteryMachine } from "./scooby-doo-mystery-machine";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6491,4 +6492,5 @@ export const portCases: Port[] = [
   finalFantasy4AfterYearsSwitch,
   galaxyOnFireSwitch,
   revoltSwitch,
+  scoobyDooMysteryMachine,
 ];

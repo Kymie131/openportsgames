@@ -14,7 +14,7 @@ export const harryPotterHpengine: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "beta",
-  release: { version: "0.4.0", date: "2026-11-17" },
+  release: { version: "0.5.2", date: "2026-11-22" },
   sources: ["https://github.com/artemnikonov/hpengine"],
   license: { spdx: "GPL-3.0" },
   verified: false,

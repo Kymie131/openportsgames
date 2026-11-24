@@ -3245,4 +3245,5 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "final-fantasy-4-after-years-switch": ["Mobile"],
   "galaxy-on-fire-switch": ["Mobile"],
   "revolt-switch": ["Windows"],
+  "scooby-doo-mystery-machine": ["PlayStation 2"],
 };
