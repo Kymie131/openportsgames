@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const tmntArcadeSwitch: Port = {
+  schema: "port",
+  id: "tmnt-arcade-switch",
+  title: "Teenage Mutant Ninja Turtles (Switch, arcade)",
+  game: "Teenage Mutant Ninja Turtles",
+  developers: ["cheviman"],
+  publisher: "Konami",
+  originalYear: 1989,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.1.1", date: "2026-11-21" },
+  sources: ["https://github.com/cheviman/tmnt-port"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Arcade"],
+  summary: "Teenage Mutant Ninja Turtles is the 1989 arcade beat 'em up where four players fight through New York.",
+  summaryEs: "Teenage Mutant Ninja Turtles es el beat 'em up arcade de 1989 en el que cuatro jugadores recorren Nueva York.",
+  notes: "Arcade game running natively on the Nintendo Switch. Bring your own game data.",
+  notesEs: "Juego arcade ejecutándose de forma nativa en Nintendo Switch. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/teenage-mutant-ninja-turtles.svg",
+    alt: "Teenage Mutant Ninja Turtles (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

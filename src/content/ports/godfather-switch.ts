@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const godfatherSwitch: Port = {
+  schema: "port",
+  id: "godfather-switch",
+  title: "The Godfather (Switch)",
+  game: "The Godfather",
+  developers: ["CYBERPUNK20"],
+  publisher: "Electronic Arts",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-11-12" },
+  sources: ["https://github.com/CYBERPUNK20/godfather-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox"],
+  summary: "The Godfather is the 2006 open-world game where a custom mobster rises through the Corleone family.",
+  summaryEs: "The Godfather es el juego de mundo abierto de 2006 en el que un gánster personalizado asciende en la familia Corleone.",
+  notes: "Native Nintendo Switch port. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-godfather.svg",
+    alt: "The Godfather (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

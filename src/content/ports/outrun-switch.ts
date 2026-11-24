@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const outrunSwitch: Port = {
+  schema: "port",
+  id: "outrun-switch",
+  title: "OutRun (Switch, CannonBall)",
+  game: "OutRun",
+  developers: ["Thorhax"],
+  publisher: "Sega",
+  originalYear: 1986,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.08", date: "2026-09-01" },
+  sources: ["https://github.com/Thorhax/Cannonball-NX-Modern"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Arcade"],
+  summary: "OutRun is the 1986 arcade racer with a Ferrari Testarossa, branching routes and a selectable soundtrack.",
+  summaryEs: "OutRun es el arcade de carreras de 1986 con un Ferrari Testarossa, rutas ramificadas y banda sonora seleccionable.",
+  notes: "CannonBall (OutRun engine) ported to the Nintendo Switch. Bring your own game data.",
+  notesEs: "CannonBall (motor de OutRun) portado a Nintendo Switch. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/outrun.svg",
+    alt: "OutRun (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

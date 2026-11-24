@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const burnout3Switch: Port = {
+  schema: "port",
+  id: "burnout-3-switch",
+  title: "Burnout 3: Takedown (Switch)",
+  game: "Burnout 3: Takedown",
+  developers: ["antoxa2584x"],
+  publisher: "Electronic Arts",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "0.2.4", date: "2026-10-21" },
+  sources: ["https://github.com/antoxa2584x/burnout3-sw"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox"],
+  summary: "Burnout 3: Takedown is the 2004 arcade racer built around aggressive driving and spectacular crash modes.",
+  summaryEs: "Burnout 3: Takedown es el juego de carreras arcade de 2004 centrado en la conducción agresiva y los modos de choques espectaculares.",
+  notes: "Native Nintendo Switch port. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/burnout-3-takedown.svg",
+    alt: "Burnout 3: Takedown (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

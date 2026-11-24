@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const defJamFightForNySwitch: Port = {
+  schema: "port",
+  id: "def-jam-fight-for-ny-switch",
+  title: "Def Jam: Fight for NY (Switch)",
+  game: "Def Jam: Fight for NY",
+  developers: ["R-drg"],
+  publisher: "Electronic Arts",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-10-09" },
+  sources: ["https://github.com/R-drg/defjam-sw"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo GameCube"],
+  summary: "Def Jam: Fight for NY is the 2004 hip-hop fighting game with street venues, crews and environmental combat.",
+  summaryEs: "Def Jam: Fight for NY es el juego de lucha hip-hop de 2004 con escenarios callejeros, bandas y combate con el entorno.",
+  notes: "Native Nintendo Switch port. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/def-jam-fight-for-ny.svg",
+    alt: "Def Jam: Fight for NY (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

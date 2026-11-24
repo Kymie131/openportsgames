@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const asurasWrathSwitch: Port = {
+  schema: "port",
+  id: "asuras-wrath-switch",
+  title: "Asura's Wrath (Switch)",
+  game: "Asura's Wrath",
+  developers: ["BanhMi93P"],
+  publisher: "Capcom",
+  originalYear: 2012,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-11-22" },
+  sources: ["https://github.com/BanhMi93P/asura-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox 360"],
+  summary: "Asura's Wrath is the 2012 action game told like an anime series, with planet-scale boss fights.",
+  summaryEs: "Asura's Wrath es el juego de acción de 2012 narrado como una serie de anime, con combates contra jefes a escala planetaria.",
+  notes: "Native Nintendo Switch port. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/asura-s-wrath.svg",
+    alt: "Asura's Wrath (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

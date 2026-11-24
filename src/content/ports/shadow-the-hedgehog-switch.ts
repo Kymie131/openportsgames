@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const shadowTheHedgehogSwitch: Port = {
+  schema: "port",
+  id: "shadow-the-hedgehog-switch",
+  title: "Shadow the Hedgehog (Switch)",
+  game: "Shadow the Hedgehog",
+  developers: ["FurryLilManChild"],
+  publisher: "Sega",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.5.0", date: "2026-11-19" },
+  sources: ["https://github.com/FurryLilManChild/Shadow-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo GameCube"],
+  summary: "Shadow the Hedgehog is the 2005 spin-off with branching missions, guns and vehicles for the ultimate life form.",
+  summaryEs: "Shadow the Hedgehog es el spin-off de 2005 con misiones ramificadas, armas y vehículos para la forma de vida definitiva.",
+  notes: "Native Nintendo Switch port. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/shadow-the-hedgehog.svg",
+    alt: "Shadow the Hedgehog (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

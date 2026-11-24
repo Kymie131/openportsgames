@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const segasonicSwitch: Port = {
+  schema: "port",
+  id: "segasonic-switch",
+  title: "SegaSonic the Hedgehog (Switch)",
+  game: "SegaSonic the Hedgehog",
+  developers: ["Thorhax"],
+  publisher: "Sega",
+  originalYear: 1993,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-10-11" },
+  sources: ["https://github.com/Thorhax/SegaSonic-NX"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Arcade"],
+  summary: "SegaSonic the Hedgehog is the 1993 arcade trackball game where Sonic, Mighty and Ray escape Eggman's island.",
+  summaryEs: "SegaSonic the Hedgehog es el juego arcade de trackball de 1993 en el que Sonic, Mighty y Ray escapan de la isla de Eggman.",
+  notes: "Arcade game running natively on the Nintendo Switch. Bring your own game data.",
+  notesEs: "Juego arcade ejecutándose de forma nativa en Nintendo Switch. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/segasonic-the-hedgehog.svg",
+    alt: "SegaSonic the Hedgehog (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

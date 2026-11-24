@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bangaiOHdSwitch: Port = {
+  schema: "port",
+  id: "bangai-o-hd-switch",
+  title: "Bangai-O HD: Missile Fury (Switch)",
+  game: "Bangai-O HD: Missile Fury",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "Treasure",
+  originalYear: 2011,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-11-04" },
+  sources: ["https://github.com/ChanseyIsTheBest/bangaio-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox 360"],
+  summary: "Bangai-O HD: Missile Fury is the 2011 shooter with thousands of missiles on screen and puzzle-like level design.",
+  summaryEs: "Bangai-O HD: Missile Fury es el shooter de 2011 con miles de misiles en pantalla y niveles con diseño de puzle.",
+  notes: "Native Nintendo Switch port. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/bangai-o-hd-missile-fury.svg",
+    alt: "Bangai-O HD: Missile Fury (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

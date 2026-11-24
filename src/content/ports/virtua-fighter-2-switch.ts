@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const virtuaFighter2Switch: Port = {
+  schema: "port",
+  id: "virtua-fighter-2-switch",
+  title: "Virtua Fighter 2 (Switch)",
+  game: "Virtua Fighter 2",
+  developers: ["Thorhax"],
+  publisher: "Sega",
+  originalYear: 1994,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.1.0", date: "2026-10-10" },
+  sources: ["https://github.com/Thorhax/VF2-NX-Modern"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Arcade"],
+  summary: "Virtua Fighter 2 is the 1994 arcade 3D fighter that refined the series with faster combat and new stages.",
+  summaryEs: "Virtua Fighter 2 es el juego de lucha 3D arcade de 1994 que refinó la serie con combate más rápido y escenarios nuevos.",
+  notes: "Arcade game running natively on the Nintendo Switch. Bring your own game data.",
+  notesEs: "Juego arcade ejecutándose de forma nativa en Nintendo Switch. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/virtua-fighter-2.svg",
+    alt: "Virtua Fighter 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

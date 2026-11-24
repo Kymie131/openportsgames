@@ -3247,6 +3247,39 @@ import { finalFantasy4AfterYearsSwitch } from "./final-fantasy-4-after-years-swi
 import { galaxyOnFireSwitch } from "./galaxy-on-fire-switch";
 import { revoltSwitch } from "./revolt-switch";
 import { scoobyDooMysteryMachine } from "./scooby-doo-mystery-machine";
+import { daytonaUsaSwitch } from "./daytona-usa-switch";
+import { outrunSwitch } from "./outrun-switch";
+import { virtuaFighter2Switch } from "./virtua-fighter-2-switch";
+import { killerInstinctSwitch } from "./killer-instinct-switch";
+import { killerInstinct2Switch } from "./killer-instinct-2-switch";
+import { segasonicSwitch } from "./segasonic-switch";
+import { tmntArcadeSwitch } from "./tmnt-arcade-switch";
+import { virtualOnSwitch } from "./virtual-on-switch";
+import { blackSwitch } from "./black-switch";
+import { bloodyRoarExtremeSwitch } from "./bloody-roar-extreme-switch";
+import { buffySwitch } from "./buffy-switch";
+import { burnout3Switch } from "./burnout-3-switch";
+import { castlevaniaCurseOfDarknessSwitch } from "./castlevania-curse-of-darkness-switch";
+import { coldFearSwitch } from "./cold-fear-switch";
+import { conkerLiveReloadedSwitch } from "./conker-live-reloaded-switch";
+import { crazyTaxi3Switch } from "./crazy-taxi-3-switch";
+import { doa2UltimateSwitch } from "./doa2-ultimate-switch";
+import { doa3Switch } from "./doa3-switch";
+import { defJamFightForNySwitch } from "./def-jam-fight-for-ny-switch";
+import { flatout2Switch } from "./flatout-2-switch";
+import { godfatherSwitch } from "./godfather-switch";
+import { shadowTheHedgehogSwitch } from "./shadow-the-hedgehog-switch";
+import { sonicHeroesSwitch } from "./sonic-heroes-switch";
+import { soulcalibur2Switch } from "./soulcalibur-2-switch";
+import { splinterCellChaosTheorySwitch } from "./splinter-cell-chaos-theory-switch";
+import { splinterCellPandoraSwitch } from "./splinter-cell-pandora-switch";
+import { ssxTrickySwitch } from "./ssx-tricky-switch";
+import { asurasWrathSwitch } from "./asuras-wrath-switch";
+import { bangaiOHdSwitch } from "./bangai-o-hd-switch";
+import { banjoNutsAndBoltsSwitch } from "./banjo-nuts-and-bolts-switch";
+import { beautifulKatamariSwitch } from "./beautiful-katamari-switch";
+import { manhuntSwitch } from "./manhunt-switch";
+import { iceAge2Switch } from "./ice-age-2-switch";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6493,4 +6526,37 @@ export const portCases: Port[] = [
   galaxyOnFireSwitch,
   revoltSwitch,
   scoobyDooMysteryMachine,
+  daytonaUsaSwitch,
+  outrunSwitch,
+  virtuaFighter2Switch,
+  killerInstinctSwitch,
+  killerInstinct2Switch,
+  segasonicSwitch,
+  tmntArcadeSwitch,
+  virtualOnSwitch,
+  blackSwitch,
+  bloodyRoarExtremeSwitch,
+  buffySwitch,
+  burnout3Switch,
+  castlevaniaCurseOfDarknessSwitch,
+  coldFearSwitch,
+  conkerLiveReloadedSwitch,
+  crazyTaxi3Switch,
+  doa2UltimateSwitch,
+  doa3Switch,
+  defJamFightForNySwitch,
+  flatout2Switch,
+  godfatherSwitch,
+  shadowTheHedgehogSwitch,
+  sonicHeroesSwitch,
+  soulcalibur2Switch,
+  splinterCellChaosTheorySwitch,
+  splinterCellPandoraSwitch,
+  ssxTrickySwitch,
+  asurasWrathSwitch,
+  bangaiOHdSwitch,
+  banjoNutsAndBoltsSwitch,
+  beautifulKatamariSwitch,
+  manhuntSwitch,
+  iceAge2Switch,
 ];

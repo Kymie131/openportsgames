@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const coldFearSwitch: Port = {
+  schema: "port",
+  id: "cold-fear-switch",
+  title: "Cold Fear (Switch)",
+  game: "Cold Fear",
+  developers: ["gerisson1996"],
+  publisher: "Ubisoft",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.1.37", date: "2026-11-11" },
+  sources: ["https://github.com/gerisson1996/COLD-FEAR-NX-PORT"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox"],
+  summary: "Cold Fear is a 2005 survival horror shooter set on a drifting Russian whaling ship in a storm.",
+  summaryEs: "Cold Fear es un shooter de terror y supervivencia de 2005 ambientado en un ballenero ruso a la deriva durante una tormenta.",
+  notes: "Native Nintendo Switch port. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/cold-fear.svg",
+    alt: "Cold Fear (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

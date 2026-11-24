@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const killerInstinctSwitch: Port = {
+  schema: "port",
+  id: "killer-instinct-switch",
+  title: "Killer Instinct (Switch)",
+  game: "Killer Instinct",
+  developers: ["Thorhax"],
+  publisher: "Rare",
+  originalYear: 1994,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.1.1", date: "2026-09-29" },
+  sources: ["https://github.com/Thorhax/Killer-Instinct-NX-Modern"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Arcade"],
+  summary: "Killer Instinct is the 1994 arcade fighter famous for its combo system and Ultra finishers.",
+  summaryEs: "Killer Instinct es el juego de lucha arcade de 1994 famoso por su sistema de combos y los finales Ultra.",
+  notes: "Arcade game running natively on the Nintendo Switch. Bring your own game data.",
+  notesEs: "Juego arcade ejecutándose de forma nativa en Nintendo Switch. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/killer-instinct.svg",
+    alt: "Killer Instinct (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

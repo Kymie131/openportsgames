@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const crazyTaxi3Switch: Port = {
+  schema: "port",
+  id: "crazy-taxi-3-switch",
+  title: "Crazy Taxi 3: High Roller (Switch)",
+  game: "Crazy Taxi 3: High Roller",
+  developers: ["FurryLilManChild"],
+  publisher: "Sega",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.5.0", date: "2026-11-16" },
+  sources: ["https://github.com/FurryLilManChild/CT3-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox"],
+  summary: "Crazy Taxi 3: High Roller is the 2002 arcade taxi game with West Coast, Small Apple and Glitter Oasis cities.",
+  summaryEs: "Crazy Taxi 3: High Roller es el juego arcade de taxis de 2002 con las ciudades West Coast, Small Apple y Glitter Oasis.",
+  notes: "Native Nintendo Switch port. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/crazy-taxi-3-high-roller.svg",
+    alt: "Crazy Taxi 3: High Roller (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

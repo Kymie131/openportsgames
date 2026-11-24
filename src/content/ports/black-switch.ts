@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const blackSwitch: Port = {
+  schema: "port",
+  id: "black-switch",
+  title: "Black (Switch)",
+  game: "Black",
+  developers: ["gerisson1996"],
+  publisher: "Electronic Arts",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.2.6", date: "2026-11-13" },
+  sources: ["https://github.com/gerisson1996/BLACK-NX-PORT"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox"],
+  summary: "Black is the 2006 first-person shooter by Criterion known for its destructive environments and Hollywood gunplay.",
+  summaryEs: "Black es el shooter en primera persona de 2006 de Criterion conocido por sus entornos destructibles y su acción cinematográfica.",
+  notes: "Native Nintendo Switch port of the Xbox version. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch de la versión de Xbox. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/black.svg",
+    alt: "Black (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

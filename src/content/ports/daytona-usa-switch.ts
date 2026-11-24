@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const daytonaUsaSwitch: Port = {
+  schema: "port",
+  id: "daytona-usa-switch",
+  title: "Daytona USA (Switch)",
+  game: "Daytona USA",
+  developers: ["Thorhax"],
+  publisher: "Sega",
+  originalYear: 1994,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.2.0", date: "2026-11-11" },
+  sources: ["https://github.com/Thorhax/Daytona-NX-Modern"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Arcade"],
+  summary: "Daytona USA is the 1994 arcade racing classic known for its 40-car pack races and the song 'Let's Go Away'.",
+  summaryEs: "Daytona USA es el clásico arcade de carreras de 1994 conocido por sus carreras de 40 coches y la canción 'Let's Go Away'.",
+  notes: "Arcade game running natively on the Nintendo Switch. Bring your own game data.",
+  notesEs: "Juego arcade ejecutándose de forma nativa en Nintendo Switch. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/daytona-usa.svg",
+    alt: "Daytona USA (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

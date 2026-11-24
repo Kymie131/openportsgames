@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const castlevaniaCurseOfDarknessSwitch: Port = {
+  schema: "port",
+  id: "castlevania-curse-of-darkness-switch",
+  title: "Castlevania: Curse of Darkness (Switch)",
+  game: "Castlevania: Curse of Darkness",
+  developers: ["FurryLilManChild"],
+  publisher: "Konami",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.5.0", date: "2026-10-29" },
+  sources: ["https://github.com/FurryLilManChild/cod-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation 2"],
+  summary: "Castlevania: Curse of Darkness is the 2005 3D action game with Devil Forgemaster crafting and a large castle.",
+  summaryEs: "Castlevania: Curse of Darkness es el juego de acción 3D de 2005 con creación de Devil Forgemaster y un gran castillo.",
+  notes: "Native Nintendo Switch port. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/castlevania-curse-of-darkness.svg",
+    alt: "Castlevania: Curse of Darkness (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const splinterCellChaosTheorySwitch: Port = {
+  schema: "port",
+  id: "splinter-cell-chaos-theory-switch",
+  title: "Splinter Cell: Chaos Theory (Switch)",
+  game: "Tom Clancy's Splinter Cell: Chaos Theory",
+  developers: ["itouchdennis"],
+  publisher: "Ubisoft",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.3.0", date: "2026-11-11" },
+  sources: ["https://github.com/itouchdennis/scct-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox"],
+  summary: "Splinter Cell: Chaos Theory is the 2005 stealth game with light and shadow mechanics and co-op missions.",
+  summaryEs: "Splinter Cell: Chaos Theory es el juego de sigilo de 2005 con mecánicas de luz y sombra y misiones cooperativas.",
+  notes: "Native Nintendo Switch port. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/tom-clancy-s-splinter-cell-chaos-theory.svg",
+    alt: "Tom Clancy's Splinter Cell: Chaos Theory (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

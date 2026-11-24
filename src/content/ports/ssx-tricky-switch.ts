@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const ssxTrickySwitch: Port = {
+  schema: "port",
+  id: "ssx-tricky-switch",
+  title: "SSX Tricky (Switch)",
+  game: "SSX Tricky",
+  developers: ["DevCrashDay"],
+  publisher: "Electronic Arts",
+  originalYear: 2001,
+  portType: "recompilation",
+  genre: "sports",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.1.1", date: "2026-10-22" },
+  sources: ["https://github.com/DevCrashDay/OpenTrickyNX"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation 2"],
+  summary: "SSX Tricky is the 2001 snowboarding game famous for uber tricks and the Run-DMC soundtrack.",
+  summaryEs: "SSX Tricky es el juego de snowboard de 2001 famoso por los uber tricks y la banda sonora de Run-DMC.",
+  notes: "Native Nintendo Switch port. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/ssx-tricky.svg",
+    alt: "SSX Tricky (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

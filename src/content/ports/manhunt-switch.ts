@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const manhuntSwitch: Port = {
+  schema: "port",
+  id: "manhunt-switch",
+  title: "Manhunt (Switch)",
+  game: "Manhunt",
+  developers: ["marmota94"],
+  publisher: "Rockstar Games",
+  originalYear: 2003,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-11-20" },
+  sources: ["https://github.com/marmota94/manhunt1_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation 2"],
+  summary: "Manhunt is the 2003 stealth horror game where a death row inmate survives snuff-film gangs with stealth executions.",
+  summaryEs: "Manhunt es el juego de sigilo y terror de 2003 en el que un condenado a muerte sobrevive a bandas de snuff films con ejecuciones sigilosas.",
+  notes: "Native Nintendo Switch port. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/manhunt.svg",
+    alt: "Manhunt (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

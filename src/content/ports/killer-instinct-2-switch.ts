@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const killerInstinct2Switch: Port = {
+  schema: "port",
+  id: "killer-instinct-2-switch",
+  title: "Killer Instinct 2 (Switch)",
+  game: "Killer Instinct 2",
+  developers: ["Thorhax"],
+  publisher: "Rare",
+  originalYear: 1996,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-09-29" },
+  sources: ["https://github.com/Thorhax/Killer-Instinct-2-NX-Modern"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Arcade"],
+  summary: "Killer Instinct 2 is the 1996 sequel with new characters and the same combo-heavy fighting.",
+  summaryEs: "Killer Instinct 2 es la secuela de 1996 con nuevos personajes y el mismo combate cargado de combos.",
+  notes: "Arcade game running natively on the Nintendo Switch. Bring your own game data.",
+  notesEs: "Juego arcade ejecutándose de forma nativa en Nintendo Switch. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/killer-instinct-2.svg",
+    alt: "Killer Instinct 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

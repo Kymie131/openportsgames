@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bloodyRoarExtremeSwitch: Port = {
+  schema: "port",
+  id: "bloody-roar-extreme-switch",
+  title: "Bloody Roar Extreme (Switch)",
+  game: "Bloody Roar Extreme",
+  developers: ["xsaja"],
+  publisher: "Hudson Soft",
+  originalYear: 2003,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.1.0", date: "2026-11-03" },
+  sources: ["https://github.com/xsaja/brextreme-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo GameCube"],
+  summary: "Bloody Roar Extreme is the 2003 fighter where characters transform into beasts mid-combat.",
+  summaryEs: "Bloody Roar Extreme es el juego de lucha de 2003 en el que los personajes se transforman en bestias durante el combate.",
+  notes: "Native Nintendo Switch port. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/bloody-roar-extreme.svg",
+    alt: "Bloody Roar Extreme (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

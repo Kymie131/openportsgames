@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const splinterCellPandoraSwitch: Port = {
+  schema: "port",
+  id: "splinter-cell-pandora-switch",
+  title: "Splinter Cell: Pandora Tomorrow (Switch)",
+  game: "Tom Clancy's Splinter Cell: Pandora Tomorrow",
+  developers: ["itouchdennis"],
+  publisher: "Ubisoft",
+  originalYear: 2004,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.3.7", date: "2026-11-22" },
+  sources: ["https://github.com/itouchdennis/scpt-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox"],
+  summary: "Splinter Cell: Pandora Tomorrow is the 2004 stealth sequel with the asymmetric Spies vs Mercs multiplayer.",
+  summaryEs: "Splinter Cell: Pandora Tomorrow es la secuela de sigilo de 2004 con el multijugador asimétrico Spies vs Mercs.",
+  notes: "Native Nintendo Switch port. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/tom-clancy-s-splinter-cell-pandora-tomorrow.svg",
+    alt: "Tom Clancy's Splinter Cell: Pandora Tomorrow (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

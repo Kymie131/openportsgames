@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const conkerLiveReloadedSwitch: Port = {
+  schema: "port",
+  id: "conker-live-reloaded-switch",
+  title: "Conker: Live & Reloaded (Switch)",
+  game: "Conker: Live & Reloaded",
+  developers: ["rashevskyv"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2005,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.57.0", date: "2026-11-07" },
+  sources: ["https://github.com/rashevskyv/conker-lr-recomp"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox"],
+  summary: "Conker: Live & Reloaded is the 2005 Xbox remake with the remastered campaign and Xbox Live multiplayer modes.",
+  summaryEs: "Conker: Live & Reloaded es el remake de 2005 para Xbox con la campaña remasterizada y modos multijugador de Xbox Live.",
+  notes: "Native Nintendo Switch port. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/conker-live-reloaded.svg",
+    alt: "Conker: Live & Reloaded (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

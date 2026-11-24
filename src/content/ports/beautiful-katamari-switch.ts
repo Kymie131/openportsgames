@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const beautifulKatamariSwitch: Port = {
+  schema: "port",
+  id: "beautiful-katamari-switch",
+  title: "Beautiful Katamari (Switch)",
+  game: "Beautiful Katamari",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "Bandai Namco",
+  originalYear: 2007,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-11-04" },
+  sources: ["https://github.com/ChanseyIsTheBest/katamari-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox 360"],
+  summary: "Beautiful Katamari is the 2007 entry where the Prince rolls a katamari to rebuild the cosmos.",
+  summaryEs: "Beautiful Katamari es la entrega de 2007 en la que el Príncipe hace rodar un katamari para reconstruir el cosmos.",
+  notes: "Native Nintendo Switch port. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/beautiful-katamari.svg",
+    alt: "Beautiful Katamari (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

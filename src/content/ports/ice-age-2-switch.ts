@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const iceAge2Switch: Port = {
+  schema: "port",
+  id: "ice-age-2-switch",
+  title: "Ice Age 2: The Meltdown (Switch)",
+  game: "Ice Age 2: The Meltdown",
+  developers: ["Meluxz"],
+  publisher: "Sierra Entertainment",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.3.2", date: "2026-11-02" },
+  sources: ["https://github.com/Meluxz/iceage2-sw"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation 2"],
+  summary: "Ice Age 2: The Meltdown is the 2006 platform game based on the film, with Manny, Sid and Diego crossing a flooding valley.",
+  summaryEs: "Ice Age 2: The Meltdown es el juego de plataformas de 2006 basado en la película, con Manny, Sid y Diego cruzando un valle que se inunda.",
+  notes: "Native Nintendo Switch port. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/ice-age-2-the-meltdown.svg",
+    alt: "Ice Age 2: The Meltdown (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

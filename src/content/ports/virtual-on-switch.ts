@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const virtualOnSwitch: Port = {
+  schema: "port",
+  id: "virtual-on-switch",
+  title: "Cyber Troopers Virtual-On (Switch)",
+  game: "Cyber Troopers Virtual-On",
+  developers: ["Thorhax"],
+  publisher: "Sega",
+  originalYear: 1995,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.2.0", date: "2026-10-10" },
+  sources: ["https://github.com/Thorhax/Virtual-On-NX-Modern"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Arcade"],
+  summary: "Cyber Troopers Virtual-On is the 1995 arcade mech fighting game with twin-stick controls and fast arena duels.",
+  summaryEs: "Cyber Troopers Virtual-On es el juego de lucha de mechas arcade de 1995 con controles de doble palanca y duelos rápidos en arena.",
+  notes: "Arcade game running natively on the Nintendo Switch. Bring your own game data.",
+  notesEs: "Juego arcade ejecutándose de forma nativa en Nintendo Switch. Aporta tus propios datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/cyber-troopers-virtual-on.svg",
+    alt: "Cyber Troopers Virtual-On (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

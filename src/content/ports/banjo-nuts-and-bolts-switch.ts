@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const banjoNutsAndBoltsSwitch: Port = {
+  schema: "port",
+  id: "banjo-nuts-and-bolts-switch",
+  title: "Banjo-Kazooie: Nuts & Bolts (Switch)",
+  game: "Banjo-Kazooie: Nuts & Bolts",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "Microsoft Game Studios",
+  originalYear: 2008,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.3", date: "2026-11-23" },
+  sources: ["https://github.com/ChanseyIsTheBest/renut-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox 360"],
+  summary: "Banjo-Kazooie: Nuts & Bolts is the 2008 vehicle-building game where players solve challenges with custom machines.",
+  summaryEs: "Banjo-Kazooie: Nuts & Bolts es el juego de 2008 de construir vehículos en el que se resuelven retos con máquinas personalizadas.",
+  notes: "Native Nintendo Switch port. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/banjo-kazooie-nuts-bolts.svg",
+    alt: "Banjo-Kazooie: Nuts & Bolts (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

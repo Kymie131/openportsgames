@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const sonicHeroesSwitch: Port = {
+  schema: "port",
+  id: "sonic-heroes-switch",
+  title: "Sonic Heroes (Switch)",
+  game: "Sonic Heroes",
+  developers: ["FurryLilManChild"],
+  publisher: "Sega",
+  originalYear: 2003,
+  portType: "recompilation",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.5.0", date: "2026-11-14" },
+  sources: ["https://github.com/FurryLilManChild/sheroes-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo GameCube"],
+  summary: "Sonic Heroes is the 2003 team-based platformer with four teams of three characters and switchable formations.",
+  summaryEs: "Sonic Heroes es el plataformas de 2003 basado en equipos, con cuatro tríos de personajes y formaciones intercambiables.",
+  notes: "Native Nintendo Switch port. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/sonic-heroes.svg",
+    alt: "Sonic Heroes (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const soulcalibur2Switch: Port = {
+  schema: "port",
+  id: "soulcalibur-2-switch",
+  title: "Soulcalibur II (Switch)",
+  game: "Soulcalibur II",
+  developers: ["markaurel13"],
+  publisher: "Namco",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "fighting",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.5.0", date: "2026-11-20" },
+  sources: ["https://github.com/markaurel13/soulcalibur2-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Nintendo GameCube"],
+  summary: "Soulcalibur II is the 2002 weapon-based fighter with guest characters and the Edge Master mode.",
+  summaryEs: "Soulcalibur II es el juego de lucha con armas de 2002, con personajes invitados y el modo Edge Master.",
+  notes: "Native Nintendo Switch port. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/soulcalibur-ii.svg",
+    alt: "Soulcalibur II (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

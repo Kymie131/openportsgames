@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const flatout2Switch: Port = {
+  schema: "port",
+  id: "flatout-2-switch",
+  title: "FlatOut 2 (Switch)",
+  game: "FlatOut 2",
+  developers: ["antoxa2584x"],
+  publisher: "Empire Interactive",
+  originalYear: 2006,
+  portType: "recompilation",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.2.1", date: "2026-10-18" },
+  sources: ["https://github.com/antoxa2584x/flatout2-sw"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox"],
+  summary: "FlatOut 2 is the 2006 demolition racing game with ragdoll driver physics and destruction derbies.",
+  summaryEs: "FlatOut 2 es el juego de carreras y demolición de 2006 con físicas de ragdoll para el piloto y derbis de destrucción.",
+  notes: "Native Nintendo Switch port. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/flatout-2.svg",
+    alt: "FlatOut 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

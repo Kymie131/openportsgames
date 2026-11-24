@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const buffySwitch: Port = {
+  schema: "port",
+  id: "buffy-switch",
+  title: "Buffy the Vampire Slayer (Switch)",
+  game: "Buffy the Vampire Slayer",
+  developers: ["FOTLabs"],
+  publisher: "Electronic Arts",
+  originalYear: 2002,
+  portType: "recompilation",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-10-21" },
+  sources: ["https://github.com/FOTLabs/buffy-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Xbox"],
+  summary: "Buffy the Vampire Slayer is the 2002 Xbox action game with martial-arts combat, stakes and Sunnydale locations.",
+  summaryEs: "Buffy the Vampire Slayer es el juego de acción de 2002 para Xbox con artes marciales, estacas y localizaciones de Sunnydale.",
+  notes: "Native Nintendo Switch port. Bring your own copy of the game.",
+  notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/buffy-the-vampire-slayer.svg",
+    alt: "Buffy the Vampire Slayer (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
