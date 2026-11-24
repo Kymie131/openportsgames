@@ -54,6 +54,8 @@ export interface SystemDefinition {
   name: { en: string; es: string };
   /** Slug of the logo file in `public/logos/console`, when artwork exists. */
   logo?: string;
+  /** Full logo filename, used when the artwork is not a `.png`. */
+  logoFile?: string;
   /** Brand color used on light backgrounds. */
   color: string;
   /** Brand color tuned for dark backgrounds. */
@@ -113,6 +115,7 @@ export const systems: Record<SystemSlug, SystemDefinition> = {
   "switch-2": {
     slug: "switch-2",
     name: { en: "Nintendo Switch 2", es: "Nintendo Switch 2" },
+    logoFile: "switch-2.svg",
     color: "#E60012",
     colorOnDark: "#FF5A5F",
   },
@@ -126,6 +129,7 @@ export const systems: Record<SystemSlug, SystemDefinition> = {
   "virtual-boy": {
     slug: "virtual-boy",
     name: { en: "Virtual Boy", es: "Virtual Boy" },
+    logoFile: "virtual-boy.svg",
     color: "#C1121F",
     colorOnDark: "#FF6B6B",
   },
@@ -181,6 +185,7 @@ export const systems: Record<SystemSlug, SystemDefinition> = {
   "playstation-5": {
     slug: "playstation-5",
     name: { en: "PlayStation 5", es: "PlayStation 5" },
+    logoFile: "playstation-5.svg",
     color: "#003791",
     colorOnDark: "#6E9BFF",
   },
@@ -215,12 +220,14 @@ export const systems: Record<SystemSlug, SystemDefinition> = {
   "sega-md": {
     slug: "sega-md",
     name: { en: "Mega Drive / Genesis", es: "Mega Drive / Genesis" },
+    logoFile: "sega-md.svg",
     color: "#0089CF",
     colorOnDark: "#57C5FF",
   },
   "sega-saturn": {
     slug: "sega-saturn",
     name: { en: "Sega Saturn", es: "Sega Saturn" },
+    logoFile: "sega-saturn.svg",
     color: "#0089CF",
     colorOnDark: "#57C5FF",
   },
@@ -233,6 +240,7 @@ export const systems: Record<SystemSlug, SystemDefinition> = {
   dreamcast: {
     slug: "dreamcast",
     name: { en: "Dreamcast", es: "Dreamcast" },
+    logoFile: "dreamcast.svg",
     color: "#0089CF",
     colorOnDark: "#57C5FF",
   },
@@ -264,6 +272,7 @@ export const systems: Record<SystemSlug, SystemDefinition> = {
   arcade: {
     slug: "arcade",
     name: { en: "Arcade", es: "Arcade" },
+    logoFile: "arcade.svg",
     color: "#8A5CF6",
     colorOnDark: "#B79BFF",
   },
@@ -398,7 +407,11 @@ export function resolveSystem(label: string | undefined | null): ResolvedSystem 
     label,
     name: definition.name,
     secondary: secondaryLabelBySystem[label],
-    logo: definition.logo ? assetPath(`/logos/console/${definition.logo}.png`) : null,
+    logo: definition.logoFile
+    ? assetPath(`/logos/console/${definition.logoFile}`)
+    : definition.logo
+      ? assetPath(`/logos/console/${definition.logo}.png`)
+      : null,
   };
 }
 
