@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bloonsAttdSwitch: Port = {
+  schema: "port",
+  id: "bloons-attd-switch",
+  title: "Bloons Adventure Time TD (Switch)",
+  game: "Bloons Adventure Time TD",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "Ninja Kiwi",
+  originalYear: 2018,
+  portType: "runtime-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.3", date: "2026-09-23" },
+  sources: ["https://github.com/ChanseyIsTheBest/battd_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Bloons Adventure Time TD is the 2018 crossover tower defence where Adventure Time heroes pop Bloons across Ooo.",
+  summaryEs: "Bloons Adventure Time TD es el crossover de defensa de torres de 2018 en el que los héroes de Adventure Time revientan Bloons por Ooo.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/bloons-adventure-time-td.svg",
+    alt: "Bloons Adventure Time TD (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

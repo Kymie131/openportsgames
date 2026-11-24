@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const cutTheRopeSwitch: Port = {
+  schema: "port",
+  id: "cut-the-rope-switch",
+  title: "Cut the Rope (Switch)",
+  game: "Cut the Rope",
+  developers: ["NaGaa95"],
+  publisher: "ZeptoLab",
+  originalYear: 2010,
+  portType: "runtime-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.3", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/ctr_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Cut the Rope is the 2010 physics puzzler where the player slices ropes so Om Nom can eat candy.",
+  summaryEs: "Cut the Rope es el puzle físico de 2010 en el que el jugador corta cuerdas para que Om Nom coma caramelos.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/cut-the-rope.svg",
+    alt: "Cut the Rope (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

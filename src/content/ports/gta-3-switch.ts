@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gta3Switch: Port = {
+  schema: "port",
+  id: "gta-3-switch",
+  title: "Grand Theft Auto III (Switch)",
+  game: "Grand Theft Auto III",
+  developers: ["mariob0y"],
+  publisher: "Rockstar Games",
+  originalYear: 2001,
+  portType: "runtime-port",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.4", date: "2026-10-16" },
+  sources: ["https://github.com/mariob0y/gta3-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Grand Theft Auto III is the 2001 open-world game that moved the series to 3D, following Claude through Liberty City.",
+  summaryEs: "Grand Theft Auto III es el juego de mundo abierto de 2001 que llevó la serie al 3D, siguiendo a Claude por Liberty City.",
+  notes: "Nintendo Switch port of the Android version. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/grand-theft-auto-iii.svg",
+    alt: "Grand Theft Auto III (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

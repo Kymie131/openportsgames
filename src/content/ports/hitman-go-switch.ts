@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const hitmanGoSwitch: Port = {
+  schema: "port",
+  id: "hitman-go-switch",
+  title: "Hitman GO (Switch)",
+  game: "Hitman GO",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "Square Enix Montreal",
+  originalYear: 2014,
+  portType: "runtime-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-09-22" },
+  sources: ["https://github.com/ChanseyIsTheBest/hitmango_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Hitman GO is the 2014 turn-based puzzle game with diorama levels and Agent 47 as a board-game piece.",
+  summaryEs: "Hitman GO es el juego de puzles por turnos de 2014 con niveles de diorama y el Agente 47 como pieza de tablero.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/hitman-go.svg",
+    alt: "Hitman GO (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

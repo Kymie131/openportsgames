@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const flappyBirdSwitch: Port = {
+  schema: "port",
+  id: "flappy-bird-switch",
+  title: "Flappy Bird (Switch)",
+  game: "Flappy Bird",
+  developers: ["aks796"],
+  publisher: "dotGEARS",
+  originalYear: 2013,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-08-28" },
+  sources: ["https://github.com/aks796/flappy_bird_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Flappy Bird is the 2013 one-button game where tapping keeps a bird flying between green pipes.",
+  summaryEs: "Flappy Bird es el juego de 2013 de un solo botón en el que tocar mantiene volando a un pájaro entre tuberías verdes.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/flappy-bird.svg",
+    alt: "Flappy Bird (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

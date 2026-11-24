@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bloonsTd5Switch: Port = {
+  schema: "port",
+  id: "bloons-td5-switch",
+  title: "Bloons TD 5 (Switch)",
+  game: "Bloons TD 5",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "Ninja Kiwi",
+  originalYear: 2011,
+  portType: "runtime-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-09-23" },
+  sources: ["https://github.com/ChanseyIsTheBest/btd5_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Bloons TD 5 is the 2011 tower defence hit with monkeys, upgrade paths and dozens of tracks.",
+  summaryEs: "Bloons TD 5 es el éxito de defensa de torres de 2011 con monos, rutas de mejora y decenas de mapas.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/bloons-td-5.svg",
+    alt: "Bloons TD 5 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

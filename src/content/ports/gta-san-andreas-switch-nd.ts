@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gtaSanAndreasSwitchNd: Port = {
+  schema: "port",
+  id: "gta-san-andreas-switch-nd",
+  title: "Grand Theft Auto: San Andreas (Switch, mobile)",
+  game: "Grand Theft Auto: San Andreas",
+  developers: ["NaGaa95"],
+  publisher: "Rockstar Games",
+  originalYear: 2004,
+  portType: "runtime-port",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.5", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/gtasa_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Grand Theft Auto: San Andreas is the 2004 open-world game set across Los Santos, San Fierro and Las Venturas.",
+  summaryEs: "Grand Theft Auto: San Andreas es el juego de mundo abierto de 2004 ambientado en Los Santos, San Fierro y Las Venturas.",
+  notes: "Nintendo Switch port of the Android version. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/grand-theft-auto-san-andreas.svg",
+    alt: "Grand Theft Auto: San Andreas (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

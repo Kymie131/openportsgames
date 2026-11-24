@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const hillClimbRacingSwitch: Port = {
+  schema: "port",
+  id: "hill-climb-racing-switch",
+  title: "Hill Climb Racing (Switch)",
+  game: "Hill Climb Racing",
+  developers: ["xflipperkast"],
+  publisher: "Fingersoft",
+  originalYear: 2012,
+  portType: "runtime-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.1.0", date: "2026-08-24" },
+  sources: ["https://github.com/xflipperkast/HCR_NX"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Hill Climb Racing is the 2012 physics driving game about climbing hills without flipping the vehicle.",
+  summaryEs: "Hill Climb Racing es el juego de conducción física de 2012 sobre subir colinas sin volcar el vehículo.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/hill-climb-racing.svg",
+    alt: "Hill Climb Racing (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const earnToDie2Switch: Port = {
+  schema: "port",
+  id: "earn-to-die-2-switch",
+  title: "Earn to Die 2 (Switch)",
+  game: "Earn to Die 2",
+  developers: ["xflipperkast"],
+  publisher: "Not Doppler",
+  originalYear: 2016,
+  portType: "runtime-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-10-15" },
+  sources: ["https://github.com/xflipperkast/earntodie2_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Earn to Die 2 is a 2016 side-scrolling driving game about upgrading vehicles to escape zombie-filled highways.",
+  summaryEs: "Earn to Die 2 es un juego de conducción de desplazamiento lateral de 2016 sobre mejorar vehículos para escapar de autopistas llenas de zombis.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/earn-to-die-2.svg",
+    alt: "Earn to Die 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const finalFantasy3Switch: Port = {
+  schema: "port",
+  id: "final-fantasy-3-switch",
+  title: "Final Fantasy III (Switch, 3D remake)",
+  game: "Final Fantasy III",
+  developers: ["NaGaa95"],
+  publisher: "Square Enix",
+  originalYear: 2006,
+  portType: "runtime-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/ff3_3d_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Final Fantasy III is the 2006 3D remake of the NES RPG, adding named characters and the job system.",
+  summaryEs: "Final Fantasy III es el remake 3D de 2006 del RPG de NES, que añade personajes con nombre y el sistema de trabajos.",
+  notes: "Nintendo Switch port of the Android 3D remake. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del remake 3D de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/final-fantasy-iii.svg",
+    alt: "Final Fantasy III (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

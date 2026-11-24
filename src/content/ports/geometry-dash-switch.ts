@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const geometryDashSwitch: Port = {
+  schema: "port",
+  id: "geometry-dash-switch",
+  title: "Geometry Dash (Switch)",
+  game: "Geometry Dash",
+  developers: ["NaGaa95"],
+  publisher: "RobTop Games",
+  originalYear: 2013,
+  portType: "runtime-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.4", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/gdash_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Geometry Dash is the 2013 rhythm platformer where a cube jumps spikes and portals in time with electronic music.",
+  summaryEs: "Geometry Dash es el juego de plataformas rítmico de 2013 en el que un cubo salta pinchos y portales al ritmo de música electrónica.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/geometry-dash.svg",
+    alt: "Geometry Dash (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

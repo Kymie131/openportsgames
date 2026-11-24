@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const castleOfIllusionSwitch: Port = {
+  schema: "port",
+  id: "castle-of-illusion-switch",
+  title: "Castle of Illusion Starring Mickey Mouse (Switch)",
+  game: "Castle of Illusion Starring Mickey Mouse",
+  developers: ["NaGaa95"],
+  publisher: "Sega",
+  originalYear: 2013,
+  portType: "runtime-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/coi_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Castle of Illusion is the 2013 remake of the Mega Drive classic, with Mickey rescuing Minnie from Mizrabel in a hand-drawn castle.",
+  summaryEs: "Castle of Illusion es el remake de 2013 del clásico de Mega Drive, con Mickey rescatando a Minnie de Mizrabel en un castillo dibujado a mano.",
+  notes: "Nintendo Switch port of the Android version. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/castle-of-illusion-starring-mickey-mouse.svg",
+    alt: "Castle of Illusion Starring Mickey Mouse (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

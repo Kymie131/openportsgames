@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bloonsPopSwitch: Port = {
+  schema: "port",
+  id: "bloons-pop-switch",
+  title: "Bloons Pop! (Switch)",
+  game: "Bloons Pop!",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "Ninja Kiwi",
+  originalYear: 2021,
+  portType: "runtime-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-09-11" },
+  sources: ["https://github.com/ChanseyIsTheBest/bloons_pop_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Bloons Pop! is a 2021 bubble-popping puzzler where each shot must clear the board with limited darts.",
+  summaryEs: "Bloons Pop! es un puzle de 2021 de reventar globos en el que cada disparo debe despejar el tablero con dardos limitados.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/bloons-pop.svg",
+    alt: "Bloons Pop! (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

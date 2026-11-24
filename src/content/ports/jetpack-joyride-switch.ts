@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jetpackJoyrideSwitch: Port = {
+  schema: "port",
+  id: "jetpack-joyride-switch",
+  title: "Jetpack Joyride (Switch)",
+  game: "Jetpack Joyride",
+  developers: ["NaGaa95"],
+  publisher: "Halfbrick Studios",
+  originalYear: 2011,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/jetpackjoyride_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Jetpack Joyride is the 2011 endless runner with jetpacks, vehicles and gadgets in a secret lab.",
+  summaryEs: "Jetpack Joyride es el runner infinito de 2011 con jetpacks, vehículos y gadgets en un laboratorio secreto.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/jetpack-joyride.svg",
+    alt: "Jetpack Joyride (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

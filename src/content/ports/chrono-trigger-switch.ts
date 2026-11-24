@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const chronoTriggerSwitch: Port = {
+  schema: "port",
+  id: "chrono-trigger-switch",
+  title: "Chrono Trigger (Switch, mobile)",
+  game: "Chrono Trigger",
+  developers: ["NaGaa95"],
+  publisher: "Square Enix",
+  originalYear: 1995,
+  portType: "runtime-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.1.2", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/ct_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Chrono Trigger is the 1995 time-travelling RPG with combo techs, multiple endings and Akira Toriyama art.",
+  summaryEs: "Chrono Trigger es el RPG de viajes en el tiempo de 1995 con técnicas combinadas, múltiples finales y arte de Akira Toriyama.",
+  notes: "Nintendo Switch port of the Android version. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/chrono-trigger.svg",
+    alt: "Chrono Trigger (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

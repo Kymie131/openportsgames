@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const finalFantasy4Switch: Port = {
+  schema: "port",
+  id: "final-fantasy-4-switch",
+  title: "Final Fantasy IV (Switch, 3D remake)",
+  game: "Final Fantasy IV",
+  developers: ["NaGaa95"],
+  publisher: "Square Enix",
+  originalYear: 2007,
+  portType: "runtime-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.4", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/ff4_3d_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Final Fantasy IV is the 2007 3D remake of the SNES classic, following Cecil's fall and redemption with the active-time battle system.",
+  summaryEs: "Final Fantasy IV es el remake 3D de 2007 del clásico de SNES, que sigue la caída y redención de Cecil con el sistema de batalla en tiempo activo.",
+  notes: "Nintendo Switch port of the Android 3D remake. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del remake 3D de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/final-fantasy-iv.svg",
+    alt: "Final Fantasy IV (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const deusExGoSwitch: Port = {
+  schema: "port",
+  id: "deus-ex-go-switch",
+  title: "Deus Ex GO (Switch)",
+  game: "Deus Ex GO",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "Square Enix Montreal",
+  originalYear: 2016,
+  portType: "runtime-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-09-22" },
+  sources: ["https://github.com/ChanseyIsTheBest/deusexgo_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Deus Ex GO is a 2016 turn-based puzzle game where Adam Jensen hacks and stealths through diorama levels.",
+  summaryEs: "Deus Ex GO es un juego de puzles por turnos de 2016 en el que Adam Jensen hackea y se infiltra en niveles de diorama.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/deus-ex-go.svg",
+    alt: "Deus Ex GO (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

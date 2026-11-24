@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const grannySwitch: Port = {
+  schema: "port",
+  id: "granny-switch",
+  title: "Granny (Switch)",
+  game: "Granny",
+  developers: ["xflipperkast"],
+  publisher: "DVloper",
+  originalYear: 2017,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-10-23" },
+  sources: ["https://github.com/xflipperkast/granny_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Granny is a 2017 horror escape game where the player leaves a house in five days while avoiding a hearing-based pursuer.",
+  summaryEs: "Granny es un juego de terror y escape de 2017 en el que el jugador sale de una casa en cinco días evitando a una perseguidora que oye.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/granny.svg",
+    alt: "Granny (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

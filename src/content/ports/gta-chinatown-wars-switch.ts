@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gtaChinatownWarsSwitch: Port = {
+  schema: "port",
+  id: "gta-chinatown-wars-switch",
+  title: "Grand Theft Auto: Chinatown Wars (Switch)",
+  game: "Grand Theft Auto: Chinatown Wars",
+  developers: ["NaGaa95"],
+  publisher: "Rockstar Games",
+  originalYear: 2009,
+  portType: "runtime-port",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/gtactw_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Grand Theft Auto: Chinatown Wars is the 2009 top-down entry following Huang Lee through Liberty City's drug trade.",
+  summaryEs: "Grand Theft Auto: Chinatown Wars es la entrega cenital de 2009 que sigue a Huang Lee por el narcotráfico de Liberty City.",
+  notes: "Nintendo Switch port of the Android version. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/grand-theft-auto-chinatown-wars.svg",
+    alt: "Grand Theft Auto: Chinatown Wars (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

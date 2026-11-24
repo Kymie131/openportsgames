@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const jackieChanStuntmasterSwitch: Port = {
+  schema: "port",
+  id: "jackie-chan-stuntmaster-switch",
+  title: "Jackie Chan Stuntmaster (Switch)",
+  game: "Jackie Chan Stuntmaster",
+  developers: ["CostelaCNX"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2000,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-08-31" },
+  sources: ["https://github.com/CostelaCNX/ReChan-Switch"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation"],
+  summary: "Jackie Chan Stuntmaster is the 2000 PlayStation brawler where Jackie fights through film-set levels with stunt combos.",
+  summaryEs: "Jackie Chan Stuntmaster es el juego de lucha de PlayStation de 2000 en el que Jackie recorre niveles de rodaje con combos de acrobacias.",
+  notes: "Nintendo Switch port of the mobile version. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión móvil. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/jackie-chan-stuntmaster.svg",
+    alt: "Jackie Chan Stuntmaster (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

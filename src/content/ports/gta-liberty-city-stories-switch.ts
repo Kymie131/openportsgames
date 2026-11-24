@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const gtaLibertyCityStoriesSwitch: Port = {
+  schema: "port",
+  id: "gta-liberty-city-stories-switch",
+  title: "Grand Theft Auto: Liberty City Stories (Switch)",
+  game: "Grand Theft Auto: Liberty City Stories",
+  developers: ["NaGaa95"],
+  publisher: "Rockstar Games",
+  originalYear: 2005,
+  portType: "runtime-port",
+  genre: "open-world",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.4", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/gtalcs_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Liberty City Stories is the 2005 prequel starring Toni Cipriani during his rise in the Leone family.",
+  summaryEs: "Liberty City Stories es la precuela de 2005 protagonizada por Toni Cipriani durante su ascenso en la familia Leone.",
+  notes: "Nintendo Switch port of the Android version. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/grand-theft-auto-liberty-city-stories.svg",
+    alt: "Grand Theft Auto: Liberty City Stories (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

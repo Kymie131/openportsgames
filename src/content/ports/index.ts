@@ -3188,6 +3188,32 @@ import { animalCrossingPocketCampSwitch } from "./animal-crossing-pocket-camp-sw
 import { badPiggiesSwitch } from "./bad-piggies-switch";
 import { baldisBasicsClassicSwitch } from "./baldis-basics-classic-switch";
 import { bananaKongSwitch } from "./banana-kong-switch";
+import { bloonsAttdSwitch } from "./bloons-attd-switch";
+import { bloonsPopSwitch } from "./bloons-pop-switch";
+import { bloonsTd5Switch } from "./bloons-td5-switch";
+import { bombsquadSwitch } from "./bombsquad-switch";
+import { burgerShopSwitch } from "./burger-shop-switch";
+import { burgerShop2Switch } from "./burger-shop-2-switch";
+import { castleOfIllusionSwitch } from "./castle-of-illusion-switch";
+import { castlevaniaSotnSwitch } from "./castlevania-sotn-switch";
+import { chronoTriggerSwitch } from "./chrono-trigger-switch";
+import { cutTheRopeSwitch } from "./cut-the-rope-switch";
+import { cutTheRope2Switch } from "./cut-the-rope-2-switch";
+import { deusExGoSwitch } from "./deus-ex-go-switch";
+import { earnToDie2Switch } from "./earn-to-die-2-switch";
+import { finalFantasy3Switch } from "./final-fantasy-3-switch";
+import { finalFantasy4Switch } from "./final-fantasy-4-switch";
+import { flappyBirdSwitch } from "./flappy-bird-switch";
+import { geometryDashSwitch } from "./geometry-dash-switch";
+import { gta3Switch } from "./gta-3-switch";
+import { gtaSanAndreasSwitchNd } from "./gta-san-andreas-switch-nd";
+import { gtaChinatownWarsSwitch } from "./gta-chinatown-wars-switch";
+import { gtaLibertyCityStoriesSwitch } from "./gta-liberty-city-stories-switch";
+import { grannySwitch } from "./granny-switch";
+import { hitmanGoSwitch } from "./hitman-go-switch";
+import { jetpackJoyrideSwitch } from "./jetpack-joyride-switch";
+import { hillClimbRacingSwitch } from "./hill-climb-racing-switch";
+import { jackieChanStuntmasterSwitch } from "./jackie-chan-stuntmaster-switch";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6375,4 +6401,30 @@ export const portCases: Port[] = [
   badPiggiesSwitch,
   baldisBasicsClassicSwitch,
   bananaKongSwitch,
+  bloonsAttdSwitch,
+  bloonsPopSwitch,
+  bloonsTd5Switch,
+  bombsquadSwitch,
+  burgerShopSwitch,
+  burgerShop2Switch,
+  castleOfIllusionSwitch,
+  castlevaniaSotnSwitch,
+  chronoTriggerSwitch,
+  cutTheRopeSwitch,
+  cutTheRope2Switch,
+  deusExGoSwitch,
+  earnToDie2Switch,
+  finalFantasy3Switch,
+  finalFantasy4Switch,
+  flappyBirdSwitch,
+  geometryDashSwitch,
+  gta3Switch,
+  gtaSanAndreasSwitchNd,
+  gtaChinatownWarsSwitch,
+  gtaLibertyCityStoriesSwitch,
+  grannySwitch,
+  hitmanGoSwitch,
+  jetpackJoyrideSwitch,
+  hillClimbRacingSwitch,
+  jackieChanStuntmasterSwitch,
 ];

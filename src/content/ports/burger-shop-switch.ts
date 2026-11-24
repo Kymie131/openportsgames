@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const burgerShopSwitch: Port = {
+  schema: "port",
+  id: "burger-shop-switch",
+  title: "Burger Shop (Switch)",
+  game: "Burger Shop",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "GoBit Games",
+  originalYear: 2007,
+  portType: "runtime-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-07-15" },
+  sources: ["https://github.com/ChanseyIsTheBest/burgershop_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Burger Shop is a 2007 time-management game where the player cooks and serves burgers in increasingly busy kitchens.",
+  summaryEs: "Burger Shop es un juego de gestión de tiempo de 2007 en el que el jugador cocina y sirve hamburguesas en cocinas cada vez más caóticas.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/burger-shop.svg",
+    alt: "Burger Shop (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

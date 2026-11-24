@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const castlevaniaSotnSwitch: Port = {
+  schema: "port",
+  id: "castlevania-sotn-switch",
+  title: "Castlevania: Symphony of the Night (Switch)",
+  game: "Castlevania: Symphony of the Night",
+  developers: ["NaGaa95"],
+  publisher: "Konami",
+  originalYear: 1997,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.3", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/sotn_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Castlevania: Symphony of the Night is the 1997 metroidvania where Alucard explores Dracula's castle and unlocks its inverted half.",
+  summaryEs: "Castlevania: Symphony of the Night es el metroidvania de 1997 en el que Alucard explora el castillo de Drácula y desbloquea su mitad invertida.",
+  notes: "Nintendo Switch port of the Android version. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/castlevania-symphony-of-the-night.svg",
+    alt: "Castlevania: Symphony of the Night (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const cutTheRope2Switch: Port = {
+  schema: "port",
+  id: "cut-the-rope-2-switch",
+  title: "Cut the Rope 2 (Switch)",
+  game: "Cut the Rope 2",
+  developers: ["NaGaa95"],
+  publisher: "ZeptoLab",
+  originalYear: 2013,
+  portType: "runtime-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/ctr2_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Cut the Rope 2 adds the Nommies, new mechanics and 3D-looking levels to the rope-cutting formula.",
+  summaryEs: "Cut the Rope 2 añade los Nommies, nuevas mecánicas y niveles con aspecto 3D a la fórmula de cortar cuerdas.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/cut-the-rope-2.svg",
+    alt: "Cut the Rope 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
