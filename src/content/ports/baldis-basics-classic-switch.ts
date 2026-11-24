@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const baldisBasicsClassicSwitch: Port = {
+  schema: "port",
+  id: "baldis-basics-classic-switch",
+  title: "Baldi's Basics Classic (Switch)",
+  game: "Baldi's Basics Classic",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "Basically Games",
+  originalYear: 2018,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-08-15" },
+  sources: ["https://github.com/ChanseyIsTheBest/baldi_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Baldi's Basics Classic is the 2018 surreal horror-edutainment game where the player collects notebooks while Baldi chases them.",
+  summaryEs: "Baldi's Basics Classic es el juego de terror y educación surrealista de 2018 en el que el jugador recoge cuadernos mientras Baldi lo persigue.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/baldi-s-basics-classic.svg",
+    alt: "Baldi's Basics Classic (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

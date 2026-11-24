@@ -14,7 +14,7 @@ export const jbalcombRemom: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: "0.0.8", date: "2026-07-31" },
+  release: { version: "0.99.1", date: "2026-11-20" },
   sources: ["https://github.com/jbalcomb/ReMoM"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,

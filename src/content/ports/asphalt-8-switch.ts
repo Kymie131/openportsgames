@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const asphalt8Switch: Port = {
+  schema: "port",
+  id: "asphalt-8-switch",
+  title: "Asphalt 8: Airborne (Switch)",
+  game: "Asphalt 8: Airborne",
+  developers: ["aks796"],
+  publisher: "Gameloft",
+  originalYear: 2013,
+  portType: "runtime-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.3", date: "2026-10-01" },
+  sources: ["https://github.com/aks796/a8retry_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Asphalt 8: Airborne is a 2013 arcade racer famous for jumps, barrel rolls and high-speed stunts.",
+  summaryEs: "Asphalt 8: Airborne es un juego de carreras arcade de 2013 famoso por sus saltos, giros y acrobacias a alta velocidad.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/asphalt-8-airborne.svg",
+    alt: "Asphalt 8: Airborne (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

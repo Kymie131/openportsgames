@@ -14,7 +14,7 @@ export const jackieChanStuntmasterRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: "0.1.2", date: "2026-09-04" },
+  release: { version: "0.1.4", date: "2026-11-15" },
   sources: ["https://github.com/alexbeavs-ps1-ports/jackie-chan-stuntmaster-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,

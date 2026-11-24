@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const angryBirdsStarWars2Switch: Port = {
+  schema: "port",
+  id: "angry-birds-star-wars-2-switch",
+  title: "Angry Birds Star Wars II (Switch)",
+  game: "Angry Birds Star Wars II",
+  developers: ["markaurel13"],
+  publisher: "Rovio Entertainment",
+  originalYear: 2013,
+  portType: "runtime-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-10-07" },
+  sources: ["https://github.com/markaurel13/abstarwars2_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Angry Birds Star Wars II covers the prequel trilogy and lets players fling pig characters as well as birds.",
+  summaryEs: "Angry Birds Star Wars II cubre la trilogía precuela y permite lanzar tanto cerdos como pájaros.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/angry-birds-star-wars-ii.svg",
+    alt: "Angry Birds Star Wars II (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

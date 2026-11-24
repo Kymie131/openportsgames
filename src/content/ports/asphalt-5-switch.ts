@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const asphalt5Switch: Port = {
+  schema: "port",
+  id: "asphalt-5-switch",
+  title: "Asphalt 5 (Switch)",
+  game: "Asphalt 5",
+  developers: ["7UNC46"],
+  publisher: "Gameloft",
+  originalYear: 2009,
+  portType: "runtime-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.3.0", date: "2026-11-21" },
+  sources: ["https://github.com/7UNC46/a5_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Asphalt 5 is a 2009 arcade racer with licensed cars, drift-heavy handling and city tracks.",
+  summaryEs: "Asphalt 5 es un juego de carreras arcade de 2009 con coches licenciados, derrapes y circuitos urbanos.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/asphalt-5.svg",
+    alt: "Asphalt 5 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

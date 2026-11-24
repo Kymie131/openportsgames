@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const bananaKongSwitch: Port = {
+  schema: "port",
+  id: "banana-kong-switch",
+  title: "Banana Kong (Switch)",
+  game: "Banana Kong",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "FDG Entertainment",
+  originalYear: 2013,
+  portType: "runtime-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-09-17" },
+  sources: ["https://github.com/ChanseyIsTheBest/bananakong_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Banana Kong is a 2013 endless runner where a gorilla swings, bounces and slides through a jungle collecting bananas.",
+  summaryEs: "Banana Kong es un runner infinito de 2013 en el que un gorila se balancea, rebota y desliza por la selva recogiendo plátanos.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/banana-kong.svg",
+    alt: "Banana Kong (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

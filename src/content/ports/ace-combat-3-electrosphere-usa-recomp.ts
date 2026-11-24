@@ -14,7 +14,7 @@ export const aceCombat3ElectrosphereUsaRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows", "linux", "macos"],
   status: "alpha",
-  release: { version: "0.3.6", date: "2026-09-04" },
+  release: { version: "0.3.8", date: "2026-11-15" },
   sources: ["https://github.com/alexbeavs-ps1-ports/ace-combat-3-electrosphere-usa-recomp"],
   license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
   verified: false,

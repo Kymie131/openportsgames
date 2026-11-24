@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const adventuresOfManaSwitch: Port = {
+  schema: "port",
+  id: "adventures-of-mana-switch",
+  title: "Adventures of Mana (Switch)",
+  game: "Adventures of Mana",
+  developers: ["NaGaa95"],
+  publisher: "Square Enix",
+  originalYear: 2016,
+  portType: "runtime-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.4", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/aom_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Adventures of Mana is the 2016 3D remake of the first Mana game, with real-time combat and a remastered soundtrack.",
+  summaryEs: "Adventures of Mana es el remake 3D de 2016 del primer juego de Mana, con combate en tiempo real y banda sonora remasterizada.",
+  notes: "Nintendo Switch port of the Android version. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/adventures-of-mana.svg",
+    alt: "Adventures of Mana (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

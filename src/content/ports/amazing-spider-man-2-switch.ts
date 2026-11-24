@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const amazingSpiderMan2Switch: Port = {
+  schema: "port",
+  id: "amazing-spider-man-2-switch",
+  title: "The Amazing Spider-Man 2 (Switch)",
+  game: "The Amazing Spider-Man 2",
+  developers: ["boraeskicioglu"],
+  publisher: "Gameloft",
+  originalYear: 2014,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.0", date: "2026-10-06" },
+  sources: ["https://github.com/boraeskicioglu/tasm2_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "The Amazing Spider-Man 2 is the 2014 mobile tie-in to the film, with web-swinging across Manhattan and boss fights against film villains.",
+  summaryEs: "The Amazing Spider-Man 2 es el juego móvil de 2014 basado en la película, con balanceo por Manhattan y combates contra villanos del filme.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-amazing-spider-man-2.svg",
+    alt: "The Amazing Spider-Man 2 (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

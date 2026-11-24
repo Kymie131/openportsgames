@@ -14,7 +14,7 @@ export const jfryyReshadowtower: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: "0.2.0", date: "2026-10-05" },
+  release: { version: "0.3.2", date: "2026-11-19" },
   sources: ["https://github.com/JFryy/reshadowtower"],
   license: { spdx: "MIT" },
   verified: false,

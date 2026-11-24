@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const animalCrossingPocketCampSwitch: Port = {
+  schema: "port",
+  id: "animal-crossing-pocket-camp-switch",
+  title: "Animal Crossing: Pocket Camp (Switch)",
+  game: "Animal Crossing: Pocket Camp",
+  developers: ["NaGaa95"],
+  publisher: "Nintendo",
+  originalYear: 2017,
+  portType: "runtime-port",
+  genre: "simulation",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/acpc_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Animal Crossing: Pocket Camp is the 2017 mobile entry where players build a campsite, craft furniture and befriend villagers.",
+  summaryEs: "Animal Crossing: Pocket Camp es la entrega móvil de 2017 en la que el jugador construye un campamento, fabrica muebles y hace amistad con aldeanos.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/animal-crossing-pocket-camp.svg",
+    alt: "Animal Crossing: Pocket Camp (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

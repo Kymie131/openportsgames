@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const danTheManSwitch: Port = {
+  schema: "port",
+  id: "dan-the-man-switch",
+  title: "Dan the Man (Switch)",
+  game: "Dan the Man",
+  developers: ["hazevauks"],
+  publisher: "Halfbrick Studios",
+  originalYear: 2016,
+  portType: "runtime-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.2.0", date: "2026-10-09" },
+  sources: ["https://github.com/hazevauks/dantheman_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Dan the Man is a 2016 retro brawler-platformer from Halfbrick with combo combat and boss fights.",
+  summaryEs: "Dan the Man es un juego de plataformas y lucha retro de 2016 de Halfbrick con combos y jefes.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/dan-the-man.svg",
+    alt: "Dan the Man (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

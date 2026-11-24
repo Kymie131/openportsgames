@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const asphalt6Switch: Port = {
+  schema: "port",
+  id: "asphalt-6-switch",
+  title: "Asphalt 6: Adrenaline (Switch)",
+  game: "Asphalt 6: Adrenaline",
+  developers: ["7UNC46"],
+  publisher: "Gameloft",
+  originalYear: 2010,
+  portType: "runtime-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.8.0", date: "2026-11-18" },
+  sources: ["https://github.com/7UNC46/a6_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Asphalt 6: Adrenaline is a 2010 racer with 42 cars, 12 tracks and drift-boost arcade handling.",
+  summaryEs: "Asphalt 6: Adrenaline es un juego de carreras de 2010 con 42 coches, 12 circuitos y conducción arcade con turbo por derrape.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/asphalt-6-adrenaline.svg",
+    alt: "Asphalt 6: Adrenaline (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

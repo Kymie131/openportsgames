@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const angryBirdsEpicSwitch: Port = {
+  schema: "port",
+  id: "angry-birds-epic-switch",
+  title: "Angry Birds Epic (Switch)",
+  game: "Angry Birds Epic",
+  developers: ["xflipperkast"],
+  publisher: "Rovio Entertainment",
+  originalYear: 2014,
+  portType: "runtime-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.4", date: "2026-08-30" },
+  sources: ["https://github.com/xflipperkast/angrybirdsas_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Angry Birds Epic is a 2014 turn-based RPG spin-off with classes, crafting and a long campaign.",
+  summaryEs: "Angry Birds Epic es un spin-off RPG por turnos de 2014 con clases, fabricación y una larga campaña.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/angry-birds-epic.svg",
+    alt: "Angry Birds Epic (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

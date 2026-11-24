@@ -14,7 +14,7 @@ export const jorjbarbosaNarutoRiseRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: "0.3.0-beta", date: "2026-10-23" },
+  release: { version: "0.4.2-beta", date: "2026-11-01" },
   sources: ["https://github.com/jorjbarbosa/naruto-rise-recomp"],
   license: { spdx: "GPL-3.0" },
   verified: false,

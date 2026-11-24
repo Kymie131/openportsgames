@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const darkKnightRisesSwitch: Port = {
+  schema: "port",
+  id: "dark-knight-rises-switch",
+  title: "The Dark Knight Rises (Switch)",
+  game: "The Dark Knight Rises",
+  developers: ["lemasterxar5"],
+  publisher: "Gameloft",
+  originalYear: 2012,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.1.0", date: "2026-10-08" },
+  sources: ["https://github.com/lemasterxar5/tdkr_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "The Dark Knight Rises is Gameloft's 2012 mobile adaptation of the film, with stealth takedowns and free-flowing combat in Gotham.",
+  summaryEs: "The Dark Knight Rises es la adaptación móvil de 2012 de Gameloft de la película, con derribos sigilosos y combate fluido en Gotham.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/the-dark-knight-rises.svg",
+    alt: "The Dark Knight Rises (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

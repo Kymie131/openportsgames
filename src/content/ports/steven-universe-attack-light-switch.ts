@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const stevenUniverseAttackLightSwitch: Port = {
+  schema: "port",
+  id: "steven-universe-attack-light-switch",
+  title: "Steven Universe: Attack the Light (Switch)",
+  game: "Steven Universe: Attack the Light",
+  developers: ["iqbalriz"],
+  publisher: "Cartoon Network",
+  originalYear: 2015,
+  portType: "runtime-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.1.0", date: "2026-10-30" },
+  sources: ["https://github.com/iqbalriz/stevenrpg_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Steven Universe: Attack the Light is a 2015 turn-based RPG where the Crystal Gems explore dungeons and level up.",
+  summaryEs: "Steven Universe: Attack the Light es un RPG por turnos de 2015 en el que las Crystal Gems exploran mazmorras y suben de nivel.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/steven-universe-attack-the-light.svg",
+    alt: "Steven Universe: Attack the Light (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

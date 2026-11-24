@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const cardWarsSwitch: Port = {
+  schema: "port",
+  id: "card-wars-switch",
+  title: "Adventure Time: Card Wars (Switch)",
+  game: "Adventure Time: Card Wars",
+  developers: ["simplePsyduck"],
+  publisher: "Cartoon Network",
+  originalYear: 2013,
+  portType: "runtime-port",
+  genre: "strategy",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0", date: "2026-11-21" },
+  sources: ["https://github.com/simplePsyduck/CardWars_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Adventure Time: Card Wars is a 2013 mobile card battler based on the episode where Finn and Jake play a collectible card game.",
+  summaryEs: "Adventure Time: Card Wars es un juego de cartas móvil de 2013 basado en el episodio en el que Finn y Jake juegan a un juego de cartas coleccionables.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/adventure-time-card-wars.svg",
+    alt: "Adventure Time: Card Wars (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

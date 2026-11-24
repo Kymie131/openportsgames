@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const teenTitansGoFigureSwitch: Port = {
+  schema: "port",
+  id: "teen-titans-go-figure-switch",
+  title: "Teen Titans GO Figure! (Switch)",
+  game: "Teen Titans GO Figure!",
+  developers: ["iqbalriz"],
+  publisher: "Cartoon Network",
+  originalYear: 2017,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.1.0", date: "2026-10-31" },
+  sources: ["https://github.com/iqbalriz/teenyfigure_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Teen Titans GO Figure! is a 2017 mobile figure-collecting game with mini battles and the show's cast.",
+  summaryEs: "Teen Titans GO Figure! es un juego móvil de 2017 de coleccionar figuras con mini batallas y el reparto de la serie.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/teen-titans-go-figure.svg",
+    alt: "Teen Titans GO Figure! (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const costumeQuestSwitch: Port = {
+  schema: "port",
+  id: "costume-quest-switch",
+  title: "Costume Quest (Switch, mobile)",
+  game: "Costume Quest",
+  developers: ["iqbalriz"],
+  publisher: "Double Fine Productions",
+  originalYear: 2010,
+  portType: "runtime-port",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.1.0", date: "2026-10-10" },
+  sources: ["https://github.com/iqbalriz/costumequest_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Costume Quest is a 2010 turn-based RPG where children in Halloween costumes fight monsters and collect candy.",
+  summaryEs: "Costume Quest es un RPG por turnos de 2010 en el que niños disfrazados de Halloween luchan contra monstruos y recogen caramelos.",
+  notes: "Nintendo Switch port of the Android version. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/costume-quest.svg",
+    alt: "Costume Quest (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

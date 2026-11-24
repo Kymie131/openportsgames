@@ -14,7 +14,7 @@ export const agentUnderFireRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows"],
   status: "beta",
-  release: { version: "1.0.1", date: "2026-11-03" },
+  release: { version: "1.0.3", date: "2026-11-15" },
   sources: ["https://github.com/hk21x/007-agentunderfire-recomp"],
   license: { spdx: "MIT" },
   verified: false,

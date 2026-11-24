@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const asphalt7Switch: Port = {
+  schema: "port",
+  id: "asphalt-7-switch",
+  title: "Asphalt 7: Heat (Switch)",
+  game: "Asphalt 7: Heat",
+  developers: ["7UNC46"],
+  publisher: "Gameloft",
+  originalYear: 2012,
+  portType: "runtime-port",
+  genre: "racing",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.2.0", date: "2026-11-21" },
+  sources: ["https://github.com/7UNC46/a7_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Asphalt 7: Heat is a 2012 arcade racer with over 60 cars and online multiplayer events.",
+  summaryEs: "Asphalt 7: Heat es un juego de carreras arcade de 2012 con más de 60 coches y eventos multijugador en línea.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/asphalt-7-heat.svg",
+    alt: "Asphalt 7: Heat (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

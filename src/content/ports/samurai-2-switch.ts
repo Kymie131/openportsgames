@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const samurai2Switch: Port = {
+  schema: "port",
+  id: "samurai-2-switch",
+  title: "Samurai II: Vengeance (Switch)",
+  game: "Samurai II: Vengeance",
+  developers: ["Zumoly"],
+  publisher: "Madfinger Games",
+  originalYear: 2010,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.1.0", date: "2026-11-21" },
+  sources: ["https://github.com/Zumoly/samurai-ii-android-nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Samurai II: Vengeance is a 2010 mobile hack-and-slash with stylised art and blood-heavy sword combat.",
+  summaryEs: "Samurai II: Vengeance es un hack-and-slash móvil de 2010 con arte estilizado y combate de espada sangriento.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/samurai-ii-vengeance.svg",
+    alt: "Samurai II: Vengeance (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

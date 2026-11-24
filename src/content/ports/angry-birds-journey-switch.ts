@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const angryBirdsJourneySwitch: Port = {
+  schema: "port",
+  id: "angry-birds-journey-switch",
+  title: "Angry Birds Journey (Switch)",
+  game: "Angry Birds Journey",
+  developers: ["NaGaa95"],
+  publisher: "Rovio Entertainment",
+  originalYear: 2022,
+  portType: "runtime-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/angrybirdsjourney_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Angry Birds Journey is the 2022 slingshot puzzler with short stages, seasonal events and modern art.",
+  summaryEs: "Angry Birds Journey es el puzle de tirachinas de 2022 con niveles cortos, eventos de temporada y arte moderno.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/angry-birds-journey.svg",
+    alt: "Angry Birds Journey (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

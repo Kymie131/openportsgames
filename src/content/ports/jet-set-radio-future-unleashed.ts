@@ -14,7 +14,7 @@ export const jetSetRadioFutureUnleashed: Port = {
   originalGameLicense: "proprietary",
   platforms: ["windows","android"],
   status: "beta",
-  release: { version: "0.6.9", date: "2026-11-07" },
+  release: { version: "0.6.10", date: "2026-11-13" },
   sources: ["https://github.com/JuMatt/JetSetRadioFuture-Unleashed"],
   license: { spdx: "MIT" },
   verified: false,

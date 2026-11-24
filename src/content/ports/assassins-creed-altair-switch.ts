@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const assassinsCreedAltairSwitch: Port = {
+  schema: "port",
+  id: "assassins-creed-altair-switch",
+  title: "Assassin's Creed: Altaïr's Chronicles (Switch)",
+  game: "Assassin's Creed: Altaïr's Chronicles",
+  developers: ["iqbalriz"],
+  publisher: "Gameloft",
+  originalYear: 2008,
+  portType: "runtime-port",
+  genre: "action-adventure",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "alpha",
+  release: { version: "0.1.1", date: "2026-10-18" },
+  sources: ["https://github.com/iqbalriz/assassinscreed_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Assassin's Creed: Altaïr's Chronicles is the 2008 mobile prequel following Altaïr across the Holy Land.",
+  summaryEs: "Assassin's Creed: Altaïr's Chronicles es la precuela móvil de 2008 que sigue a Altaïr por Tierra Santa.",
+  notes: "Nintendo Switch port of the Android HD version. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión HD de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/assassin-s-creed-altair-s-chronicles.svg",
+    alt: "Assassin's Creed: Altaïr's Chronicles (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -14,7 +14,7 @@ export const aceCombat5LinuxRecomp: Port = {
   originalGameLicense: "proprietary",
   platforms: ["linux"],
   status: "alpha",
-  release: { version: "0.3.0", date: "2026-10-06" },
+  release: { version: "0.3.6", date: "2026-11-16" },
   sources: ["https://github.com/Harold0777/eagle_five_recomp"],
   license: { spdx: "Apache-2.0" },
   verified: false,

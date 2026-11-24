@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const badPiggiesSwitch: Port = {
+  schema: "port",
+  id: "bad-piggies-switch",
+  title: "Bad Piggies (Switch)",
+  game: "Bad Piggies",
+  developers: ["ChanseyIsTheBest"],
+  publisher: "Rovio Entertainment",
+  originalYear: 2012,
+  portType: "runtime-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.5", date: "2026-09-22" },
+  sources: ["https://github.com/ChanseyIsTheBest/badpiggies_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Bad Piggies is a 2012 physics puzzler where players build vehicles for the pigs to reach the eggs.",
+  summaryEs: "Bad Piggies es un puzle físico de 2012 en el que el jugador construye vehículos para que los cerdos lleguen a los huevos.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/bad-piggies.svg",
+    alt: "Bad Piggies (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

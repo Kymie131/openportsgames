@@ -3164,6 +3164,30 @@ import { gtaSanAndreasDs } from "./gta-san-andreas-ds";
 import { chocolateDoomDs } from "./chocolate-doom-ds";
 import { mutiny3ds } from "./mutiny-3ds";
 import { assaultcube3ds } from "./assaultcube-3ds";
+import { cardWarsSwitch } from "./card-wars-switch";
+import { amazingSpiderMan2Switch } from "./amazing-spider-man-2-switch";
+import { angryBirdsSpaceSwitch } from "./angry-birds-space-switch";
+import { angryBirdsStarWars2Switch } from "./angry-birds-star-wars-2-switch";
+import { asphalt5Switch } from "./asphalt-5-switch";
+import { asphalt6Switch } from "./asphalt-6-switch";
+import { asphalt7Switch } from "./asphalt-7-switch";
+import { asphalt8Switch } from "./asphalt-8-switch";
+import { assassinsCreedAltairSwitch } from "./assassins-creed-altair-switch";
+import { costumeQuestSwitch } from "./costume-quest-switch";
+import { danTheManSwitch } from "./dan-the-man-switch";
+import { darkKnightRisesSwitch } from "./dark-knight-rises-switch";
+import { disneyCrossyRoadSwitch } from "./disney-crossy-road-switch";
+import { samurai2Switch } from "./samurai-2-switch";
+import { stevenUniverseAttackLightSwitch } from "./steven-universe-attack-light-switch";
+import { teenTitansGoFigureSwitch } from "./teen-titans-go-figure-switch";
+import { adventuresOfManaSwitch } from "./adventures-of-mana-switch";
+import { afterBurnerClimaxSwitch } from "./after-burner-climax-switch";
+import { angryBirdsEpicSwitch } from "./angry-birds-epic-switch";
+import { angryBirdsJourneySwitch } from "./angry-birds-journey-switch";
+import { animalCrossingPocketCampSwitch } from "./animal-crossing-pocket-camp-switch";
+import { badPiggiesSwitch } from "./bad-piggies-switch";
+import { baldisBasicsClassicSwitch } from "./baldis-basics-classic-switch";
+import { bananaKongSwitch } from "./banana-kong-switch";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6327,4 +6351,28 @@ export const portCases: Port[] = [
   chocolateDoomDs,
   mutiny3ds,
   assaultcube3ds,
+  cardWarsSwitch,
+  amazingSpiderMan2Switch,
+  angryBirdsSpaceSwitch,
+  angryBirdsStarWars2Switch,
+  asphalt5Switch,
+  asphalt6Switch,
+  asphalt7Switch,
+  asphalt8Switch,
+  assassinsCreedAltairSwitch,
+  costumeQuestSwitch,
+  danTheManSwitch,
+  darkKnightRisesSwitch,
+  disneyCrossyRoadSwitch,
+  samurai2Switch,
+  stevenUniverseAttackLightSwitch,
+  teenTitansGoFigureSwitch,
+  adventuresOfManaSwitch,
+  afterBurnerClimaxSwitch,
+  angryBirdsEpicSwitch,
+  angryBirdsJourneySwitch,
+  animalCrossingPocketCampSwitch,
+  badPiggiesSwitch,
+  baldisBasicsClassicSwitch,
+  bananaKongSwitch,
 ];

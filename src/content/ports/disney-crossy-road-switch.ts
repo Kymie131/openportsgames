@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const disneyCrossyRoadSwitch: Port = {
+  schema: "port",
+  id: "disney-crossy-road-switch",
+  title: "Disney Crossy Road (Switch)",
+  game: "Disney Crossy Road",
+  developers: ["aks796"],
+  publisher: "Hipster Whale",
+  originalYear: 2016,
+  portType: "runtime-port",
+  genre: "platformer",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-10-01" },
+  sources: ["https://github.com/aks796/dcr_sea_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Disney Crossy Road is the Disney-themed take on Crossy Road, with over 100 characters hopping through themed worlds.",
+  summaryEs: "Disney Crossy Road es la versión temática de Disney de Crossy Road, con más de 100 personajes saltando por mundos temáticos.",
+  notes: "Nintendo Switch port of the Android game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/disney-crossy-road.svg",
+    alt: "Disney Crossy Road (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

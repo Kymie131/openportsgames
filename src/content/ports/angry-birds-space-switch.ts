@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const angryBirdsSpaceSwitch: Port = {
+  schema: "port",
+  id: "angry-birds-space-switch",
+  title: "Angry Birds Space HD (Switch)",
+  game: "Angry Birds Space",
+  developers: ["aks796"],
+  publisher: "Rovio Entertainment",
+  originalYear: 2012,
+  portType: "runtime-port",
+  genre: "puzzle",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.2", date: "2026-10-01" },
+  sources: ["https://github.com/aks796/abspace_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Mobile"],
+  summary: "Angry Birds Space is the 2012 entry with gravity fields, planets and orbital slingshot puzzles.",
+  summaryEs: "Angry Birds Space es la entrega de 2012 con campos de gravedad, planetas y puzles orbitales de tirachinas.",
+  notes: "Nintendo Switch port of the Android HD version. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión HD de Android. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/angry-birds-space.svg",
+    alt: "Angry Birds Space (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

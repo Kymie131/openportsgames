@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const afterBurnerClimaxSwitch: Port = {
+  schema: "port",
+  id: "after-burner-climax-switch",
+  title: "After Burner Climax (Switch)",
+  game: "After Burner Climax",
+  developers: ["NaGaa95"],
+  publisher: "Sega",
+  originalYear: 2006,
+  portType: "runtime-port",
+  genre: "shooter",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["switch"],
+  status: "beta",
+  release: { version: "1.0.1", date: "2026-11-03" },
+  sources: ["https://github.com/NaGaa95/abc_nx"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["Arcade"],
+  summary: "After Burner Climax is a 2006 arcade flight-combat game with lock-on missiles, barrel rolls and high-speed dogfights.",
+  summaryEs: "After Burner Climax es un juego arcade de combate aéreo de 2006 con misiles de seguimiento, toneles y dogfights a alta velocidad.",
+  notes: "Nintendo Switch port of the mobile version of the arcade game. Bring your own game files.",
+  notesEs: "Port para Nintendo Switch de la versión móvil del juego arcade. Aporta tus propios archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/after-burner-climax.svg",
+    alt: "After Burner Climax (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};
