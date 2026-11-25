@@ -26,8 +26,8 @@ export const nfsUnderground2Ps4: Port = {
   notes: "Unofficial native PS4 homebrew port of the original Xbox version. Bring your own copy of the game.",
   notesEs: "Port homebrew nativo no oficial para PS4 de la versión original de Xbox. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/need-for-speed-underground-2.svg",
-    alt: "Need for Speed: Underground 2 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/1/10/Nfsu2-win-cover.jpg",
+    alt: "Need for Speed: Underground 2 (box art)",
+    credit: "Wikipedia",
   },
 };

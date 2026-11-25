@@ -31,9 +31,9 @@ export const imrburnWwe12Pc: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/wwe-12.svg",
-    alt: "WWE '12 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/0/00/WWE_%2712_box_art.jpg",
+    alt: "WWE '12 (box art)",
+    credit: "Wikipedia",
   },
   notes: "WWE '12: static recompilation by iMrBurn for Windows. Bring your own copy of the game.",
   notesEs: "WWE '12: recompilación estática de iMrBurn para Windows. Aporta tu propia copia del juego.",

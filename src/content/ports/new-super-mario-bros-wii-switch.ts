@@ -27,8 +27,8 @@ export const newSuperMarioBrosWiiSwitch: Port = {
   notes: "Nintendo Switch homebrew port of New Super Mario Bros. Wii, still in development. Bring your own game files.",
   notesEs: "Port homebrew para Nintendo Switch de New Super Mario Bros. Wii, aún en desarrollo. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/new-super-mario-bros-wii.svg",
-    alt: "New Super Mario Bros. Wii (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8f/NewSuperMarioBrosWiiBoxart.png",
+    alt: "New Super Mario Bros. Wii (box art)",
+    credit: "Wikipedia",
   },
 };

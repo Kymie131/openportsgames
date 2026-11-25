@@ -26,8 +26,8 @@ export const finalFantasy4AfterYearsSwitch: Port = {
   notes: "Nintendo Switch port of the Android version. Bring your own game files.",
   notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/final-fantasy-iv-the-after-years.svg",
-    alt: "Final Fantasy IV: The After Years (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/346830/header.jpg",
+    alt: "Final Fantasy IV: The After Years (box art)",
+    credit: "Steam",
   },
 };

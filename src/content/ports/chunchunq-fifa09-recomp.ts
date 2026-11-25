@@ -31,9 +31,9 @@ export const chunchunqFifa09Recomp: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/fifa-09.svg",
-    alt: "FIFA 09 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/cf/FIFA_09.jpg",
+    alt: "FIFA 09 (box art)",
+    credit: "Wikipedia",
   },
   notes: "FIFA 09: static recompilation by ChunchunQ for Windows. Bring your own copy of the game.",
   notesEs: "FIFA 09: recompilación estática de ChunchunQ para Windows. Aporta tu propia copia del juego.",

@@ -26,8 +26,8 @@ export const metroidPrimePs5: Port = {
   notes: "Native PS5 port using the Metaforce-classic runtime. Requires your own supported game ISO.",
   notesEs: "Port nativo para PS5 usando el runtime Metaforce-classic. Requiere tu propia ISO compatible del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/metroid-prime.svg",
-    alt: "Metroid Prime (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/b/ba/MetroidPrimebox.jpg",
+    alt: "Metroid Prime (box art)",
+    credit: "Wikipedia",
   },
 };

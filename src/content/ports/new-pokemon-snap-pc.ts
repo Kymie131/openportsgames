@@ -26,8 +26,8 @@ export const newPokemonSnapPc: Port = {
   notes: "Native Windows static recompilation with 4K, 144 fps, DLSS/FSR, HD texture upscaling and mods. Code only; no game files are included.",
   notesEs: "Recompilación estática nativa para Windows con 4K, 144 fps, DLSS/FSR, escalado HD de texturas y mods. Solo código; no incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/new-pokemon-snap.svg",
-    alt: "New Pokémon Snap (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f1/Newpokemonsnap.png",
+    alt: "New Pokémon Snap (box art)",
+    credit: "Wikipedia",
   },
 };

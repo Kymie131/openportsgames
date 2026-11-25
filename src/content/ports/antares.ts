@@ -24,6 +24,11 @@ export const antares: Port = {
     "Ares is a space strategy game developed and published by Bungie for the classic Mac OS in 1998. It combines empire management with real-time tactical combat as humanity fights for survival against alien fleets.",
   summaryEs:
     "Ares es un juego de estrategia espacial desarrollado y publicado por Bungie para el Mac OS clásico en 1998. Combina la gestión de un imperio con combate táctico en tiempo real mientras la humanidad lucha por sobrevivir frente a flotas alienígenas.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/ares.svg",
+    alt: "Ares (generated cover)",
+    credit: "OpenPortsGames",
+  },
   notes:
     "Antares is an open-source reimplementation of Bungie's Ares engine. It ships its own assets and runs natively on Linux and macOS.",
   notesEs:

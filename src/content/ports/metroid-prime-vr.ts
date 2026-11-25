@@ -26,8 +26,8 @@ export const metroidPrimeVr: Port = {
   notes: "Native VR port for Windows and Meta Quest built from the PrimeDecomp decompilation. No emulator and no game assets; bring your own disc image.",
   notesEs: "Port VR nativo para Windows y Meta Quest creado desde la descompilación PrimeDecomp. Sin emulador ni recursos del juego; aporta tu propia imagen del disco.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/metroid-prime.svg",
-    alt: "Metroid Prime (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/b/ba/MetroidPrimebox.jpg",
+    alt: "Metroid Prime (box art)",
+    credit: "Wikipedia",
   },
 };

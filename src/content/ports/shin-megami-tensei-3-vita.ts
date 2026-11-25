@@ -27,8 +27,8 @@ export const shinMegamiTensei3Vita: Port = {
   notes: "Test builds of the PS Vita port, distributed as the app only. No game data is included.",
   notesEs: "Compilaciones de prueba del port para PS Vita, distribuidas solo como aplicación. No incluye datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/shin-megami-tensei-iii-nocturne.svg",
-    alt: "Shin Megami Tensei III: Nocturne (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7c/Shin_Megami_Tensei_Nocturne_NA_cover.png",
+    alt: "Shin Megami Tensei III: Nocturne (box art)",
+    credit: "Wikipedia",
   },
 };

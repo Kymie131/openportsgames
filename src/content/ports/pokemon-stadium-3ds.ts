@@ -26,8 +26,8 @@ export const pokemonStadium3ds: Port = {
   notes: "Native Pokémon Stadium port for the whole Nintendo 3DS family, with a touch bottom screen. Bring your own game data.",
   notesEs: "Port nativo de Pokémon Stadium para toda la familia Nintendo 3DS, con pantalla táctil inferior. Aporta tus propios datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/pokemon-stadium.svg",
-    alt: "Pokémon Stadium (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/7/70/Pokemonstadiumbox.jpg",
+    alt: "Pokémon Stadium (box art)",
+    credit: "Wikipedia",
   },
 };

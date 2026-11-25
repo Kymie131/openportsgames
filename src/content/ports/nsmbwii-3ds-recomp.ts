@@ -27,8 +27,8 @@ export const nsmbwii3dsRecomp: Port = {
   notes: "Experimental static recompilation of New Super Mario Bros. Wii for Windows and New Nintendo 3DS. No game files are included; you must supply your own disc.",
   notesEs: "Recompilación estática experimental de New Super Mario Bros. Wii para Windows y New Nintendo 3DS. No incluye archivos del juego; debes aportar tu propio disco.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/new-super-mario-bros-wii.svg",
-    alt: "New Super Mario Bros. Wii (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8f/NewSuperMarioBrosWiiBoxart.png",
+    alt: "New Super Mario Bros. Wii (box art)",
+    credit: "Wikipedia",
   },
 };

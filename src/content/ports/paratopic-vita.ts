@@ -26,8 +26,8 @@ export const paratopicVita: Port = {
   notes: "PS Vita port of Paratopic. Bring your own copy of the game.",
   notesEs: "Port de Paratopic para PS Vita. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/paratopic.svg",
-    alt: "Paratopic (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/cf/Paratopic_Steam_Cover_Art.jpg",
+    alt: "Paratopic (box art)",
+    credit: "Wikipedia",
   },
 };

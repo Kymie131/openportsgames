@@ -27,8 +27,8 @@ export const megaManX4Dsi: Port = {
   notes: "Experimental native Nintendo DSi port that needs a locally provided dump of the original game.",
   notesEs: "Port nativo experimental para Nintendo DSi que requiere un volcado local del juego original.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/mega-man-x4.svg",
-    alt: "Mega Man X4 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/b/bf/Mega_Man_X4_PSX.jpg",
+    alt: "Mega Man X4 (box art)",
+    credit: "Wikipedia",
   },
 };

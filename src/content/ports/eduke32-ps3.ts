@@ -26,8 +26,8 @@ export const eduke32Ps3: Port = {
   notes: "Homebrew port of EDuke32 and VoidSW running natively on the PlayStation 3. Bring your own game files.",
   notesEs: "Port homebrew de EDuke32 y VoidSW ejecutándose de forma nativa en PlayStation 3. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/duke-nukem-3d.svg",
-    alt: "Duke Nukem 3D (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/6/61/Duke_Nukem_3D_Coverart.png",
+    alt: "Duke Nukem 3D (box art)",
+    credit: "Wikipedia",
   },
 };

@@ -26,8 +26,8 @@ export const pillarsOfEternityAndroid: Port = {
   notes: "Runs the Nintendo Switch Complete Edition natively on Android inside the stock Unity player, with touch and gamepad controls. Bring your own game files.",
   notesEs: "Ejecuta la Complete Edition de Nintendo Switch de forma nativa en Android dentro del reproductor Unity estándar, con controles táctiles y de mando. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/pillars-of-eternity.svg",
-    alt: "Pillars of Eternity (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/ca/Pillars_of_Eternity.jpg",
+    alt: "Pillars of Eternity (box art)",
+    credit: "Wikipedia",
   },
 };

@@ -26,8 +26,8 @@ export const iAmSetsunaAndroid: Port = {
   notes: "Experimental Android port through nx2android, distributed as a launcher. No game files or keys are included.",
   notesEs: "Port experimental para Android mediante nx2android, distribuido como lanzador. No incluye archivos ni claves del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/i-am-setsuna.svg",
-    alt: "I Am Setsuna (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/df/Project_Setsuna_cover_art.jpg",
+    alt: "I Am Setsuna (box art)",
+    credit: "Wikipedia",
   },
 };

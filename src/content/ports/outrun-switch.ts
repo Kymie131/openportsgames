@@ -26,8 +26,8 @@ export const outrunSwitch: Port = {
   notes: "CannonBall (OutRun engine) ported to the Nintendo Switch. Bring your own game data.",
   notesEs: "CannonBall (motor de OutRun) portado a Nintendo Switch. Aporta tus propios datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/outrun.svg",
-    alt: "OutRun (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/3187540/header.jpg",
+    alt: "OutRun (box art)",
+    credit: "Steam",
   },
 };

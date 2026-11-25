@@ -57,9 +57,9 @@ export const cncnetTsPatches: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/command-conquer-tiberian-sun.svg",
-    alt: "Command & Conquer: Tiberian Sun (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/b/be/Cncts-win-cover.jpg",
+    alt: "Command & Conquer: Tiberian Sun (box art)",
+    credit: "Wikipedia",
   },
   notes: "Command & Conquer: Tiberian Sun: decompilation by CnCNet for Windows. Bring your own copy of the game.",
   notesEs: "Command & Conquer: Tiberian Sun: decompilación de CnCNet para Windows. Aporta tu propia copia del juego.",

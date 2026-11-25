@@ -57,9 +57,9 @@ export const openreliant: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/openreliant.svg",
-    alt: "StarLancer (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/2/29/Starlancer_cover.jpg",
+    alt: "StarLancer (box art)",
+    credit: "Wikipedia",
   },
   notes:
     "An open-source reimplementation of StarLancer's engine, written in Zig on SDL3. It needs your own copy of the game.",

@@ -26,8 +26,8 @@ export const scoobyDooMysteryMachine: Port = {
   notes: "Native PC port from the decompilation. Requires a dump of the game; no game files are distributed.",
   notesEs: "Port nativo para PC a partir de la descompilación. Requiere un volcado del juego; no se distribuyen archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/scooby-doo-night-of-100-frights.svg",
-    alt: "Scooby-Doo! Night of 100 Frights (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9b/Scooby-Doo%21_Night_of_100_Frights_Coverart.png",
+    alt: "Scooby-Doo! Night of 100 Frights (box art)",
+    credit: "Wikipedia",
   },
 };

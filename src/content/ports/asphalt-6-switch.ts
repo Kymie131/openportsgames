@@ -26,8 +26,8 @@ export const asphalt6Switch: Port = {
   notes: "Nintendo Switch port of the Android game. Bring your own game files.",
   notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/asphalt-6-adrenaline.svg",
-    alt: "Asphalt 6: Adrenaline (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e3/Asphalt_6_cover_art.jpg",
+    alt: "Asphalt 6: Adrenaline (box art)",
+    credit: "Wikipedia",
   },
 };

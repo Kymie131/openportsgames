@@ -56,9 +56,9 @@ export const gamefloristDunedynasty: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/dune-ii.svg",
-    alt: "Dune II (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/7/78/Dune2_BOD.jpg",
+    alt: "Dune II (box art)",
+    credit: "Wikipedia",
   },
   notes: "Dune II: source port by gameflorist for Windows. Bring your own copy of the game.",
   notesEs: "Dune II: source port de gameflorist para Windows. Aporta tu propia copia del juego.",

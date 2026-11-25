@@ -26,8 +26,8 @@ export const beautifulKatamariSwitch: Port = {
   notes: "Native Nintendo Switch port. Bring your own copy of the game.",
   notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/beautiful-katamari.svg",
-    alt: "Beautiful Katamari (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/6/64/Beautiful_katamari_cover.jpg",
+    alt: "Beautiful Katamari (box art)",
+    credit: "Wikipedia",
   },
 };

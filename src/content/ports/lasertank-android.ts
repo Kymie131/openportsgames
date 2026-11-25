@@ -27,8 +27,8 @@ export const lasertankAndroid: Port = {
   notes: "1:1 Android port of LaserTank. No game files are required.",
   notesEs: "Port 1:1 de LaserTank para Android. No requiere archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/lasertank.svg",
-    alt: "LaserTank (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5e/Lasertank_Anim.gif",
+    alt: "LaserTank (box art)",
+    credit: "Wikipedia",
   },
 };

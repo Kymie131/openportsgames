@@ -26,8 +26,8 @@ export const bloonsTd5Switch: Port = {
   notes: "Nintendo Switch port of the Android game. Bring your own game files.",
   notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/bloons-td-5.svg",
-    alt: "Bloons TD 5 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/306020/header.jpg",
+    alt: "Bloons TD 5 (box art)",
+    credit: "Steam",
   },
 };

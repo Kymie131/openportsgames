@@ -27,8 +27,8 @@ export const katawaShoujoPsp: Port = {
   notes: "Native PSP port with a small C engine and a converter for Katawa Shoujo: Re-Engineered. No game assets are included.",
   notesEs: "Port nativo para PSP con un pequeño motor en C y un conversor para Katawa Shoujo: Re-Engineered. No incluye recursos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/katawa-shoujo.svg",
-    alt: "Katawa Shoujo (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/3068300/header.jpg",
+    alt: "Katawa Shoujo (box art)",
+    credit: "Steam",
   },
 };

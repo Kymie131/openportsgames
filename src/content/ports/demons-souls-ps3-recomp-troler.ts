@@ -27,8 +27,8 @@ export const demonsSoulsPs3RecompTroler: Port = {
   notes: "Demon's Souls (PS3) recompiled to run natively on PC with ps3recomp. No game data is included.",
   notesEs: "Demon's Souls (PS3) recompilado para ejecutarse de forma nativa en PC con ps3recomp. No incluye datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/demon-s-souls.svg",
-    alt: "Demon's Souls (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/9/91/Demon%27s_Souls_Cover.jpg",
+    alt: "Demon's Souls (box art)",
+    credit: "Wikipedia",
   },
 };

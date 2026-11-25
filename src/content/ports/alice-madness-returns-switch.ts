@@ -27,8 +27,8 @@ export const aliceMadnessReturnsSwitch: Port = {
   notes: "Unofficial native Nintendo Switch port of the Xbox 360 version by static recompilation with ReXGlue. Source only; bring your own copy.",
   notesEs: "Port nativo no oficial para Nintendo Switch de la versión de Xbox 360 por recompilación estática con ReXGlue. Solo código; aporta tu propia copia.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/alice-madness-returns.svg",
-    alt: "Alice: Madness Returns (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d8/AliceMadnessReturns.jpg",
+    alt: "Alice: Madness Returns (box art)",
+    credit: "Wikipedia",
   },
 };

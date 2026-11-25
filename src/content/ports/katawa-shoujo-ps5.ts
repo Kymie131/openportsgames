@@ -27,8 +27,8 @@ export const katawaShoujoPs5: Port = {
   notes: "Experimental native PS5 port of Katawa Shoujo: Re-Engineered running Ren'Py 8.5.3 and CPython 3.12. No game assets are included.",
   notesEs: "Port nativo experimental para PS5 de Katawa Shoujo: Re-Engineered ejecutando Ren'Py 8.5.3 y CPython 3.12. No incluye recursos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/katawa-shoujo.svg",
-    alt: "Katawa Shoujo (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/3068300/header.jpg",
+    alt: "Katawa Shoujo (box art)",
+    credit: "Steam",
   },
 };

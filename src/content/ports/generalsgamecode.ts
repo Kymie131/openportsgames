@@ -27,9 +27,9 @@ export const Generalsgamecode: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/generalsgamecode.svg",
-    alt: "GeneralsGameCode (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/2/20/Cncgzh-win-cover.jpg",
+    alt: "Command & Conquer: Generals - Zero Hour (box art)",
+    credit: "Wikipedia",
   },
   notes: "Command and Conquer: Generals - Zero Hour.",
   notesEs: "Command and Conquer: Generals - Zero Hour.",

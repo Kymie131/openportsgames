@@ -26,8 +26,8 @@ export const finalFantasy4Switch: Port = {
   notes: "Nintendo Switch port of the Android 3D remake. Bring your own game files.",
   notesEs: "Port para Nintendo Switch del remake 3D de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/final-fantasy-iv.svg",
-    alt: "Final Fantasy IV (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/9/90/Final_Fantasy_IV.jpg",
+    alt: "Final Fantasy IV (box art)",
+    credit: "Wikipedia",
   },
 };

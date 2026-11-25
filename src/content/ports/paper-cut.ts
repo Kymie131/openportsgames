@@ -30,8 +30,8 @@ export const paperCut: Port = {
   notesEs:
     "Recompilación nativa de The Thousand-Year Door para Windows, macOS, consolas Linux y Android. No incluye archivos del juego: debes aportar tu propio disco.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/paper-mario-the-thousand-year-door.svg",
-    alt: "Paper Mario: The Thousand-Year Door (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/1/18/Paper_Mario_The_Thousand-Year_Door_%28artwork%29.jpg",
+    alt: "Paper Mario: The Thousand-Year Door (box art)",
+    credit: "Wikipedia",
   },
 };

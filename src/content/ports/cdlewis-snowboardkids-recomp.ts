@@ -56,9 +56,9 @@ export const cdlewisSnowboardkidsRecomp: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/snowboard-kids.svg",
-    alt: "Snowboard Kids (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/5/58/Snowboard_Kids_Box.jpg",
+    alt: "Snowboard Kids (box art)",
+    credit: "Wikipedia",
   },
   notes: "Snowboard Kids: static recompilation by cdlewis for Windows, Linux, macOS. Bring your own copy of the game.",
   notesEs: "Snowboard Kids: recompilación estática de cdlewis para Windows, Linux, macOS. Aporta tu propia copia del juego.",

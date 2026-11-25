@@ -27,8 +27,8 @@ export const geometryDashXbox360: Port = {
   notes: "Xbox 360 port built by translating the Wii version of the game. No game files are included.",
   notesEs: "Port para Xbox 360 creado traduciendo la versión de Wii del juego. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/geometry-dash.svg",
-    alt: "Geometry Dash (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/322170/header.jpg",
+    alt: "Geometry Dash (box art)",
+    credit: "Steam",
   },
 };

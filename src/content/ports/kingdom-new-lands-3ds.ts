@@ -26,8 +26,8 @@ export const kingdomNewLands3ds: Port = {
   notes: "Nintendo 3DS port rewritten in Rust. No game files are included.",
   notesEs: "Port para Nintendo 3DS reescrito en Rust. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/kingdom-new-lands.svg",
-    alt: "Kingdom: New Lands (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/2/23/Kingdom_New_Lands_cover.jpg",
+    alt: "Kingdom: New Lands (box art)",
+    credit: "Wikipedia",
   },
 };

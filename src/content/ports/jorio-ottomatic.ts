@@ -36,9 +36,9 @@ export const jorioOttomatic: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/otto-matic.svg",
-    alt: "Otto Matic (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/2/22/OttoMatic_boxart.jpg",
+    alt: "Otto Matic (box art)",
+    credit: "Wikipedia",
   },
   notes: "Otto Matic: source port by jorio for Windows, macOS. Bring your own copy of the game.",
   notesEs: "Otto Matic: source port de jorio para Windows, macOS. Aporta tu propia copia del juego.",

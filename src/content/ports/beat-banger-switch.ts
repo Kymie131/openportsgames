@@ -26,8 +26,8 @@ export const beatBangerSwitch: Port = {
   notes: "Unofficial Nintendo Switch homebrew port (Godot 4.7.2). Tooling and documentation only, no game assets.",
   notesEs: "Port homebrew no oficial para Nintendo Switch (Godot 4.7.2). Solo herramientas y documentación, sin recursos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/beat-banger.svg",
-    alt: "Beat Banger (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1813430/header.jpg",
+    alt: "Beat Banger (box art)",
+    credit: "Steam",
   },
 };

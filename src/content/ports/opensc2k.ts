@@ -47,9 +47,9 @@ export const Opensc2k: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/opensc2k.svg",
-    alt: "OpenSC2K (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d4/SimCity_2000_Coverart.png",
+    alt: "SimCity 2000 (box art)",
+    credit: "Wikipedia",
   },
   notes:
     "OpenSC2K - Open Source remake of Sim City 2000 using rust and godot. Available for macOS, Windows and Linux.",

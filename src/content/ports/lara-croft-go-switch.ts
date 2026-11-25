@@ -26,8 +26,8 @@ export const laraCroftGoSwitch: Port = {
   notes: "Nintendo Switch port of the Android game. Bring your own game files.",
   notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/lara-croft-go.svg",
-    alt: "Lara Croft GO (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/540840/header.jpg",
+    alt: "Lara Croft GO (box art)",
+    credit: "Steam",
   },
 };

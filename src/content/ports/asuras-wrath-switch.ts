@@ -26,8 +26,8 @@ export const asurasWrathSwitch: Port = {
   notes: "Native Nintendo Switch port. Bring your own copy of the game.",
   notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/asura-s-wrath.svg",
-    alt: "Asura's Wrath (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d8/Asura%27s_Wrath_Cover_Art.png",
+    alt: "Asura's Wrath (box art)",
+    credit: "Wikipedia",
   },
 };

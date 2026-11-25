@@ -30,8 +30,8 @@ export const dsKartRecompiled: Port = {
   notesEs:
     "Recompilación estática de la versión europea de Mario Kart DS. El juego completo funciona en Windows, con builds de Linux y macOS en beta. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/mario-kart-ds.svg",
-    alt: "Mario Kart DS (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/8/86/Mario_Kart_DS_cover.jpg",
+    alt: "Mario Kart DS (box art)",
+    credit: "Wikipedia",
   },
 };

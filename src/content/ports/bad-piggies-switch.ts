@@ -26,8 +26,8 @@ export const badPiggiesSwitch: Port = {
   notes: "Nintendo Switch port of the Android game. Bring your own game files.",
   notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/bad-piggies.svg",
-    alt: "Bad Piggies (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/5/51/Bad_Piggies.png",
+    alt: "Bad Piggies (box art)",
+    credit: "Wikipedia",
   },
 };

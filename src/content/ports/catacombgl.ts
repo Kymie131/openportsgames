@@ -25,9 +25,9 @@ export const catacombgl: Port = {
   summaryEs:
     "Catacomb 3-D es un shooter en primera persona desarrollado por id Software y publicado por Softdisk en 1991. El mago Nemesis desciende a las catacumbas para derrotar al liche Grelminar.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/catacombgl.svg",
-    alt: "Catacomb 3-D (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/dc/Catacomb_3-D_The_Descent_title_screen.png",
+    alt: "Catacomb 3-D (box art)",
+    credit: "Wikipedia",
   },
   notes:
     "CatacombGL is a source port with OpenGL graphics for Catacomb 3D (1991), The Catacomb Abyss (1992), The Catacomb Armageddon (1992) and The Catacomb Apocalypse (1993).",

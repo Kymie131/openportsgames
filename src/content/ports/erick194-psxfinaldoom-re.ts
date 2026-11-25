@@ -25,9 +25,9 @@ export const erick194PsxfinaldoomRe: Port = {
   summary: "Final Doom is a 1996 first-person shooter game developed by TeamTNT and published by id Software for MS-DOS and Macintosh computers, as well as for the PlayStation, although the latter featured a selection of levels from the game and from Master Levels for Doom II.",
   summaryEs: "Final Doom es un videojuego de disparos en primera persona que utiliza el motor de juego, objetos y personajes de Doom II, lanzado en 1996 y distribuido como un producto oficial de id Software.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/final-doom.svg",
-    alt: "Final Doom (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/0/02/Final_Doom_Coverart.png",
+    alt: "Final Doom (box art)",
+    credit: "Wikipedia",
   },
   notes: "Final Doom: decompilation by Erick194 for Windows. Bring your own copy of the game.",
   notesEs: "Final Doom: decompilación de Erick194 para Windows. Aporta tu propia copia del juego.",

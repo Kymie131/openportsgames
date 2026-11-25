@@ -26,8 +26,8 @@ export const scpContainmentBreachWiiu: Port = {
   notes: "Native Wii U port of version 1.3.11 for the Aroma homebrew environment. No game files are included.",
   notesEs: "Port nativo para Wii U de la versión 1.3.11 para el entorno homebrew Aroma. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/scp-containment-breach.svg",
-    alt: "SCP – Containment Breach (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/commons/5/54/SCP_-_Containment_Breach.jpg",
+    alt: "SCP – Containment Breach (box art)",
+    credit: "Wikipedia",
   },
 };

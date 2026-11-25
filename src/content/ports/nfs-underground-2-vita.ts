@@ -26,8 +26,8 @@ export const nfsUnderground2Vita: Port = {
   notes: "PS Vita fan port that runs your own PC copy of version 1.2. No game files are included.",
   notesEs: "Port fan para PS Vita que ejecuta tu propia copia de PC de la versión 1.2. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/need-for-speed-underground-2.svg",
-    alt: "Need for Speed: Underground 2 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/1/10/Nfsu2-win-cover.jpg",
+    alt: "Need for Speed: Underground 2 (box art)",
+    credit: "Wikipedia",
   },
 };

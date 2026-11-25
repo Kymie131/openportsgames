@@ -31,9 +31,9 @@ export const boron853SoulsOfTheReaper: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/diablo-iii.svg",
-    alt: "Diablo III (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/8/80/Diablo_III_cover.png",
+    alt: "Diablo III (box art)",
+    credit: "Wikipedia",
   },
   notes: "Diablo III: source port by Boron853 for Windows. Bring your own copy of the game.",
   notesEs: "Diablo III: source port de Boron853 para Windows. Aporta tu propia copia del juego.",

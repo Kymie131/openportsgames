@@ -26,8 +26,8 @@ export const demonsSoulsPs3RecompLeonardo: Port = {
   notes: "Native static recompilation of the PS3 game for Windows x64 with a launcher. No game code or data is included.",
   notesEs: "Recompilación estática nativa del juego de PS3 para Windows x64 con lanzador. No incluye código ni datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/demon-s-souls.svg",
-    alt: "Demon's Souls (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/9/91/Demon%27s_Souls_Cover.jpg",
+    alt: "Demon's Souls (box art)",
+    credit: "Wikipedia",
   },
 };

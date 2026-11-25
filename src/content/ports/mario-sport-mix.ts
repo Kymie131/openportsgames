@@ -23,9 +23,9 @@ export const MarioSportMix: Port = {
   summary: "Mario Sports Mix is a 2010 sports game developed by Square Enix and published by Nintendo for the Wii, mixing basketball, volleyball, hockey and dodgeball.",
   summaryEs: "Mario Sports Mix es un juego de deportes de 2010 desarrollado por Square Enix y publicado por Nintendo para Wii, con baloncesto, voleibol, hockey y balón prisionero.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/mario-sport-mix.svg",
-    alt: "Mario Sport Mix (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/0/02/Mario_Sports_Mix_Box_Art.jpg",
+    alt: "Mario Sports Mix (box art)",
+    credit: "Wikipedia",
   },
   notes: "Mario Sport Mix decompilation.",
   notesEs: "Decompilación de Mario Sport Mix.",

@@ -27,8 +27,8 @@ export const haloCePs3: Port = {
   notes: "Chupathingy ported to the PlayStation 3. Bring your own copy of the game.",
   notesEs: "Chupathingy portado a PlayStation 3. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/halo-combat-evolved.svg",
-    alt: "Halo: Combat Evolved (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg",
+    alt: "Halo: Combat Evolved (box art)",
+    credit: "Wikipedia",
   },
 };

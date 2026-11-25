@@ -26,8 +26,8 @@ export const ben10ProtectorSwitch: Port = {
   notes: "Native Nintendo Switch port of the PSP version, with a one-click Windows installer. No game files are included.",
   notesEs: "Port nativo para Nintendo Switch de la versión de PSP, con un instalador de Windows de un clic. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/ben-10-protector-of-earth.svg",
-    alt: "Ben 10: Protector of Earth (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c7/Ben_10-videogame.jpg",
+    alt: "Ben 10: Protector of Earth (box art)",
+    credit: "Wikipedia",
   },
 };

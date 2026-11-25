@@ -26,8 +26,8 @@ export const jackieChanStuntmasterSwitch: Port = {
   notes: "Nintendo Switch port of the mobile version. Bring your own game files.",
   notesEs: "Port para Nintendo Switch de la versión móvil. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/jackie-chan-stuntmaster.svg",
-    alt: "Jackie Chan Stuntmaster (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e6/JackieChanStuntmaster.jpg",
+    alt: "Jackie Chan Stuntmaster (box art)",
+    credit: "Wikipedia",
   },
 };

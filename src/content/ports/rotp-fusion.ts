@@ -22,9 +22,9 @@ export const RotpFusion: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/rotp-fusion.svg",
-    alt: "Rotp-Fusion (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/5/55/Master_of_Orion_cover.jpg",
+    alt: "Master of Orion (box art)",
+    credit: "Wikipedia",
   },
   notes:
     "Created by Ray Fowler, Remnants of the Precursors is an open-source modernization of the original 1993 Master of Orion.",

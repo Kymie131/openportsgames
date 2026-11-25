@@ -26,8 +26,8 @@ export const snowboardKids2Android: Port = {
   notes: "Android port of the N64: Recompiled project. Bring your own ROM.",
   notesEs: "Port para Android del proyecto N64: Recompiled. Aporta tu propia ROM.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/snowboard-kids-2.svg",
-    alt: "Snowboard Kids 2 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/2/23/Snowboard_Kids_2_cover.jpg",
+    alt: "Snowboard Kids 2 (box art)",
+    credit: "Wikipedia",
   },
 };

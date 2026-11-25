@@ -30,8 +30,8 @@ export const karpur: Port = {
   notesEs:
     "Recompilación nativa para Windows de Pokémon Escarlata y Púrpura con renderizador Vulkan. No incluye archivos del juego: debes aportar tu propia copia.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/pokemon-scarlet-and-violet.svg",
-    alt: "Pokémon Scarlet and Violet (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/0/00/Pok%C3%A9mon_Scarlet_and_Violet_banner.png",
+    alt: "Pokémon Scarlet and Violet (box art)",
+    credit: "Wikipedia",
   },
 };

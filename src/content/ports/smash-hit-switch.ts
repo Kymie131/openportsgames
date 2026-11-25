@@ -26,8 +26,8 @@ export const smashHitSwitch: Port = {
   notes: "Port of the 32-bit Android game on the android32 runtime. No game files are included.",
   notesEs: "Port del juego Android de 32 bits en el runtime android32. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/smash-hit.svg",
-    alt: "Smash Hit (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/4/47/SmashHitappcover.png",
+    alt: "Smash Hit (box art)",
+    credit: "Wikipedia",
   },
 };

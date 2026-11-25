@@ -26,8 +26,8 @@ export const residentEvil4Android: Port = {
   notes: "Modded build of CubeEvil4 for Android with controller support and OpenGL ES 3, plus experimental Vulkan. Bring your own game data.",
   notesEs: "Compilación modificada de CubeEvil4 para Android con soporte de mando y OpenGL ES 3, además de Vulkan experimental. Aporta tus propios datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/resident-evil-4.svg",
-    alt: "Resident Evil 4 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d9/Resi4-gc-cover.jpg",
+    alt: "Resident Evil 4 (box art)",
+    credit: "Wikipedia",
   },
 };

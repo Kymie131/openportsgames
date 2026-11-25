@@ -41,9 +41,9 @@ export const puddzAstralchainPc: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/astral-chain.svg",
-    alt: "Astral Chain (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/6/67/Astral_Chain.jpg",
+    alt: "Astral Chain (box art)",
+    credit: "Wikipedia",
   },
   notes: "Astral Chain: static recompilation by Puddz for Windows. Bring your own copy of the game.",
   notesEs: "Astral Chain: recompilación estática de Puddz para Windows. Aporta tu propia copia del juego.",

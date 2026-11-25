@@ -26,8 +26,8 @@ export const skylandersGiantsPc: Port = {
   notes: "Unofficial native Windows port recompiled with ReXGlue. Works with a real Portal of Power and figures, or without them.",
   notesEs: "Port nativo no oficial para Windows recompilado con ReXGlue. Funciona con un Portal of Power y figuras reales, o sin ellos.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/skylanders-giants.svg",
-    alt: "Skylanders: Giants (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0d/Skylanders_Giants_cover.png",
+    alt: "Skylanders: Giants (box art)",
+    credit: "Wikipedia",
   },
 };

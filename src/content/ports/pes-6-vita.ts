@@ -26,8 +26,8 @@ export const pes6Vita: Port = {
   notes: "PSP to PS Vita port of PES 6, in beta. Bring your own copy of the game.",
   notesEs: "Port de PES 6 de PSP a PS Vita, en beta. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/pro-evolution-soccer-6.svg",
-    alt: "Pro Evolution Soccer 6 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0f/PES6.jpg",
+    alt: "Pro Evolution Soccer 6 (box art)",
+    credit: "Wikipedia",
   },
 };

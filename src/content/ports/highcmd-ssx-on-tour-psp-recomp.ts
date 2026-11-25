@@ -31,9 +31,9 @@ export const highcmdSsxOnTourPspRecomp: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/ssx-on-tour.svg",
-    alt: "SSX On Tour (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d6/SSX_on_Tour.jpg",
+    alt: "SSX On Tour (box art)",
+    credit: "Wikipedia",
   },
   notes: "SSX On Tour: static recompilation by highcmd for Windows, Linux. Bring your own copy of the game.",
   notesEs: "SSX On Tour: recompilación estática de highcmd para Windows, Linux. Aporta tu propia copia del juego.",

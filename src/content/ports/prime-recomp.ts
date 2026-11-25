@@ -27,8 +27,8 @@ export const primeRecomp: Port = {
   notes: "Static recompilation of Metroid Prime with PCVR support for Windows and Apple Vision Pro. Builds from source with your own disc; no game files are included.",
   notesEs: "Recompilación estática de Metroid Prime con soporte PCVR para Windows y Apple Vision Pro. Se compila desde el código con tu propio disco; no incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/metroid-prime.svg",
-    alt: "Metroid Prime (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/b/ba/MetroidPrimebox.jpg",
+    alt: "Metroid Prime (box art)",
+    credit: "Wikipedia",
   },
 };

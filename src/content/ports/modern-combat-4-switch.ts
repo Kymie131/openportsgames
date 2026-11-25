@@ -26,8 +26,8 @@ export const modernCombat4Switch: Port = {
   notes: "Runs the 32-bit Android version natively on the Nintendo Switch through an android32 port. Bring your own game files.",
   notesEs: "Ejecuta la versión Android de 32 bits de forma nativa en Nintendo Switch mediante un port android32. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/modern-combat-4-zero-hour.svg",
-    alt: "Modern Combat 4: Zero Hour (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/3/36/Modern_Combat_4.jpg",
+    alt: "Modern Combat 4: Zero Hour (box art)",
+    credit: "Wikipedia",
   },
 };

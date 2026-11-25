@@ -26,8 +26,8 @@ export const flatout2Switch: Port = {
   notes: "Native Nintendo Switch port. Bring your own copy of the game.",
   notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/flatout-2.svg",
-    alt: "FlatOut 2 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/4/40/Flatout2pc.jpg",
+    alt: "FlatOut 2 (box art)",
+    credit: "Wikipedia",
   },
 };

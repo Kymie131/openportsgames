@@ -26,8 +26,8 @@ export const burnout3Switch: Port = {
   notes: "Native Nintendo Switch port. Bring your own copy of the game.",
   notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/burnout-3-takedown.svg",
-    alt: "Burnout 3: Takedown (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/9/93/Burnout_3_-_Takedown_Coverart.jpg",
+    alt: "Burnout 3: Takedown (box art)",
+    credit: "Wikipedia",
   },
 };

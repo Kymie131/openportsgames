@@ -26,8 +26,8 @@ export const sakuraSuccubusVita: Port = {
   notes: "PS Vita port of the PC visual novel. No game assets are included.",
   notesEs: "Port para PS Vita de la novela visual de PC. No incluye recursos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/sakura-succubus.svg",
-    alt: "Sakura Succubus (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1202310/header.jpg",
+    alt: "Sakura Succubus (box art)",
+    credit: "Steam",
   },
 };

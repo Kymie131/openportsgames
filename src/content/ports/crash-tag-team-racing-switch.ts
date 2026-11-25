@@ -27,8 +27,8 @@ export const crashTagTeamRacingSwitch: Port = {
   notes: "Unofficial Nintendo Switch port built on the PC port and ps2-native-recomp. No game data is included.",
   notesEs: "Port no oficial para Nintendo Switch basado en el port de PC y ps2-native-recomp. No incluye datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/crash-tag-team-racing.svg",
-    alt: "Crash Tag Team Racing (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/5/52/TagTeamCover.jpg",
+    alt: "Crash Tag Team Racing (box art)",
+    credit: "Wikipedia",
   },
 };

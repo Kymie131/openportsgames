@@ -22,9 +22,9 @@ export const Emperorreborn: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/emperorreborn.svg",
-    alt: "EmperorReborn (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/3/32/EmperorBoxshot.jpg",
+    alt: "Emperor: Battle for Dune (box art)",
+    credit: "Wikipedia",
   },
   notes:
     "Play Emperor: Battle for Dune on Windows 10 and 11 with real 16:9 widescreen, fullscreen and working multiplayer. Free, open-source launcher and patcher for the Westwood Dune RTS.",

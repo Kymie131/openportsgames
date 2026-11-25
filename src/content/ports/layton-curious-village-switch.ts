@@ -26,8 +26,8 @@ export const laytonCuriousVillageSwitch: Port = {
   notes: "Nintendo Switch port of the HD mobile version. Bring your own game files.",
   notesEs: "Port para Nintendo Switch de la versión móvil HD. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/professor-layton-and-the-curious-village.svg",
-    alt: "Professor Layton and the Curious Village (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1b/Professor_Layton_and_the_Curious_Village_NA_Boxart.JPG",
+    alt: "Professor Layton and the Curious Village (box art)",
+    credit: "Wikipedia",
   },
 };

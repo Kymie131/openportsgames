@@ -27,9 +27,9 @@ export const Glsmac: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/glsmac.svg",
-    alt: "GLSMAC (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/0/01/Alpha_Centauri_cover.jpg",
+    alt: "Sid Meier's Alpha Centauri (box art)",
+    credit: "Wikipedia",
   },
   notes:
     "Unofficial open-source OpenGL/SDL2 reimplementation of Sid Meier's Alpha Centauri ( + Alien Crossfire ).",

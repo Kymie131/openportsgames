@@ -27,8 +27,8 @@ export const balatroWii: Port = {
   notes: "Unofficial homebrew port of Balatro for the Nintendo Wii. No game data is included.",
   notesEs: "Port homebrew no oficial de Balatro para Nintendo Wii. No incluye datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/balatro.svg",
-    alt: "Balatro (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/8/89/Balatro_cover.jpg",
+    alt: "Balatro (box art)",
+    credit: "Wikipedia",
   },
 };

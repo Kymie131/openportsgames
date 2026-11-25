@@ -30,8 +30,8 @@ export const brawlRecompiled: Port = {
   notesEs:
     "Recompilación nativa de Super Smash Bros. Brawl creada con WiiCompiled. No incluye archivos del juego: debes aportar tu propia imagen de disco.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/super-smash-bros-brawl.svg",
-    alt: "Super Smash Bros. Brawl (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f3/SSBB_Cover.jpg",
+    alt: "Super Smash Bros. Brawl (box art)",
+    credit: "Wikipedia",
   },
 };

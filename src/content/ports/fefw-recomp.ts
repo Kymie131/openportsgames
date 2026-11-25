@@ -30,8 +30,8 @@ export const fefwRecomp: Port = {
   notesEs:
     "Recompilación nativa para Windows de Fire Emblem: Fortune's Weave, con build para Linux. No incluye archivos del juego: debes aportar tu propia copia.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/fire-emblem-fortunes-weave.svg",
-    alt: "Fire Emblem: Fortune's Weave (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/a/af/Fire_Emblem_Fortune%27s_Weave_cover.jpg",
+    alt: "Fire Emblem: Fortune's Weave (box art)",
+    credit: "Wikipedia",
   },
 };

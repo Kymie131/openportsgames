@@ -26,8 +26,8 @@ export const bloonsAttdSwitch: Port = {
   notes: "Nintendo Switch port of the Android game. Bring your own game files.",
   notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/bloons-adventure-time-td.svg",
-    alt: "Bloons Adventure Time TD (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/979060/header.jpg",
+    alt: "Bloons Adventure Time TD (box art)",
+    credit: "Steam",
   },
 };

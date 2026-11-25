@@ -27,8 +27,8 @@ export const gta6FiveStarRecompPc: Port = {
   notes: "Five-Star Recomp is pre-work for a PC port: file formats, shader translation and an offline console runtime. No game data is included.",
   notesEs: "Five-Star Recomp es trabajo previo para un port a PC: formatos de archivo, traducción de shaders y un runtime de consola offline. No incluye datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/grand-theft-auto-vi.svg",
-    alt: "Grand Theft Auto VI (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/4/46/Grand_Theft_Auto_VI.png",
+    alt: "Grand Theft Auto VI (box art)",
+    credit: "Wikipedia",
   },
 };

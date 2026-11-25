@@ -26,8 +26,8 @@ export const botwTotkAndroid: Port = {
   notes: "Native Android ports of both games for the AYN Thor, built from a shared branch. Bring your own game dump.",
   notesEs: "Ports nativos para Android de ambos juegos para la AYN Thor, creados desde una rama común. Aporta tu propio volcado del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-breath-of-the-wild.svg",
-    alt: "The Legend of Zelda: Breath of the Wild (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg",
+    alt: "The Legend of Zelda: Breath of the Wild (box art)",
+    credit: "Wikipedia",
   },
 };

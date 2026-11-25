@@ -32,9 +32,9 @@ export const Openxvt: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/openxvt.svg",
-    alt: "OpenXvT (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/4/4c/Star_Wars_X-Wing_vs._Tie_Fighter_box_art.jpg",
+    alt: "Star Wars: X-Wing vs. TIE Fighter (box art)",
+    credit: "Wikipedia",
   },
   notes: "Source port of OpenXvT (Other).",
   notesEs: "Port del código fuente de OpenXvT (Other).",

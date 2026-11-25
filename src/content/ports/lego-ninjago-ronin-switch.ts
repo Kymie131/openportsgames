@@ -26,8 +26,8 @@ export const legoNinjagoRoninSwitch: Port = {
   notes: "Nintendo Switch port of the Android version. Bring your own game files.",
   notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/lego-ninjago-shadow-of-ronin.svg",
-    alt: "LEGO Ninjago: Shadow of Ronin (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f7/Lego_Ninjago_Shadow_of_Ronin_cover_art.webp",
+    alt: "LEGO Ninjago: Shadow of Ronin (box art)",
+    credit: "Wikipedia",
   },
 };

@@ -27,8 +27,8 @@ export const mkwSwitchRecomp: Port = {
   notes: "Experimental static recompilation of Mario Kart Wii (PAL) to native AArch64 for Nintendo Switch, with a libnx/deko3d runtime. No public playable release yet.",
   notesEs: "Recompilación estática experimental de Mario Kart Wii (PAL) a AArch64 nativo para Nintendo Switch, con runtime libnx/deko3d. Aún sin release jugable pública.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/mario-kart-wii.svg",
-    alt: "Mario Kart Wii (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png",
+    alt: "Mario Kart Wii (box art)",
+    credit: "Wikipedia",
   },
 };

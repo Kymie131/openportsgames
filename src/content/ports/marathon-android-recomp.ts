@@ -26,8 +26,8 @@ export const marathonAndroidRecomp: Port = {
   notes: "Unofficial Android port of MarathonRecomp. Artifacts, freezes and audio issues are possible. Bring your own game data.",
   notesEs: "Port no oficial para Android de MarathonRecomp. Puede haber artefactos, cuelgues y problemas de audio. Aporta tus propios datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/marathon.svg",
-    alt: "Marathon (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/3065800/header.jpg",
+    alt: "Marathon (box art)",
+    credit: "Steam",
   },
 };

@@ -23,9 +23,9 @@ export const nhl2k8Recomp: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/nhl-2k8.svg",
-    alt: "NHL 2K8 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/4/44/NHL_2K8_Coverart.png",
+    alt: "NHL 2K8 (box art)",
+    credit: "Wikipedia",
   },
   notes: "NHL 2K8 Recompiled: native recompilation of NHL 2K8 for windows. Bring your own copy of the game.",
   notesEs: "NHL 2K8 Recompiled: recompilación nativo de NHL 2K8 para windows. Aporta tu propia copia del juego.",

@@ -27,8 +27,8 @@ export const godOfWar3Switch: Port = {
   notes: "Native Nintendo Switch port of the PS3 game, statically recompiled with ps3recomp. No game data is included.",
   notesEs: "Port nativo para Nintendo Switch del juego de PS3, recompilado estáticamente con ps3recomp. No incluye datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/god-of-war-iii.svg",
-    alt: "God of War III (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8b/God_of_War_III_cover_art.jpg",
+    alt: "God of War III (box art)",
+    credit: "Wikipedia",
   },
 };

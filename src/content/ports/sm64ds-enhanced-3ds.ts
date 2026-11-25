@@ -26,8 +26,8 @@ export const sm64dsEnhanced3ds: Port = {
   notes: "Native Nintendo 3DS port with enhancements, built from your own cartridge as an installable CIA.",
   notesEs: "Port nativo para Nintendo 3DS con mejoras, creado desde tu propio cartucho como CIA instalable.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/super-mario-64-ds.svg",
-    alt: "Super Mario 64 DS (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/1/12/Super_Mario_64_DS_Coverart.png",
+    alt: "Super Mario 64 DS (box art)",
+    credit: "Wikipedia",
   },
 };

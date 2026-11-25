@@ -26,8 +26,8 @@ export const metroidPrime2Vr: Port = {
   notes: "Native VR port for PC and Quest built from the PrimeDecomp decompilation. No game assets; bring your own disc image.",
   notesEs: "Port VR nativo para PC y Quest creado desde la descompilación PrimeDecomp. Sin recursos del juego; aporta tu propia imagen del disco.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/metroid-prime-2-echoes.svg",
-    alt: "Metroid Prime 2: Echoes (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6e/Echoesboxart_%28Large%29.jpg",
+    alt: "Metroid Prime 2: Echoes (box art)",
+    credit: "Wikipedia",
   },
 };

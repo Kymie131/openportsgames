@@ -31,9 +31,9 @@ export const p0herculabsHl360Forza3: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/forza-motorsport-3.svg",
-    alt: "Forza Motorsport 3 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/0/06/Forza3cover.jpg",
+    alt: "Forza Motorsport 3 (box art)",
+    credit: "Wikipedia",
   },
   notes: "Forza Motorsport 3: source port by 0herculabs for Windows. Bring your own copy of the game.",
   notesEs: "Forza Motorsport 3: source port de 0herculabs para Windows. Aporta tu propia copia del juego.",

@@ -31,9 +31,9 @@ export const promethendevWwe13Recomp: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/wwe-13.svg",
-    alt: "WWE '13 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/6/62/WWE_%2713_box_art.png",
+    alt: "WWE '13 (box art)",
+    credit: "Wikipedia",
   },
   notes: "WWE '13: static recompilation by PromethenDev for Windows, Linux. Bring your own copy of the game.",
   notesEs: "WWE '13: recompilación estática de PromethenDev para Windows, Linux. Aporta tu propia copia del juego.",

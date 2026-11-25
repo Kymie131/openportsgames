@@ -27,8 +27,8 @@ export const simsMedievalVita: Port = {
   notes: "iOS to PS Vita port of the mobile version. Bring your own game files.",
   notesEs: "Port de iOS a PS Vita de la versión móvil. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-sims-medieval.svg",
-    alt: "The Sims Medieval (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/2/2c/The_Sims_Medieval.jpg",
+    alt: "The Sims Medieval (box art)",
+    credit: "Wikipedia",
   },
 };

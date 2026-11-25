@@ -31,9 +31,9 @@ export const seanGuglerU4remastereda2: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/ultima-iv-quest-of-the-avatar.svg",
-    alt: "Ultima IV: Quest of the Avatar (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/f/ff/Ultima_IV_box.jpg",
+    alt: "Ultima IV: Quest of the Avatar (box art)",
+    credit: "Wikipedia",
   },
   notes: "Ultima IV: Quest of the Avatar: decompilation by sean-gugler for Windows. Bring your own copy of the game.",
   notesEs: "Ultima IV: Quest of the Avatar: decompilación de sean-gugler para Windows. Aporta tu propia copia del juego.",

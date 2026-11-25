@@ -26,8 +26,8 @@ export const asphalt6Vita: Port = {
   notes: "Android to PS Vita port. No game data is included.",
   notesEs: "Port de Android a PS Vita. No incluye datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/asphalt-6-adrenaline.svg",
-    alt: "Asphalt 6: Adrenaline (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e3/Asphalt_6_cover_art.jpg",
+    alt: "Asphalt 6: Adrenaline (box art)",
+    credit: "Wikipedia",
   },
 };

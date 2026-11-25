@@ -26,8 +26,8 @@ export const blackOps2Switch: Port = {
   notes: "Nintendo Switch port of the Steam version, with online and mod support. Bring your own game files.",
   notesEs: "Port para Nintendo Switch de la versión de Steam, con multijugador y soporte de mods. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/call-of-duty-black-ops-ii.svg",
-    alt: "Call of Duty: Black Ops II (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/0/05/Call_of_Duty_Black_Ops_II_box_artwork.png",
+    alt: "Call of Duty: Black Ops II (box art)",
+    credit: "Wikipedia",
   },
 };

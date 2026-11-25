@@ -27,9 +27,9 @@ export const Freeft: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/freeft.svg",
-    alt: "FreeFT (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/de/Fallout_Tactics_Box.jpg",
+    alt: "Fallout Tactics: Brotherhood of Steel (box art)",
+    credit: "Wikipedia",
   },
   notes: "Isometric action game engine.",
   notesEs: "Motor de juego de acción isométrico.",

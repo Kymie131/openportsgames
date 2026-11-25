@@ -31,9 +31,9 @@ export const mortify7612Rallisportchallenge2Decomp: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/rallisport-challenge-2.svg",
-    alt: "RalliSport Challenge 2 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/2/2a/Rallisport_Challenge_2.jpg",
+    alt: "RalliSport Challenge 2 (box art)",
+    credit: "Wikipedia",
   },
   notes: "RalliSport Challenge 2: static recompilation by Mortify7612 for Windows, Linux. Bring your own copy of the game.",
   notesEs: "RalliSport Challenge 2: recompilación estática de Mortify7612 para Windows, Linux. Aporta tu propia copia del juego.",

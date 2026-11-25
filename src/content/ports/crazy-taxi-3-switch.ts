@@ -26,8 +26,8 @@ export const crazyTaxi3Switch: Port = {
   notes: "Native Nintendo Switch port. Bring your own copy of the game.",
   notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/crazy-taxi-3-high-roller.svg",
-    alt: "Crazy Taxi 3: High Roller (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e9/Crazy_Taxi_3_-_High_Roller_Coverart.png",
+    alt: "Crazy Taxi 3: High Roller (box art)",
+    credit: "Wikipedia",
   },
 };

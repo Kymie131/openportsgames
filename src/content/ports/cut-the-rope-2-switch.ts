@@ -26,8 +26,8 @@ export const cutTheRope2Switch: Port = {
   notes: "Nintendo Switch port of the Android game. Bring your own game files.",
   notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/cut-the-rope-2.svg",
-    alt: "Cut the Rope 2 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d0/Cut_the_Rope_2_cover.jpg",
+    alt: "Cut the Rope 2 (box art)",
+    credit: "Wikipedia",
   },
 };

@@ -26,8 +26,8 @@ export const jetSetRadioSwitch: Port = {
   notes: "Unofficial Nintendo Switch port of the Android version, with 60 FPS and MOGA controller support. Bring your own game files.",
   notesEs: "Port no oficial para Nintendo Switch de la versión de Android, con 60 FPS y soporte de mando MOGA. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/jet-set-radio.svg",
-    alt: "Jet Set Radio (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7b/Jetsetradiopalboxart.jpg",
+    alt: "Jet Set Radio (box art)",
+    credit: "Wikipedia",
   },
 };

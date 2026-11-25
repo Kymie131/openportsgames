@@ -31,9 +31,9 @@ export const eopLabsM2tweopLibrary: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/medieval-ii-total-war.svg",
-    alt: "Medieval II: Total War (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e5/Medieval_II_Total_War_pc.jpg",
+    alt: "Medieval II: Total War (box art)",
+    credit: "Wikipedia",
   },
   notes: "Medieval II: Total War: decompilation by EOP-Labs for Windows. Bring your own copy of the game.",
   notesEs: "Medieval II: Total War: decompilación de EOP-Labs para Windows. Aporta tu propia copia del juego.",

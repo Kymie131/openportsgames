@@ -26,8 +26,8 @@ export const manhuntSwitch: Port = {
   notes: "Native Nintendo Switch port. Bring your own copy of the game.",
   notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/manhunt.svg",
-    alt: "Manhunt (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/12130/header.jpg",
+    alt: "Manhunt (box art)",
+    credit: "Steam",
   },
 };

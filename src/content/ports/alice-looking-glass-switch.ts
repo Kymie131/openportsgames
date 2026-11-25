@@ -26,8 +26,8 @@ export const aliceLookingGlassSwitch: Port = {
   notes: "Looking Glass Re-Remaster port for Nintendo Switch as a homebrew NRO. Bring your own game files.",
   notesEs: "Port de Looking Glass Re-Remaster para Nintendo Switch como NRO homebrew. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/american-mcgee-s-alice.svg",
-    alt: "American McGee's Alice (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a9/American_McGee_Alice_cover.png",
+    alt: "American McGee's Alice (box art)",
+    credit: "Wikipedia",
   },
 };

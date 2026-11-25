@@ -26,8 +26,8 @@ export const afterBurnerClimaxSwitch: Port = {
   notes: "Nintendo Switch port of the mobile version of the arcade game. Bring your own game files.",
   notesEs: "Port para Nintendo Switch de la versión móvil del juego arcade. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/after-burner-climax.svg",
-    alt: "After Burner Climax (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/0/08/AfterBurnerClimax_arcadeflyer.png",
+    alt: "After Burner Climax (box art)",
+    credit: "Wikipedia",
   },
 };

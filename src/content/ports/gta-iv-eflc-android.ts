@@ -26,8 +26,8 @@ export const gtaIvEflcAndroid: Port = {
   notes: "Native Android port of the Xbox 360 version with a launcher. Code only: you need your own copy of the game.",
   notesEs: "Port nativo para Android de la versión de Xbox 360 con lanzador. Solo código: necesitas tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/grand-theft-auto-iv.svg",
-    alt: "Grand Theft Auto IV (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b7/Grand_Theft_Auto_IV_cover.jpg",
+    alt: "Grand Theft Auto IV (box art)",
+    credit: "Wikipedia",
   },
 };

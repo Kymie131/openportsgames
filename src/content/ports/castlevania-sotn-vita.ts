@@ -27,8 +27,8 @@ export const castlevaniaSotnVita: Port = {
   notes: "Port of the Android version to PS Vita. No game data is included.",
   notesEs: "Port de la versión de Android a PS Vita. No incluye datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/castlevania-symphony-of-the-night.svg",
-    alt: "Castlevania: Symphony of the Night (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg",
+    alt: "Castlevania: Symphony of the Night (box art)",
+    credit: "Wikipedia",
   },
 };

@@ -35,8 +35,8 @@ export const rwwo8OdysseyRecomp: Port = {
     quote: "Built with heavy help from an AI coding agent (Claude), directed and tested by a human.",
   },
   cover: {
-    src: "https://openportsgames.com/covers/generated/super-mario-odyssey.svg",
-    alt: "Super Mario Odyssey (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg",
+    alt: "Super Mario Odyssey (box art)",
+    credit: "Wikipedia",
   },
 };

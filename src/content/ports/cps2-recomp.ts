@@ -52,4 +52,6 @@ export const cps2Recomp: Port = {
     "CPS-2 Recomp is a launcher of native PC ports for Capcom CPS-1 and CPS-2 arcade games, including Street Fighter Alpha 2. Bring your own ROM sets.",
   notesEs:
     "CPS-2 Recomp es un lanzador de ports nativos para PC de juegos de arcade CPS-1 y CPS-2 de Capcom, como Street Fighter Alpha 2. Aporta tus ROMs.",
+  summary: "Recompilation toolkit for CPS-2 arcade boards that turns original ROM code into native builds.",
+  summaryEs: "Kit de recompilación para placas arcade CPS-2 que convierte el código original de la ROM en compilaciones nativas.",
 };

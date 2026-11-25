@@ -37,9 +37,9 @@ export const sourceholdOpenshc: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/stronghold-crusader.svg",
-    alt: "Stronghold Crusader (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9c/Crusadercover.jpg",
+    alt: "Stronghold Crusader (box art)",
+    credit: "Wikipedia",
   },
   notes: "Stronghold Crusader: engine remake by sourcehold for Windows. Bring your own copy of the game.",
   notesEs: "Stronghold Crusader: recreación de motor de sourcehold para Windows. Aporta tu propia copia del juego.",

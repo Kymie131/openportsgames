@@ -26,8 +26,8 @@ export const sonicJumpSwitch: Port = {
   notes: "Nintendo Switch port of the Android game. Bring your own game files.",
   notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/sonic-jump.svg",
-    alt: "Sonic Jump (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9d/Sonic_Jump_iOS.PNG",
+    alt: "Sonic Jump (box art)",
+    credit: "Wikipedia",
   },
 };

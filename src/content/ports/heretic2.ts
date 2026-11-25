@@ -37,9 +37,9 @@ export const Heretic2: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/heretic2.svg",
-    alt: "Heretic II (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/ca/Heretic_II_Coverart.png",
+    alt: "Heretic II (box art)",
+    credit: "Wikipedia",
   },
   notes: "Heretic II playground sandbox. Can contain non GPL code. Be careful!",
   notesEs: "Banco de pruebas de Heretic II. Puede contener código no GPL. ¡Cuidado!",

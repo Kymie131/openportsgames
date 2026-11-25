@@ -26,8 +26,8 @@ export const raymanFiestaRunSwitch: Port = {
   notes: "Nintendo Switch port of the Android game. Bring your own game files.",
   notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/rayman-fiesta-run.svg",
-    alt: "Rayman Fiesta Run (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a0/Rayman_Fiesta_Run.jpg",
+    alt: "Rayman Fiesta Run (box art)",
+    credit: "Wikipedia",
   },
 };

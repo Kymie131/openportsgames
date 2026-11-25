@@ -26,8 +26,8 @@ export const nfsCarbonVita: Port = {
   notes: "Static recompilation of your own NFSC.exe for the PS Vita with an sceGxm renderer. First playtest build; bring your own copy of the game.",
   notesEs: "Recompilación estática de tu propio NFSC.exe para PS Vita con renderizador sceGxm. Primera versión de prueba; aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/need-for-speed-carbon.svg",
-    alt: "Need for Speed: Carbon (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a4/Need_for_Speed_Carbon_Game_Cover.jpg",
+    alt: "Need for Speed: Carbon (box art)",
+    credit: "Wikipedia",
   },
 };

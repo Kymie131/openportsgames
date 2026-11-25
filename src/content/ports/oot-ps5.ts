@@ -26,8 +26,8 @@ export const ootPs5: Port = {
   notes: "Native PS5 port of Ship of Harkinian, with 4K output and HD texture support. Bring your own ROM.",
   notesEs: "Port nativo para PS5 de Ship of Harkinian, con salida 4K y soporte de texturas HD. Aporta tu propia ROM.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-ocarina-of-time.svg",
-    alt: "The Legend of Zelda: Ocarina of Time (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+    alt: "The Legend of Zelda: Ocarina of Time (box art)",
+    credit: "Wikipedia",
   },
 };

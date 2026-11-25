@@ -26,8 +26,8 @@ export const osmosSwitch: Port = {
   notes: "Nintendo Switch port of the Android game. Bring your own game files.",
   notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/osmos.svg",
-    alt: "Osmos (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/7/76/Osmos.jpg",
+    alt: "Osmos (box art)",
+    credit: "Wikipedia",
   },
 };

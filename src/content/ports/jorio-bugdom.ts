@@ -36,9 +36,9 @@ export const jorioBugdom: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/bugdom.svg",
-    alt: "Bugdom (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f4/Bugdom.jpg",
+    alt: "Bugdom (box art)",
+    credit: "Wikipedia",
   },
   notes: "Bugdom: source port by jorio for Windows, macOS. Bring your own copy of the game.",
   notesEs: "Bugdom: source port de jorio para Windows, macOS. Aporta tu propia copia del juego.",

@@ -27,8 +27,8 @@ export const bloodOmen2Switch: Port = {
   notes: "Native Nintendo Switch port of the PC 1.02 version through functional decompilation, still a work in progress. Bring your own game files.",
   notesEs: "Port nativo para Nintendo Switch de la versión PC 1.02 mediante descompilación funcional, aún en desarrollo. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/blood-omen-2.svg",
-    alt: "Blood Omen 2 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/3/36/LoK-BloodOmen2-Cover-PC.jpg",
+    alt: "Blood Omen 2 (box art)",
+    credit: "Wikipedia",
   },
 };

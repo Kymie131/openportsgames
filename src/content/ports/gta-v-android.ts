@@ -26,8 +26,8 @@ export const gtaVAndroid: Port = {
   notes: "Unofficial native Android port based on the Chinese Android version, maintained by XHYN-PH. Bring your own game files.",
   notesEs: "Port nativo no oficial para Android basado en la versión china, mantenido por XHYN-PH. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/grand-theft-auto-v.svg",
-    alt: "Grand Theft Auto V (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
+    alt: "Grand Theft Auto V (box art)",
+    credit: "Wikipedia",
   },
 };

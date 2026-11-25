@@ -26,8 +26,8 @@ export const gta3Switch: Port = {
   notes: "Nintendo Switch port of the Android version. Bring your own game files.",
   notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/grand-theft-auto-iii.svg",
-    alt: "Grand Theft Auto III (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/b/be/GTA3boxcover.jpg",
+    alt: "Grand Theft Auto III (box art)",
+    credit: "Wikipedia",
   },
 };

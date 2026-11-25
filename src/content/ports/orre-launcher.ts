@@ -26,8 +26,8 @@ export const orreLauncher: Port = {
   notes: "Launcher and native port for Pokémon Colosseum and XD on Windows and Linux. Ships no game files: you must supply your own disc.",
   notesEs: "Launcher y port nativo de Pokémon Colosseum y XD para Windows y Linux. No incluye archivos del juego: debes aportar tu propio disco.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/pokemon-colosseum.svg",
-    alt: "Pokémon Colosseum (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d5/Pok%C3%A9mon_Colosseum_Coverart.png",
+    alt: "Pokémon Colosseum (box art)",
+    credit: "Wikipedia",
   },
 };

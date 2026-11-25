@@ -42,9 +42,9 @@ export const oom1: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/1oom.svg",
-    alt: "Master of Orion (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/5/55/Master_of_Orion_cover.jpg",
+    alt: "Master of Orion (box art)",
+    credit: "Wikipedia",
   },
   notes:
     "1oom is a Master of Orion Classic (1993) game engine recreation that requires the original files to run.",

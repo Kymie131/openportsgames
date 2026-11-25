@@ -26,8 +26,8 @@ export const finalFantasy9Android: Port = {
   notes: "Native Android port of the Steam release with Memoria and the Moguri Mod. No game files are included.",
   notesEs: "Port nativo para Android de la versión de Steam con Memoria y el Moguri Mod. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/final-fantasy-ix.svg",
-    alt: "Final Fantasy IX (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/5/51/Ffixbox.jpg",
+    alt: "Final Fantasy IX (box art)",
+    credit: "Wikipedia",
   },
 };

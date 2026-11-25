@@ -27,8 +27,8 @@ export const fzerogxRecomp: Port = {
   notes: "Static recompilation of F-Zero GX with the gcn-recomp runtime. Builds from the source with your own disc; no game files are included.",
   notesEs: "Recompilación estática de F-Zero GX con el runtime gcn-recomp. Se compila desde el código con tu propio disco; no incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/f-zero-gx.svg",
-    alt: "F-Zero GX (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/6/66/F-Zero_GX_box_artwork.png",
+    alt: "F-Zero GX (box art)",
+    credit: "Wikipedia",
   },
 };

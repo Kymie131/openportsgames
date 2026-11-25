@@ -31,9 +31,9 @@ export const sebsebseb1982CrusaderNoRemorseDecomp: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/crusader-no-remorse.svg",
-    alt: "Crusader: No Remorse (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0b/Crusader_-_No_Remorse_cover.jpg",
+    alt: "Crusader: No Remorse (box art)",
+    credit: "Wikipedia",
   },
   notes: "Crusader: No Remorse: source port by sebsebseb1982 for Windows. Bring your own copy of the game.",
   notesEs: "Crusader: No Remorse: source port de sebsebseb1982 para Windows. Aporta tu propia copia del juego.",

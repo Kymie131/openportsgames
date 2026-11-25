@@ -26,8 +26,8 @@ export const sonicRPsp: Port = {
   notes: "PSP port of the Sonic R decompilation running at 60 fps. Bring your own copy of the game.",
   notesEs: "Port para PSP de la descompilación de Sonic R a 60 fps. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/sonic-r.svg",
-    alt: "Sonic R (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b6/Sonic_R.jpg",
+    alt: "Sonic R (box art)",
+    credit: "Wikipedia",
   },
 };

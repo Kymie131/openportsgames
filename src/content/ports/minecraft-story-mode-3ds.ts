@@ -27,8 +27,8 @@ export const minecraftStoryMode3ds: Port = {
   notes: "Fan-made 3DS port based on the Netflix version, compatible with old and new 3DS. No game files are included.",
   notesEs: "Port casero para 3DS basado en la versión de Netflix, compatible con 3DS antigua y nueva. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/minecraft-story-mode.svg",
-    alt: "Minecraft: Story Mode (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/0/04/Minecraft_Story_Mode_cover.jpeg",
+    alt: "Minecraft: Story Mode (box art)",
+    credit: "Wikipedia",
   },
 };

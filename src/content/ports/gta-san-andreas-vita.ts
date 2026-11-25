@@ -26,8 +26,8 @@ export const gtaSanAndreasVita: Port = {
   notes: "PS Vita wrapper and port of the Android version, with custom patches. No game data is included.",
   notesEs: "Envoltorio y port para PS Vita de la versión de Android, con parches propios. No incluye datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/grand-theft-auto-san-andreas.svg",
-    alt: "Grand Theft Auto: San Andreas (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c4/GTASABOX.jpg",
+    alt: "Grand Theft Auto: San Andreas (box art)",
+    credit: "Wikipedia",
   },
 };

@@ -26,8 +26,8 @@ export const pokemonPlatinum3ds: Port = {
   notes: "Native source port of Pokémon Platinum for the original Nintendo 3DS. No ROM is included.",
   notesEs: "Port de código nativo de Pokémon Platino para la Nintendo 3DS original. No incluye la ROM.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/pokemon-platinum.svg",
-    alt: "Pokémon Platinum (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/ca/Pokemon_Platinum.png",
+    alt: "Pokémon Platinum (box art)",
+    credit: "Wikipedia",
   },
 };

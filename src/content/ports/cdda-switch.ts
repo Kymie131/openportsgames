@@ -26,8 +26,8 @@ export const cddaSwitch: Port = {
   notes: "Unofficial native Nintendo Switch homebrew port of CDDA. No game files are required.",
   notesEs: "Port homebrew no oficial para Nintendo Switch de CDDA. No requiere archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/cataclysm-dark-days-ahead.svg",
-    alt: "Cataclysm: Dark Days Ahead (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Zombie_chase.png/960px-Zombie_chase.png",
+    alt: "Cataclysm: Dark Days Ahead (box art)",
+    credit: "Wikipedia",
   },
 };

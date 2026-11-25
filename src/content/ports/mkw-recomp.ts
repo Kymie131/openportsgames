@@ -31,8 +31,8 @@ export const mkwRecomp: Port = {
     "Recompilación estática de Mario Kart World 1.0.0 y 1.8.0 para Windows y Linux en ARM y x64. No incluye archivos del juego: debes aportar tu propia copia.",
   related: ["mario-kart-world-switch2mac"],
   cover: {
-    src: "https://openportsgames.com/covers/generated/mario-kart-world.svg",
-    alt: "Mario Kart World (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/6/65/Mario_Kart_World_Cover_Artwork.png",
+    alt: "Mario Kart World (box art)",
+    credit: "Wikipedia",
   },
 };

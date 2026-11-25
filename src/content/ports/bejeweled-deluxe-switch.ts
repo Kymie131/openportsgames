@@ -26,8 +26,8 @@ export const bejeweledDeluxeSwitch: Port = {
   notes: "Nintendo Switch homebrew port of Bejeweled Deluxe. No game files are required.",
   notesEs: "Port homebrew para Nintendo Switch de Bejeweled Deluxe. No requiere archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/bejeweled-deluxe.svg",
-    alt: "Bejeweled Deluxe (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/3350/header.jpg",
+    alt: "Bejeweled Deluxe (box art)",
+    credit: "Steam",
   },
 };

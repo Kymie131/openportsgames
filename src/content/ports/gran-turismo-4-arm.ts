@@ -27,8 +27,8 @@ export const granTurismo4Arm: Port = {
   notes: "ARM recompilation of Gran Turismo 4 for Switch and Android, in very early development. Bring your own game data.",
   notesEs: "Recompilación ARM de Gran Turismo 4 para Switch y Android, en desarrollo muy temprano. Aporta tus propios datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/gran-turismo-4.svg",
-    alt: "Gran Turismo 4 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/0/06/Gran_Turismo_4.jpg",
+    alt: "Gran Turismo 4 (box art)",
+    credit: "Wikipedia",
   },
 };

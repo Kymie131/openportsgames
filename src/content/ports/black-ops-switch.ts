@@ -26,8 +26,8 @@ export const blackOpsSwitch: Port = {
   notes: "OpenBLOPS Nintendo Switch port. Bring your own copy of the game.",
   notesEs: "Port de OpenBLOPS para Nintendo Switch. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/call-of-duty-black-ops.svg",
-    alt: "Call of Duty: Black Ops (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/0/02/CoD_Black_Ops_cover.png",
+    alt: "Call of Duty: Black Ops (box art)",
+    credit: "Wikipedia",
   },
 };

@@ -26,8 +26,8 @@ export const morrowind3ds: Port = {
   notes: "From-scratch Morrowind engine for the Nintendo 3DS. Bring your own game files.",
   notesEs: "Motor de Morrowind escrito desde cero para Nintendo 3DS. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-elder-scrolls-iii-morrowind.svg",
-    alt: "The Elder Scrolls III: Morrowind (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/5/53/MorrowindCOVER.jpg",
+    alt: "The Elder Scrolls III: Morrowind (box art)",
+    credit: "Wikipedia",
   },
 };

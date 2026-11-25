@@ -27,8 +27,8 @@ export const jak2Switch: Port = {
   notes: "Nintendo Switch homebrew port of OpenGOAL with deko3d rendering. Bring your own game data.",
   notesEs: "Port homebrew para Nintendo Switch de OpenGOAL con renderizado deko3d. Aporta tus propios datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/jak-ii.svg",
-    alt: "Jak II (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b3/JakIIbox.jpg",
+    alt: "Jak II (box art)",
+    credit: "Wikipedia",
   },
 };

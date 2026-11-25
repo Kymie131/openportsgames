@@ -26,8 +26,8 @@ export const pokemonEmeraldVita: Port = {
   notes: "Native PS Vita port of pokeemerald, built on the emerald-3ds feature set. No ROM is included.",
   notesEs: "Port nativo para PS Vita de pokeemerald, basado en las funciones de emerald-3ds. No incluye la ROM.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/pokemon-emerald.svg",
-    alt: "Pokémon Emerald (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f7/PokemonEmeraldBox.jpg",
+    alt: "Pokémon Emerald (box art)",
+    credit: "Wikipedia",
   },
 };

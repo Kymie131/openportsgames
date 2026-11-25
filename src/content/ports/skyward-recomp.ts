@@ -31,8 +31,8 @@ export const skywardRecomp: Port = {
   notesEs:
     "Recompilación estática en curso de Skyward Sword HD para Windows, en torno al 55 % y con renderizado Vulkan. Deriva de LAS Recomp y no incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-skyward-sword-hd.svg",
-    alt: "The Legend of Zelda: Skyward Sword HD (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/9/99/Legend_of_Zelda_Skyward_Sword_boxart.png",
+    alt: "The Legend of Zelda: Skyward Sword HD (box art)",
+    credit: "Wikipedia",
   },
 };

@@ -25,9 +25,9 @@ export const openlsrOpenlsr: Port = {
   summary: "LEGO Stunt Rally is a racing game in 2000.",
   summaryEs: "LEGO Stunt Rally es un videojuego de carreras en 2000.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/lego-stunt-rally.svg",
-    alt: "LEGO Stunt Rally (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b3/Lego_Stunt_Rally_Cover.jpg",
+    alt: "LEGO Stunt Rally (box art)",
+    credit: "Wikipedia",
   },
   notes: "LEGO Stunt Rally: decompilation by OpenLSR for Windows. Bring your own copy of the game.",
   notesEs: "LEGO Stunt Rally: decompilación de OpenLSR para Windows. Aporta tu propia copia del juego.",

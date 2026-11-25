@@ -27,8 +27,8 @@ export const simgolf3ds: Port = {
   notes: "New Nintendo 3DS port of the OpenSGolf engine with stylus course building and stereoscopic 3D. Play with free assets or your own SimGolf files.",
   notesEs: "Port para New Nintendo 3DS del motor OpenSGolf con creación de campos con lápiz y 3D estereoscópico. Juega con recursos libres o tus propios archivos de SimGolf.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/sid-meier-s-simgolf.svg",
-    alt: "Sid Meier's SimGolf (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/9/9f/Sid_Meier%27s_SimGolf_Coverart.png",
+    alt: "Sid Meier's SimGolf (box art)",
+    credit: "Wikipedia",
   },
 };

@@ -26,8 +26,8 @@ export const asphalt8Switch: Port = {
   notes: "Nintendo Switch port of the Android game. Bring your own game files.",
   notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/asphalt-8-airborne.svg",
-    alt: "Asphalt 8: Airborne (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/2/2d/Asphalt_8_Airborne_cover.jpg",
+    alt: "Asphalt 8: Airborne (box art)",
+    credit: "Wikipedia",
   },
 };

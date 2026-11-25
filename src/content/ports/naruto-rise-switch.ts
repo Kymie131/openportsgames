@@ -26,8 +26,8 @@ export const narutoRiseSwitch: Port = {
   notes: "Nintendo Switch homebrew port of the Xbox 360 game via ReXGlue and deko3d, still in development. Bring your own game.",
   notesEs: "Port homebrew para Nintendo Switch del juego de Xbox 360 mediante ReXGlue y deko3d, aún en desarrollo. Aporta tu propio juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/naruto-rise-of-a-ninja.svg",
-    alt: "Naruto: Rise of a Ninja (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/f/fa/Naruto_ROANfront.jpg",
+    alt: "Naruto: Rise of a Ninja (box art)",
+    credit: "Wikipedia",
   },
 };

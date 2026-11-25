@@ -27,8 +27,8 @@ export const demonsSoulsPs3RecompTimboat: Port = {
   notes: "Native Windows port of the PS3 version (BLUS-30443) via ps3recomp, with European disc support, QoL fixes and a new launcher. Bring your own disc image.",
   notesEs: "Port nativo para Windows de la versión de PS3 (BLUS-30443) vía ps3recomp, con soporte del disco europeo, mejoras de calidad de vida y nuevo lanzador. Aporta tu propia imagen del disco.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/demon-s-souls.svg",
-    alt: "Demon's Souls (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/9/91/Demon%27s_Souls_Cover.jpg",
+    alt: "Demon's Souls (box art)",
+    credit: "Wikipedia",
   },
 };

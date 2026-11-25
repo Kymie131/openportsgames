@@ -26,8 +26,8 @@ export const blackOpsZombiesSwitch: Port = {
   notes: "Android version running on the Nintendo Switch. Bring your own game files.",
   notesEs: "Versión de Android ejecutándose en Nintendo Switch. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/call-of-duty-black-ops-zombies.svg",
-    alt: "Call of Duty: Black Ops Zombies (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0b/Cover_Art_of_Call_of_Duty%2C_Black_Ops_%E2%80%93_Zombies.png",
+    alt: "Call of Duty: Black Ops Zombies (box art)",
+    credit: "Wikipedia",
   },
 };

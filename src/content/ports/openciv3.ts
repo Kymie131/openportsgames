@@ -32,9 +32,9 @@ export const Openciv3: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/openciv3.svg",
-    alt: "OpenCiv3 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7a/Civilization_III_Coverart.png",
+    alt: "Civilization III (box art)",
+    credit: "Wikipedia",
   },
   notes:
     "OpenCiv3 is an open-source, cross-platform, mod-oriented, modernized remake of Civilization III by the fan community built with the Godot Engine and C#, with capabilities inspired by the best of the 4X genre and lessons learned from modding Civ3.",

@@ -26,8 +26,8 @@ export const hyruleWarriorsAocAndroid: Port = {
   notes: "Native Android port harness for the game, still in pre-release. Bring your own game data.",
   notesEs: "Arnés de port nativo para Android del juego, aún en preestreno. Aporta tus propios datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/hyrule-warriors-age-of-calamity.svg",
-    alt: "Hyrule Warriors: Age of Calamity (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e1/Hyrule_Warriors_Age_Of_Calamity.jpg",
+    alt: "Hyrule Warriors: Age of Calamity (box art)",
+    credit: "Wikipedia",
   },
 };

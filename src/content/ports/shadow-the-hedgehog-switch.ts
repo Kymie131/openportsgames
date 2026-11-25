@@ -26,8 +26,8 @@ export const shadowTheHedgehogSwitch: Port = {
   notes: "Native Nintendo Switch port. Bring your own copy of the game.",
   notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/shadow-the-hedgehog.svg",
-    alt: "Shadow the Hedgehog (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/4/41/ShadowTheHedgehogSA2.png",
+    alt: "Shadow the Hedgehog (box art)",
+    credit: "Wikipedia",
   },
 };

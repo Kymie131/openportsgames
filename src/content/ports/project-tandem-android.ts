@@ -31,8 +31,8 @@ export const projectTandemAndroid: Port = {
     "Continuación para Android ARM64 de la recompilación Project Tandem de Mario Kart: Double Dash!!, con OpenGL ES, audio y controles táctiles en pantalla. No incluye archivos del juego: debes aportar tu propia copia.",
   related: ["mkdd"],
   cover: {
-    src: "https://openportsgames.com/covers/generated/mario-kart-double-dash.svg",
-    alt: "Mario Kart: Double Dash!! (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/7/78/Mario_Kart_Double_Dash.jpg",
+    alt: "Mario Kart: Double Dash!! (box art)",
+    credit: "Wikipedia",
   },
 };

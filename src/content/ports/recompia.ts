@@ -30,8 +30,8 @@ export const recompia: Port = {
   notesEs:
     "Recompilación nativa de Pokémon Pokopia para Windows, Linux y macOS, con multijugador. No incluye archivos del juego: debes aportar tu propia copia.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/pokemon-pokopia.svg",
-    alt: "Pokémon Pokopia (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6a/Pok%C3%A9mon_Pokopia_box_art.png",
+    alt: "Pokémon Pokopia (box art)",
+    credit: "Wikipedia",
   },
 };

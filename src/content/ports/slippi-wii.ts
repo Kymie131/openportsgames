@@ -26,8 +26,8 @@ export const slippiWii: Port = {
   notes: "Unofficial Slippi Online for the Wii, letting a real Wii play Direct and Unranked matches against Slippi Dolphin. Bring your own game disc.",
   notesEs: "Slippi Online no oficial para Wii, que permite jugar partidas Direct y Unranked desde una Wii real contra Slippi Dolphin. Aporta tu propio disco del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/super-smash-bros-melee.svg",
-    alt: "Super Smash Bros. Melee (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png",
+    alt: "Super Smash Bros. Melee (box art)",
+    credit: "Wikipedia",
   },
 };

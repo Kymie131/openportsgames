@@ -31,9 +31,9 @@ export const mdomangue26Thebigs2: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-bigs-2.svg",
-    alt: "The Bigs 2 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/f/ff/TheBigs2.jpg",
+    alt: "The Bigs 2 (box art)",
+    credit: "Wikipedia",
   },
   notes: "The Bigs 2: static recompilation by mdomangue26 for Windows. Bring your own copy of the game.",
   notesEs: "The Bigs 2: recompilación estática de mdomangue26 para Windows. Aporta tu propia copia del juego.",

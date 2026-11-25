@@ -37,9 +37,9 @@ export const Lba2ClassicCommunity: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/lba2-classic-community.svg",
-    alt: "lba2-classic-community (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/2/22/Little_Big_Adventure_2_cover.jpg",
+    alt: "Little Big Adventure 2 (box art)",
+    credit: "Wikipedia",
   },
   notes:
     "Community-maintained source port of the original Little Big Adventure 2 (Twinsen’s Odyssey) engine.",

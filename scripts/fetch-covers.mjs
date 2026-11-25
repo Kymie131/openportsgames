@@ -206,9 +206,21 @@ async function steamSearch(game) {
 
 const files = readdirSync(DIR).filter((file) => file.endsWith(".ts") && !SKIP.has(file));
 const entries = [];
+const skipFile = "tmp-cover-skip.json";
+const skipped = new Set(
+  (() => {
+    try {
+      return JSON.parse(readFileSync(skipFile, "utf8"));
+    } catch {
+      return [];
+    }
+  })(),
+);
 for (const file of files) {
   const src = readFileSync(join(DIR, file), "utf8");
-  if (/cover:\s*\{/.test(src)) continue;
+  const existingCover = src.match(/cover\s*:\s*\{[\s\S]*?src\s*:\s*"([^"]+)"/);
+  const needsCover = !existingCover || existingCover[1].includes("/covers/generated/");
+  if (!needsCover) continue;
   if (/screenshots:\s*\[/.test(src)) continue;
   const game = src.match(/\bgame:\s*"((?:[^"\\]|\\.)*)"/)?.[1] ?? "";
   const id = src.match(/\bid:\s*"([^"]+)"/)?.[1] ?? file.replace(/\.ts$/, "");
@@ -216,8 +228,12 @@ for (const file of files) {
   if (kind !== "game") continue;
   if (!game || /^(unknown|other)$/i.test(game)) continue;
   if (/^(PlayStation|Nintendo|Xbox|Sega)\b/i.test(game)) continue;
+  if (skipped.has(id)) continue;
   entries.push({ file, id, game });
 }
+
+const limit = Number(process.env.COVER_LIMIT ?? "0");
+if (limit > 0) entries.length = Math.min(entries.length, limit);
 
 console.log(`Candidates: ${entries.length}`);
 
@@ -268,6 +284,10 @@ for (const entry of entries) {
 }
 
 for (const entry of entries) if (!resolved.has(entry.id)) unresolved.push(entry);
+if (unresolved.length) {
+  const merged = [...new Set([...skipped, ...unresolved.map((entry) => entry.id)])];
+  writeFileSync(skipFile, JSON.stringify(merged, null, 0), "utf8");
+}
 console.log(`Resolved: ${resolved.size} Â· Unresolved: ${unresolved.length}`);
 
 // Validate every URL before writing anything.
@@ -308,15 +328,21 @@ if (APPLY) {
   for (const item of valid) {
     const file = join(DIR, item.file);
     let src = readFileSync(file, "utf8");
-    if (/cover:\s*\{/.test(src)) continue;
     const alt = `${item.game} (box art)`.replace(/"/g, '\\"');
-    const block = `  cover: {\n    src: "${item.image}",\n    alt: "${alt}",\n    credit: "${item.credit}",\n  },\n`;
+    const block = `  cover: {\n    src: "${item.image}",\n    alt: "${alt}",\n    credit: "${item.credit}",\n  },`;
+    const generated = src.match(/cover\s*:\s*\{[\s\S]*?src\s*:\s*"([^"]*\/covers\/generated\/[^"]*)"[\s\S]*?\}/);
+    if (generated) {
+      src = src.replace(generated[0], block);
+      writeFileSync(file, src, "utf8");
+      written += 1;
+      continue;
+    }
     const anchor = src.match(/\n  notes(Es)?:/);
     if (anchor) {
-      src = src.slice(0, anchor.index + 1) + block + src.slice(anchor.index + 1);
+      src = src.slice(0, anchor.index + 1) + block + "\n" + src.slice(anchor.index + 1);
     } else {
       const end = src.lastIndexOf("\n};");
-      src = src.slice(0, end) + "\n" + block.replace(/\n$/, "") + src.slice(end);
+      src = src.slice(0, end) + "\n" + block + src.slice(end);
     }
     writeFileSync(file, src, "utf8");
     written += 1;

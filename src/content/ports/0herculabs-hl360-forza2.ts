@@ -31,9 +31,9 @@ export const p0herculabsHl360Forza2: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/forza-motorsport-2.svg",
-    alt: "Forza Motorsport 2 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c9/Forzamotorsport2cover.png",
+    alt: "Forza Motorsport 2 (box art)",
+    credit: "Wikipedia",
   },
   notes: "Forza Motorsport 2: source port by 0herculabs for Windows. Bring your own copy of the game.",
   notesEs: "Forza Motorsport 2: source port de 0herculabs para Windows. Aporta tu propia copia del juego.",

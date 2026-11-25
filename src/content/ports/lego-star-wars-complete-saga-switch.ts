@@ -26,8 +26,8 @@ export const legoStarWarsCompleteSagaSwitch: Port = {
   notes: "Native Nintendo Switch port of the Xbox 360 version. Bring your own copy of the game.",
   notesEs: "Port nativo para Nintendo Switch de la versión de Xbox 360. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/lego-star-wars-the-complete-saga.svg",
-    alt: "LEGO Star Wars: The Complete Saga (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/5/56/Lego_Star_Wars-The_Complete_Saga.jpg",
+    alt: "LEGO Star Wars: The Complete Saga (box art)",
+    credit: "Wikipedia",
   },
 };

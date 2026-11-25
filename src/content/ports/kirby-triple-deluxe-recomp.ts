@@ -27,8 +27,8 @@ export const kirbyTripleDeluxeRecomp: Port = {
   notes: "Experimental Windows and Linux recompilation of the European 3DS release with Vulkan. Builds from your own decrypted cartridge; no game files are included.",
   notesEs: "Recompilación experimental para Windows y Linux de la versión europea de 3DS con Vulkan. Se compila desde tu propio cartucho descifrado; no incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/kirby-triple-deluxe.svg",
-    alt: "Kirby: Triple Deluxe (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1d/Kirbytstest.jpg",
+    alt: "Kirby: Triple Deluxe (box art)",
+    credit: "Wikipedia",
   },
 };

@@ -26,8 +26,8 @@ export const silentHill3Vita: Port = {
   notes: "Unofficial PS Vita port by static recompilation of the PC version. Bring your own copy of the game.",
   notesEs: "Port no oficial para PS Vita por recompilación estática de la versión de PC. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/silent-hill-3.svg",
-    alt: "Silent Hill 3 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/ca/Sh3_boxart.jpg",
+    alt: "Silent Hill 3 (box art)",
+    credit: "Wikipedia",
   },
 };

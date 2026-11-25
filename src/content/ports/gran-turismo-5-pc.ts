@@ -26,8 +26,8 @@ export const granTurismo5Pc: Port = {
   notes: "Unofficial PC port built on ps3recomp, with analog triggers, a Vulkan menu and an installer. Needs your own GT5 disc and EBOOT v1.00.",
   notesEs: "Port no oficial para PC creado con ps3recomp, con gatillos analógicos, menú Vulkan e instalador. Necesita tu propio disco de GT5 y EBOOT v1.00.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/gran-turismo-5.svg",
-    alt: "Gran Turismo 5 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8b/GT5-boxart-final-EU.jpg",
+    alt: "Gran Turismo 5 (box art)",
+    credit: "Wikipedia",
   },
 };

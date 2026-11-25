@@ -26,8 +26,8 @@ export const fearSwitch: Port = {
   notes: "Runs the Xbox 360 version natively on the Nintendo Switch with ReXGlue and Vulkan. Bring your own game.",
   notesEs: "Ejecuta la versión de Xbox 360 de forma nativa en Nintendo Switch con ReXGlue y Vulkan. Aporta tu propio juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/f-e-a-r.svg",
-    alt: "F.E.A.R. (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/21090/header.jpg",
+    alt: "F.E.A.R. (box art)",
+    credit: "Steam",
   },
 };

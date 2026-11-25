@@ -24,9 +24,9 @@ export const BurnoutParadiseB5Decomp: Port = {
   summary: "Burnout Paradise is a 2008 open-world racing game developed by Criterion Games and published by Electronic Arts. It lets players race, stunt and crash across Paradise City, with events triggered at traffic lights.",
   summaryEs: "Burnout Paradise es un videojuego de carreras de mundo abierto de 2008 desarrollado por Criterion Games y publicado por Electronic Arts. Permite correr, hacer acrobacias y chocar por Paradise City, con eventos que se activan en los semáforos.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/burnout-paradise-b5-decomp.svg",
-    alt: "Burnout Paradise (b5-decomp) (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/a/ab/Burnout_Paradise_Boxart_2.jpg",
+    alt: "Burnout Paradise (box art)",
+    credit: "Wikipedia",
   },
   notes: "Burnout Paradise decompilation effort.",
   notesEs: "Proyecto de decompilación de Burnout Paradise.",

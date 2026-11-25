@@ -27,8 +27,8 @@ export const sm64coopdxWiiu: Port = {
   notes: "Wii U native port snapshot of sm64coopdx. Bring your own ROM and assets.",
   notesEs: "Instantánea del port nativo para Wii U de sm64coopdx. Aporta tu propia ROM y recursos.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/super-mario-64.svg",
-    alt: "Super Mario 64 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
+    alt: "Super Mario 64 (box art)",
+    credit: "Wikipedia",
   },
 };

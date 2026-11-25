@@ -27,8 +27,8 @@ export const postal2Android: Port = {
   notes: "Android port of the game based on Postal 2 Rust. Bring your own copy of the game.",
   notesEs: "Port para Android del juego basado en Postal 2 Rust. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/postal-2.svg",
-    alt: "Postal 2 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/4/4f/Postal_2_cover.png",
+    alt: "Postal 2 (box art)",
+    credit: "Wikipedia",
   },
 };

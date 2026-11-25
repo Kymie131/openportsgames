@@ -26,8 +26,8 @@ export const morrowindPs5: Port = {
   notes: "Native PS5 port of OpenMW with DualSense controls. Bring your own game files.",
   notesEs: "Port nativo para PS5 de OpenMW con controles DualSense. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-elder-scrolls-iii-morrowind.svg",
-    alt: "The Elder Scrolls III: Morrowind (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/5/53/MorrowindCOVER.jpg",
+    alt: "The Elder Scrolls III: Morrowind (box art)",
+    credit: "Wikipedia",
   },
 };

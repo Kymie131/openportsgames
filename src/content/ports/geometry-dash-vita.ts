@@ -26,8 +26,8 @@ export const geometryDashVita: Port = {
   notes: "Port of Geometry Dash to the PS Vita. No game assets are included.",
   notesEs: "Port de Geometry Dash para PS Vita. No incluye recursos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/geometry-dash.svg",
-    alt: "Geometry Dash (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/322170/header.jpg",
+    alt: "Geometry Dash (box art)",
+    credit: "Steam",
   },
 };

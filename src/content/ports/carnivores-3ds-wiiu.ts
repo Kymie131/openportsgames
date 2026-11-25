@@ -26,8 +26,8 @@ export const carnivores3dsWiiu: Port = {
   notes: "Rust rewrite of Carnivores 2 that also supports Ice Age and community mods, ported to Wii U and 3DS. No game files are included.",
   notesEs: "Reescritura en Rust de Carnivores 2 que también soporta Ice Age y mods de la comunidad, portada a Wii U y 3DS. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/carnivores-2.svg",
-    alt: "Carnivores 2 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/0/02/Carnivores_2_cover.jpg",
+    alt: "Carnivores 2 (box art)",
+    credit: "Wikipedia",
   },
 };

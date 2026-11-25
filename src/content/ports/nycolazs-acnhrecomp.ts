@@ -48,9 +48,9 @@ export const nycolazsAcnhrecomp: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/animal-crossing-new-horizons.svg",
-    alt: "Animal Crossing: New Horizons (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1f/Animal_Crossing_New_Horizons.jpg",
+    alt: "Animal Crossing: New Horizons (box art)",
+    credit: "Wikipedia",
   },
   notes:
     "Static recompilation of Animal Crossing: New Horizons for Windows, Linux, macOS (Apple silicon) and Android. Version 0.7.0 adds amiibo support from your own dumps, time travel and a native 60 fps mode, and fixes Android black screens. The game supports versions 3.0.2, 3.0.3, 2.0.7 and 1.0.0; playing requires the project's ACNHRecomp-Importer, distributed through its Discord. This is a work-in-progress fan port: back up your saves. No game code, keys or firmware are included.",

@@ -27,8 +27,8 @@ export const sims3AmbitionsVita: Port = {
   notes: "iOS to PS Vita port of the mobile version. Bring your own game files.",
   notesEs: "Port de iOS a PS Vita de la versión móvil. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-sims-3-ambitions.svg",
-    alt: "The Sims 3: Ambitions (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/47893/header.jpg",
+    alt: "The Sims 3: Ambitions (box art)",
+    credit: "Steam",
   },
 };

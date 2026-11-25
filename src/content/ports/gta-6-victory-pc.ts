@@ -27,8 +27,8 @@ export const gta6VictoryPc: Port = {
   notes: "VIctory runs the Xbox Series version on Windows, with an fxceless fork and ported shader fixes. No game files are included.",
   notesEs: "VIctory ejecuta la versión de Xbox Series en Windows, con un fork sin fx y correcciones de shaders portadas. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/grand-theft-auto-vi.svg",
-    alt: "Grand Theft Auto VI (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/4/46/Grand_Theft_Auto_VI.png",
+    alt: "Grand Theft Auto VI (box art)",
+    credit: "Wikipedia",
   },
 };

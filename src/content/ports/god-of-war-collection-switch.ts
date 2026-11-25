@@ -26,8 +26,8 @@ export const godOfWarCollectionSwitch: Port = {
   notes: "Nintendo Switch homebrew recompilation of the PS Vita versions, built with libnx and Vulkan (NVK) on vitaRT. No game files are included.",
   notesEs: "Recompilación homebrew para Nintendo Switch de las versiones de PS Vita, creada con libnx y Vulkan (NVK) sobre vitaRT. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/god-of-war.svg",
-    alt: "God of War (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/header.jpg",
+    alt: "God of War (box art)",
+    credit: "Steam",
   },
 };

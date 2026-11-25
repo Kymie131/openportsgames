@@ -31,9 +31,9 @@ export const sp00nznetVig8: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/vigilante-8-arcade.svg",
-    alt: "Vigilante 8 Arcade (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e6/Viligante8arcadecover.jpg",
+    alt: "Vigilante 8 Arcade (box art)",
+    credit: "Wikipedia",
   },
   notes: "Vigilante 8 Arcade: static recompilation by sp00nznet for Windows. Bring your own copy of the game.",
   notesEs: "Vigilante 8 Arcade: recompilación estática de sp00nznet para Windows. Aporta tu propia copia del juego.",

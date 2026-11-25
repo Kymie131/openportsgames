@@ -27,8 +27,8 @@ export const doa3Switch: Port = {
   notes: "Native Nintendo Switch port. Bring your own copy of the game.",
   notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/dead-or-alive-3.svg",
-    alt: "Dead or Alive 3 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/2/26/Dead_or_Alive_3_cover_art.png",
+    alt: "Dead or Alive 3 (box art)",
+    credit: "Wikipedia",
   },
 };

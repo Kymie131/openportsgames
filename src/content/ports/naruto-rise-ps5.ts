@@ -26,8 +26,8 @@ export const narutoRisePs5: Port = {
   notes: "Native PS5 port based on the Xbox 360 recompilation and ReXGlue. Bring your own disc image.",
   notesEs: "Port nativo para PS5 basado en la recompilación de Xbox 360 y ReXGlue. Aporta tu propia imagen de disco.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/naruto-rise-of-a-ninja.svg",
-    alt: "Naruto: Rise of a Ninja (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/f/fa/Naruto_ROANfront.jpg",
+    alt: "Naruto: Rise of a Ninja (box art)",
+    credit: "Wikipedia",
   },
 };

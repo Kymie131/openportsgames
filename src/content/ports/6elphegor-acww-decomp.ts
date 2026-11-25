@@ -25,9 +25,9 @@ export const p6elphegorAcwwDecomp: Port = {
   summary: "Animal Crossing: Wild World is a 2005 social simulation video game developed and published by Nintendo for the Nintendo DS handheld game console. It was released in Japan in November 2005, in North America and Australia in December 2005, and in Europe in March 2006. It is the second installment in the Animal Crossing series, and the sequel to Animal Crossing on the GameCube.",
   summaryEs: "Animal Crossing: Wild World es un videojuego desarrollado y publicado por Nintendo para la consola portátil Nintendo DS. Se trata del segundo título de la saga Animal Crossing que se comercializó fuera de Japón, y salió a la venta a finales de 2005.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/animal-crossing-wild-world.svg",
-    alt: "Animal Crossing: Wild World (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/5/51/Animal_Crossing_Wild_World_cover.png",
+    alt: "Animal Crossing: Wild World (box art)",
+    credit: "Wikipedia",
   },
   notes: "Animal Crossing: Wild World: decompilation by 6elphegor for Windows. Bring your own copy of the game.",
   notesEs: "Animal Crossing: Wild World: decompilación de 6elphegor para Windows. Aporta tu propia copia del juego.",

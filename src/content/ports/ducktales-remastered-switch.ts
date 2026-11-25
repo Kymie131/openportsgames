@@ -26,8 +26,8 @@ export const ducktalesRemasteredSwitch: Port = {
   notes: "Unofficial wrapper for the 32-bit Android version on the android32 runtime. No game files are included.",
   notesEs: "Contenedor no oficial de la versión Android de 32 bits en el runtime android32. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/ducktales-remastered.svg",
-    alt: "DuckTales: Remastered (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/1/15/DuckTales_Remastered.jpg",
+    alt: "DuckTales: Remastered (box art)",
+    credit: "Wikipedia",
   },
 };

@@ -26,8 +26,8 @@ export const castlevaniaCurseOfDarknessSwitch: Port = {
   notes: "Native Nintendo Switch port. Bring your own copy of the game.",
   notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/castlevania-curse-of-darkness.svg",
-    alt: "Castlevania: Curse of Darkness (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/2/26/CurseOfDarkness_NA_Cover.webp",
+    alt: "Castlevania: Curse of Darkness (box art)",
+    credit: "Wikipedia",
   },
 };

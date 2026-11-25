@@ -26,8 +26,8 @@ export const nierAutomataAndroid: Port = {
   notes: "Native Android port that runs your own Switch dump. No game code or assets are included.",
   notesEs: "Port nativo para Android que ejecuta tu propio volcado de Switch. No incluye código ni recursos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/nier-automata.svg",
-    alt: "NieR:Automata (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/2/21/Nier_Automata_cover_art.jpg",
+    alt: "NieR:Automata (box art)",
+    credit: "Wikipedia",
   },
 };

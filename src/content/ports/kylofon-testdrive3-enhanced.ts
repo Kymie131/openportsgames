@@ -23,9 +23,9 @@ export const kylofonTestdrive3Enhanced: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/test-drive-iii-enhanced.svg",
-    alt: "Test Drive III Enhanced (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/6/66/Test_Drive_III_-_The_Passion_cover.jpg",
+    alt: "Test Drive III: The Passion (box art)",
+    credit: "Wikipedia",
   },
   notes: "Test Drive III Enhanced: engine remake by kylofon for Windows. Bring your own copy of the game.",
   notesEs: "Test Drive III Enhanced: recreación de motor de kylofon para Windows. Aporta tu propia copia del juego.",

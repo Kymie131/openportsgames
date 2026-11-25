@@ -27,8 +27,8 @@ export const ootDsi: Port = {
   notes: "Experimental native Nintendo DSi port in C/C++ with libnds, using components from the Ocarina of Time decompilation. Still in development.",
   notesEs: "Port nativo experimental para Nintendo DSi en C/C++ con libnds, usando componentes de la descompilación de Ocarina of Time. Aún en desarrollo.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-ocarina-of-time.svg",
-    alt: "The Legend of Zelda: Ocarina of Time (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+    alt: "The Legend of Zelda: Ocarina of Time (box art)",
+    credit: "Wikipedia",
   },
 };

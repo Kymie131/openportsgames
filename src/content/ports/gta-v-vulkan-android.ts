@@ -26,8 +26,8 @@ export const gtaVVulkanAndroid: Port = {
   notes: "Unofficial native Android port using Vulkan. Bring your own game files.",
   notesEs: "Port nativo no oficial para Android usando Vulkan. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/grand-theft-auto-v.svg",
-    alt: "Grand Theft Auto V (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
+    alt: "Grand Theft Auto V (box art)",
+    credit: "Wikipedia",
   },
 };

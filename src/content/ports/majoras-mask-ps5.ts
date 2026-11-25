@@ -26,8 +26,8 @@ export const majorasMaskPs5: Port = {
   notes: "Native PS5 port of 2 Ship 2 Harkinian, with 4K output and HD texture support. Bring your own ROM.",
   notesEs: "Port nativo para PS5 de 2 Ship 2 Harkinian, con salida 4K y soporte de texturas HD. Aporta tu propia ROM.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-majora-s-mask.svg",
-    alt: "The Legend of Zelda: Majora's Mask (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg",
+    alt: "The Legend of Zelda: Majora's Mask (box art)",
+    credit: "Wikipedia",
   },
 };

@@ -26,8 +26,8 @@ export const daggerfallPsp: Port = {
   notes: "AI-assisted port of Daggerfall for the PlayStation Portable. Bring your own game data.",
   notesEs: "Port de Daggerfall para PlayStation Portable asistido por IA. Aporta tus propios datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-elder-scrolls-ii-daggerfall.svg",
-    alt: "The Elder Scrolls II: Daggerfall (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a4/Daggerfall_Cover_art.gif",
+    alt: "The Elder Scrolls II: Daggerfall (box art)",
+    credit: "Wikipedia",
   },
 };

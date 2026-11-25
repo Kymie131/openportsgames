@@ -26,8 +26,8 @@ export const coldFearSwitch: Port = {
   notes: "Native Nintendo Switch port. Bring your own copy of the game.",
   notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/cold-fear.svg",
-    alt: "Cold Fear (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/9/91/Cold_Fear.jpg",
+    alt: "Cold Fear (box art)",
+    credit: "Wikipedia",
   },
 };

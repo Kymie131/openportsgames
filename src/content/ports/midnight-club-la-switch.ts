@@ -26,8 +26,8 @@ export const midnightClubLaSwitch: Port = {
   notes: "Native Nintendo Switch port of the game. Bring your own copy of the game.",
   notesEs: "Port nativo para Nintendo Switch del juego. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/midnight-club-los-angeles.svg",
-    alt: "Midnight Club: Los Angeles (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/e/ea/Midnight_Club-Los_Angeles.jpg",
+    alt: "Midnight Club: Los Angeles (box art)",
+    credit: "Wikipedia",
   },
 };

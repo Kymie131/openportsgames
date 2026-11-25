@@ -26,8 +26,8 @@ export const soulcalibur2Switch: Port = {
   notes: "Native Nintendo Switch port. Bring your own copy of the game.",
   notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/soulcalibur-ii.svg",
-    alt: "Soulcalibur II (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/3/37/Soulcalibur_II_flyer.png",
+    alt: "Soulcalibur II (box art)",
+    credit: "Wikipedia",
   },
 };

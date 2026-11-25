@@ -26,8 +26,8 @@ export const geometryDashSwitch: Port = {
   notes: "Nintendo Switch port of the Android game. Bring your own game files.",
   notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/geometry-dash.svg",
-    alt: "Geometry Dash (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/322170/header.jpg",
+    alt: "Geometry Dash (box art)",
+    credit: "Steam",
   },
 };

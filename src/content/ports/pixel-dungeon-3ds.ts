@@ -27,8 +27,8 @@ export const pixelDungeon3ds: Port = {
   notes: "Pixel Dungeon port for the Nintendo 3DS. No game files are required.",
   notesEs: "Port de Pixel Dungeon para Nintendo 3DS. No requiere archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/pixel-dungeon.svg",
-    alt: "Pixel Dungeon (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/365900/header.jpg",
+    alt: "Pixel Dungeon (box art)",
+    credit: "Steam",
   },
 };

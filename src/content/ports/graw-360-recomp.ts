@@ -30,9 +30,9 @@ export const graw360Recomp: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/tom-clancy-s-ghost-recon-advanced-warfighter.svg",
-    alt: "Tom Clancy's Ghost Recon Advanced Warfighter (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/2/24/Ghost_Recon_Advanced_Warfighter_cover.jpg",
+    alt: "Tom Clancy's Ghost Recon Advanced Warfighter (box art)",
+    credit: "Wikipedia",
   },
   notes: "Xbox 360 Ghost Recon Advanced Warfighter statically recompiled to native PC. It reaches the start screen; bring your own disc.",
   notesEs: "Ghost Recon Advanced Warfighter de Xbox 360 recompilado estáticamente a PC nativo. Llega a la pantalla de inicio; aporta tu propio disco.",

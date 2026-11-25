@@ -26,8 +26,8 @@ export const gtaChinatownWarsSwitch: Port = {
   notes: "Nintendo Switch port of the Android version. Bring your own game files.",
   notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/grand-theft-auto-chinatown-wars.svg",
-    alt: "Grand Theft Auto: Chinatown Wars (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/7/75/ChinatownWars.jpg",
+    alt: "Grand Theft Auto: Chinatown Wars (box art)",
+    credit: "Wikipedia",
   },
 };

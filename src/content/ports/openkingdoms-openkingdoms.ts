@@ -31,9 +31,9 @@ export const openkingdomsOpenkingdoms: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/total-annihilation-kingdoms.svg",
-    alt: "Total Annihilation: Kingdoms (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/6/64/Total_Annihilation_-_Kingdoms_Coverart.png",
+    alt: "Total Annihilation: Kingdoms (box art)",
+    credit: "Wikipedia",
   },
   notes: "Total Annihilation: Kingdoms: engine remake by OpenKingdoms for Windows. Bring your own copy of the game.",
   notesEs: "Total Annihilation: Kingdoms: recreación de motor de OpenKingdoms para Windows. Aporta tu propia copia del juego.",

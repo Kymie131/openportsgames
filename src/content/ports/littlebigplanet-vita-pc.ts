@@ -27,8 +27,8 @@ export const littlebigplanetVitaPc: Port = {
   notes: "Native PC port by static recompilation using vita-recomp-kit and a Vita3K fork. No game data; bring your own dump.",
   notesEs: "Port nativo para PC por recompilación estática usando vita-recomp-kit y un fork de Vita3K. Sin datos del juego; aporta tu propio volcado.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/littlebigplanet-ps-vita.svg",
-    alt: "LittleBigPlanet PS Vita (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/de/LittleBigPlanet_PS_Vita_cover.jpg",
+    alt: "LittleBigPlanet PS Vita (box art)",
+    credit: "Wikipedia",
   },
 };

@@ -26,8 +26,8 @@ export const kirbyAirRideRecomp: Port = {
   notes: "Native Windows recompilation of Kirby Air Ride with widescreen and high refresh rates, plus online City Trial. Ships no game files: you must supply your own USA disc.",
   notesEs: "Recompilación nativa para Windows de Kirby Air Ride con pantalla ancha y altas tasas de refresco, además de City Trial en línea. No incluye archivos del juego: debes aportar tu propio disco USA.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/kirby-air-ride.svg",
-    alt: "Kirby Air Ride (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/b/ba/Karbox.jpg",
+    alt: "Kirby Air Ride (box art)",
+    credit: "Wikipedia",
   },
 };

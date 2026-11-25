@@ -26,8 +26,8 @@ export const assassinsCreedAltairSwitch: Port = {
   notes: "Nintendo Switch port of the Android HD version. Bring your own game files.",
   notesEs: "Port para Nintendo Switch de la versión HD de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/assassin-s-creed-altair-s-chronicles.svg",
-    alt: "Assassin's Creed: Altaïr's Chronicles (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f5/Assassin%27s_Creed_Alta%C3%AFr%27s_Chronicles.png",
+    alt: "Assassin's Creed: Altaïr's Chronicles (box art)",
+    credit: "Wikipedia",
   },
 };

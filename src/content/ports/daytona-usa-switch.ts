@@ -26,8 +26,8 @@ export const daytonaUsaSwitch: Port = {
   notes: "Arcade game running natively on the Nintendo Switch. Bring your own game data.",
   notesEs: "Juego arcade ejecutándose de forma nativa en Nintendo Switch. Aporta tus propios datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/daytona-usa.svg",
-    alt: "Daytona USA (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c2/Daytona_USA_arcade_flyer.jpg",
+    alt: "Daytona USA (box art)",
+    credit: "Wikipedia",
   },
 };

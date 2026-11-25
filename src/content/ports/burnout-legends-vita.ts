@@ -26,8 +26,8 @@ export const burnoutLegendsVita: Port = {
   notes: "Native PS Vita port of the PSP game via static recompilation. Bring your own UMD.",
   notesEs: "Port nativo para PS Vita del juego de PSP mediante recompilación estática. Aporta tu propio UMD.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/burnout-legends.svg",
-    alt: "Burnout Legends (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/3/3c/Burnout_Legends.jpg",
+    alt: "Burnout Legends (box art)",
+    credit: "Wikipedia",
   },
 };

@@ -26,8 +26,8 @@ export const papersPleaseSwitch: Port = {
   notes: "Nintendo Switch port of the Android version. Bring your own game files.",
   notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/papers-please.svg",
-    alt: "Papers, Please (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/239030/header.jpg",
+    alt: "Papers, Please (box art)",
+    credit: "Steam",
   },
 };

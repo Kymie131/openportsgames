@@ -26,8 +26,8 @@ export const hollowKnightVita: Port = {
   notes: "Native PS Vita port of the PC game. Bring your own game files.",
   notesEs: "Port nativo para PS Vita del juego de PC. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/hollow-knight.svg",
-    alt: "Hollow Knight (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/de/Hollow_Knight_2026_cover_art.jpg",
+    alt: "Hollow Knight (box art)",
+    credit: "Wikipedia",
   },
 };

@@ -27,8 +27,8 @@ export const gta3ds: Port = {
   notes: "Ports of GTA III, Vice City and Liberty City Stories to New Nintendo 3DS. No game files are included.",
   notesEs: "Ports de GTA III, Vice City y Liberty City Stories para New Nintendo 3DS. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/grand-theft-auto-iii.svg",
-    alt: "Grand Theft Auto III (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/b/be/GTA3boxcover.jpg",
+    alt: "Grand Theft Auto III (box art)",
+    credit: "Wikipedia",
   },
 };

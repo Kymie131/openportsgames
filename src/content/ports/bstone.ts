@@ -42,9 +42,9 @@ export const bstone: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/bstone.svg",
-    alt: "Blake Stone: Aliens of Gold (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/e/ec/Blake_Stone_Aliens_of_Gold_cover.jpg",
+    alt: "Blake Stone: Aliens of Gold (box art)",
+    credit: "Wikipedia",
   },
   notes:
     "BStone is an unofficial source port of the Blake Stone series with widescreen support and modern input. It needs the original game data.",

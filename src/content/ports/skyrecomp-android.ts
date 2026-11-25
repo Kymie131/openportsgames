@@ -31,8 +31,8 @@ export const skyrecompAndroid: Port = {
     "Continuación Android de Sky Recomp para Skyward Sword HD, con launcher autónomo y extractor de NSP. Requiere tu propia copia 1.0.0 o 1.0.1 del juego y no incluye archivos del juego.",
   related: ["apolinario-coder-skyrecomp"],
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-skyward-sword-hd.svg",
-    alt: "The Legend of Zelda: Skyward Sword HD (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/9/99/Legend_of_Zelda_Skyward_Sword_boxart.png",
+    alt: "The Legend of Zelda: Skyward Sword HD (box art)",
+    credit: "Wikipedia",
   },
 };

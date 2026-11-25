@@ -27,8 +27,8 @@ export const cyberiaAndroid: Port = {
   notes: "Native port by static recompilation for Linux, Windows and Android. Bring your own CD.",
   notesEs: "Port nativo por recompilación estática para Linux, Windows y Android. Aporta tu propio CD.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/cyberia.svg",
-    alt: "Cyberia (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/624080/header.jpg",
+    alt: "Cyberia (box art)",
+    credit: "Steam",
   },
 };

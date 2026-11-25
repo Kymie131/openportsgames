@@ -28,4 +28,6 @@ export const ReracLauncher: Port = {
   },
   notes: "ReRAC: The Ratchet & Clank Rewrite Launcher.",
   notesEs: "ReRAC: el lanzador de la reescritura de Ratchet & Clank.",
+  summary: "Launcher for Rerac, a recompilation front-end for classic games.",
+  summaryEs: "Lanzador de Rerac, un frontal de recompilación para juegos clásicos.",
 };

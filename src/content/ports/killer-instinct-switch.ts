@@ -26,8 +26,8 @@ export const killerInstinctSwitch: Port = {
   notes: "Arcade game running natively on the Nintendo Switch. Bring your own game data.",
   notesEs: "Juego arcade ejecutándose de forma nativa en Nintendo Switch. Aporta tus propios datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/killer-instinct.svg",
-    alt: "Killer Instinct (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/577940/header.jpg",
+    alt: "Killer Instinct (box art)",
+    credit: "Steam",
   },
 };

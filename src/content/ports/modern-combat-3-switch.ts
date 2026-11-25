@@ -26,8 +26,8 @@ export const modernCombat3Switch: Port = {
   notes: "Runs the 32-bit Android build natively on the Nintendo Switch through an android32 so-loader port. Bring your own game files.",
   notesEs: "Ejecuta la versión de Android de 32 bits de forma nativa en Nintendo Switch mediante un cargador so de android32. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/modern-combat-3-fallen-nation.svg",
-    alt: "Modern Combat 3: Fallen Nation (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c4/Modern_Combat_3.png",
+    alt: "Modern Combat 3: Fallen Nation (box art)",
+    credit: "Wikipedia",
   },
 };

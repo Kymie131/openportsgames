@@ -32,9 +32,9 @@ export const sc2kfixSc2kfix: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/simcity-2000.svg",
-    alt: "SimCity 2000 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d4/SimCity_2000_Coverart.png",
+    alt: "SimCity 2000 (box art)",
+    credit: "Wikipedia",
   },
   notes: "SimCity 2000: decompilation by sc2kfix for Windows. Bring your own copy of the game.",
   notesEs: "SimCity 2000: decompilación de sc2kfix para Windows. Aporta tu propia copia del juego.",

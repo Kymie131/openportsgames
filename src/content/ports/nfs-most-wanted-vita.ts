@@ -26,8 +26,8 @@ export const nfsMostWantedVita: Port = {
   notes: "Native PS Vita port of the PS2 version. Bring your own copy of the game.",
   notesEs: "Port nativo para PS Vita de la versión de PS2. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/need-for-speed-most-wanted.svg",
-    alt: "Need for Speed: Most Wanted (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1262560/header.jpg",
+    alt: "Need for Speed: Most Wanted (box art)",
+    credit: "Steam",
   },
 };

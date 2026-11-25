@@ -26,8 +26,8 @@ export const legoBatmanSwitch: Port = {
   notes: "Static recompilation (ReXGlue, deko3d) running on the Nintendo Switch. No game data is included.",
   notesEs: "Recompilación estática (ReXGlue, deko3d) ejecutándose en Nintendo Switch. No incluye datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/lego-batman-the-videogame.svg",
-    alt: "LEGO Batman: The Videogame (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e3/Lego_batman_cover.jpg",
+    alt: "LEGO Batman: The Videogame (box art)",
+    credit: "Wikipedia",
   },
 };

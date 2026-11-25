@@ -26,8 +26,8 @@ export const halfLife2Switch: Port = {
   notes: "Nintendo Switch wrapper/port of the Android version of Half-Life 2. Bring your own game files.",
   notesEs: "Envoltorio y port para Nintendo Switch de la versión de Android de Half-Life 2. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/half-life-2.svg",
-    alt: "Half-Life 2 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/2/25/Half-Life_2_cover.jpg",
+    alt: "Half-Life 2 (box art)",
+    credit: "Wikipedia",
   },
 };

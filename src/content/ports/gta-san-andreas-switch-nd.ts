@@ -26,8 +26,8 @@ export const gtaSanAndreasSwitchNd: Port = {
   notes: "Nintendo Switch port of the Android version. Bring your own game files.",
   notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/grand-theft-auto-san-andreas.svg",
-    alt: "Grand Theft Auto: San Andreas (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c4/GTASABOX.jpg",
+    alt: "Grand Theft Auto: San Andreas (box art)",
+    credit: "Wikipedia",
   },
 };

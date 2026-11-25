@@ -35,9 +35,9 @@ export const mabecGamesIss2000Recomp: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/mabecs-international-superstar-soccer-2000.svg",
-    alt: "Mabecs International Superstar Soccer 2000 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5c/International_Superstar_Soccer_2000_Coverart.png",
+    alt: "International Superstar Soccer 2000 (box art)",
+    credit: "Wikipedia",
   },
   notes: "Mabecs International Superstar Soccer 2000: static recompilation by Mabec-games for Windows, Linux. Bring your own copy of the game.",
   notesEs: "Mabecs International Superstar Soccer 2000: recompilación estática de Mabec-games para Windows, Linux. Aporta tu propia copia del juego.",

@@ -26,8 +26,8 @@ export const linksAwakeningAndroidZlaa: Port = {
   notes: "Recompiled to run natively on Android. Bring your own game files.",
   notesEs: "Recompilado para ejecutarse de forma nativa en Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-link-s-awakening.svg",
-    alt: "The Legend of Zelda: Link's Awakening (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c1/Link%27s_Awakening.png",
+    alt: "The Legend of Zelda: Link's Awakening (box art)",
+    credit: "Wikipedia",
   },
 };

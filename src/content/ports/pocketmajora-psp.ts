@@ -27,8 +27,8 @@ export const pocketmajoraPsp: Port = {
   notes: "Early attempt at a Majora's Mask port for the PlayStation Portable. Bring your own game data.",
   notesEs: "Intento temprano de port de Majora's Mask para PlayStation Portable. Aporta tus propios datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-majora-s-mask.svg",
-    alt: "The Legend of Zelda: Majora's Mask (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg",
+    alt: "The Legend of Zelda: Majora's Mask (box art)",
+    credit: "Wikipedia",
   },
 };

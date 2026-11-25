@@ -26,8 +26,8 @@ export const rayman2Vita: Port = {
   notes: "Experimental PS Vita port based on the Dreamcast version. No game data is included.",
   notesEs: "Port experimental para PS Vita basado en la versión de Dreamcast. No incluye datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/rayman-2-the-great-escape.svg",
-    alt: "Rayman 2: The Great Escape (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/6/61/Rayman_2.jpg",
+    alt: "Rayman 2: The Great Escape (box art)",
+    credit: "Wikipedia",
   },
 };

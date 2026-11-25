@@ -26,8 +26,8 @@ export const forzaHorizonPs5: Port = {
   notes: "Native PS5 port based on Forza Horizon 1: ReImagined and ReXGlue. Bring your own Xbox 360 disc image.",
   notesEs: "Port nativo para PS5 basado en Forza Horizon 1: ReImagined y ReXGlue. Aporta tu propia imagen de disco de Xbox 360.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/forza-horizon.svg",
-    alt: "Forza Horizon (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/7/77/Forza_Horizon_boxart.jpg",
+    alt: "Forza Horizon (box art)",
+    credit: "Wikipedia",
   },
 };

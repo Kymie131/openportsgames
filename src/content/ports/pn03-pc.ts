@@ -26,8 +26,8 @@ export const pn03Pc: Port = {
   notes: "Native Windows x64 static recompilation port with Vulkan 1.3 and D3D11, 16:9 widescreen, HD overlay and Xbox controller support. No ISO or BIOS.",
   notesEs: "Port nativo para Windows x64 por recompilación estática con Vulkan 1.3 y D3D11, pantalla 16:9, superposición HD y soporte de mando Xbox. Sin ISO ni BIOS.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/p-n-03.svg",
-    alt: "P.N.03 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/2/25/PN03NTSCcover.jpg",
+    alt: "P.N.03 (box art)",
+    credit: "Wikipedia",
   },
 };

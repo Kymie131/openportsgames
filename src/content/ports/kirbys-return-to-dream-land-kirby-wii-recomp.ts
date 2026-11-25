@@ -27,9 +27,9 @@ export const KirbysReturnToDreamLandKirbyWiiRecomp: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/kirby-s-return-to-dream-land-kirby-wii-recomp.svg",
-    alt: "Kirby's Return to Dream Land (Kirby Wii Recomp) (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d4/Kirbys_return_to_dreamland_boxart.jpg",
+    alt: "Kirby's Return to Dream Land (box art)",
+    credit: "Wikipedia",
   },
   notes: "Runtime for recompilations of GameCube games.",
   notesEs: "Runtime para recompilaciones de juegos de GameCube.",

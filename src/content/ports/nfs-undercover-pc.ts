@@ -26,8 +26,8 @@ export const nfsUndercoverPc: Port = {
   notes: "Native Windows port of the Xbox 360 version via ReXGlue static recompilation. No game data is included.",
   notesEs: "Port nativo para Windows de la versión de Xbox 360 mediante recompilación estática con ReXGlue. No incluye datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/need-for-speed-undercover.svg",
-    alt: "Need for Speed: Undercover (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d2/Need_for_Speed_Undercover_cover.jpg",
+    alt: "Need for Speed: Undercover (box art)",
+    credit: "Wikipedia",
   },
 };

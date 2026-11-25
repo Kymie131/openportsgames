@@ -26,8 +26,8 @@ export const kirbyEpicYarnRecomp: Port = {
   notes: "Native recompilation of Kirby's Epic Yarn built with WiiCompiled and Aurora. Linux is the tested target; Windows support is under development. No game files are included.",
   notesEs: "Recompilación nativa de Kirby's Epic Yarn creada con WiiCompiled y Aurora. Linux es el objetivo probado; el soporte de Windows está en desarrollo. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/kirbys-epic-yarn.svg",
-    alt: "Kirby's Epic Yarn (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e3/Kirby%27s_Epic_Yarn_Title.png",
+    alt: "Kirby's Epic Yarn (box art)",
+    credit: "Wikipedia",
   },
 };

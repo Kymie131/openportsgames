@@ -26,8 +26,8 @@ export const costumeQuestSwitch: Port = {
   notes: "Nintendo Switch port of the Android version. Bring your own game files.",
   notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/costume-quest.svg",
-    alt: "Costume Quest (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/de/Costume-quest-cover.jpg",
+    alt: "Costume Quest (box art)",
+    credit: "Wikipedia",
   },
 };

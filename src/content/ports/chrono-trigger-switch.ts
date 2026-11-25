@@ -26,8 +26,8 @@ export const chronoTriggerSwitch: Port = {
   notes: "Nintendo Switch port of the Android version. Bring your own game files.",
   notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/chrono-trigger.svg",
-    alt: "Chrono Trigger (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a7/Chrono_Trigger.jpg",
+    alt: "Chrono Trigger (box art)",
+    credit: "Wikipedia",
   },
 };

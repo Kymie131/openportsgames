@@ -26,8 +26,8 @@ export const freekstyleLinux: Port = {
   notes: "Unofficial native Linux port written in Rust with Vulkan. No game data is included; bring your own disc.",
   notesEs: "Port nativo no oficial para Linux escrito en Rust con Vulkan. No incluye datos del juego; aporta tu propio disco.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/freekstyle.svg",
-    alt: "Freekstyle (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0a/Freekstyle_Coverart.png",
+    alt: "Freekstyle (box art)",
+    credit: "Wikipedia",
   },
 };

@@ -25,9 +25,9 @@ export const mwengeUridium: Port = {
   summary: "Uridium is a 1986 side-scrolling shooter developed by Andrew Braybrook and published by Hewson Consultants for the Commodore 64.",
   summaryEs: "Uridium es un shooter de desplazamiento lateral de 1986 desarrollado por Andrew Braybrook y publicado por Hewson Consultants para Commodore 64.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/uridium-uridium-uridiumfraktion.svg",
-    alt: "Uridium (uridium (+ UridiumFraktion)) (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/2/29/Uridium_cover.jpg",
+    alt: "Uridium (box art)",
+    credit: "Wikipedia",
   },
   notes: "Uridium (uridium (+ UridiumFraktion)): decompilation by mwenge for Windows. Bring your own copy of the game.",
   notesEs: "Uridium (uridium (+ UridiumFraktion)): decompilación de mwenge para Windows. Aporta tu propia copia del juego.",

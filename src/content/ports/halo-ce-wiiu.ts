@@ -27,8 +27,8 @@ export const haloCeWiiu: Port = {
   notes: "Wii U port based on OpenCE, preserving upstream history and credits. Bring your own game data.",
   notesEs: "Port para Wii U basado en OpenCE, conservando el historial y créditos originales. Aporta tus propios datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/halo-combat-evolved.svg",
-    alt: "Halo: Combat Evolved (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg",
+    alt: "Halo: Combat Evolved (box art)",
+    credit: "Wikipedia",
   },
 };

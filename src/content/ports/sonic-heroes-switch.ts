@@ -26,8 +26,8 @@ export const sonicHeroesSwitch: Port = {
   notes: "Native Nintendo Switch port. Bring your own copy of the game.",
   notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/sonic-heroes.svg",
-    alt: "Sonic Heroes (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e4/Sonic_Heroes_Cover.png",
+    alt: "Sonic Heroes (box art)",
+    credit: "Wikipedia",
   },
 };

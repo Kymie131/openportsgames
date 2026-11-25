@@ -26,9 +26,9 @@ export const enchantedArmsRecomp: Port = {
   summaryEs:
     "Enchanted Arms es un videojuego de rol de 2006 desarrollado por FromSoftware y publicado por Ubisoft en Occidente. Sigue a Atsuma en un mundo donde los gólems se controlan con brazos encantados, con combates por turnos sobre una cuadrícula.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/enchanted-arms.svg",
-    alt: "Enchanted Arms (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8d/Enchantarm.jpg",
+    alt: "Enchanted Arms (box art)",
+    credit: "Wikipedia",
   },
   notes: "Enchanted Arms Recompiled: native recompilation of Enchanted Arms for windows. Bring your own copy of the game.",
   notesEs: "Enchanted Arms Recompiled: recompilación nativo de Enchanted Arms para windows. Aporta tu propia copia del juego.",

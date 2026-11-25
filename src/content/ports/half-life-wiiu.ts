@@ -26,8 +26,8 @@ export const halfLifeWiiu: Port = {
   notes: "Native Wii U port for the Aroma homebrew environment. Bring your own game files.",
   notesEs: "Port nativo para Wii U para el entorno homebrew Aroma. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/half-life.svg",
-    alt: "Half-Life (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/70/header.jpg",
+    alt: "Half-Life (box art)",
+    credit: "Steam",
   },
 };

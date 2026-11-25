@@ -26,8 +26,8 @@ export const realRacing3Vita: Port = {
   notes: "PS Vita port based on the 1.4.0 Mali graphics version. No game data is included.",
   notesEs: "Port para PS Vita basado en la versión gráfica Mali 1.4.0. No incluye datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/real-racing-3.svg",
-    alt: "Real Racing 3 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5d/Real_Racing_3.jpg",
+    alt: "Real Racing 3 (box art)",
+    credit: "Wikipedia",
   },
 };

@@ -31,9 +31,9 @@ export const kensLabyrinthAndroid: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/ken-s-labyrinth.svg",
-    alt: "Ken's Labyrinth (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/e/eb/Kens_Labyrinth_boxart.jpg",
+    alt: "Ken's Labyrinth (box art)",
+    credit: "Wikipedia",
   },
   notes: "Port of Ken's Labyrinth for Android using SDL2, with touch controls and the original levels.",
   notesEs: "Port de Ken's Labyrinth para Android con SDL2, controles táctiles y los niveles originales.",

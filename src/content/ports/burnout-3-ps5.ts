@@ -26,8 +26,8 @@ export const burnout3Ps5: Port = {
   notes: "Native PS5 port of Takedawn, the Xbox recompilation. Bring your own USA disc.",
   notesEs: "Port nativo para PS5 de Takedawn, la recompilación de Xbox. Aporta tu propio disco USA.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/burnout-3-takedown.svg",
-    alt: "Burnout 3: Takedown (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/9/93/Burnout_3_-_Takedown_Coverart.jpg",
+    alt: "Burnout 3: Takedown (box art)",
+    credit: "Wikipedia",
   },
 };

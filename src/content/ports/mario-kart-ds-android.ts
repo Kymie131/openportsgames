@@ -26,8 +26,8 @@ export const marioKartDsAndroid: Port = {
   notes: "Native Android port of Mario Kart DS. Bring your own ROM.",
   notesEs: "Port nativo para Android de Mario Kart DS. Aporta tu propia ROM.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/mario-kart-ds.svg",
-    alt: "Mario Kart DS (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/8/86/Mario_Kart_DS_cover.jpg",
+    alt: "Mario Kart DS (box art)",
+    credit: "Wikipedia",
   },
 };

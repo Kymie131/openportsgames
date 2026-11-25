@@ -26,8 +26,8 @@ export const persona5RoyalAndroid: Port = {
   notes: "Native Android port that runs your own Switch dump, with touch controls and controller support. No game data is included.",
   notesEs: "Port nativo para Android que ejecuta tu propio volcado de Switch, con controles táctiles y compatibilidad con mandos. No incluye datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/persona-5-royal.svg",
-    alt: "Persona 5 Royal (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1687950/header.jpg",
+    alt: "Persona 5 Royal (box art)",
+    credit: "Steam",
   },
 };

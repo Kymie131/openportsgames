@@ -28,4 +28,6 @@ export const Xbox360Kernel: Port = {
   },
   notes: "Xbox 360 Kernel decompilation.",
   notesEs: "Decompilación del kernel de Xbox 360.",
+  summary: "Reverse-engineered Xbox 360 kernel used by recompilation and research projects.",
+  summaryEs: "Kernel de Xbox 360 reversionado, usado por proyectos de recompilación e investigación.",
 };

@@ -26,8 +26,8 @@ export const digimonRumbleArena2Pc: Port = {
   notes: "Native PC port for Windows and Linux by static recompilation to C, with OpenGL 3.3 and SDL2. No game data is included.",
   notesEs: "Port nativo para PC en Windows y Linux por recompilación estática a C, con OpenGL 3.3 y SDL2. No incluye datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/digimon-rumble-arena-2.svg",
-    alt: "Digimon Rumble Arena 2 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/7/70/Digimon_Rumble_Arena_2.jpg",
+    alt: "Digimon Rumble Arena 2 (box art)",
+    credit: "Wikipedia",
   },
 };

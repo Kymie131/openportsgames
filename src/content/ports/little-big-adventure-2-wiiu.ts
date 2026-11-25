@@ -26,8 +26,8 @@ export const littleBigAdventure2Wiiu: Port = {
   notes: "Wii U port of the original 1997 source from the 2.21/LBALab community release, completed start to finish on real hardware.",
   notesEs: "Port para Wii U del código original de 1997 de la versión comunitaria 2.21/LBALab, completado de principio a fin en hardware real.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/little-big-adventure-2.svg",
-    alt: "Little Big Adventure 2 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/2/22/Little_Big_Adventure_2_cover.jpg",
+    alt: "Little Big Adventure 2 (box art)",
+    credit: "Wikipedia",
   },
 };

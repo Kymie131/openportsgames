@@ -31,9 +31,9 @@ export const giangraStuntdoubleReignition: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/stuntman-ignition.svg",
-    alt: "Stuntman: Ignition (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/2/24/Stuntman_Ignition2.jpg",
+    alt: "Stuntman: Ignition (box art)",
+    credit: "Wikipedia",
   },
   notes: "Stuntman: Ignition: static recompilation by giangra for Windows. Bring your own copy of the game.",
   notesEs: "Stuntman: Ignition: recompilación estática de giangra para Windows. Aporta tu propia copia del juego.",

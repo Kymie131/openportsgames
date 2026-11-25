@@ -26,8 +26,8 @@ export const finalFantasy7Vita: Port = {
   notes: "Port of the Android Legacy version to PS Vita. No game data is included.",
   notesEs: "Port de la versión Android Legacy a PS Vita. No incluye datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/final-fantasy-vii.svg",
-    alt: "Final Fantasy VII (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c2/Final_Fantasy_VII_Box_Art.jpg",
+    alt: "Final Fantasy VII (box art)",
+    credit: "Wikipedia",
   },
 };

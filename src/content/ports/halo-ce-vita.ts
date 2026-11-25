@@ -26,8 +26,8 @@ export const haloCeVita: Port = {
   notes: "Native PS Vita decompilation port. Bring your own game files.",
   notesEs: "Port nativo para PS Vita basado en decompilación. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/halo-combat-evolved.svg",
-    alt: "Halo: Combat Evolved (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg",
+    alt: "Halo: Combat Evolved (box art)",
+    credit: "Wikipedia",
   },
 };

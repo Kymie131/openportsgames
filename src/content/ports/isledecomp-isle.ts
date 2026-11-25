@@ -37,9 +37,9 @@ export const isledecompIsle: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/lego-island.svg",
-    alt: "Lego Island (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a1/Lego-island.jpg",
+    alt: "Lego Island (box art)",
+    credit: "Wikipedia",
   },
   notes: "Lego Island: decompilation by isledecomp for Windows. Bring your own copy of the game.",
   notesEs: "Lego Island: decompilación de isledecomp para Windows. Aporta tu propia copia del juego.",

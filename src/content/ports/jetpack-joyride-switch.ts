@@ -26,8 +26,8 @@ export const jetpackJoyrideSwitch: Port = {
   notes: "Nintendo Switch port of the Android game. Bring your own game files.",
   notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/jetpack-joyride.svg",
-    alt: "Jetpack Joyride (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/9/90/Jetpack_Joyride_iOS.png",
+    alt: "Jetpack Joyride (box art)",
+    credit: "Wikipedia",
   },
 };

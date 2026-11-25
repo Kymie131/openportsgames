@@ -27,8 +27,8 @@ export const halfLifePs4: Port = {
   notes: "Native Xash3D engine port for jailbroken PS4 homebrew. Bring your own game data.",
   notesEs: "Port nativo del motor Xash3D para homebrew de PS4 con jailbreak. Aporta tus propios datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/half-life.svg",
-    alt: "Half-Life (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/70/header.jpg",
+    alt: "Half-Life (box art)",
+    credit: "Steam",
   },
 };

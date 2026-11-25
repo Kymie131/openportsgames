@@ -26,8 +26,8 @@ export const burgerShopSwitch: Port = {
   notes: "Nintendo Switch port of the Android game. Bring your own game files.",
   notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/burger-shop.svg",
-    alt: "Burger Shop (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/730840/header.jpg",
+    alt: "Burger Shop (box art)",
+    credit: "Steam",
   },
 };

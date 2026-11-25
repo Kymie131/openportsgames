@@ -32,9 +32,9 @@ export const Openxwa: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/openxwa.svg",
-    alt: "OpenXWA (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c3/Star_Wars_-_X-Wing_Alliance_Coverart.png",
+    alt: "Star Wars: X-Wing Alliance (box art)",
+    credit: "Wikipedia",
   },
   notes: "Source port of OpenXWA (Other).",
   notesEs: "Port del código fuente de OpenXWA (Other).",

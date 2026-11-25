@@ -22,9 +22,9 @@ export const Maxr: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/maxr.svg",
-    alt: "maxr (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/615250/header.jpg",
+    alt: "M.A.X.: Mechanized Assault & Exploration (box art)",
+    credit: "Steam",
   },
   notes: "A turn based strategy game.",
   notesEs: "Un juego de estrategia por turnos.",

@@ -32,9 +32,9 @@ export const Opentie: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/opentie.svg",
-    alt: "OpenTIE (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7d/Swtiefightercd.jpg",
+    alt: "Star Wars: TIE Fighter (box art)",
+    credit: "Wikipedia",
   },
   notes: "Source port of OpenTIE (Other).",
   notesEs: "Port del código fuente de OpenTIE (Other).",

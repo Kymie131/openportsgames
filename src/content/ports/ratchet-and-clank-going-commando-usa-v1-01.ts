@@ -23,9 +23,9 @@ export const RatchetAndClankGoingCommandoUsaV101: Port = {
   summary: "Ratchet & Clank: Going Commando is a 2003 platform game developed by Insomniac Games and published by Sony Computer Entertainment for the PlayStation 2.",
   summaryEs: "Ratchet & Clank: Going Commando es un juego de plataformas de 2003 desarrollado por Insomniac Games y publicado por Sony Computer Entertainment para PlayStation 2.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/ratchet-clank-going-commando-usa-v1-01.svg",
-    alt: "Ratchet & Clank: Going Commando (USA v1.01) (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a4/Ratchet_and_clank_gc_image.jpg",
+    alt: "Ratchet & Clank: Going Commando (box art)",
+    credit: "Wikipedia",
   },
   notes:
     "Going Commando USA v1.01: byte-exact reconstruction tools and native-port research. No game assets.",

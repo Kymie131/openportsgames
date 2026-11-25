@@ -31,9 +31,9 @@ export const sm35recompSm35recomp: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/super-mario-bros-35.svg",
-    alt: "Super Mario Bros. 35 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/1/13/Super_Mario_Bros_35.png",
+    alt: "Super Mario Bros. 35 (box art)",
+    credit: "Wikipedia",
   },
   notes: "Super Mario Bros. 35: static recompilation by sm35recomp for Windows. Bring your own copy of the game.",
   notesEs: "Super Mario Bros. 35: recompilación estática de sm35recomp para Windows. Aporta tu propia copia del juego.",

@@ -30,8 +30,8 @@ export const mk7Recomp: Port = {
   notesEs:
     "Recompilación estática de Mario Kart 7 con soporte de mods. La compatibilidad con CTGP-7 no está confirmada. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/mario-kart-7.svg",
-    alt: "Mario Kart 7 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/2/2a/Mario_Kart_7_box_art.jpg",
+    alt: "Mario Kart 7 (box art)",
+    credit: "Wikipedia",
   },
 };

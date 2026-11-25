@@ -26,8 +26,8 @@ export const legoBatman3Switch: Port = {
   notes: "Nintendo Switch port of the Android version. Bring your own game files.",
   notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/lego-batman-3-beyond-gotham.svg",
-    alt: "LEGO Batman 3: Beyond Gotham (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/2/2d/Lego_Batman_3_-_Beyond_Gotham_cover.jpg",
+    alt: "LEGO Batman 3: Beyond Gotham (box art)",
+    credit: "Wikipedia",
   },
 };

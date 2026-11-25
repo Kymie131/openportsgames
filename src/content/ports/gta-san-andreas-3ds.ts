@@ -27,8 +27,8 @@ export const gtaSanAndreas3ds: Port = {
   notes: "Unofficial experimental port of the PS2 version to Old and New Nintendo 3DS, built on PS2RC. Not playable yet. Bring your own disc.",
   notesEs: "Port experimental no oficial de la versión de PS2 para Nintendo 3DS antigua y nueva, basado en PS2RC. Aún no es jugable. Aporta tu propio disco.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/grand-theft-auto-san-andreas.svg",
-    alt: "Grand Theft Auto: San Andreas (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c4/GTASABOX.jpg",
+    alt: "Grand Theft Auto: San Andreas (box art)",
+    credit: "Wikipedia",
   },
 };

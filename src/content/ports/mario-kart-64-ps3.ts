@@ -26,8 +26,8 @@ export const marioKart64Ps3: Port = {
   notes: "Native PlayStation 3 homebrew port of the Mario Kart 64 decompilation. Bring your own game data.",
   notesEs: "Port homebrew nativo para PlayStation 3 de la descompilación de Mario Kart 64. Aporta tus propios datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/mario-kart-64.svg",
-    alt: "Mario Kart 64 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a1/Mario_Kart_64.jpg",
+    alt: "Mario Kart 64 (box art)",
+    credit: "Wikipedia",
   },
 };

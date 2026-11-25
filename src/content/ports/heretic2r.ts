@@ -32,9 +32,9 @@ export const heretic2r: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/heretic2r.svg",
-    alt: "Heretic II (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/ca/Heretic_II_Coverart.png",
+    alt: "Heretic II (box art)",
+    credit: "Wikipedia",
   },
   notes:
     "Heretic2R is a reverse-engineered source port of Heretic II with widescreen support and a framerate decoupled from network updates. It needs the original game data updated to v1.06.",

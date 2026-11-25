@@ -33,9 +33,9 @@ export const beatlesRockBandPc: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-beatles-rock-band.svg",
-    alt: "The Beatles: Rock Band (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0f/The_Beatles_Rock_Band_box_art.jpg",
+    alt: "The Beatles: Rock Band (box art)",
+    credit: "Wikipedia",
   },
   notes: "The Beatles: Rock Band: native recompilation of The Beatles: Rock Band for windows. Bring your own copy of the game.",
   notesEs: "The Beatles: Rock Band: recompilación nativo de The Beatles: Rock Band para windows. Aporta tu propia copia del juego.",

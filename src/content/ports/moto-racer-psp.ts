@@ -26,8 +26,8 @@ export const motoRacerPsp: Port = {
   notes: "Native port for Mac, Windows, Linux, Steam Deck and PSP with widescreen up to 4K and high frame rates. Built from your own GOG copy.",
   notesEs: "Port nativo para Mac, Windows, Linux, Steam Deck y PSP con pantalla ancha hasta 4K y altas tasas de fotogramas. Creado a partir de tu propia copia de GOG.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/moto-racer.svg",
-    alt: "Moto Racer (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/f/fa/Moto_Racer_Coverart.png",
+    alt: "Moto Racer (box art)",
+    credit: "Wikipedia",
   },
 };

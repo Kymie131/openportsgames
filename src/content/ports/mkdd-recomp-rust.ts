@@ -32,8 +32,8 @@ export const mkddRecompRust: Port = {
     "Recompilación de Mario Kart: Double Dash!! a Rust con runtime Bevy, mediante un flujo de trabajo tipo hoja de cálculo desde el p-code de Ghidra. Trabajo en curso sin releases; no incluye archivos del juego.",
   related: ["mkdd"],
   cover: {
-    src: "https://openportsgames.com/covers/generated/mario-kart-double-dash.svg",
-    alt: "Mario Kart: Double Dash!! (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/7/78/Mario_Kart_Double_Dash.jpg",
+    alt: "Mario Kart: Double Dash!! (box art)",
+    credit: "Wikipedia",
   },
 };

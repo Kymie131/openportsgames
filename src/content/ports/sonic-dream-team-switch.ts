@@ -26,8 +26,8 @@ export const sonicDreamTeamSwitch: Port = {
   notes: "Nintendo Switch port of the mobile game. Bring your own game files.",
   notesEs: "Port para Nintendo Switch del juego móvil. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/sonic-dream-team.svg",
-    alt: "Sonic Dream Team (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/9/95/Sonic_Dream_Team_title_art.png",
+    alt: "Sonic Dream Team (box art)",
+    credit: "Wikipedia",
   },
 };

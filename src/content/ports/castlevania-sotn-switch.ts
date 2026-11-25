@@ -26,8 +26,8 @@ export const castlevaniaSotnSwitch: Port = {
   notes: "Nintendo Switch port of the Android version. Bring your own game files.",
   notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/castlevania-symphony-of-the-night.svg",
-    alt: "Castlevania: Symphony of the Night (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg",
+    alt: "Castlevania: Symphony of the Night (box art)",
+    credit: "Wikipedia",
   },
 };

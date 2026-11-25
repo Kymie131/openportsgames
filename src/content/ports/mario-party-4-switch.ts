@@ -26,8 +26,8 @@ export const marioParty4Switch: Port = {
   notes: "Native Nintendo Switch homebrew port of Party Board with Vulkan (NVK), 60 fps, sound, movies and 4 players. Bring your own disc.",
   notesEs: "Port homebrew nativo para Nintendo Switch de Party Board con Vulkan (NVK), 60 fps, sonido, vídeos y 4 jugadores. Aporta tu propio disco.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/mario-party-4.svg",
-    alt: "Mario Party 4 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/5/58/Mario_Party_4.jpg",
+    alt: "Mario Party 4 (box art)",
+    credit: "Wikipedia",
   },
 };

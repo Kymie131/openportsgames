@@ -36,9 +36,9 @@ export const erreibPureRecomp: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/wipeout-pure.svg",
-    alt: "Wipeout Pure (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8e/Wipeoutpure.jpg",
+    alt: "Wipeout Pure (box art)",
+    credit: "Wikipedia",
   },
   notes: "Wipeout Pure: static recompilation by erreib for Windows, macOS. Bring your own copy of the game.",
   notesEs: "Wipeout Pure: recompilación estática de erreib para Windows, macOS. Aporta tu propia copia del juego.",

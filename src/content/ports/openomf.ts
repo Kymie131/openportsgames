@@ -52,9 +52,9 @@ export const openomf: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/openomf.svg",
-    alt: "One Must Fall 2097 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/8/80/One-must-fall-cover.jpg",
+    alt: "One Must Fall 2097 (box art)",
+    credit: "Wikipedia",
   },
   notes:
     "OpenOMF is an open-source remake of One Must Fall 2097 with online multiplayer and modern platform support. It needs the original game data.",

@@ -26,8 +26,8 @@ export const ragingThunderVita: Port = {
   notes: "Android to PS Vita port of Raging Thunder. Bring your own game files.",
   notesEs: "Port de Raging Thunder de Android a PS Vita. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/raging-thunder.svg",
-    alt: "Raging Thunder (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/4/4b/Raging_Thunder.png",
+    alt: "Raging Thunder (box art)",
+    credit: "Wikipedia",
   },
 };

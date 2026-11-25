@@ -26,8 +26,8 @@ export const oneshot3ds: Port = {
   notes: "Unofficial port of OneShot to the Nintendo 3DS, distributed as a CIA with a builder. No game files are included.",
   notesEs: "Port no oficial de OneShot para Nintendo 3DS, distribuido como CIA con un generador. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/oneshot.svg",
-    alt: "OneShot (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/8/81/OneShot_cover_art.png",
+    alt: "OneShot (box art)",
+    credit: "Wikipedia",
   },
 };

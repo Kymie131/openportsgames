@@ -26,8 +26,8 @@ export const castleOfIllusionSwitch: Port = {
   notes: "Nintendo Switch port of the Android version. Bring your own game files.",
   notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/castle-of-illusion-starring-mickey-mouse.svg",
-    alt: "Castle of Illusion Starring Mickey Mouse (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f4/Castle_of_illusion_Mickey_mouse.jpg",
+    alt: "Castle of Illusion Starring Mickey Mouse (box art)",
+    credit: "Wikipedia",
   },
 };

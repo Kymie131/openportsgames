@@ -31,8 +31,8 @@ export const ootPcRecomp: Port = {
   notesEs:
     "Recompilación experimental para Windows del remake de Ocarina of Time de Switch 2, derivada de un proyecto de Donkey Kong Bananza. Aún sin release pública.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-ocarina-of-time.svg",
-    alt: "The Legend of Zelda: Ocarina of Time (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+    alt: "The Legend of Zelda: Ocarina of Time (box art)",
+    credit: "Wikipedia",
   },
 };

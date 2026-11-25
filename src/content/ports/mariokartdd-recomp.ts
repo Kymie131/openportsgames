@@ -32,8 +32,8 @@ export const mariokartddRecomp: Port = {
     "Recompilación estática de Mario Kart: Double Dash!! para Windows y macOS con su propio runtime gcn-recomp. Todavía no hay releases: se compila desde el código con tu propia imagen del disco y no incluye archivos del juego.",
   related: ["mkdd"],
   cover: {
-    src: "https://openportsgames.com/covers/generated/mario-kart-double-dash.svg",
-    alt: "Mario Kart: Double Dash!! (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/7/78/Mario_Kart_Double_Dash.jpg",
+    alt: "Mario Kart: Double Dash!! (box art)",
+    credit: "Wikipedia",
   },
 };

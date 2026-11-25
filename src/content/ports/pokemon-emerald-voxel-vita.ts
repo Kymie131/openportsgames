@@ -26,8 +26,8 @@ export const pokemonEmeraldVoxelVita: Port = {
   notes: "PS Vita port of the pokeemerald voxel fork. No ROM is included.",
   notesEs: "Port para PS Vita del fork voxel de pokeemerald. No incluye la ROM.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/pokemon-emerald.svg",
-    alt: "Pokémon Emerald (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f7/PokemonEmeraldBox.jpg",
+    alt: "Pokémon Emerald (box art)",
+    credit: "Wikipedia",
   },
 };

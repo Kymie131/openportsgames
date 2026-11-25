@@ -27,8 +27,8 @@ export const openttd3ds: Port = {
   notes: "Homebrew port of OpenTTD for the Nintendo 3DS. No original game files are required.",
   notesEs: "Port homebrew de OpenTTD para Nintendo 3DS. No requiere archivos del juego original.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/openttd.svg",
-    alt: "OpenTTD (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1536610/header.jpg",
+    alt: "OpenTTD (box art)",
+    credit: "Steam",
   },
 };

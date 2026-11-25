@@ -27,9 +27,9 @@ export const SimpsonsWrestlingRecompiled: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/simpsons-wrestling-recompiled.svg",
-    alt: "Simpsons Wrestling Recompiled (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/f/f5/The_Simpsons_Wrestling_Coverart.png",
+    alt: "The Simpsons Wrestling (box art)",
+    credit: "Wikipedia",
   },
   notes:
     "The Simpsons Wrestling (PS1, USA) recompiled for Windows and Linux with psxrecomp and the TRG Launcher: 16:9, HD, 60 FPS, skip intro, everything unlocked. Bring your own disc.",

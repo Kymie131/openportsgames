@@ -26,8 +26,8 @@ export const robotron64Android: Port = {
   notes: "Native Android port built with N64: Recompiled, also available for Windows and Linux. Bring your own ROM.",
   notesEs: "Port nativo para Android creado con N64: Recompiled, también disponible para Windows y Linux. Aporta tu propia ROM.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/robotron-64.svg",
-    alt: "Robotron 64 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/e/ea/Robotron64.jpg",
+    alt: "Robotron 64 (box art)",
+    credit: "Wikipedia",
   },
 };

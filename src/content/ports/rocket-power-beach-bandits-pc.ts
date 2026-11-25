@@ -26,8 +26,8 @@ export const rocketPowerBeachBanditsPc: Port = {
   notes: "Native Windows port running at 60 FPS, RecompLauncher-ready. No game data is included.",
   notesEs: "Port nativo para Windows a 60 FPS, compatible con RecompLauncher. No incluye datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/rocket-power-beach-bandits.svg",
-    alt: "Rocket Power: Beach Bandits (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/4/45/Rocket_Power_BB.jpg",
+    alt: "Rocket Power: Beach Bandits (box art)",
+    credit: "Wikipedia",
   },
 };

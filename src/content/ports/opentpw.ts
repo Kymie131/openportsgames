@@ -14,10 +14,10 @@ export const Opentpw: Port = {
   sources: ["https://github.com/OpenTPW/OpenTPW"],
   license: { spdx: "MIT" },
   verified: false,
-  sourceVerified: true,  originalSystems: ["Windows", "PlayStation"],  summary: "Theme Park World (Sim Theme Park) is a 1999 construction and management simulation developed by Bullfrog Productions and published by Electronic Arts. Players build and run theme parks across several themed worlds.",  summaryEs: "Theme Park World (Sim Theme Park) es un simulador de construcción y gestión de 1999 desarrollado por Bullfrog Productions y publicado por Electronic Arts. El jugador construye y dirige parques temáticos en varios mundos.",  cover: {
-    src: "https://openportsgames.com/covers/generated/opentpw.svg",
-    alt: "OpenTPW (generated cover)",
-    credit: "OpenPortsGames",
+  sourceVerified: true,  originalSystems: ["Windows", "PlayStation"],  summary: "Theme Park World (Sim Theme Park) is a 1999 construction and management simulation developed by Bullfrog Productions and published by Electronic Arts. Players build and run theme parks across several themed worlds.",  summaryEs: "Theme Park World (Sim Theme Park) es un simulador de construcción y gestión de 1999 desarrollado por Bullfrog Productions y publicado por Electronic Arts. El jugador construye y dirige parques temáticos en varios mundos.",    cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a5/SimThemeParkWorld.jpg",
+    alt: "Theme Park World (box art)",
+    credit: "Wikipedia",
   },
   notes: "An open-source re-implementation of Bullfrog's Sim Theme Park / Theme Park World (1999).",
   notesEs:

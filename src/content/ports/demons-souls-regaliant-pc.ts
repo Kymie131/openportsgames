@@ -26,8 +26,8 @@ export const demonsSoulsRegaliantPc: Port = {
   notes: "Regaliant runs your own copy of the PS5 remake (PPSA01341, version 1.07) on Windows. No game files are included.",
   notesEs: "Regaliant ejecuta tu propia copia del remake de PS5 (PPSA01341, versión 1.07) en Windows. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/demon-s-souls.svg",
-    alt: "Demon's Souls (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/9/91/Demon%27s_Souls_Cover.jpg",
+    alt: "Demon's Souls (box art)",
+    credit: "Wikipedia",
   },
 };

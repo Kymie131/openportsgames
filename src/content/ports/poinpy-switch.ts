@@ -26,8 +26,8 @@ export const poinpySwitch: Port = {
   notes: "Nintendo Switch port of the Android game. Bring your own game files.",
   notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/poinpy.svg",
-    alt: "Poinpy (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/1/10/Poinpy_cover.jpg",
+    alt: "Poinpy (box art)",
+    credit: "Wikipedia",
   },
 };

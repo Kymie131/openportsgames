@@ -27,8 +27,8 @@ export const ikarugaPsp: Port = {
   notes: "PSP port of the Dreamcast game through static recompilation with dcrecomp. Bring your own disc.",
   notesEs: "Port para PSP del juego de Dreamcast mediante recompilación estática con dcrecomp. Aporta tu propio disco.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/ikaruga.svg",
-    alt: "Ikaruga (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/1/1a/Ikaruga_arcade_flyer.jpg",
+    alt: "Ikaruga (box art)",
+    credit: "Wikipedia",
   },
 };

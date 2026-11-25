@@ -26,8 +26,8 @@ export const goldeneye3ds: Port = {
   notes: "New Nintendo 3DS port based on the GoldenEye PC port, with a launcher and gameplay tweaks. Bring your own ROM.",
   notesEs: "Port para New Nintendo 3DS basado en el port de PC de GoldenEye, con lanzador y ajustes de jugabilidad. Aporta tu propia ROM.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/goldeneye-007.svg",
-    alt: "GoldenEye 007 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/1/13/GoldenEye_007_N64_cover.jpg",
+    alt: "GoldenEye 007 (box art)",
+    credit: "Wikipedia",
   },
 };

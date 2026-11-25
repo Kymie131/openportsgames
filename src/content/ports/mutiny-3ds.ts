@@ -26,8 +26,8 @@ export const mutiny3ds: Port = {
   notes: "Native Nintendo 3DS port with a two-screen touch interface. No game files are included.",
   notesEs: "Port nativo para Nintendo 3DS con interfaz táctil de dos pantallas. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/mutiny.svg",
-    alt: "Mutiny (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/669050/header.jpg",
+    alt: "Mutiny (box art)",
+    credit: "Steam",
   },
 };

@@ -26,8 +26,8 @@ export const marioKartWii3dsDs: Port = {
   notes: "Native Nintendo 3DS port with Old 3DS support, ghosts and graphics settings. Bring your own game files.",
   notesEs: "Port nativo para Nintendo 3DS con soporte para Old 3DS, fantasmas y ajustes gráficos. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/mario-kart-wii.svg",
-    alt: "Mario Kart Wii (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png",
+    alt: "Mario Kart Wii (box art)",
+    credit: "Wikipedia",
   },
 };

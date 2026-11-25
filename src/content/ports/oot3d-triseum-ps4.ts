@@ -26,8 +26,8 @@ export const oot3dTriseumPs4: Port = {
   notes: "Native PS4 port of the TriAevum recompilation: install the pkg and send your ROM over FTP so the console prepares the game. No game files are included.",
   notesEs: "Port nativo para PS4 de la recompilación TriAevum: instala el pkg y envía tu ROM por FTP para que la consola prepare el juego. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-ocarina-of-time-3d.svg",
-    alt: "The Legend of Zelda: Ocarina of Time 3D (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/3/30/The_Legend_of_Zelda_Ocarina_of_Time_3D_box_art.png",
+    alt: "The Legend of Zelda: Ocarina of Time 3D (box art)",
+    credit: "Wikipedia",
   },
 };

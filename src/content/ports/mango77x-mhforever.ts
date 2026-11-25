@@ -31,9 +31,9 @@ export const mango77xMhforever: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/monster-hunter-freedom-unite.svg",
-    alt: "Monster Hunter Freedom Unite (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/0/01/MonsterHunterFreedomUnite.jpg",
+    alt: "Monster Hunter Freedom Unite (box art)",
+    credit: "Wikipedia",
   },
   notes: "Monster Hunter Freedom Unite: static recompilation by Mango77x for Windows. Bring your own copy of the game.",
   notesEs: "Monster Hunter Freedom Unite: recompilación estática de Mango77x para Windows. Aporta tu propia copia del juego.",

@@ -35,4 +35,6 @@ export const openborAndroid: Port = {
   },
   notes: "OpenBoR (DCurrent, 2001) an Android tool. Latest release: v7533. Needs your own copy of the game (YES).",
   notesEs: "OpenBoR (DCurrent, 2001) una herramienta para Android. Última release: v7533. Necesita tu propia copia del juego.",
+  summary: "OpenBoR is an open-source beat 'em up engine; this package runs it on Android.",
+  summaryEs: "OpenBoR es un motor de beat 'em up de código abierto; este paquete lo ejecuta en Android.",
 };

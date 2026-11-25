@@ -26,8 +26,8 @@ export const linksAwakeningPs5: Port = {
   notes: "Native PS5 port of the Switch remake, requiring your own game files. No game data is included.",
   notesEs: "Port nativo para PS5 del remake de Switch, que requiere tus propios archivos. No incluye datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-link-s-awakening.svg",
-    alt: "The Legend of Zelda: Link's Awakening (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c1/Link%27s_Awakening.png",
+    alt: "The Legend of Zelda: Link's Awakening (box art)",
+    credit: "Wikipedia",
   },
 };

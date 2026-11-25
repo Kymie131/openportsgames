@@ -27,8 +27,8 @@ export const gta6StellarProjectPc: Port = {
   notes: "Stellar Project is a community attempt at a working GTA VI PC port. No game files are included.",
   notesEs: "Stellar Project es un intento comunitario de un port funcional de GTA VI a PC. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/grand-theft-auto-vi.svg",
-    alt: "Grand Theft Auto VI (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/4/46/Grand_Theft_Auto_VI.png",
+    alt: "Grand Theft Auto VI (box art)",
+    credit: "Wikipedia",
   },
 };

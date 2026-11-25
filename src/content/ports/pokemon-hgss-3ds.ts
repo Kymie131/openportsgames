@@ -27,8 +27,8 @@ export const pokemonHgss3ds: Port = {
   notes: "Native New Nintendo 3DS port built on the HGSS decompilation, with stereoscopic 3D, Wide View and a touch-screen Pokégear. Bring your own ROM.",
   notesEs: "Port nativo para New Nintendo 3DS basado en la descompilación de HGSS, con 3D estereoscópico, Wide View y Pokégear táctil. Aporta tu propia ROM.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/pokemon-heartgold-and-soulsilver.svg",
-    alt: "Pokémon HeartGold and SoulSilver (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/cb/PokemonHGSSBox.jpg",
+    alt: "Pokémon HeartGold and SoulSilver (box art)",
+    credit: "Wikipedia",
   },
 };

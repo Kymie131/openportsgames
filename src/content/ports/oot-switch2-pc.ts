@@ -26,8 +26,8 @@ export const ootSwitch2Pc: Port = {
   notes: "Native Windows port with Vulkan, save states, warps, collision and trigger viewers and a speedrun timer. Bring your own game data.",
   notesEs: "Port nativo para Windows con Vulkan, guardado de estados, teletransportes, visores de colisión y disparadores y cronómetro de speedrun. Aporta tus propios datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-ocarina-of-time.svg",
-    alt: "The Legend of Zelda: Ocarina of Time (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+    alt: "The Legend of Zelda: Ocarina of Time (box art)",
+    credit: "Wikipedia",
   },
 };

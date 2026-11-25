@@ -26,8 +26,8 @@ export const pizzaTowerVita: Port = {
   notes: "Port of the SAGE 2019 demo to the PS Vita. No game files are included.",
   notesEs: "Port de la demo SAGE de 2019 para PS Vita. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/pizza-tower.svg",
-    alt: "Pizza Tower (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/6/60/Pizza_Tower_Promo_Art.jpg",
+    alt: "Pizza Tower (box art)",
+    credit: "Wikipedia",
   },
 };

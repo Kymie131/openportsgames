@@ -27,8 +27,8 @@ export const gta6LeonidaPc: Port = {
   notes: "Leonida is the Xbox > PC port interface for GTA VI, continued from the original project. Bring your own copy of the game.",
   notesEs: "Leonida es la interfaz de port de Xbox a PC para GTA VI, continuada desde el proyecto original. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/grand-theft-auto-vi.svg",
-    alt: "Grand Theft Auto VI (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/4/46/Grand_Theft_Auto_VI.png",
+    alt: "Grand Theft Auto VI (box art)",
+    credit: "Wikipedia",
   },
 };

@@ -27,8 +27,8 @@ export const boletariaRebornDecomp: Port = {
   notes: "Boletaria Reborn is an open-source decompilation and porting effort for the PS3 game. No game files are included.",
   notesEs: "Boletaria Reborn es un esfuerzo de descompilación y port de código abierto para el juego de PS3. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/demon-s-souls.svg",
-    alt: "Demon's Souls (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/9/91/Demon%27s_Souls_Cover.jpg",
+    alt: "Demon's Souls (box art)",
+    credit: "Wikipedia",
   },
 };

@@ -26,8 +26,8 @@ export const diablo3Android: Port = {
   notes: "Native ARM64 Android port of Diablo III for Switch, with HLE and Vulkan. Bring your own game files.",
   notesEs: "Port nativo ARM64 para Android de Diablo III de Switch, con HLE y Vulkan. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/diablo-iii.svg",
-    alt: "Diablo III (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/8/80/Diablo_III_cover.png",
+    alt: "Diablo III (box art)",
+    credit: "Wikipedia",
   },
 };

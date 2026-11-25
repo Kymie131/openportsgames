@@ -30,8 +30,8 @@ export const shadowRecomp: Port = {
   notesEs:
     "Recompilación estática de Shadow the Hedgehog (GameCube) para Windows, con sombras en tiempo real. No incluye archivos del juego: debes aportar tu propio disco.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/shadow-the-hedgehog.svg",
-    alt: "Shadow the Hedgehog (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/4/41/ShadowTheHedgehogSA2.png",
+    alt: "Shadow the Hedgehog (box art)",
+    credit: "Wikipedia",
   },
 };

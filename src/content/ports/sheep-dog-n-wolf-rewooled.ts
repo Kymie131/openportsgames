@@ -39,9 +39,9 @@ export const SheepDogNWolfRewooled: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/sheep-dog-n-wolf-rewooled.svg",
-    alt: "Sheep Dog n Wolf: Rewooled (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/8/8c/Sheep_Dog_n_Wolf.jpg",
+    alt: "Sheep, Dog 'n' Wolf (box art)",
+    credit: "Wikipedia",
   },
   notes: "Decompilation of Sheep Dog n Wolf: Rewooled (Other).",
   notesEs: "Decompilación de Sheep Dog n Wolf: Rewooled (Other).",

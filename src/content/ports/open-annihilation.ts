@@ -42,9 +42,9 @@ export const OpenAnnihilation: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/open-annihilation.svg",
-    alt: "Open Annihilation (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6c/Total_Annihilation_Coverart.png",
+    alt: "Total Annihilation (box art)",
+    credit: "Wikipedia",
   },
   notes: "Open Source port of the Total Annihilation & TA: Kingdoms engines.",
   notesEs: "Port de código abierto de los motores de Total Annihilation y TA: Kingdoms.",

@@ -22,9 +22,9 @@ export const Openmb: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/openmb.svg",
-    alt: "OpenMB (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/22100/header.jpg",
+    alt: "Mount & Blade (box art)",
+    credit: "Steam",
   },
   notes:
     "Open Source role-playing game engine for Taleworlds' Mount&Blade Series written in C# using Ogre3d Engine.",

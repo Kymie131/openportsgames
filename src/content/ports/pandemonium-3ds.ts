@@ -26,8 +26,8 @@ export const pandemonium3ds: Port = {
   notes: "Fork of the Marmalade engine port, adapted to the New Nintendo 3DS. Bring your own game files.",
   notesEs: "Fork del port del motor Marmalade, adaptado a New Nintendo 3DS. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/pandemonium.svg",
-    alt: "Pandemonium! (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/243020/header.jpg",
+    alt: "Pandemonium! (box art)",
+    credit: "Steam",
   },
 };

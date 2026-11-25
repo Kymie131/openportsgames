@@ -26,8 +26,8 @@ export const angryBirdsTrilogySwitch: Port = {
   notes: "Nintendo Switch port of the PC static recompilation of the trilogy. Bring your own game files.",
   notesEs: "Port para Nintendo Switch de la recompilación estática de PC de la trilogía. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/angry-birds-trilogy.svg",
-    alt: "Angry Birds Trilogy (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/1/18/Angry_Birds_Trilogy_3DS.jpg",
+    alt: "Angry Birds Trilogy (box art)",
+    credit: "Wikipedia",
   },
 };

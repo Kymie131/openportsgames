@@ -26,8 +26,8 @@ export const newSuperPaperBrosSwitch: Port = {
   notes: "Nintendo Switch homebrew port of the Super Paper Mario recompilation, running as a deko3d app. Bring your own Wii disc.",
   notesEs: "Port homebrew para Nintendo Switch de la recompilación de Super Paper Mario, ejecutado como app de deko3d. Aporta tu propio disco de Wii.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/super-paper-mario.svg",
-    alt: "Super Paper Mario (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c9/Super_Paper_Mario_cover.jpg",
+    alt: "Super Paper Mario (box art)",
+    credit: "Wikipedia",
   },
 };

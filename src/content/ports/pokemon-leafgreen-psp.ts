@@ -26,8 +26,8 @@ export const pokemonLeafgreenPsp: Port = {
   notes: "Native Pokémon LeafGreen port for the PlayStation Portable, in English. No ROM is included.",
   notesEs: "Port nativo de Pokémon LeafGreen para PlayStation Portable, en inglés. No incluye la ROM.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/pokemon-firered-and-leafgreen.svg",
-    alt: "Pokémon FireRed and LeafGreen (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/a/a7/Pokemon_LeafGreen_box.jpg",
+    alt: "Pokémon FireRed and LeafGreen (box art)",
+    credit: "Wikipedia",
   },
 };

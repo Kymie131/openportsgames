@@ -26,8 +26,8 @@ export const legoStarWarsForceAwakensSwitch: Port = {
   notes: "Nintendo Switch port of the Android version. Bring your own game files.",
   notesEs: "Port para Nintendo Switch de la versión de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/lego-star-wars-the-force-awakens.svg",
-    alt: "LEGO Star Wars: The Force Awakens (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/df/LegoStarWarsTheForceAwakens.jpg",
+    alt: "LEGO Star Wars: The Force Awakens (box art)",
+    credit: "Wikipedia",
   },
 };

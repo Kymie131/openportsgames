@@ -31,9 +31,9 @@ export const smm2recompSmm2recomp: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/super-mario-maker-2.svg",
-    alt: "Super Mario Maker 2 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c7/Super_Mario_Maker_2.jpg",
+    alt: "Super Mario Maker 2 (box art)",
+    credit: "Wikipedia",
   },
   notes: "Super Mario Maker 2: static recompilation by smm2recomp for Windows. Bring your own copy of the game.",
   notesEs: "Super Mario Maker 2: recompilación estática de smm2recomp para Windows. Aporta tu propia copia del juego.",

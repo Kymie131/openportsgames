@@ -26,8 +26,8 @@ export const halfLife2Ps5: Port = {
   notes: "Native PS5 port of the Source engine that runs the game from your own files. No game data is included.",
   notesEs: "Port nativo para PS5 del motor Source que ejecuta el juego desde tus propios archivos. No incluye datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/half-life-2.svg",
-    alt: "Half-Life 2 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/2/25/Half-Life_2_cover.jpg",
+    alt: "Half-Life 2 (box art)",
+    credit: "Wikipedia",
   },
 };

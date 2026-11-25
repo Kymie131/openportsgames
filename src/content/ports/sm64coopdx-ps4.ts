@@ -26,8 +26,8 @@ export const sm64coopdxPs4: Port = {
   notes: "Unofficial PS4 homebrew port of sm64coopdx built with OpenOrbis, with Lua mods and DynOS packs. No ROM is included.",
   notesEs: "Port homebrew no oficial para PS4 de sm64coopdx creado con OpenOrbis, con mods en Lua y paquetes DynOS. No incluye la ROM.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/super-mario-64.svg",
-    alt: "Super Mario 64 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
+    alt: "Super Mario 64 (box art)",
+    credit: "Wikipedia",
   },
 };

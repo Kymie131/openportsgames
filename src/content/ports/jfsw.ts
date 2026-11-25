@@ -25,9 +25,9 @@ export const jfsw: Port = {
   summaryEs:
     "Shadow Warrior es un shooter en primera persona desarrollado por 3D Realms y publicado en 1997. Sigue al ninja Lo Wang en una campaña de cómic contra la corporación Zilla y su ejército de demonios.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/jfsw.svg",
-    alt: "JonoF Shadow Warrior (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/233130/header.jpg",
+    alt: "Shadow Warrior (box art)",
+    credit: "Steam",
   },
   notes:
     "JonoF Shadow Warrior (JFSW) is a port of the Shadow Warrior source code to SDL2 with modern platform support. It requires the original game data.",

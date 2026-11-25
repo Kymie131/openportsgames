@@ -26,8 +26,8 @@ export const angryBirds2Switch: Port = {
   notes: "Nintendo Switch port of the Android game. Bring your own game files.",
   notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/angry-birds-2.svg",
-    alt: "Angry Birds 2 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/9/97/Angry_Birds_2.png",
+    alt: "Angry Birds 2 (box art)",
+    credit: "Wikipedia",
   },
 };

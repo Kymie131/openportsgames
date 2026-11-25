@@ -26,8 +26,8 @@ export const granny3Switch: Port = {
   notes: "Nintendo Switch port of the Android game. Bring your own game files.",
   notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/granny-3.svg",
-    alt: "Granny 3 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1707550/header.jpg",
+    alt: "Granny 3 (box art)",
+    credit: "Steam",
   },
 };

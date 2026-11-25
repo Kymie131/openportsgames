@@ -27,8 +27,8 @@ export const mzmRecomp: Port = {
   notes: "Experimental Linux-first static recompilation of Metroid: Zero Mission built on GBARecomp. No ROM, BIOS or game assets are included.",
   notesEs: "Recompilación estática experimental, con Linux como objetivo principal, de Metroid: Zero Mission sobre GBARecomp. No incluye ROM, BIOS ni recursos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/metroid-zero-mission.svg",
-    alt: "Metroid: Zero Mission (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/7/7d/Metroid_--_Zero_Mission_%28box_art%29.jpg",
+    alt: "Metroid: Zero Mission (box art)",
+    credit: "Wikipedia",
   },
 };

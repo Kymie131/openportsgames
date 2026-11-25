@@ -26,8 +26,8 @@ export const bangaiOHdSwitch: Port = {
   notes: "Native Nintendo Switch port. Bring your own copy of the game.",
   notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/bangai-o-hd-missile-fury.svg",
-    alt: "Bangai-O HD: Missile Fury (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/de/Bangai-O_HD_Missile_Fury_cover.jpg",
+    alt: "Bangai-O HD: Missile Fury (box art)",
+    credit: "Wikipedia",
   },
 };

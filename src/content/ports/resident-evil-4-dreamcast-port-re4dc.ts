@@ -15,10 +15,10 @@ export const ResidentEvil4DreamcastPortRe4dc: Port = {
   license: { spdx: "CC0-1.0" },
   verified: false,
   wip: true,
-  sourceVerified: true,  originalSystems: ["GameCube"],  summary: "Resident Evil 4 is a 2005 survival horror game developed and published by Capcom. Special agent Leon S. Kennedy is sent to a remote European village to rescue the US president's daughter from a cult infected by a parasite.",  summaryEs: "Resident Evil 4 es un juego de terror y supervivencia de 2005 desarrollado y publicado por Capcom. El agente especial Leon S. Kennedy viaja a un remoto pueblo europeo para rescatar a la hija del presidente de un culto infectado por un parásito.",  cover: {
-    src: "https://openportsgames.com/covers/generated/resident-evil-4-dreamcast-port-re4dc.svg",
-    alt: "Resident Evil 4 (Dreamcast port, re4dc) (generated cover)",
-    credit: "OpenPortsGames",
+  sourceVerified: true,  originalSystems: ["GameCube"],  summary: "Resident Evil 4 is a 2005 survival horror game developed and published by Capcom. Special agent Leon S. Kennedy is sent to a remote European village to rescue the US president's daughter from a cult infected by a parasite.",  summaryEs: "Resident Evil 4 es un juego de terror y supervivencia de 2005 desarrollado y publicado por Capcom. El agente especial Leon S. Kennedy viaja a un remoto pueblo europeo para rescatar a la hija del presidente de un culto infectado por un parásito.",    cover: {
+    src: "https://upload.wikimedia.org/wikipedia/en/d/d9/Resi4-gc-cover.jpg",
+    alt: "Resident Evil 4 (box art)",
+    credit: "Wikipedia",
   },
   notes:
     "Work-in-progress Resident Evil 4 port for Sega Dreamcast, with native PowerVR rendering, VMU saves and Flycast-tested play builds.",

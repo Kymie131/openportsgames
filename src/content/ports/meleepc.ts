@@ -37,9 +37,9 @@ export const Meleepc: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/meleepc.svg",
-    alt: "MeleePC (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png",
+    alt: "Super Smash Bros. Melee (box art)",
+    credit: "Wikipedia",
   },
   notes:
     "Native PC port of Super Smash Bros. Melee (NTSC-U 1.02), built from doldecomp/melee on aurora. No game data; bring your own disc.",

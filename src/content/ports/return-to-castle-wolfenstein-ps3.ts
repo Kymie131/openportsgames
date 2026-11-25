@@ -26,8 +26,8 @@ export const returnToCastleWolfensteinPs3: Port = {
   notes: "Homebrew port of ioRTCW, the source port of the game, for the PlayStation 3. Bring your own game files.",
   notesEs: "Port homebrew de ioRTCW, el port de código del juego, para PlayStation 3. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/return-to-castle-wolfenstein.svg",
-    alt: "Return to Castle Wolfenstein (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b0/Return_to_Castle_Wolfenstein_Coverart.jpg",
+    alt: "Return to Castle Wolfenstein (box art)",
+    credit: "Wikipedia",
   },
 };

@@ -31,8 +31,8 @@ export const projectRelink: Port = {
     "Recompilación nativa del remake de Ocarina of Time para Nintendo Switch 2, para Windows. Project ReLink compila el juego desde tu propia copia; no incluye archivos del juego.",
   related: ["hookshot"],
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-ocarina-of-time.svg",
-    alt: "The Legend of Zelda: Ocarina of Time (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+    alt: "The Legend of Zelda: Ocarina of Time (box art)",
+    credit: "Wikipedia",
   },
 };

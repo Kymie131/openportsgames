@@ -26,8 +26,8 @@ export const katanaZeroVita: Port = {
   notes: "PS Vita port of the Netflix Android build through YoYo Loader. Bring your own game files.",
   notesEs: "Port para PS Vita de la versión de Android de Netflix mediante YoYo Loader. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/katana-zero.svg",
-    alt: "Katana ZERO (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/da/Katana_Zero_cover.png",
+    alt: "Katana ZERO (box art)",
+    credit: "Wikipedia",
   },
 };

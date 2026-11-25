@@ -31,9 +31,9 @@ export const raptorAndroid: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/raptor-call-of-the-shadows.svg",
-    alt: "Raptor: Call of the Shadows (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/1/19/Raptor_Call_of_the_Shadows_cover.jpg",
+    alt: "Raptor: Call of the Shadows (box art)",
+    credit: "Wikipedia",
   },
   notes: "Reverse-engineered source port of Raptor: Call of the Shadows with an Android APK in releases. Bring your own game data.",
   notesEs: "Port de código fuente de Raptor: Call of the Shadows obtenido por ingeniería inversa, con APK para Android en las releases. Aporta tus propios datos del juego.",

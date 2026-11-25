@@ -27,8 +27,8 @@ export const ootSwitch2Android: Port = {
   notes: "Native Android port for Adreno handhelds. Bring your own game dump.",
   notesEs: "Port nativo para Android en portátiles con Adreno. Aporta tu propio volcado del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-ocarina-of-time.svg",
-    alt: "The Legend of Zelda: Ocarina of Time (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+    alt: "The Legend of Zelda: Ocarina of Time (box art)",
+    credit: "Wikipedia",
   },
 };

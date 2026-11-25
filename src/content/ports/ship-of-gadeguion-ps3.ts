@@ -26,8 +26,8 @@ export const shipOfGadeguionPs3: Port = {
   notes: "Native PS3 port of Ship of Harkinian for HEN and CFW consoles. Bring your own game data.",
   notesEs: "Port nativo para PS3 de Ship of Harkinian para consolas con HEN y CFW. Aporta tus propios datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-ocarina-of-time.svg",
-    alt: "The Legend of Zelda: Ocarina of Time (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+    alt: "The Legend of Zelda: Ocarina of Time (box art)",
+    credit: "Wikipedia",
   },
 };

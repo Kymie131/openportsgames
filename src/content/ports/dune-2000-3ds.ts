@@ -27,8 +27,8 @@ export const dune20003ds: Port = {
   notes: "Early New Nintendo 3DS port distributed as a .3dsx. It does not have gameplay yet and is untested on the original 3DS.",
   notesEs: "Port temprano para New Nintendo 3DS distribuido como .3dsx. Aún no tiene jugabilidad y no está probado en la 3DS original.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/dune-2000.svg",
-    alt: "Dune 2000 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/6/6f/Dune_2000_Boxart.jpg",
+    alt: "Dune 2000 (box art)",
+    credit: "Wikipedia",
   },
 };

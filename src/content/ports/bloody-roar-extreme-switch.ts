@@ -26,8 +26,8 @@ export const bloodyRoarExtremeSwitch: Port = {
   notes: "Native Nintendo Switch port. Bring your own copy of the game.",
   notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/bloody-roar-extreme.svg",
-    alt: "Bloody Roar Extreme (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/6/69/Bloody_Roar_Primal_Fury_NA_cover.jpg",
+    alt: "Bloody Roar Extreme (box art)",
+    credit: "Wikipedia",
   },
 };

@@ -47,9 +47,9 @@ export const opene2140: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/opene2140.svg",
-    alt: "Earth 2140 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/4/40/Earth2140Box.jpg",
+    alt: "Earth 2140 (box art)",
+    credit: "Wikipedia",
   },
   notes:
     "OpenE2140 is a remake of Earth 2140 built on OpenRA. It requires the original game assets.",

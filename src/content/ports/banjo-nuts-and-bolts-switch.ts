@@ -26,8 +26,8 @@ export const banjoNutsAndBoltsSwitch: Port = {
   notes: "Native Nintendo Switch port. Bring your own copy of the game.",
   notesEs: "Port nativo para Nintendo Switch. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/banjo-kazooie-nuts-bolts.svg",
-    alt: "Banjo-Kazooie: Nuts & Bolts (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/6/63/Banjo-Kazooie_Nuts_%26_Bolts_Game_Cover.jpg",
+    alt: "Banjo-Kazooie: Nuts & Bolts (box art)",
+    credit: "Wikipedia",
   },
 };

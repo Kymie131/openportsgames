@@ -27,8 +27,8 @@ export const backstabSwitch: Port = {
   notes: "Nintendo Switch loader for the Android game through a 32-bit AArch32 port. Bring your own game files.",
   notesEs: "Cargador para Nintendo Switch del juego de Android mediante un port de 32 bits AArch32. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/backstab.svg",
-    alt: "Backstab (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/2635790/header.jpg",
+    alt: "Backstab (box art)",
+    credit: "Steam",
   },
 };

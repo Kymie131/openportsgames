@@ -26,8 +26,8 @@ export const digimonWorld3Switch: Port = {
   notes: "Nintendo Switch homebrew port built on the dw3 decompilation. Bring your own game disc.",
   notesEs: "Port homebrew para Nintendo Switch basado en la descompilación de dw3. Aporta tu propio disco del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/digimon-world-3.svg",
-    alt: "Digimon World 3 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/4/43/Digimonworld3boxart.jpg",
+    alt: "Digimon World 3 (box art)",
+    credit: "Wikipedia",
   },
 };

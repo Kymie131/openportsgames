@@ -26,8 +26,8 @@ export const deadSpaceSwitch: Port = {
   notes: "Port of the 2011 mobile Dead Space for the Nintendo Switch. Bring your own game files.",
   notesEs: "Port del Dead Space móvil de 2011 para Nintendo Switch. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/dead-space.svg",
-    alt: "Dead Space (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1693980/header.jpg",
+    alt: "Dead Space (box art)",
+    credit: "Steam",
   },
 };

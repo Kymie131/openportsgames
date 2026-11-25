@@ -23,9 +23,9 @@ export const kylofonAcesofthepacificEnhanced: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/aces-of-the-pacific-enhanced.svg",
-    alt: "Aces of the Pacific Enhanced (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/b/b8/Aces_of_the_Pacific_Coverart.png",
+    alt: "Aces of the Pacific (box art)",
+    credit: "Wikipedia",
   },
   notes: "Aces of the Pacific Enhanced: engine remake by kylofon for Windows. Bring your own copy of the game.",
   notesEs: "Aces of the Pacific Enhanced: recreación de motor de kylofon para Windows. Aporta tu propia copia del juego.",

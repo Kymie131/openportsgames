@@ -26,8 +26,8 @@ export const donkeyKong64Ps5: Port = {
   notes: "DK64: Rekongpiled ported to the PS5 as native homebrew. Bring your own copy of the game.",
   notesEs: "DK64: Rekongpiled portado a PS5 como homebrew nativo. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/donkey-kong-64.svg",
-    alt: "Donkey Kong 64 (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/a/ae/DonkeyKong64CoverArt.jpg",
+    alt: "Donkey Kong 64 (box art)",
+    credit: "Wikipedia",
   },
 };

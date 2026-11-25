@@ -30,4 +30,6 @@ export const awesomeOpenSourceGames: Port = {
     "Curated list of games whose source code is available on GitHub. It is a resource index, not a single port.",
   notesEs:
     "Lista curada de juegos cuyo código fuente está disponible en GitHub. Es un índice de recursos, no un port concreto.",
+  summary: "Curated list of open-source game remakes, engines and native ports.",
+  summaryEs: "Lista curada de remakes, motores y ports nativos de código abierto.",
 };

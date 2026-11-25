@@ -31,4 +31,6 @@ export const psyQDecomp: Port = {
     "Work-in-progress decompilation of the PS1 Psy-Q SDK libraries. It is a development kit, not a game.",
   notesEs:
     "Decompilación en progreso de las librerías PS1 Psy-Q SDK. Es un kit de desarrollo, no un juego.",
+  summary: "Decompilation of the original PlayStation Psy-Q SDK libraries.",
+  summaryEs: "Descompilación de las librerías originales Psy-Q SDK de PlayStation.",
 };

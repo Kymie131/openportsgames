@@ -26,8 +26,8 @@ export const pewdiepieBrofistSwitch: Port = {
   notes: "Android to Nintendo Switch port of the mobile game. Bring your own game files.",
   notesEs: "Port de Android a Nintendo Switch del juego móvil. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/pewdiepie-legend-of-the-brofist.svg",
-    alt: "PewDiePie: Legend of the Brofist (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/390520/header.jpg",
+    alt: "PewDiePie: Legend of the Brofist (box art)",
+    credit: "Steam",
   },
 };

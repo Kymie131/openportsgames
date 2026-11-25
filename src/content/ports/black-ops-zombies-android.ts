@@ -26,8 +26,8 @@ export const blackOpsZombiesAndroid: Port = {
   notes: "Native 64-bit port for Linux and Android with Vulkan, upscalers, LAN co-op, touch and controller support. Game files are not included.",
   notesEs: "Port nativo de 64 bits para Linux y Android con Vulkan, escaladores, cooperativo en LAN y soporte táctil y de mando. No incluye archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/call-of-duty-black-ops-zombies.svg",
-    alt: "Call of Duty: Black Ops Zombies (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/0/0b/Cover_Art_of_Call_of_Duty%2C_Black_Ops_%E2%80%93_Zombies.png",
+    alt: "Call of Duty: Black Ops Zombies (box art)",
+    credit: "Wikipedia",
   },
 };

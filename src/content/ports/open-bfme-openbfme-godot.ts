@@ -36,9 +36,9 @@ export const openBfmeOpenbfmeGodot: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-lord-of-the-rings-the-battle-for-middle-earth-ii.svg",
-    alt: "The Lord of the Rings: The Battle for Middle-earth II (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/4/4d/The_Lord_of_the_Rings_-_The_Battle_for_Middle-earth_%28video_game_box_art%29.jpg",
+    alt: "The Lord of the Rings: The Battle for Middle-earth II (box art)",
+    credit: "Wikipedia",
   },
   notes: "The Lord of the Rings: The Battle for Middle-earth II: engine remake by Open-BFME for Windows. Bring your own copy of the game.",
   notesEs: "The Lord of the Rings: The Battle for Middle-earth II: recreación de motor de Open-BFME para Windows. Aporta tu propia copia del juego.",

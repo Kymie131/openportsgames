@@ -26,8 +26,8 @@ export const aceCombat6Ps5: Port = {
   notes: "Source-only PS5 homebrew port built on AC6Recomp. Requires a legally obtained US retail disc.",
   notesEs: "Port homebrew para PS5 distribuido solo como código, basado en AC6Recomp. Requiere un disco físico estadounidense obtenido legalmente.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/ace-combat-6-fires-of-liberation.svg",
-    alt: "Ace Combat 6: Fires of Liberation (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/1/16/Ace_Combat_6_Fires_of_Liberation_Game_Cover.jpg",
+    alt: "Ace Combat 6: Fires of Liberation (box art)",
+    credit: "Wikipedia",
   },
 };

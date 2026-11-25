@@ -37,9 +37,9 @@ export const CtwNative: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/ctw-native.svg",
-    alt: "Grand Theft Auto: Chinatown Wars (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/7/75/ChinatownWars.jpg",
+    alt: "Grand Theft Auto: Chinatown Wars (box art)",
+    credit: "Wikipedia",
   },
   notes: "Bringing GTA: Chinatown Wars to native PC with your own game files.",
   notesEs: "Lleva GTA: Chinatown Wars a PC nativo con tus propios archivos del juego.",

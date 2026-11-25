@@ -26,8 +26,8 @@ export const blakeStone3ds: Port = {
   notes: "Native Blake Stone source port for the New Nintendo 3DS. Bring your own game data.",
   notesEs: "Port de código nativo de Blake Stone para New Nintendo 3DS. Aporta tus propios datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/blake-stone-aliens-of-gold.svg",
-    alt: "Blake Stone: Aliens of Gold (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/e/ec/Blake_Stone_Aliens_of_Gold_cover.jpg",
+    alt: "Blake Stone: Aliens of Gold (box art)",
+    credit: "Wikipedia",
   },
 };

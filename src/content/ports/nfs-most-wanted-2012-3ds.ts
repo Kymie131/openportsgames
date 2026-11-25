@@ -27,8 +27,8 @@ export const nfsMostWanted20123ds: Port = {
   notes: "Experimental AI-assisted Nintendo 3DS port, currently a prototype. Bring your own copy of the game.",
   notesEs: "Port experimental para Nintendo 3DS asistido por IA, actualmente un prototipo. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/need-for-speed-most-wanted.svg",
-    alt: "Need for Speed: Most Wanted (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1262560/header.jpg",
+    alt: "Need for Speed: Most Wanted (box art)",
+    credit: "Steam",
   },
 };

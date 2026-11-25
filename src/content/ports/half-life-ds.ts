@@ -26,8 +26,8 @@ export const halfLifeDs: Port = {
   notes: "Nintendo DS and DSi port of Half-Life. Bring your own game data.",
   notesEs: "Port de Half-Life para Nintendo DS y DSi. Aporta tus propios datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/half-life.svg",
-    alt: "Half-Life (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/70/header.jpg",
+    alt: "Half-Life (box art)",
+    credit: "Steam",
   },
 };

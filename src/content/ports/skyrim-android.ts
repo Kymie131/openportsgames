@@ -26,8 +26,8 @@ export const skyrimAndroid: Port = {
   notes: "Native Android port of the original 2011 PC release, requiring your own game files. No game data is included.",
   notesEs: "Port nativo para Android de la versión original de PC de 2011, que requiere tus propios archivos. No incluye datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-elder-scrolls-v-skyrim.svg",
-    alt: "The Elder Scrolls V: Skyrim (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/1/15/The_Elder_Scrolls_V_Skyrim_cover.png",
+    alt: "The Elder Scrolls V: Skyrim (box art)",
+    credit: "Wikipedia",
   },
 };

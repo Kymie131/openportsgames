@@ -31,9 +31,9 @@ export const seriousSamSecondEncounterAndroid: Port = {
     },
   ],
   cover: {
-    src: "https://openportsgames.com/covers/generated/serious-sam-the-second-encounter.svg",
-    alt: "Serious Sam: The Second Encounter (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/d/df/Serious_Sam_-_The_Second_Encounter.jpg",
+    alt: "Serious Sam: The Second Encounter (box art)",
+    credit: "Wikipedia",
   },
   notes: "Android port of Serious Sam: The Second Encounter. Bring your own copy of the game.",
   notesEs: "Port para Android de Serious Sam: The Second Encounter. Aporta tu propia copia del juego.",

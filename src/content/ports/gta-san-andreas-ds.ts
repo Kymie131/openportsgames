@@ -26,8 +26,8 @@ export const gtaSanAndreasDs: Port = {
   notes: "Native Nintendo DS reimplementation, distributed as code-only SD builds. Bring your own copy of the game.",
   notesEs: "Reimplementación nativa para Nintendo DS, distribuida como compilaciones SD solo de código. Aporta tu propia copia del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/grand-theft-auto-san-andreas.svg",
-    alt: "Grand Theft Auto: San Andreas (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/c/c4/GTASABOX.jpg",
+    alt: "Grand Theft Auto: San Andreas (box art)",
+    credit: "Wikipedia",
   },
 };

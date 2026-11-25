@@ -26,8 +26,8 @@ export const americasArmyRiseOfASoldierPc: Port = {
   notes: "Unofficial native PC port made with Xbox XBE Recomp. No game assets are included.",
   notesEs: "Port nativo no oficial para PC creado con Xbox XBE Recomp. No incluye recursos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/america-s-army-rise-of-a-soldier.svg",
-    alt: "America's Army: Rise of a Soldier (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/f/fd/America%27s_Army_Rise_of_a_Soldier_cover_art.jpg",
+    alt: "America's Army: Rise of a Soldier (box art)",
+    credit: "Wikipedia",
   },
 };

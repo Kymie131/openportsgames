@@ -27,8 +27,8 @@ export const darkwatchAndroid: Port = {
   notes: "Android static recompilation of Darkwatch: Darker Edition based on the PC port. Bring your own disc.",
   notesEs: "Recompilación estática para Android de Darkwatch: Darker Edition basada en el port de PC. Aporta tu propio disco.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/darkwatch.svg",
-    alt: "Darkwatch (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/9/95/Darkwatch.jpg",
+    alt: "Darkwatch (box art)",
+    credit: "Wikipedia",
   },
 };

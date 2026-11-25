@@ -26,8 +26,8 @@ export const heartStarSwitch: Port = {
   notes: "Nintendo Switch port of the Android game. Bring your own game files.",
   notesEs: "Port para Nintendo Switch del juego de Android. Aporta tus propios archivos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/heart-star.svg",
-    alt: "Heart Star (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://cdn.cloudflare.steamstatic.com/steam/apps/1243790/header.jpg",
+    alt: "Heart Star (box art)",
+    credit: "Steam",
   },
 };

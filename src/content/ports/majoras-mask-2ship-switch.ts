@@ -26,8 +26,8 @@ export const majorasMask2shipSwitch: Port = {
   notes: "Unofficial Nintendo Switch port of 2 Ship 2 Harkinian with PAL 1.1 support in English, French, German and Spanish. No ROM is included.",
   notesEs: "Port no oficial para Nintendo Switch de 2 Ship 2 Harkinian con soporte PAL 1.1 en inglés, francés, alemán y español. No incluye la ROM.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/the-legend-of-zelda-majora-s-mask.svg",
-    alt: "The Legend of Zelda: Majora's Mask (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg",
+    alt: "The Legend of Zelda: Majora's Mask (box art)",
+    credit: "Wikipedia",
   },
 };

@@ -26,8 +26,8 @@ export const revoltSwitch: Port = {
   notes: "RVGL (the open-source Re-Volt engine) ported to the Nintendo Switch. Bring your own game data.",
   notesEs: "RVGL (el motor de código abierto de Re-Volt) portado a Nintendo Switch. Aporta tus propios datos del juego.",
   cover: {
-    src: "https://openportsgames.com/covers/generated/re-volt.svg",
-    alt: "Re-Volt (generated cover)",
-    credit: "OpenPortsGames",
+    src: "https://upload.wikimedia.org/wikipedia/en/5/5b/Re-Volt_Coverart.jpg",
+    alt: "Re-Volt (box art)",
+    credit: "Wikipedia",
   },
 };
