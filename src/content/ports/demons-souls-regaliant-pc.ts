@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const demonsSoulsRegaliantPc: Port = {
+  schema: "port",
+  id: "demons-souls-regaliant-pc",
+  title: "Demon's Souls (PS5 remake, Regaliant)",
+  game: "Demon's Souls",
+  developers: ["SulphurS16"],
+  publisher: "Sony Interactive Entertainment",
+  originalYear: 2020,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "beta",
+  release: { version: "0.1.6", date: "2026-11-25" },
+  sources: ["https://github.com/SulphurS16/Regaliant"],
+  license: { spdx: "GPL-3.0" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation 5"],
+  summary: "Demon's Souls (2020) is Bluepoint's remake of the 2009 classic for PS5, with rebuilt visuals and the same punishing combat.",
+  summaryEs: "Demon's Souls (2020) es el remake de Bluepoint del clásico de 2009 para PS5, con gráficos reconstruidos y el mismo combate exigente.",
+  notes: "Regaliant runs your own copy of the PS5 remake (PPSA01341, version 1.07) on Windows. No game files are included.",
+  notesEs: "Regaliant ejecuta tu propia copia del remake de PS5 (PPSA01341, versión 1.07) en Windows. No incluye archivos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/demon-s-souls.svg",
+    alt: "Demon's Souls (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

@@ -1,0 +1,33 @@
+import type { Port } from "@/lib/ports/schema";
+
+export const demonsSoulsPs3RecompLeonardo: Port = {
+  schema: "port",
+  id: "demons-souls-ps3-recomp-leonardo",
+  title: "Demon's Souls (PS3, Leonardo recomp)",
+  game: "Demon's Souls",
+  developers: ["Leonardorobertomotalvao"],
+  publisher: "Sony Computer Entertainment",
+  originalYear: 2009,
+  portType: "recompilation",
+  genre: "rpg",
+  openSource: true,
+  originalGameLicense: "proprietary",
+  platforms: ["windows"],
+  status: "alpha",
+  release: { version: "0.2.1-alpha.1", date: "2026-10-26" },
+  sources: ["https://github.com/Leonardorobertomotalvao/demons-souls-pc"],
+  license: { spdx: "NOASSERTION", note: "no SPDX license in the repository" },
+  verified: false,
+  sourceVerified: true,
+  addedAt: "2026-11-18",
+  originalSystems: ["PlayStation 3"],
+  summary: "Demon's Souls is the 2009 action RPG that defined the Souls formula with stamina combat and world tendency.",
+  summaryEs: "Demon's Souls es el RPG de acción de 2009 que definió la fórmula Souls con combate de resistencia y tendencia del mundo.",
+  notes: "Native static recompilation of the PS3 game for Windows x64 with a launcher. No game code or data is included.",
+  notesEs: "Recompilación estática nativa del juego de PS3 para Windows x64 con lanzador. No incluye código ni datos del juego.",
+  cover: {
+    src: "https://openportsgames.com/covers/generated/demon-s-souls.svg",
+    alt: "Demon's Souls (generated cover)",
+    credit: "OpenPortsGames",
+  },
+};

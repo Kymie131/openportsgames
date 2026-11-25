@@ -3282,6 +3282,15 @@ import { manhuntSwitch } from "./manhunt-switch";
 import { iceAge2Switch } from "./ice-age-2-switch";
 import { gtaIvEflcAndroid } from "./gta-iv-eflc-android";
 import { gtaVVulkanAndroid } from "./gta-v-vulkan-android";
+import { gta6LeonidaPc } from "./gta-6-leonida-pc";
+import { gta6VictoryPc } from "./gta-6-victory-pc";
+import { gta6FiveStarRecompPc } from "./gta-6-five-star-recomp-pc";
+import { gta6StellarProjectPc } from "./gta-6-stellar-project-pc";
+import { demonsSoulsPs3RecompTimboat } from "./demons-souls-ps3-recomp-timboat";
+import { demonsSoulsRegaliantPc } from "./demons-souls-regaliant-pc";
+import { demonsSoulsPs3RecompTroler } from "./demons-souls-ps3-recomp-troler";
+import { demonsSoulsPs3RecompLeonardo } from "./demons-souls-ps3-recomp-leonardo";
+import { boletariaRebornDecomp } from "./boletaria-reborn-decomp";
 export const portCases: Port[] = [
   _0ADParaAndroidArm64,
   p0herculabsHl360Forza2,
@@ -6563,4 +6572,13 @@ export const portCases: Port[] = [
   iceAge2Switch,
   gtaIvEflcAndroid,
   gtaVVulkanAndroid,
+  gta6LeonidaPc,
+  gta6VictoryPc,
+  gta6FiveStarRecompPc,
+  gta6StellarProjectPc,
+  demonsSoulsPs3RecompTimboat,
+  demonsSoulsRegaliantPc,
+  demonsSoulsPs3RecompTroler,
+  demonsSoulsPs3RecompLeonardo,
+  boletariaRebornDecomp,
 ];

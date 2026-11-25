@@ -3281,4 +3281,13 @@ export const originalSystemsById: Record<Port["id"], string[]> = {
   "ice-age-2-switch": ["PlayStation 2"],
   "gta-iv-eflc-android": ["Xbox 360"],
   "gta-v-vulkan-android": ["Windows"],
+  "gta-6-leonida-pc": ["Xbox Series X|S"],
+  "gta-6-victory-pc": ["Xbox Series X|S"],
+  "gta-6-five-star-recomp-pc": ["Xbox Series X|S"],
+  "gta-6-stellar-project-pc": ["Xbox Series X|S"],
+  "demons-souls-ps3-recomp-timboat": ["PlayStation 3"],
+  "demons-souls-regaliant-pc": ["PlayStation 5"],
+  "demons-souls-ps3-recomp-troler": ["PlayStation 3"],
+  "demons-souls-ps3-recomp-leonardo": ["PlayStation 3"],
+  "boletaria-reborn-decomp": ["PlayStation 3"],
 };
